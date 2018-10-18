@@ -58,6 +58,50 @@ This method is different. It makes a compromise in functionality: it needs a pic
 Advantages: it is better in detecting objects, not based on colour or shape.
 Disadvantages: There needs to be an image of the empty background, and lightning conditions etc. can’t change.
 
+\paragraph{Implementation}
+After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison.
+
+As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
+
+grayscale_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE;  
+
+All the weights count up to 1 so the values in the grayscale image can vary from 0 to 255.
+
+This method uses two filters to remove noise from the image. 
+Figure XXXX shows why those two filters are necessary.
+
+At first the gaussian blur, this is an easy convolution on the image matrix.
+G = (1/159) * \[
+\begin{bmatrix}
+    2 & 4 & 5 & 4 & 2\\
+    4 & 9 & 12 & 9 &4\\
+    5 & 12 &15&12&5\\
+    4&9&12&9&4\\
+    2&4&5&4&2
+\end{bmatrix}
+\]
+
+The blur can be applied by doing a convolution of the G matrix on the image matrix.
+
+The second blur is a mean blur. This is another matrix to do the convolution with.
+
+M = (1/9) * \[
+\begin{bmatrix}
+	1&1&1\\
+	1&1&1\\
+	1&1&1
+\end{bmatrix}
+\]
+
+Then comes the edge detection algorithm, this is also just a matrix to do the convolution with.
+(!! meer info!!)
+L = \[
+\begin{bmatrix}
+	0&-1&0\\
+	-1&4&-1\\
+	0&-1&0
+\end{bmatrix}
+\]
 
 \subsubsection{Depth sensor}
 
