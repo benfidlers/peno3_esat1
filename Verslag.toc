@@ -4,6 +4,9 @@
 \contentsline {subsection}{\numberline {3.1}Hardware}{1}
 \contentsline {subsection}{\numberline {3.2}Software}{1}
 \contentsline {subsubsection}{\numberline {3.2.1}RGB sensor}{1}
+\contentsline {paragraph}{Method 1}{1}
+\contentsline {paragraph}{Method 2}{1}
+\contentsline {paragraph}{Method 3}{1}
 \contentsline {subsubsection}{\numberline {3.2.2}Depth sensor}{2}
 \contentsline {section}{\numberline {4}Budget management}{2}
 \contentsline {section}{\numberline {5}course integration}{2}
