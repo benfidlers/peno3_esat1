@@ -1,27 +1,96 @@
 clearvars
-img = imread('kinect/kinect3.png');
+img = imread('kinect/foto RGB 4.png');
+%% Method 3: First greyscale, then trheshold ivm background, than edge detection
 A = greyscale(img); % Convert image to grayscale
+A = symImgCrop(A, 50); % CROP IMAGE SO IT's the same size.
 A = gaussian_blur(mean_blur(A)); % Filters
-subplot(2,2,1), imshow(A, []); % Plot
-title('Greyscale');
+
+bg = imread('kinect/foto RGB 1.png');
+bg = greyscale(bg); % Convert image to grayscale
+bg = symImgCrop(bg, 50); % CROP IMAGE SO IT's the same size.
+bg = gaussian_blur(mean_blur(bg)); % Filters
+
+B = threshold_ivm_background(A, bg);
+C = invertornot(B); % Check if threshold is OK or needs to be inverted
+D = ~edge2_detect(C, 3);
+E = remove_boundary(D, 25);
+subplot(2,2,1), imshow(A, []);
+title("Input (after blur)");
+subplot(2,2,2), imshow(C, []);
+title("After thresholding");
+subplot(2,2,3), imshow(E, []);
+title("After edge detection & boundary removed");
+%% Method 1: First greyscale, then blur, then threshold, then edge detection.
+A = greyscale(img); % Convert image to grayscale
+A = symImgCrop(A, 50); % CROP IMAGE SO IT's the same size.
+A = gaussian_blur(mean_blur(A)); % Filters
 B = threshold(A); % Threshold image
 C = invertornot(B); % Check if threshold is OK or needs to be inverted
-%subplot(2,2,2), imshow(B, []);
-%title('Output after thresholding');
+D = ~edge2_detect(C, 3);
+E = remove_boundary(D, 25);
+subplot(2,2,1), imshow(A, []);
+title("Input (after blur)");
+subplot(2,2,2), imshow(C, []);
+title("After thresholding");
+subplot(2,2,3), imshow(E, []);
+title("After edge detection & boundary removed");
 
-%D = edge2_detect(C, 3);
-%subplot(2,2,4), imshow(D), []);
-%title('Output after edge detection');
 
+%% Method 2: First greyscale, then blur, then edge detect then threshold and then noise removal
 first_edge_detect = edge_detect(A);
-subplot(2,2,3), imshow(first_edge_detect, []);
-title('Output after laplacian edge detection (with original image)');%
-without_noise_removal = threshold_edge(first_edge_detect);
-subplot(2,2,2), imshow(without_noise_removal, []);
-title('llkmlkj');
-subplot(2,2,4), imshow(noise_deletion(without_noise_removal, 3), []);
-title('Output after thresholding edge detection');
+without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15));
+with_noise_removal = noise_deletion(without_noise_removal, 3);
+subplot(2,2,1), imshow(A, []);
+title("Input (after blur)");
+subplot(2,2,2), imshow(first_edge_detect, []);
+title("After edge detection");
+subplot(2,2,3), imshow(without_noise_removal, []);
+title("Threshold without noise removal")
+subplot(2,2,4), imshow(with_noise_removal, []);
+title("Threshold with noise removal");
 
+function result = threshold_ivm_background(img, bg)
+    % DIMENSIONS MUST MATCH
+    % Compare pixel at img(row, col) with bg(row, col).
+    % if bg(row, col) - D <= img(row, col) <= bg(row, col) + D
+    %       The pixels are defined as background!! (= white)
+    
+    D = 10;
+    WHITE = 1;
+    BLACK = 0;
+    
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+
+    result = zeros(MAX_ROW,MAX_COLUMN,1);
+    for row=1:MAX_ROW
+        for col=1:MAX_COLUMN
+           if img(row, col) <= bg(row, col) + D && img(row, col) >= bg(row, col) - D
+               % Classified as background
+               result(row, col) = WHITE;
+           else
+               % Not background
+               result(row, col) = BLACK;
+           end
+        end
+    end
+    
+end
+
+function cropped_img = symImgCrop(img,cutted_edge_size)
+    original_img_size = size(img);
+    original_max_row = original_img_size(1);
+    original_max_column = original_img_size(2);
+    
+    cropped_img = zeros(original_max_row - 2*cutted_edge_size,original_max_column - 2*cutted_edge_size,1);
+    
+    for row=cutted_edge_size:original_max_row - cutted_edge_size
+        for col=cutted_edge_size:original_max_column - cutted_edge_size
+            cropped_img(row - cutted_edge_size + 1,col - cutted_edge_size + 1) = img(row,col);
+        end
+    end
+end
 
 function nes = noise_deletion(img,window)
     matrix_size = size(img);
@@ -47,6 +116,25 @@ function nes = noise_deletion(img,window)
     end
 end
 
+function result = remove_boundary(img, remove_size)
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+
+    result = zeros(MAX_ROW,MAX_COLUMN,1);
+    for row=1:MAX_ROW
+        for col=1:MAX_COLUMN
+           if row < remove_size || col < remove_size || row > (MAX_ROW - remove_size) || col > (MAX_COLUMN - remove_size)
+               % Inside boundary ==> needs to be white (= 1)
+               result(row, col) = 1;
+           else
+               result(row, col) = img(row, col);
+           end
+           
+        end
+    end
+end
+
 function thresholded_img = threshold_edge(img)
     threshold_value = 2;
     %most_occuring =mode(img) +100;
@@ -55,12 +143,19 @@ function thresholded_img = threshold_edge(img)
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
-
+    THICKNESS = 3;
+    
     thresholded_img = zeros(MAX_ROW,MAX_COLUMN,1);
     for row=1:MAX_ROW
         for col=1:MAX_COLUMN
             if img(row, col) > threshold_value
                 value = 0;
+                for i=1:THICKNESS
+                    % Create thicker edges (edges of THICKNESS pixels thick)
+                    if (col - i) > 0
+                        thresholded_img(row, col-i) = 0;
+                    end
+                end
             else
                 value = 1;
             end
@@ -104,24 +199,24 @@ function gaussian_blurred = gaussian_blur(img)
     gaussian_blurred = conv2(img, gaussian);
 end
 
-
 function edge2 = edge2_detect(img,intolerance)
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
     edge2 = zeros(MAX_ROW,MAX_COLUMN,1);
+    THICKNESS = 2;
     
-    %% Horizontaal laten checken voor edges.
+    % Horizontaal laten checken voor edges.
     previous_value = img(1,1);
     for row=1:MAX_ROW  % We gaan elke rij af
         for col=1:MAX_COLUMN
             i=1;
             flag = 0;
             if img(row, col) == 1 && previous_value == 0  
-                %% DUS: Het begin van een object. (hele tijd wit, nu zwart), flag voor intolerantie controle aanzetten.
+                % DUS: Het begin van een object. (hele tijd wit, nu zwart), flag voor intolerantie controle aanzetten.
                 flag = 1;
             elseif img(row, col) == 0 && previous_value == 1
-                 %% DUS: Het einde van een object (hele tijd zwart, nu wit), flag voor intolerantie controle aanzetten.
+                 % DUS: Het einde van een object (hele tijd zwart, nu wit), flag voor intolerantie controle aanzetten.
                 flag = 1;
             end
             
@@ -136,6 +231,13 @@ function edge2 = edge2_detect(img,intolerance)
             % Eertse maal edgematrix vullen
             if flag
                 edge2(row, col) = 1;
+                
+                for i=1:THICKNESS
+                    % Create thicker edges (edges of THICKNESS pixels thick)
+                    if (col - i) > 0
+                        edge2(row, col-i) = 1;
+                    end
+                end
             else
                 edge2(row, col) = 0;
             end
@@ -146,23 +248,23 @@ function edge2 = edge2_detect(img,intolerance)
     previous_value = img(row,1);
     end
     
-    %% Verticaal controleren op edges.
+    % Verticaal controleren op edges.
     previous_value = img(1,1);
     for col=1:MAX_COLUMN  % We gaan elke kolom af
        for row=1:MAX_ROW
             i=1;
             flag = 0;
             if img(row, col) == 1 && previous_value == 0  
-                %% DUS: Het begin van een object. (hele tijd wit, nu zwart), flag voor intolerantie controle aanzetten.
+                % DUS: Het begin van een object. (hele tijd wit, nu zwart), flag voor intolerantie controle aanzetten.
                 %value = 1;
                 flag = 1;
             elseif img(row, col) == 0 && previous_value == 1
-                 %% DUS: Het einde van een object (hele tijd zwart, nu wit), flag voor intolerantie controle aanzetten.
+                 %DUS: Het einde van een object (hele tijd zwart, nu wit), flag voor intolerantie controle aanzetten.
                 %value = 1;
                 flag = 1;
             end
             
-            %% Intolerantie controle
+            % Intolerantie controle
             while i <= intolerance && flag && row+i <= MAX_ROW
                 if img(row-1+i,col) ~= img(row+i,col)
                     flag = 0;
@@ -173,6 +275,12 @@ function edge2 = edge2_detect(img,intolerance)
             % Enkel nullen overriden
             if flag
                 edge2(row, col) = 1;
+                for i=1:THICKNESS
+                    % Create thicker edges (edges of THICKNESS pixels thick)
+                    if (row - i) > 0
+                        edge2(row - i, col) = 1;
+                    end
+                end
             end
             
             previous_value = img(row, col);
@@ -237,9 +345,8 @@ function grey = greyscale(img)
     end
 end
 
-
 function thresholded_img = threshold(img)
-    threshold_value = 255/2;
+    threshold_value = 125;
     %most_occuring =mode(img) +100;
     %threshold_value = most_occuring(1);
    
@@ -252,6 +359,7 @@ function thresholded_img = threshold(img)
         for col=1:MAX_COLUMN
             if img(row, col) > threshold_value
                 value = 0;
+                
             else
                 value = 1;
             end
