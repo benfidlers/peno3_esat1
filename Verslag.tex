@@ -49,7 +49,7 @@ There are a lot of options when it comes to software and there exist many differ
 \end{itemize}
 These things are also visible in the diagram.
 \paragraph{Method 1}\mbox{}\\
-This method is the most simple and easy to write. It starts with the grayscale image which has been filtered. Then it runs an thresholding-algorithm with a pre-defined threshold value over the image and the output is a binary image. That’s an image that only has 0’s and 1’s in his matrix.  It’s also possible to use an algorithm to search for the best threshold value.  After that there is a simple edge detection algorithm which makes the edges visible. 
+This method is the most simple and easy to implement. It starts with the grayscale image which has been filtered. Then it runs an thresholding-algorithm with a pre-defined threshold value over the image and the output is a binary image. That’s an image that only has 0’s and 1’s in his matrix.  It’s also possible to use an algorithm to search for the best threshold value.  After that there is a simple edge detection algorithm which makes the edges visible. 
 Advantages: it’s an easy and fast algorithm.
 Disadvantages: with a pre-defined threshold value it just classifies pixels based on colour. 
 \paragraph{Method 2}\mbox{}\\
@@ -65,7 +65,11 @@ Disadvantages: There needs to be an image of the empty background, and lightning
 \subsubsection{Analysis depth image}
 
 \section{Implementation}
-Throughout the project a lot of different approaches were tested and discarded. Right now 
+Throughout the project a lot of different approaches were tested and discarded. But in essence they all do the same thing they convert the original image to a binary image. Afterwards this binary image is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
+\paragraph{Counting of the objects}\mbox{}\\
+The central objective of this research is counting the amount of objects in a specific screen. The general approach to this problem is converting the image to a binary image were black pixels represent the background and white pixels represent the objects. By counting the groups of pixels it is possible to know how many objects the original image contains. In the image processing toolbox for matlab there exist a few functions that come in really handy for this kind of tasks. One of these functions bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: [L, num] = bwlabel(BW); where BW represents the binary (or black and white) image; num represents the number of objects in the BW image and where L represents a matrix were the first group of pixels are numbered 1, the second group 2 etc. that way it's easier to get a count for how many objects there are.
+
+\paragraph{}\mbox{}\\
 
 \section{Budget management}
 
