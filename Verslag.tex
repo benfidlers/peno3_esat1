@@ -1,10 +1,13 @@
 \documentclass{article}
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
+\usepackage[gen]{eurosym}
 \begin{document}
 
 \section{Abstract}
 
 \section{Table of content}
+
+\tableofcontents
 
 \section{List of tables and figures}
 hier komt een lijst van tabellen, figuren en afkortingen
@@ -13,9 +16,9 @@ hier komt een lijst van tabellen, figuren en afkortingen
 
 \section{Description of the problem}
 
-\hspace{\parindent} Given is a basket with a standard rectangular shape with fixed dimensions. The objective is to count every object in this basket. If possible, the objects can be outlined by the system.\\
+\noindent Given is a basket with a standard rectangular shape with fixed dimensions. The objective is to count every object in this basket. If possible, the objects can be outlined by the system. An optional objective was to be able to measure the objects in the basket.\\
 
-\noindent The system used should be based on color and depth images.
+\noindent The system used should be based on colour and depth images. The objects won't have the same colour as the basket and/or have a noticeable depth. Otherwise the camera can't notice the objects. the project had to be made with a budget of \euro 250.
 
 
 \section{Design}
