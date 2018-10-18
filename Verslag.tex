@@ -103,6 +103,13 @@ L = \[
 \end{bmatrix}
 \]
 
+A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker??????? nakijken
+The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot.
+
+After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, couting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
+
+
+
 \subsubsection{Depth sensor}
 
 \section{Budget management}
