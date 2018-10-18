@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Abstract}{1}
+\contentsline {section}{\numberline {2}Table of content}{1}
+\contentsline {section}{\numberline {3}List of tables and figures}{1}
+\contentsline {section}{\numberline {4}Introduction}{1}
+\contentsline {section}{\numberline {5}Description of the problem}{1}
+\contentsline {section}{\numberline {6}Design}{2}
+\contentsline {subsection}{\numberline {6.1}Hardware}{2}
+\contentsline {subsection}{\numberline {6.2}Software}{2}
+\contentsline {subsubsection}{\numberline {6.2.1}RGB sensor}{2}
+\contentsline {subsubsection}{\numberline {6.2.2}Depth sensor}{2}
+\contentsline {section}{\numberline {7}Budget management}{2}
+\contentsline {section}{\numberline {8}course integration}{2}
+\contentsline {section}{\numberline {9}Conclusion}{2}
+\contentsline {section}{\numberline {10}List of references}{2}
+\contentsline {section}{\numberline {11}Appendix}{2}
