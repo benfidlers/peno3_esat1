@@ -44,7 +44,8 @@
 There are a lot of options when it comes to software and there exist many different algorithms for image processing. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right-way’ to count objects in an image. Different methods have different advantages and disadvantages. The only things that appears in almost all algorithms are:
 -	Converting the RGB image to grayscale
 -	Run filters over the image to remove noise
-These things are also visible in the diagram.
+These things are also visible in the diagram. The methods don't differ much from each other, they reuse a lot of functions. Because of this, it is possible to easily change the methods if needed. The goal of these methods is (for now) just finding the edge of objects. The plan is to later finding the outline of the objects, drawing a boundary box and counting them.  
+
 \paragraph{Method 1}
 This method is the most simple and easy to write. It starts with the grayscale image which has been filtered. Then it runs an thresholding-algorithm with a pre-defined threshold value over the image and the output is a binary image. That’s an image that only has 0’s and 1’s in his matrix.  It’s also possible to use an algorithm to search for the best threshold value.  After that there is a simple edge detection algorithm which makes the edges visible. 
 Advantages: it’s an easy and fast algorithm.
