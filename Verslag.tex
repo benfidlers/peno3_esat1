@@ -1,19 +1,33 @@
 \documentclass{article}
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{pdfpages}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {figures/} }
+\usepackage{array}
 
 \begin{document}
 
 \includepdf[pages=-]{frontpage.pdf}
 
-\section{Abstract}
+\section*{Abstract}
+\thispagestyle{empty}
 
-\section{Table of content}
+\newpage
+\tableofcontents
+\thispagestyle{empty}
 
-\section{List of tables and figures}
-hier komt een lijst van tabellen, figuren en afkortingen
+\newpage
+\listoftables
+\thispagestyle{empty}
 
+\newpage
+\listoffigures
+\thispagestyle{empty}
+
+\newpage
 \section{Introduction}
+\pagenumbering{arabic}
 
 \section{Description of the problem}
 
