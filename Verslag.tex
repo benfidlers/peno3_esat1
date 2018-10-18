@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{pdfpages}
 \usepackage[utf8]{inputenc}
@@ -30,7 +30,7 @@
 \pagenumbering{arabic}
 Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this image processing, nowadays other image related problems which used to be considered an important part of digital image processing are being solved by artificial intelligence. In this category sits the problem considered in this paper: feature extraction, the counting of objects in an image to be more exact. So why use 'traditional' methods to solve this problem? While being a great solution for many problems, artificial intelligence, as most general solutions certain cases are solved more efficiently by specific solutions. Such is the case with object counting, while deep learning algorithms need a big data set  as training material, standard image processing requires only the image itself.
 
-\section{Description of the problem}
+\section{Problem Discription}
 
 \hspace{\parindent} Given is a basket with a standard rectangular shape with fixed dimensions. The objective is to count every object in this basket. If possible, the objects can be outlined by the system.\\
 
@@ -43,8 +43,10 @@ Digital image processing has been a crucial part of the current digitalisation m
 \subsubsection{Analysis colour image }
 
 There are a lot of options when it comes to software and there exist many different algorithms for image processing. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right-way’ to count objects in an image. Different methods have different advantages and disadvantages. The only things that appears in almost all algorithms are:
--	Converting the RGB image to grayscale
--	Run filters over the image to remove noise
+\begin{itemize}
+\item Converting the RGB image to grayscale
+\item Run filters over the image to remove noise
+\end{itemize}
 These things are also visible in the diagram.
 \paragraph{Method 1}\mbox{}\\
 This method is the most simple and easy to write. It starts with the grayscale image which has been filtered. Then it runs an thresholding-algorithm with a pre-defined threshold value over the image and the output is a binary image. That’s an image that only has 0’s and 1’s in his matrix.  It’s also possible to use an algorithm to search for the best threshold value.  After that there is a simple edge detection algorithm which makes the edges visible. 
@@ -67,7 +69,7 @@ Throughout the project a lot of different approaches were tested and discarded. 
 
 \section{Budget management}
 
-\section{course integration}
+\section{Course Integration}
 
 \section{Conclusion}
 
