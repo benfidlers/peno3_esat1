@@ -28,7 +28,9 @@
 \newpage
 \section{Introduction}
 \pagenumbering{arabic}
-Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this image processing, nowadays other image related problems which used to be considered an important part of digital image processing are being solved by artificial intelligence. In this category sits the problem considered in this paper: feature extraction, the counting of objects in an image to be more exact. So why use 'traditional' methods to solve this problem? While being a great solution for many problems, artificial intelligence, as most general solutions certain cases are solved more efficiently by specific solutions. Such is the case with object counting, while deep learning algorithms need a big data set  as training material, standard image processing requires only the image itself.
+Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this image processing, nowadays other image related problems which used to be considered an important part of digital image processing are being solved by artificial intelligence. In this category sits the problem considered in this paper: feature extraction, the counting of objects in an image to be more exact. So why use 'traditional' methods to solve this problem? While being a great solution for many problems, artificial intelligence, as most general solutions certain cases are solved more efficiently by specific solutions. Such is the case with object counting, while deep learning algorithms need a big data set  as training material, standard image processing requires only the image itself.\\
+Evidently, regardless which way a method processes images it needs a source of the visual. In this paper the focus lays on live object counting, which is only possible with a camera. The choice of hardware greatly impacts the way which methods can be used. This choice will be covered in !TITEL HARDWARE HERE!.\\ 
+By far the most important part of this task is the algorithm by which the the objects will be counted. Classically object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These steps don't have a fixed order and can occur multiple times in the method. Most of these steps can also be solved in different ways. There exist a wide range of possible filters, kernels, edge detection methods, etc. which all have there upsides and drawbacks. These choice will be discussed in !TITEL SOFTWARE HERE!.
 
 \section{Problem Discription}
 
@@ -61,6 +63,17 @@ This method is different. It makes a compromise in functionality: it needs a pic
 Advantages: it is better in detecting objects, not based on colour or shape.
 Disadvantages: There needs to be an image of the empty background, and lightning conditions etc. can’t change.
 
+\newpage
+
+
+\subsubsection{Depth sensor}
+Using the RGB image does have some shortcomings: It is hard to distinguish the object from its shadow, a multicoloured object could be seen as multiple different objects or a lot of reflection could make the object undetectable. These are some of the reason why the usage of the depth sensor is advised.
+\\
+
+The data enters the system in a matrix in which every number stands for the distance between the sensor and the object (in milimeters). Firstly ...  
+
+     
+
 
 \subsubsection{Analysis depth image}
 
@@ -70,6 +83,7 @@ Throughout the project a lot of different approaches were tested and discarded. 
 The central objective of this research is counting the amount of objects in a specific screen. The general approach to this problem is converting the image to a binary image were black pixels represent the background and white pixels represent the objects. By counting the groups of pixels it is possible to know how many objects the original image contains. In the image processing toolbox for matlab there exist a few functions that come in really handy for this kind of tasks. One of these functions bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: [L, num] = bwlabel(BW); where BW represents the binary (or black and white) image; num represents the number of objects in the BW image and where L represents a matrix were the first group of pixels are numbered 1, the second group 2 etc. that way it's easier to get a count for how many objects there are.
 
 \paragraph{}\mbox{}\\
+Throughout the project a lot of different approaches were tested and discarded. Right now 
 
 \section{Budget management}
 

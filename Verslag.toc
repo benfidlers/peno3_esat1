@@ -7,10 +7,16 @@
 \contentsline {paragraph}{Method 1}{1}
 \contentsline {paragraph}{Method 2}{2}
 \contentsline {paragraph}{Method 3}{2}
+<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {3.2.2}Analysis depth image}{2}
 \contentsline {section}{\numberline {4}Implementation}{2}
 \contentsline {paragraph}{Counting of the objects}{2}
 \contentsline {paragraph}{}{2}
+=======
+\contentsline {subsubsection}{\numberline {3.2.2}Depth sensor}{3}
+\contentsline {subsubsection}{\numberline {3.2.3}Analysis depth image}{3}
+\contentsline {section}{\numberline {4}Implementation}{3}
+>>>>>>> ffe5d599684a8c00740c950919686f7b42311136
 \contentsline {section}{\numberline {5}Budget management}{3}
 \contentsline {section}{\numberline {6}Course Integration}{3}
 \contentsline {section}{\numberline {7}Conclusion}{3}
