@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \contentsline {section}{\numberline {1}Abstract}{1}
 \contentsline {section}{\numberline {2}Table of content}{1}
 \contentsline {section}{\numberline {3}List of tables and figures}{1}
@@ -13,3 +14,17 @@
 \contentsline {section}{\numberline {9}Conclusion}{2}
 \contentsline {section}{\numberline {10}List of references}{2}
 \contentsline {section}{\numberline {11}Appendix}{2}
+=======
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Description of the problem}{1}
+\contentsline {section}{\numberline {3}Design and implementation}{1}
+\contentsline {subsection}{\numberline {3.1}Hardware}{1}
+\contentsline {subsection}{\numberline {3.2}Software}{1}
+\contentsline {subsubsection}{\numberline {3.2.1}RGB sensor}{1}
+\contentsline {subsubsection}{\numberline {3.2.2}Depth sensor}{2}
+\contentsline {section}{\numberline {4}Budget management}{2}
+\contentsline {section}{\numberline {5}course integration}{2}
+\contentsline {section}{\numberline {6}Conclusion}{2}
+\contentsline {section}{\numberline {7}List of references}{2}
+\contentsline {section}{\numberline {8}Appendix}{2}
+>>>>>>> 8145d2b07a6d6c4afd0f49acb564e72f68fa6068
