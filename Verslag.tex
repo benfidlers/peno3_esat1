@@ -78,12 +78,16 @@ The data enters the system in a matrix in which every number stands for the dist
 \subsubsection{Analysis depth image}
 
 \section{Implementation}
+<<<<<<< HEAD
 Throughout the project a lot of different approaches were tested and discarded. But in essence they all do the same thing they convert the original image to a binary image. Afterwards this binary image is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
 \paragraph{Counting of the objects}\mbox{}\\
 The central objective of this research is counting the amount of objects in a specific screen. The general approach to this problem is converting the image to a binary image were black pixels represent the background and white pixels represent the objects. By counting the groups of pixels it is possible to know how many objects the original image contains. In the image processing toolbox for matlab there exist a few functions that come in really handy for this kind of tasks. One of these functions bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: [L, num] = bwlabel(BW); where BW represents the binary (or black and white) image; num represents the number of objects in the BW image and where L represents a matrix were the first group of pixels are numbered 1, the second group 2 etc. that way it's easier to get a count for how many objects there are.
 
 \paragraph{}\mbox{}\\
+=======
 Throughout the project a lot of different approaches were tested and discarded. Right now 
+>>>>>>> d0cd39ac93ac1abac8b4b6906c95867cf3c90ba8
+>>>>>>> ffe5d599684a8c00740c950919686f7b42311136
 
 \section{Budget management}
 
