@@ -1,5 +1,3 @@
-%test123
-
 %% Extract features
 [labeled, numObjects] = bwlabel(Ifilled, 4);
 stats = regionprops(labeled,'Eccentricity', 'Area', 'BoundingBox');
