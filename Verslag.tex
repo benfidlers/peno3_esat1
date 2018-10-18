@@ -45,6 +45,7 @@ There are a lot of options when it comes to software and there exist many differ
 -	Converting the RGB image to grayscale
 -	Run filters over the image to remove noise
 These things are also visible in the diagram. The methods don't differ much from each other, they reuse a lot of functions. Because of this, it is possible to easily change the methods if needed. The goal of these methods is (for now) just finding the edge of objects. The plan is to later finding the outline of the objects, drawing a boundary box and counting them.  
+These things are also visible in the diagram. The methods don't differ much from each other, they reuse a lot of functions. Because of this, it is possible to easily change the methods if needed. The goal of these methods is (for now) just finding the edge of objects. The plan is to later finding the outline of the objects, drawing a boundary box and counting them. 
 
 \paragraph{Method 1}
 This method is the most simple and easy to write. It starts with the grayscale image which has been filtered. Then it runs an thresholding-algorithm with a pre-defined threshold value over the image and the output is a binary image. That’s an image that only has 0’s and 1’s in his matrix.  It’s also possible to use an algorithm to search for the best threshold value.  After that there is a simple edge detection algorithm which makes the edges visible. 
@@ -52,6 +53,7 @@ Advantages: it’s an easy and fast algorithm.
 Disadvantages: with a pre-defined threshold value it just classifies pixels based on colour. 
 \paragraph{Method 2}
 Method 2 is the reverse of method 1: it starts with an edge detection algorithm. But a different one than in method 1 and a bit more complicated. This algorithm gives back an greyscale image, not a binary image. After that is a threshold algorithm with a pre-defined threshold value and the edges are converted to a binary image. Because there is a lot of noise with this method, it's recommended to use a noise reduction algorithm. 
+Method 2 is the reverse of method 1: it starts with an edge detection algorithm. But a different one than in method 1 and a bit more complicated. This algorithm gives back an greyscale image, not a binary image. It is technically also a filter. After that is a threshold algorithm with a pre-defined threshold value and the edges are converted to a binary image. Because there is a lot of noise with this method, it's recommended to use a noise reduction algorithm. 
 Advantages: it detects all kind of objects, not based on colour or shape.
 Disadvantages: the boundary between different objects needs to be clear.
 \paragraph{Method 3}
@@ -95,6 +97,9 @@ M = (1/9) * \[
 \]
 
 Then comes the edge detection algorithm, this is also just a matrix to do the convolution with.
+Then comes the edge detection algorithm, this is also just a matrix to do the convolution with. It calculates the \textit{spatial  derivative}, this refers to how much the image intensity values change per change in image position. It highlights regions of rapid intensity change
+
+https://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm
 (!! meer info!!)
 L = \[
 \begin{bmatrix}
