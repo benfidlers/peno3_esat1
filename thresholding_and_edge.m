@@ -143,7 +143,7 @@ function thresholded_img = threshold_edge(img)
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
-    THICKNESS = 10;
+    THICKNESS = 3;
     
     thresholded_img = zeros(MAX_ROW,MAX_COLUMN,1);
     for row=1:MAX_ROW
@@ -204,7 +204,7 @@ function edge2 = edge2_detect(img,intolerance)
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
     edge2 = zeros(MAX_ROW,MAX_COLUMN,1);
-    THICKNESS = 10;
+    THICKNESS = 2;
     
     % Horizontaal laten checken voor edges.
     previous_value = img(1,1);
