@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{pdfpages}
 \usepackage[utf8]{inputenc}
@@ -30,20 +30,21 @@
 \newpage
 \section{Introduction}
 \pagenumbering{arabic}
-<<<<<<< HEAD
 
-\section{Description of the problem}
 =======
 Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this image processing, nowadays other image related problems are being solved by artificial intelligence. Most were considered to be an important part of digital image processing. In this category sits the problem considered in this paper: feature extraction. The counting of objects in an image to be more exact. So why use 'traditional' methods to solve this problem? While being a great way for unravelling many problems, artificial intelligence, mostly provides general solutions. However, certain cases are solved more efficiently by specific methods. Such is the case with object counting, while deep learning algorithms need a big data set as training material, standard image processing only requires the image itself.\\
-Evidently, regardless which way a method processes images, it needs a visual source. In this paper the focus is on live object counting, which is only possible with a camera. The choice of hardware greatly impacts the methods that can be used. This choice will be covered in !TITEL HARDWARE HERE!.\\ 
-By far the most important part of this task is the algorithm by which the the objects will be counted. Classically, object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These segments don't have a fixed order and can occur multiple times in the final method. Most of these steps can also be approached in different ways. A wide range of possible filters, kernels, edge detection methods, etc. exist, which all have there upsides and drawbacks. These choices will be discussed in !TITEL SOFTWARE HERE!.
+
+Regardless which way a method processes images, it needs a visual source. In this paper the focus is on live object counting, which is only possible with a camera. Evidently, the choice of hardware greatly impacts the methods that can be used. This choice will be covered in !TITEL HARDWARE HERE!.\\ 
+By far the most important part of this task is the algorithm by which the the objects will be counted. Classically, object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These segments don't have a fixed order and can occur multiple times in the final method. Most of these steps can also be approached in different ways. A wide range of possible filters, kernels, edge detection methods, etc. exist, which all have there benefits and drawbacks.!REFERENTIE BOEK! These choices will be discussed in !TITEL SOFTWARE HERE!.\\
+These methods, while being the core of the solution, are fairly simple to implement with the use of libraries or built-in functions. In this paper is opted to give a full implementation of these functions in !TITEL IMPLEMENTATION HERE!. If the functions are deemed to be basic, a simple explanation will be given.
+
+
 
 \section{Problem Description}
->>>>>>> 274b2b56e6f35ed23361a3c78a1b52e4f10f8a5b
 
-\hspace{\parindent} Given is a basket with a standard rectangular shape with fixed dimensions. The objective is to count every object in this basket. If possible, the objects can be outlined by the system.\\
+\hspace{\parindent} Object counting as explained and demonstrated in this report, requires a system which can count objects on a plain background in real time. These objects can vary in shape and colour. Both the colour of the background and the shape and colour of the objects are free from restrictions.\\
+The simplest objects, which the system is required to count, are rectangles, cylinders and circles with a uniform colour.
 
-\noindent The system used should be based on color and depth images.
 
 
 \section{Design}
@@ -52,8 +53,6 @@ The hardware needed to solve the descripted problem is not complicated. In essen
 \\ As second element of hardware has the computer a less important role. Preferably, OSX isn't used as operating sytem for this application because the Kinect drivers don't exist for Macintosh computers. If the reader has a Mac, problems can be avoided by running Windows/Ubuntu via a virtual machine. Speed of the used computer system isn't anything to worry about. The algorithm should run in an acceptable timeframe on every machine.\\ To conclude this section a brief word on the necessary transfer cable. Since a depth sensing camera is used, two types of data (depth and color) need to be transfered. The Microsoft OEM Kinect Adapter makes this possible. The special adapter consists of two general parts . One part in function of delivering current to the camera and the other to transfer both types of data to the connected computer. 
 
 \subsection{Software}
-<<<<<<< HEAD
-
 \subsubsection{Analysis colour image }
 There are a lot of options when it comes to software and a wide range of different algorithms exist for image processing. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right-way’ to count objects in an image. Different approaches have their own advantages and disadvantages. The only things that are common for most algorithms are:
 \begin{itemize}
@@ -113,28 +112,34 @@ L =\begin{bmatrix}
 A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker. The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot. This means that every pixel greater than or equal to that threshold value becomes an edge, and the rest gets classified as background. After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, couting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
 
 
-<<<<<<< HEAD
-
 \subsubsection{Depth sensor}
-=======
 \subsubsection{Analysis Depth Sensor}
 Using only the RGB image does have some shortcomings: it is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects or a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised.
 \\
 The data enters the system in a matrix in which every number stands for the distance between the sensor and the object (in milimeters). Firstly ...  
 
 \section{Implementation}
+Throughout the project a lot of different approaches were tested and discarded. But in essence they all do the same thing they convert the original image to a binary image. In this binary image the objects are represented by one value and the background by another. Afterwards this binary image is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
+
 Throughout the project a lot of different approaches were tested and discarded. But in essence ,they all do the same thing. They convert the original image to a binary image. Afterwards, this binary array is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
 \paragraph{Counting of the objects}\mbox{}\\
 The central objective of this paper is counting the amount of objects in a specific rectangular field of view. The general approach to this problem is converting the image to a binary image where black pixels represent the background and white pixels represent the objects. By counting the groups of pixels it is possible to know how many objects the original image contains. In the image processing toolbox for matlab there exist a few functions that come in really handy for this kind of tasks. One of these functions bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: [L, num] = bwlabel(BW); where BW represents the binary (or black and white) image; num represents the number of objects in the BW image and where L represents a matrix were the first group of pixels are numbered 1, the second group 2 etc. that way it's easier to get a count for how many objects there are.
 
 \paragraph{Boundary boxes}\mbox{}\\
+The image processing toolbox really simplifies the drawing of boundary boxes. Once a binary image is obtained the function regionprops can extract properties about image regions. Where image regions are defined as 8-connected components in an binary image. This means that each image region contains at least 8 interconnected white pixels, since the black pixels are registered as background. The property that's interesting for this part of the project is called 'boundingbox'. This property returns for every image region the smallest rectangle containing this region. In two dimensions this is a vector with 4 values, the x-coordinate of the upper left corner, the y-coordinate of that corner, the width and the height. The function rectangle('Position', pos), where 'Position' declares the input and where pos is the input obtained from regionprops, can easily display this boundingbox. 
+
+\paragraph{Edge detection}\mbox{}\\
 Test 123
 
->>>>>>> 274b2b56e6f35ed23361a3c78a1b52e4f10f8a5b
+\section{Steps of implementation}
+
+\subsubsection{Stages of difficulty}
+
+\subsubsection{Previous implementations}
 
 \section{Budget management}
 
-\section{course integration}
+\section{Course Integration}
 
 \section{Conclusion}
 
