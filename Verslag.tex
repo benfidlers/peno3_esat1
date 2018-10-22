@@ -90,19 +90,15 @@ The third way takes a different approach to solving the analysis of the colour i
 Advantages: It is very good in detecting objects, not being based on colour or shape.
 Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected in between taking the needed pictures for this algorithm.
 
-<<<<<<< HEAD
 The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-=======
 
 The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
 
 \paragraph{Implementation}\mbox{}\\
-<<<<<<< HEAD
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
-=======
+
 \begin{figure}[h]
 \caption{Example of a parametric plot ($\sin (x), \cos(x), x$)}
 \centering
@@ -110,7 +106,6 @@ After a lot of testing different methods, the three methods above seemed the mos
 \label{fig:comparison_methods}
 \end{figure}
 
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 \begin{equation}
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
@@ -148,15 +143,10 @@ L =\begin{bmatrix}
 \end{equation}
 A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker. The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot. This means that every pixel greater than or equal to that threshold value becomes an edge, and the rest gets classified as background. After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, counting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
 
-<<<<<<< HEAD
-=======
-\subsubsection{Depth sensor}
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
 \subsubsection{Analysis Depth Sensor}
 Using only the RGB image does have some shortcomings: it is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects or a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. The data enters the system in a matrix in which every number stands for the distance between the sensor and the object (in millimeters). Firstly the code should be able to see a clear difference in height between the objects and the background. After that the noise that can exist will be filtered out. At last the cleaned matrix will be used to detect the edges of the objects and thus detect the objects themselves.
  
 \paragraph{Detection of the difference in height}\mbox{}\\
-At first, the goal is to see a clear difference between the objects and the background. This can be achieved in different ways: it is possible to use a treshold and call everything closer than a predetermined value an object. A disadvantage of this method is that this value will be different for different positions of the sensor. Also, the image of the sensor contains some noise. For example, a big surface with every point at the same height will not return a matrix filled with the same number at every location. Another, and more preferred, method would be to use a Sobel-Feldman operator \textbf{[hier komt verwijzing naar boek in bronvermelding]}. This operation approximates the gradient in each of the points of the matrix, and so gives an idea where there is a sudden difference in height (thus where there might be an object). It works by convolving 2 kernels with the image matrix A to become $G_{x}$ and $G_{y}$ respectively one for the horizontal and one for the vertical change in height. The overall gradient is equal to 
 At first, the goal is to see a clear difference between the objects and the background. This can be achieved in different ways: it is possible to use a treshold and call everything closer than a predetermined value an object. A disadvantage of this method is that this value will be different for different positions of the sensor. Also, the image of the sensor contains some noise. For example, a big surface with every point at the same height will not return a matrix filled with the same number at every location. Another, and more preferred, method would be to use a Sobel-Feldman operator \textbf{[hier komt verwijzing naar boek in bronvermelding]}. This operation approximates the gradient in each of the points of the matrix, and so gives an idea where there is a sudden difference in height (thus where there might be an object). It works by convolving 2 kernels with the image matrix A to become $G_{x}$ and $G_{y}$ respectively one for the horizontal and one for the vertical change in height: 
 
 \begin{equation}
