@@ -9,6 +9,8 @@
 \graphicspath{ {figures/} }
 \usepackage{array}
 
+\usepackage{graphicx}
+\graphicspath{ {./verslag_figuren/} }
 \begin{document}
 
 \includepdf[pages=-]{frontpage.pdf}
@@ -99,7 +101,18 @@ The third way takes a different approach to solving the analysis of the colour i
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
 
 \paragraph{Implementation}\mbox{}\\
+<<<<<<< HEAD
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
+=======
+\begin{figure}[h]
+\caption{Example of a parametric plot ($\sin (x), \cos(x), x$)}
+\centering
+\includegraphics[width=0.5\textwidth]{comparison_methods}
+\label{fig:comparison_methods}
+\end{figure}
+
+After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
+>>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
 \begin{equation}
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
