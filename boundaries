@@ -1,7 +1,0 @@
-%% Draw boundaries
-
-B = bwboundaries(Ifilled);
-imshow(I);
-hold on;
-visboundaries(B);
-hold off;
