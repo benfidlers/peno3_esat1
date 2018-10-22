@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 17:47
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -479,26 +479,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-
-LaTeX Warning: File `comparison_methods.png' not found on input line 95.
-
-
-! Package pdftex.def Error: File `comparison_methods.png' not found: using draf
-t setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 ...dth=0.7\linewidth]{comparison_methods.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<./verslag_figuren/comparison_methods.png, id=98, 860.013pt x 982.872pt>
+File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
+<use ./verslag_figuren/comparison_methods.png>
+Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
+t line 95.
+(pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5]
+[4] [5 <./verslag_figuren/comparison_methods.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
@@ -510,11 +500,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
 [6] [7] [8] (Verslag.aux) ) 
 Here is how much of TeX's memory you used:
- 4234 strings out of 492970
- 60630 string characters out of 3126593
+ 4236 strings out of 492970
+ 60789 string characters out of 3126593
  140203 words of memory out of 3000000
- 8013 multiletter control sequences out of 15000+200000
- 10320 words of font info for 39 fonts, out of 3000000 for 9000
+ 8016 multiletter control sequences out of 15000+200000
+ 10152 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,46p,2274b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fo
@@ -528,12 +518,11 @@ c/amsfonts/cm/cmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
-sers/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
-s/msbm10.pfb>
-Output written on Verslag.pdf (14 pages, 897623 bytes).
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+
+Output written on Verslag.pdf (14 pages, 1159348 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -14,7 +14,7 @@
 \contentsline {paragraph}{Detection of the difference in height}{6}
 \contentsline {paragraph}{filtering of the noise}{6}
 \contentsline {paragraph}{Edge detection of the objects}{6}
-\contentsline {section}{\numberline {4}Implementation}{6}
+\contentsline {section}{\numberline {4}Implementation}{7}
 \contentsline {paragraph}{Counting of the objects}{7}
 \contentsline {paragraph}{Boundary boxes}{7}
 \contentsline {paragraph}{Edge detection}{7}
