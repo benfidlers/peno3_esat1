@@ -4,38 +4,18 @@
 \contentsline {subsection}{\numberline {3.1}Hardware}{1}
 \contentsline {subsection}{\numberline {3.2}Software}{2}
 \contentsline {subsubsection}{\numberline {3.2.1}Analysis colour image }{2}
-<<<<<<< HEAD
-\contentsline {paragraph}{Method 1}{2}
-\contentsline {paragraph}{Method 2}{3}
-\contentsline {paragraph}{Method 3}{3}
-\contentsline {subsubsection}{\numberline {3.2.2}Analysis Depth Sensor}{3}
-\contentsline {paragraph}{Detection of the difference in height}{3}
-\contentsline {paragraph}{filtering of the noise}{4}
-\contentsline {paragraph}{Edge detection of the objects}{4}
-\contentsline {section}{\numberline {4}Implementation}{4}
-\contentsline {paragraph}{Counting of the objects}{4}
-\contentsline {paragraph}{Boundary boxes}{4}
-\contentsline {section}{\numberline {5}Budget management}{5}
-\contentsline {section}{\numberline {6}Course Integration}{5}
-\contentsline {section}{\numberline {7}Conclusion}{5}
-\contentsline {section}{\numberline {8}List of references}{5}
-\contentsline {section}{\numberline {9}Appendix}{5}
-=======
-<<<<<<< HEAD
 \contentsline {paragraph}{Method 1}{3}
 \contentsline {paragraph}{Method 2}{3}
-=======
-\contentsline {paragraph}{Method 1}{2}
-\contentsline {paragraph}{Method 2}{2}
->>>>>>> 8f9763b41025dd811fd12ea6305cdc70f728ad91
 \contentsline {paragraph}{Method 3}{3}
-\contentsline {paragraph}{Implementation}{3}
-\contentsline {subsubsection}{\numberline {3.2.2}Depth sensor}{4}
-\contentsline {subsubsection}{\numberline {3.2.3}Analysis Depth Sensor}{4}
-\contentsline {section}{\numberline {4}Implementation}{4}
-\contentsline {paragraph}{Counting of the objects}{5}
-\contentsline {paragraph}{Boundary boxes}{5}
-\contentsline {paragraph}{Edge detection}{5}
+\contentsline {paragraph}{Implementation}{4}
+\contentsline {subsubsection}{\numberline {3.2.2}Analysis Depth Sensor}{5}
+\contentsline {paragraph}{Detection of the difference in height}{5}
+\contentsline {paragraph}{filtering of the noise}{5}
+\contentsline {paragraph}{Edge detection of the objects}{5}
+\contentsline {section}{\numberline {4}Implementation}{5}
+\contentsline {paragraph}{Counting of the objects}{6}
+\contentsline {paragraph}{Boundary boxes}{6}
+\contentsline {paragraph}{Edge detection}{6}
 \contentsline {section}{\numberline {5}Steps of implementation}{6}
 \contentsline {subsubsection}{\numberline {5.0.1}Stages of difficulty}{6}
 \contentsline {subsubsection}{\numberline {5.0.2}Previous implementations}{6}
@@ -44,4 +24,3 @@
 \contentsline {section}{\numberline {8}Conclusion}{6}
 \contentsline {section}{\numberline {9}List of references}{6}
 \contentsline {section}{\numberline {10}Appendix}{6}
->>>>>>> cff99d75fe83fe2f721178542a1d19d297617649
