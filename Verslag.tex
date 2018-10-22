@@ -33,14 +33,18 @@
 
 =======
 Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this image processing, nowadays other image related problems are being solved by artificial intelligence. Most were considered to be an important part of digital image processing. In this category sits the problem considered in this paper: feature extraction. The counting of objects in an image to be more exact. So why use 'traditional' methods to solve this problem? While being a great way for unravelling many problems, artificial intelligence, mostly provides general solutions. However, certain cases are solved more efficiently by specific methods. Such is the case with object counting, while deep learning algorithms need a big data set as training material, standard image processing only requires the image itself.\\
-Evidently, regardless which way a method processes images, it needs a visual source. In this paper the focus is on live object counting, which is only possible with a camera. The choice of hardware greatly impacts the methods that can be used. This choice will be covered in !TITEL HARDWARE HERE!.\\ 
-By far the most important part of this task is the algorithm by which the the objects will be counted. Classically, object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These segments don't have a fixed order and can occur multiple times in the final method. Most of these steps can also be approached in different ways. A wide range of possible filters, kernels, edge detection methods, etc. exist, which all have there upsides and drawbacks. These choices will be discussed in !TITEL SOFTWARE HERE!.
+
+Regardless which way a method processes images, it needs a visual source. In this paper the focus is on live object counting, which is only possible with a camera. Evidently, the choice of hardware greatly impacts the methods that can be used. This choice will be covered in !TITEL HARDWARE HERE!.\\ 
+By far the most important part of this task is the algorithm by which the the objects will be counted. Classically, object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These segments don't have a fixed order and can occur multiple times in the final method. Most of these steps can also be approached in different ways. A wide range of possible filters, kernels, edge detection methods, etc. exist, which all have there benefits and drawbacks.!REFERENTIE BOEK! These choices will be discussed in !TITEL SOFTWARE HERE!.\\
+These methods, while being the core of the solution, are fairly simple to implement with the use of libraries or built-in functions. In this paper is opted to give a full implementation of these functions in !TITEL IMPLEMENTATION HERE!. If the functions are deemed to be basic, a simple explanation will be given.
+
+
 
 \section{Problem Description}
 
-\hspace{\parindent} Given is a basket with a standard rectangular shape with fixed dimensions. The objective is to count every object in this basket. If possible, the objects can be outlined by the system.\\
+\hspace{\parindent} Object counting as explained and demonstrated in this report, requires a system which can count objects on a plain background in real time. These objects can vary in shape and colour. Both the colour of the background and the shape and colour of the objects are free from restrictions.\\
+The simplest objects, which the system is required to count, are rectangles, cylinders and circles with a uniform colour.
 
-\noindent The system used should be based on color and depth images.
 
 
 \section{Design}
