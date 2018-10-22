@@ -1,9 +1,10 @@
-\documentclass[11pt]{article}
+\documentclass{article}
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{pdfpages}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{amssymb}
+\usepackage{amsmath}
 \graphicspath{ {figures/} }
 \usepackage{array}
 
@@ -29,6 +30,10 @@
 \newpage
 \section{Introduction}
 \pagenumbering{arabic}
+<<<<<<< HEAD
+
+\section{Description of the problem}
+=======
 Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this image processing, nowadays other image related problems are being solved by artificial intelligence. Most were considered to be an important part of digital image processing. In this category sits the problem considered in this paper: feature extraction. The counting of objects in an image to be more exact. So why use 'traditional' methods to solve this problem? While being a great way for unravelling many problems, artificial intelligence, mostly provides general solutions. However, certain cases are solved more efficiently by specific methods. Such is the case with object counting, while deep learning algorithms need a big data set as training material, standard image processing only requires the image itself.\\
 
 Regardless which way a method processes images, it needs a visual source. In this paper the focus is on live object counting, which is only possible with a camera. Evidently, the choice of hardware greatly impacts the methods that can be used. This choice will be covered in !TITEL HARDWARE HERE!.\\ 
@@ -38,6 +43,7 @@ These methods, while being the core of the solution, are fairly simple to implem
 
 
 \section{Problem Description}
+>>>>>>> 274b2b56e6f35ed23361a3c78a1b52e4f10f8a5b
 
 \hspace{\parindent} Object counting as explained and demonstrated in this report, requires a system which can count objects on a plain background in real time. These objects can vary in shape and colour. Both the colour of the background and the shape and colour of the objects are free from restrictions.\\
 The simplest objects, which the system is required to count, are rectangles, cylinders and circles with a uniform colour.
@@ -50,6 +56,8 @@ The hardware needed to solve the descripted problem is not complicated. In essen
 \\ As second element of hardware has the computer a less important role. Preferably, OSX isn't used as operating sytem for this application because the Kinect drivers don't exist for Macintosh computers. If the reader has a Mac, problems can be avoided by running Windows/Ubuntu via a virtual machine. Speed of the used computer system isn't anything to worry about. The algorithm should run in an acceptable timeframe on every machine.\\ To conclude this section a brief word on the necessary transfer cable. Since a depth sensing camera is used, two types of data (depth and color) need to be transfered. The Microsoft OEM Kinect Adapter makes this possible. The special adapter consists of two general parts . One part in function of delivering current to the camera and the other to transfer both types of data to the connected computer. 
 
 \subsection{Software}
+<<<<<<< HEAD
+
 \subsubsection{Analysis colour image }
 There are a lot of options when it comes to software and a wide range of different algorithms exist for image processing. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right-way’ to count objects in an image. Different approaches have their own advantages and disadvantages. The only things that are common for most algorithms are:
 \begin{itemize}
@@ -58,19 +66,61 @@ There are a lot of options when it comes to software and a wide range of differe
 \end{itemize}
 These elements are also visible in the diagram.
 \paragraph{Method 1}\mbox{}\\
-This method is the most simple and easy to implement. As input, it takes a filtered greyscale image. This is run true a thresholding-algorithm with a pre-defined threshold value. The output is a binary matrix. This array only has 0's and 1's, respectively representing the colours white and black. The key to solving the problem in this way is writing code that finds the treshold value based on environmental parameters. When in posession of a real black and white image, a simple edge detection program is run which makes the edges visible. 
-Advantages: It’s an easy and fast algorithm.
-Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. 
+This method is the most simple and easy to implement. As input, it takes a filtered greyscale image. This is run trough a thresholding-algorithm with a pre-defined threshold value. The output is a binary matrix. This array only has 0's and 1's, respectively representing the colours white and black. The key to solving the problem in this way is writing code that finds the treshold value based on environmental parameters. When in posession of a real black and white image, a simple edge detection program is run which makes the edges visible. 
+\\Advantages: It’s an easy and fast algorithm.
+\\Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. 
 \paragraph{Method 2}\mbox{}\\
-Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. Since the inputted image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary. Viewing the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code. 
-Advantages: It detects all kind of objects, not based on colour or shape.
-Disadvantages: The boundary between different objects needs to be clear for this to work.
+Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. Since the input image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary. Viewing the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code. 
+\\Advantages: It detects all kind of objects, not based on colour or shape.
+\\Disadvantages: The boundary between different objects needs to be clear for this to work.
 \paragraph{Method 3}\mbox{}\\
-The third way takes a different approuch to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background withough any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-Advantages: It is very good in detecting objects, not being based on colour or shape.
-Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
+The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
+\\Advantages: It is very good in detecting objects, not being based on colour or shape.
+\\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
+
+\paragraph{Implementation}\mbox{}\\
+After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
+\begin{equation}
+grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
+\end{equation}
+All the weights count up to 1 so the values in the grayscale image can vary from 0 to 255.
+\\This method uses two filters to remove noise from the image. Figure XXXX shows why those two filters are necessary.
+At first the gaussian blur, this is an easy convolution on the image matrix.
+\begin{equation}
+  G = (1/159) * 
+  \begin{bmatrix}
+   2 & 4 & 5 & 4 & 2\\
+   4 & 9 & 12 & 9 & 4\\
+   5 & 12 & 15 & 12 & 5\\
+   4 & 9 & 12 & 9& 4\\
+   2 & 4 & 5 & 4 & 2
+  \end{bmatrix}
+\end{equation}
+The blur can be applied by doing a convolution of the G matrix on the image matrix.
+The second blur is a mean blur. This is another matrix to do the convolution with.
+\begin{equation}
+M = (1/9) * 
+\begin{bmatrix}
+	1&1&1\\
+	1&1&1\\
+	1&1&1
+\end{bmatrix}
+\end{equation}
+Then comes the edge detection algorithm, this basically just a filter. So it is possible to calculate another convolution. It calculates the \textit{spatial  derivative}, this refers to how much the image intensity values change per change in image position. It highlights regions of rapid intensity change.
+\begin{equation}
+L =\begin{bmatrix}
+	0&-1&0\\
+	-1&4&-1\\
+	0&-1&0
+\end{bmatrix}
+\end{equation}
+A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker. The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot. This means that every pixel greater than or equal to that threshold value becomes an edge, and the rest gets classified as background. After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, couting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
 
 
+<<<<<<< HEAD
+
+\subsubsection{Depth sensor}
+=======
 \subsubsection{Analysis Depth Sensor}
 Using only the RGB image does have some shortcomings: it is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects or a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised.
 \\
@@ -84,10 +134,12 @@ The central objective of this paper is counting the amount of objects in a speci
 \paragraph{Boundary boxes}\mbox{}\\
 Test 123
 
+>>>>>>> 274b2b56e6f35ed23361a3c78a1b52e4f10f8a5b
 
 \section{Budget management}
 
 \section{Course Integration}
+\section{course integration}
 
 \section{Conclusion}
 
