@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  21 OCT 2018 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  22 OCT 2018 15:21
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **Verslag.tex
 (./Verslag.tex
@@ -140,30 +139,41 @@ Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \col@sep=\dimen117
 \ar@mcellbox=\box28
 \extrarowheight=\dimen118
-\NC@list=\toks20
+\NC@list=\toks21
 \extratabsurround=\skip46
 \backup@length=\skip47
 \ar@cellbox=\box29
 ) (./Verslag.aux)
 \openout1 = `Verslag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -207,12 +217,12 @@ LaTeX Font Info:    ... okay on input line 9.
 \scratchbox=\box31
 \nofMPsegments=\count96
 \nofMParguments=\count97
-\everyMPshowfont=\toks21
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count98
 \MPscratchDim=\dimen120
 \MPnumerator=\count99
 \makeMPintoPDFobject=\count100
-\everyMPtoPDFconversion=\toks22
+\everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -270,32 +280,32 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 <frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 11.
+Package pdftex.def Info: frontpage.pdf  used on input line 12.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 11.
+Package pdftex.def Info: frontpage.pdf  used on input line 12.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 <frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 12.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 12.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 12.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 12.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 12.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [1
 
@@ -303,71 +313,73 @@ Package pdftex.def Info: frontpage.pdf , page1 used on input line 11.
 <frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 12.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 12.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 11.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 12.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [2 <./frontpage.pdf>] [3{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/up
 dmap/pdftex.map}] (./Verslag.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write3
 \openout3 = `Verslag.toc'.
 
- [4] (./Verslag.lot)
+ [4]
+(./Verslag.lot)
 \tf@lot=\write4
 \openout4 = `Verslag.lot'.
 
- [5]
-(./Verslag.lof)
+ [5] (./Verslag.lof)
 \tf@lof=\write5
 \openout5 = `Verslag.lof'.
 
  [6]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+[1]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 52.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
- [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-[3] (./Verslag.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
+ [2] [3]
+[4] [5] (./Verslag.aux) ) 
 Here is how much of TeX's memory you used:
- 3326 strings out of 492649
- 48316 string characters out of 6129622
- 127208 words of memory out of 5000000
- 7156 multiletter control sequences out of 15000+600000
- 7897 words of font info for 28 fonts, out of 8000000 for 9000
+ 3619 strings out of 492649
+ 51593 string characters out of 6129622
+ 130720 words of memory out of 5000000
+ 7430 multiletter control sequences out of 15000+600000
+ 9806 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,46p,992b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb>
-Output written on Verslag.pdf (9 pages, 152543 bytes).
+ 41i,18n,46p,2272b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msbm10.pfb>
+Output written on Verslag.pdf (11 pages, 170018 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 123 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
