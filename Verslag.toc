@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {4.2}Software}{2}
 \contentsline {subsubsection}{\numberline {4.2.1}Analysis colour image }{2}
 \contentsline {paragraph}{Method 1}{2}
-\contentsline {paragraph}{Method 2}{2}
+\contentsline {paragraph}{Method 2}{3}
 \contentsline {paragraph}{Method 3}{3}
 \contentsline {paragraph}{Implementation}{3}
 \contentsline {subsubsection}{\numberline {4.2.2}Depth sensor}{4}
