@@ -136,9 +136,6 @@ A convolution with this returns a matrix the same size as the input image matrix
 
 \subsubsection{Depth sensor}
 
-=======
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \subsubsection{Analysis Depth Sensor}
 Using only the RGB image does have some shortcomings: it is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects or a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. The data enters the system in a matrix in which every number stands for the distance between the sensor and the object (in millimeters). Firstly the code should be able to see a clear difference in height between the objects and the background. After that the noise that can exist will be filtered out. At last the cleaned matrix will be used to detect the edges of the objects and thus detect the objects themselves.
  

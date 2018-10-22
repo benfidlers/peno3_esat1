@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 17:45
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -239,52 +239,7 @@ Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box31
-) (Verslag.aux
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 <
-     <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Label `fig:comparison_methods' multiply defined.
-
-
-LaTeX Warning: Label `fig:comparison_methods' multiply defined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.151 ...' of https://github.com/benfidlers/peno3_
-                                                  esat1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 151.
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 151.
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-! Missing $ inserted.
-<inserted text> 
-                $
-l.11 \begin{document}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+) (Verslag.aux)
 \openout1 = `Verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -299,6 +254,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -337,53 +293,6 @@ LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
-Overfull \hbox (128.21767pt too wide) in paragraph at lines 2--13
-[]\OT1/cmr/m/n/10.95 <<<<<<< HEAD ======= <<<<<<< HEAD <<<<<<< HEAD  ======= >>
->>>>> 8707996cdc639303f895e71b274131eabc3d1f92
- []
-
-
-Overfull \hbox (47.6286pt too wide) in paragraph at lines 2--13
-\OT1/cmr/m/n/10.95 HEAD                   =======         =======        >>>>>>
-> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
- []
-
-
-Overfull \hbox (94.37663pt too wide) in paragraph at lines 2--13
-\OT1/cmr/m/n/10.95 'mas-ter' of https://github.com/benfidlers/peno3$[]\OML/cmm/
-m/it/10.95 sat\OT1/cmr/m/n/10.95 1 =======\OML/cmm/m/it/10.95 <<<<<<< HEAD \OT1
-/cmr/m/n/10.95 =======\OML/cmm/m/it/10.95 >>>>>>>
- []
-
-
-Overfull \hbox (125.939pt too wide) in paragraph at lines 2--13
-\OML/cmm/m/it/10.95 cff\OT1/cmr/m/n/10.95 99\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/1
-0.95 75\OML/cmm/m/it/10.95 fe\OT1/cmr/m/n/10.95 83\OML/cmm/m/it/10.95 fe\OT1/cm
-r/m/n/10.95 2\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 721178542\OML/cmm/m/it/10.
-95 a\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 19\OML/cmm/m/it
-/10.95 d\OT1/cmr/m/n/10.95 297617649 \OML/cmm/m/it/10.95 >>>>>>> c\OT1/cmr/m/n/
-10.95 5749150\OML/cmm/m/it/10.95 ded\OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 fb\
-OT1/cmr/m/n/10.95 44\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.9
-5 d\OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 ae\OT1/cmr/m/n/10.95 55\OML/cmm/m/it
-/10.95 dc\OT1/cmr/m/n/10.95 0442\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 139\OML
-/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 77\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 1
-2 \OML/cmm/m/it/10.95 >>>>>>>
- []
-
-
-Overfull \hbox (121.45764pt too wide) in paragraph at lines 2--13
-\OT1/cmr/m/n/10.95 23\OML/cmm/m/it/10.95 e\OT1/cmr/m/n/10.95 8775715\OML/cmm/m/
-it/10.95 c\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 cccf\OT1/cmr/m/n/10.95 5\OML/
-cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 57\OML/cmm/m/it/10.95 fdf\OT1/cmr/m/n/10.95 
-47634\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 54\OML/cmm/m/it/10.95 ab\OT1/cmr/m
-/n/10.95 3\OML/cmm/m/it/10.95 ebf\OT1/cmr/m/n/10.95 43\OML/cmm/m/it/10.95 b >>>
->>>> \OT1/cmr/m/n/10.95 875\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 7568\OML/cmm
-/m/it/10.95 ef\OT1/cmr/m/n/10.95 824\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 327
-\OML/cmm/m/it/10.95 cffc\OT1/cmr/m/n/10.95 401388178\OML/cmm/m/it/10.95 e\OT1/c
-mr/m/n/10.95 61940\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 
-e\OT1/cmr/m/n/10.95 2 \OML/cmm/m/it/10.95 >>>>>>>
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen128
@@ -475,24 +384,22 @@ File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
 Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [1
 
-{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-
-[2 <./frontpage.pdf>]
-<frontpage.pdf, id=57, page=2, 597.50786pt x 845.04686pt>
+ <./frontpage.pdf>]
+<frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
 Package pdftex.def Info: frontpage.pdf , page2 used on input line 13.
@@ -505,330 +412,29 @@ File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
 Package pdftex.def Info: frontpage.pdf , page2 used on input line 13.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [3 <./frontpage.pdf>] [4] (Verslag.toc
+ [2 <./frontpage.pdf>] [3{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config
+/pdftex.map}] (Verslag.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...umberline {1}List of tables and figures}{3}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...umberline {1}List of tables and figures}{3}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...umberline {1}List of tables and figures}{5}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...umberline {1}List of tables and figures}{5}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ... {section}{\numberline {2}Introduction}{1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ... {section}{\numberline {2}Introduction}{1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 ... {section}{\numberline {1}Introduction}{1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 ... {section}{\numberline {1}Introduction}{1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...section}{\numberline {5}Implementation}{6}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...section}{\numberline {5}Implementation}{6}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...\numberline {6}Steps of implementation}{8}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 ...\numberline {6}Steps of implementation}{8}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 ... {section}{\numberline {1}Introduction}{1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 ... {section}{\numberline {1}Introduction}{1}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 ...numberline {5}Steps of implementation}{7}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.115 ...numberline {5}Steps of implementation}{7}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[6]
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 ...numberline {5}Steps of implementation}{6}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 ...numberline {5}Steps of implementation}{6}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.142 ...' of https://github.com/benfidlers/peno3_
-                                                  esat1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write3
 \openout3 = `Verslag.toc'.
 
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.19 \tableofcontents
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (207.99765pt too wide) in paragraph at lines 141--21
-[]\OT1/cmr/m/n/10.95 <<<<<<< HEAD >>>>>>> par-ent of 0f97449... Merge branch 'm
-as-ter' of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cm
-r/m/n/10.95 1 =======\OML/cmm/m/it/10.95 <<<<<<<
- []
-
-
-Overfull \hbox (4.50565pt too wide) in paragraph at lines 141--21
-\OML/cmm/m/it/10.95 HEAD \OT1/cmr/m/n/10.95 =======\OML/cmm/m/it/10.95 >>>>>>> 
-cff\OT1/cmr/m/n/10.95 99\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 75\OML/cmm/m/it
-/10.95 fe\OT1/cmr/m/n/10.95 83\OML/cmm/m/it/10.95 fe\OT1/cmr/m/n/10.95 2\OML/cm
-m/m/it/10.95 f\OT1/cmr/m/n/10.95 721178542\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.
-95 1\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 19\OML/cmm/m/it/10.95 d\OT1/cmr/m/n
-/10.95 297617649 \OML/cmm/m/it/10.95 >>>>>>>
- []
-
-
-Overfull \hbox (118.69095pt too wide) in paragraph at lines 141--21
-\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 5749150\OML/cmm/m/it/10.95 ded\OT1/cmr/
-m/n/10.95 8\OML/cmm/m/it/10.95 fb\OT1/cmr/m/n/10.95 44\OML/cmm/m/it/10.95 a\OT1
-/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 ae
-\OT1/cmr/m/n/10.95 55\OML/cmm/m/it/10.95 dc\OT1/cmr/m/n/10.95 0442\OML/cmm/m/it
-/10.95 c\OT1/cmr/m/n/10.95 139\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 77\OML/cm
-m/m/it/10.95 c\OT1/cmr/m/n/10.95 12 \OML/cmm/m/it/10.95 >>>>>>> \OT1/cmr/m/n/10
-.95 23\OML/cmm/m/it/10.95 e\OT1/cmr/m/n/10.95 8775715\OML/cmm/m/it/10.95 c\OT1/
-cmr/m/n/10.95 5\OML/cmm/m/it/10.95 cccf\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 
-a\OT1/cmr/m/n/10.95 57\OML/cmm/m/it/10.95 fdf\OT1/cmr/m/n/10.95 47634\OML/cmm/m
-/it/10.95 a\OT1/cmr/m/n/10.95 54\OML/cmm/m/it/10.95 ab\OT1/cmr/m/n/10.95 3\OML/
-cmm/m/it/10.95 ebf\OT1/cmr/m/n/10.95 43\OML/cmm/m/it/10.95 b >>>>>>>
- []
-
-
-Overfull \hbox (12.8256pt too wide) in paragraph at lines 141--21
-\OT1/cmr/m/n/10.95 875\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 7568\OML/cmm/m/it
-/10.95 ef\OT1/cmr/m/n/10.95 824\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 327\OML/
-cmm/m/it/10.95 cffc\OT1/cmr/m/n/10.95 401388178\OML/cmm/m/it/10.95 e\OT1/cmr/m/
-n/10.95 61940\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 e\OT1
-/cmr/m/n/10.95 2 \OML/cmm/m/it/10.95 >>>>>>> parentof\OT1/cmr/m/n/10.95 8\OML/c
-mm/m/it/10.95 cbe\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 1\
-OML/cmm/m/it/10.95 :::test >>>>>>>
- []
-
-[7]
-No file Verslag.lot.
+ [4] (Verslag.lot)
 \tf@lot=\write4
 \openout4 = `Verslag.lot'.
 
-[8] (Verslag.lof
-! Missing $ inserted.
-<inserted text> 
-                $
-l.9 ...er' of https://github.com/benfidlers/peno3_
-                                                  esat1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-)
+ [5] (Verslag.lof)
 \tf@lof=\write5
 \openout5 = `Verslag.lof'.
 
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.27 \listoffigures
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (152.03212pt too wide) in paragraph at lines 8--29
-[]\OT1/cmr/m/n/10.95 ======= >>>>>>> par-ent of 0f97449... Merge branch 'mas-te
-r' of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cmr/m/n
-/10.95 1 \OML/cmm/m/it/10.95 >>>>>>>
- []
-
-[9]
+ [6]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -853,101 +459,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
  []
 
 [1]
-<./verslag_figuren/opdracht.png, id=97, 571.53525pt x 428.19975pt>
+<./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
 Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 54.
 
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.60 ...r' of https://github.com/benfidlers/peno3_
-                                                  esat1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.61 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (89.37366pt too wide) in paragraph at lines 59--61
-[]\OT1/cmr/m/n/10.95 ======= >>>>>>> par-ent of 0f97449... Merge branch 'mas-te
-r' of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cmr/m/n
-/10.95 1$ 
- []
-
-[2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+ [2 <./verslag_figuren/opdracht.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
 
-[3] [4]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.110 ...' of https://github.com/benfidlers/peno3_
-                                                  esat1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.119 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (2416.45238pt too wide) in paragraph at lines 108--119
-\OML/cmm/m/it/10.95 Thethirdwaytakesadifferentapproachtosolvingtheanalysisofthe
-colourimage:Whenusingthis; acompromiseinfunctionalityismade:Sinceitneedsapictur
-eoftheemptybackgroundwithoutanyobjects; theuserexperienceisworsened:Aftergettin
-gabackgroundimage; thepictureofthesituationwithobjectsgetsfilteredandthealgorit
-hmconvertsitintoagrayscaleimage:Usingthislesscomplexmatrix; thecodeloopsthrough
-theimagepixelbypixel:Thisnecessarybuttimeconsumingloopchecksifthepixelontheimag
-eismoreorlessthesameasthecorrespondingpixelonthebackgroundimage:Iflocatedwithin
-apre \OMS/cmsy/m/n/10.95  
  []
 
 
-Overfull \hbox (184.5494pt too wide) in paragraph at lines 108--119
-\OML/cmm/m/it/10.95 determinedrange; thatelementofthearraygetsclassifiedasbackg
-round:Theconsequenceisthattheoutputisabinaryimagewithclear \OMS/cmsy/m/n/10.95 
- 
- []
-
-
-Overfull \hbox (65.21016pt too wide) in paragraph at lines 108--119
-\OML/cmm/m/it/10.95 cutobjects: >>>>>>> parentof\OT1/cmr/m/n/10.95 8\OML/cmm/m/
-it/10.95 cbe\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 1\OML/c
-mm/m/it/10.95 :::test >>>>>>> \OT1/cmr/m/n/10.95 8707996\OML/cmm/m/it/10.95 cdc
-\OT1/cmr/m/n/10.95 639303\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 895\OML/cmm/m/
-it/10.95 e\OT1/cmr/m/n/10.95 71\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 274131\O
-ML/cmm/m/it/10.95 eabc\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.
-95 1\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 92[] 
- []
-
-
-Overfull \hbox (441.75165pt too wide) in paragraph at lines 108--119
-\OML/cmm/m/it/10.95 Disadvantages \OT1/cmr/m/n/10.95 : \OML/cmm/m/it/10.95 Ther
-eneedstobeanimageoftheemptybackground:Notethatthelightingconditionshavetobeunaf
-fectedinbetweentakingtheneededpicturesforthisalgorithm: <<<<<<<
- []
-
-
-LaTeX Warning: File `comparison_methods.png' not found on input line 132.
+LaTeX Warning: File `comparison_methods.png' not found on input line 95.
 
 
 ! Package pdftex.def Error: File `comparison_methods.png' not found: using draf
@@ -957,83 +490,50 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 ...th=0.7\linewidth]{comparison_methods.png}
+l.95 ...dth=0.7\linewidth]{comparison_methods.png}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (75.90561pt too wide) in paragraph at lines 128--136
-[]\OT1/cmr/m/n/10.95 >>>>>>> 875d7568ef824f327cffc401388178e61940b3e2 >>>>>>> 8
-707996cdc639303f895e71b274131eabc3d1f92
- []
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5] [6]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.188 ...' of https://github.com/benfidlers/peno3_
-                                                  esat1
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.190 \subsubsection
-                    {Analysis Depth Sensor}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (135.03212pt too wide) in paragraph at lines 187--190
-\OT1/cmr/m/n/10.95 ======= >>>>>>> par-ent of 0f97449... Merge branch 'mas-ter'
- of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cmr/m/n/1
-0.95 1 \OML/cmm/m/it/10.95 >>>>>>>
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-[8] [9] (Verslag.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[6] [7] [8] (Verslag.aux) ) 
 Here is how much of TeX's memory you used:
- 4232 strings out of 492970
- 60539 string characters out of 3126593
- 141157 words of memory out of 3000000
+ 4234 strings out of 492970
+ 60630 string characters out of 3126593
+ 140203 words of memory out of 3000000
  8013 multiletter control sequences out of 15000+200000
  10320 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,46p,2274b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/simon/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/simon/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sim
-on/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/simon/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (18 pages, 912617 bytes).
+<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/sim
+on/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
+sers/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbol
+s/msbm10.pfb>
+Output written on Verslag.pdf (14 pages, 897623 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
+ 154 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
