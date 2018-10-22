@@ -1,19 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  22 OCT 2018 17:31
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 17:22
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 17:13
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  22 OCT 2018 16:59
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 16:58
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  22 OCT 2018 17:41
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -21,56 +6,6 @@ LaTeX2e <2018-04-01> patch level 5
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
-<<<<<<< HEAD
-=======
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.10.18)  22 OCT 2018 16:50
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  22 OCT 2018 16:48
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-entering extended mode
-**./Verslag.tex
-(Verslag.tex
-LaTeX2e <2017-04-15>
-Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  22 OCT 2018 15:36
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Verslag.tex
-(./Verslag.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -81,133 +16,35 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \c@subparagraph=\count85
 \c@figure=\count86
 \c@table=\count87
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  22 OCT 2018 16:59
-entering extended mode
-**./Verslag.tex
-(Verslag.tex
-LaTeX2e <2017-04-15>
-Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-=======
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
 sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-<<<<<<< HEAD
-=======
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
 sty"
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/03/24 v5.7 Page Geometry
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
 \Gm@cntv=\count89
 \c@Gm@tempcnt=\count90
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -218,55 +55,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
-Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box26
-)
-=======
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
 cfg"))
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.st
-y"
-Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box26
-)
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
 sty"
-=======
-("C:\Users\Max Beerten\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pdfpages.s
-ty"
-Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-=======
-<<<<<<< HEAD
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
@@ -276,64 +68,12 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \calc@Adimen=\dimen111
 \calc@Bdimen=\dimen112
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-\calc@Ccount=\count92
-\calc@Cskip=\skip45
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
 \calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
@@ -358,76 +98,13 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
 .cfg"
-=======
-\calc@Ccount=\count92
-\calc@Cskip=\skip45
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count93
-=======
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
 x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count93
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-=======
-<<<<<<< HEAD
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count93
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count93
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
->>>>>>> cff99d75fe83fe2f721178542a1d19d297617649
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -439,43 +116,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
 sty"
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-<<<<<<< HEAD
-=======
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
@@ -487,22 +129,6 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
 ics.cfg"
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-<<<<<<< HEAD
-=======
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -513,401 +139,17 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \AM@pagewidth=\dimen115
 \AM@pageheight=\dimen116
 
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
 def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
-def"
-File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
-=======
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
-def"
-File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
-=======
-<<<<<<< HEAD
-("C:\Users\Max Beerten\AppData\Roaming\MiKTeX\2.9\tex\latex\pdfpages\pppdftex.d
-ef"
-File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
->>>>>>> cff99d75fe83fe2f721178542a1d19d297617649
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 )
 \AM@pagebox=\box26
 \AM@global@opts=\toks16
 \AM@toc@title=\toks17
 \c@AM@survey=\count94
-\AM@templatesizebox=\box28
+\AM@templatesizebox=\box27
 )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-=======
-<<<<<<< HEAD
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
@@ -918,333 +160,6 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
 sty"
-=======
-\AM@templatesizebox=\box27
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -1252,69 +167,9 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip46
-
-For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-=======
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
 y"
-<<<<<<< HEAD
 Package: amsmath 2017/09/02 v2.17a AMS math features
-=======
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen117
-\extrarowheight=\dimen118
-\NC@list=\toks21
-\extratabsurround=\skip46
-\backup@length=\skip47
-) (Verslag.aux)
-\openout1 = `Verslag.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
-Package: amsmath 2017/09/02 v2.17a AMS math features
-<<<<<<< HEAD
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
@@ -1325,18 +180,10 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
 "
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen117
 ))
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen118
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-=======
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -1344,7 +191,6 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
 "
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count95
@@ -1384,62 +230,63 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-<<<<<<< HEAD
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-=======
 ) ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \col@sep=\dimen126
-\ar@mcellbox=\box31
+\ar@mcellbox=\box30
 \extrarowheight=\dimen127
 \NC@list=\toks26
 \extratabsurround=\skip49
 \backup@length=\skip50
-<<<<<<< HEAD
-) (Verslag.aux)
+\ar@cellbox=\box31
+) (Verslag.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 <
+     <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Label `fig:comparison_methods' multiply defined.
+
+
+LaTeX Warning: Label `fig:comparison_methods' multiply defined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.151 ...' of https://github.com/benfidlers/peno3_
+                                                  esat1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 151.
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 151.
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+! Missing $ inserted.
+<inserted text> 
+                $
+l.11 \begin{document}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 \openout1 = `Verslag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-=======
-\ar@cellbox=\box32
-) (Verslag.aux)
-\openout1 = `Verslag.aux'.
-
-<<<<<<< HEAD
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of 8cbe6d1... test
-=======
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -1452,18 +299,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-<<<<<<< HEAD
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
-<<<<<<< HEAD
-=======
->>>>>>> cff99d75fe83fe2f721178542a1d19d297617649
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1498,38 +333,61 @@ LaTeX Font Info:    ... okay on input line 11.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<<<<<<< HEAD
-\AtBeginShipoutBox=\box31
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-=======
-<<<<<<< HEAD
-\AtBeginShipoutBox=\box33
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-\AtBeginShipoutBox=\box30
-=======
 \AtBeginShipoutBox=\box32
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
-=======
-<<<<<<< HEAD
-\AtBeginShipoutBox=\box31
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-=======
-<<<<<<< HEAD
-\AtBeginShipoutBox=\box28
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+Overfull \hbox (128.21767pt too wide) in paragraph at lines 2--13
+[]\OT1/cmr/m/n/10.95 <<<<<<< HEAD ======= <<<<<<< HEAD <<<<<<< HEAD  ======= >>
+>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
+ []
+
+
+Overfull \hbox (47.6286pt too wide) in paragraph at lines 2--13
+\OT1/cmr/m/n/10.95 HEAD                   =======         =======        >>>>>>
+> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
+ []
+
+
+Overfull \hbox (94.37663pt too wide) in paragraph at lines 2--13
+\OT1/cmr/m/n/10.95 'mas-ter' of https://github.com/benfidlers/peno3$[]\OML/cmm/
+m/it/10.95 sat\OT1/cmr/m/n/10.95 1 =======\OML/cmm/m/it/10.95 <<<<<<< HEAD \OT1
+/cmr/m/n/10.95 =======\OML/cmm/m/it/10.95 >>>>>>>
+ []
+
+
+Overfull \hbox (125.939pt too wide) in paragraph at lines 2--13
+\OML/cmm/m/it/10.95 cff\OT1/cmr/m/n/10.95 99\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/1
+0.95 75\OML/cmm/m/it/10.95 fe\OT1/cmr/m/n/10.95 83\OML/cmm/m/it/10.95 fe\OT1/cm
+r/m/n/10.95 2\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 721178542\OML/cmm/m/it/10.
+95 a\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 19\OML/cmm/m/it
+/10.95 d\OT1/cmr/m/n/10.95 297617649 \OML/cmm/m/it/10.95 >>>>>>> c\OT1/cmr/m/n/
+10.95 5749150\OML/cmm/m/it/10.95 ded\OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 fb\
+OT1/cmr/m/n/10.95 44\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.9
+5 d\OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 ae\OT1/cmr/m/n/10.95 55\OML/cmm/m/it
+/10.95 dc\OT1/cmr/m/n/10.95 0442\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 139\OML
+/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 77\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 1
+2 \OML/cmm/m/it/10.95 >>>>>>>
+ []
+
+
+Overfull \hbox (121.45764pt too wide) in paragraph at lines 2--13
+\OT1/cmr/m/n/10.95 23\OML/cmm/m/it/10.95 e\OT1/cmr/m/n/10.95 8775715\OML/cmm/m/
+it/10.95 c\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 cccf\OT1/cmr/m/n/10.95 5\OML/
+cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 57\OML/cmm/m/it/10.95 fdf\OT1/cmr/m/n/10.95 
+47634\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.95 54\OML/cmm/m/it/10.95 ab\OT1/cmr/m
+/n/10.95 3\OML/cmm/m/it/10.95 ebf\OT1/cmr/m/n/10.95 43\OML/cmm/m/it/10.95 b >>>
+>>>> \OT1/cmr/m/n/10.95 875\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 7568\OML/cmm
+/m/it/10.95 ef\OT1/cmr/m/n/10.95 824\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 327
+\OML/cmm/m/it/10.95 cffc\OT1/cmr/m/n/10.95 401388178\OML/cmm/m/it/10.95 e\OT1/c
+mr/m/n/10.95 61940\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 
+e\OT1/cmr/m/n/10.95 2 \OML/cmm/m/it/10.95 >>>>>>>
+ []
+
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen128
-\scratchbox=\box31
+\scratchbox=\box33
 \nofMPsegments=\count108
 \nofMParguments=\count109
 \everyMPshowfont=\toks27
@@ -1538,59 +396,6 @@ ii"
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-<<<<<<< HEAD
-=======
-=======
-\AtBeginShipoutBox=\box32
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen128
-\scratchbox=\box34
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen129
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks28
-<<<<<<< HEAD
-=======
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -1621,64 +426,11 @@ x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-=======
-\AtBeginShipoutBox=\box30
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen128
-\scratchbox=\box31
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen129
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks28
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-<<<<<<< HEAD
-=======
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
 mds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
@@ -1688,8 +440,6 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-=======
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -1701,652 +451,571 @@ G,.JBIG2,.JB2,.eps]
 .sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
 y"
-<<<<<<< HEAD
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
-<<<<<<< HEAD
-=======
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
->>>>>>> cff99d75fe83fe2f721178542a1d19d297617649
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<<<<<<< HEAD
-<<<<<<< HEAD
+<frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf>
+Package pdftex.def Info: frontpage.pdf  used on input line 13.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf>
+Package pdftex.def Info: frontpage.pdf  used on input line 13.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+<frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+ [1
 
-! Package pdfpages Error: Cannot find file `frontpage.pdf'.
+{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 
-See the pdfpages package documentation for explanation.
+[2 <./frontpage.pdf>]
+<frontpage.pdf, id=57, page=2, 597.50786pt x 845.04686pt>
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 2>
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 2>
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 2>
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 13.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+ [3 <./frontpage.pdf>] [4] (Verslag.toc
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \includepdf[pages=-]{frontpage.pdf}
-                                        
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
+l.5 ...umberline {1}List of tables and figures}{3}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...umberline {1}List of tables and figures}{3}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...umberline {1}List of tables and figures}{5}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...umberline {1}List of tables and figures}{5}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ... {section}{\numberline {2}Introduction}{1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ... {section}{\numberline {2}Introduction}{1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ... {section}{\numberline {1}Introduction}{1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ... {section}{\numberline {1}Introduction}{1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...section}{\numberline {5}Implementation}{6}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 ...section}{\numberline {5}Implementation}{6}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...\numberline {6}Steps of implementation}{8}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...\numberline {6}Steps of implementation}{8}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ... {section}{\numberline {1}Introduction}{1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 ... {section}{\numberline {1}Introduction}{1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...numberline {5}Steps of implementation}{7}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...numberline {5}Steps of implementation}{7}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...numberline {5}Steps of implementation}{6}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...numberline {5}Steps of implementation}{6}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.142 ...' of https://github.com/benfidlers/peno3_
+                                                  esat1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
+\tf@toc=\write3
+\openout3 = `Verslag.toc'.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 \tableofcontents
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (207.99765pt too wide) in paragraph at lines 141--21
+[]\OT1/cmr/m/n/10.95 <<<<<<< HEAD >>>>>>> par-ent of 0f97449... Merge branch 'm
+as-ter' of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cm
+r/m/n/10.95 1 =======\OML/cmm/m/it/10.95 <<<<<<<
+ []
+
+
+Overfull \hbox (4.50565pt too wide) in paragraph at lines 141--21
+\OML/cmm/m/it/10.95 HEAD \OT1/cmr/m/n/10.95 =======\OML/cmm/m/it/10.95 >>>>>>> 
+cff\OT1/cmr/m/n/10.95 99\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 75\OML/cmm/m/it
+/10.95 fe\OT1/cmr/m/n/10.95 83\OML/cmm/m/it/10.95 fe\OT1/cmr/m/n/10.95 2\OML/cm
+m/m/it/10.95 f\OT1/cmr/m/n/10.95 721178542\OML/cmm/m/it/10.95 a\OT1/cmr/m/n/10.
+95 1\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 19\OML/cmm/m/it/10.95 d\OT1/cmr/m/n
+/10.95 297617649 \OML/cmm/m/it/10.95 >>>>>>>
+ []
+
+
+Overfull \hbox (118.69095pt too wide) in paragraph at lines 141--21
+\OML/cmm/m/it/10.95 c\OT1/cmr/m/n/10.95 5749150\OML/cmm/m/it/10.95 ded\OT1/cmr/
+m/n/10.95 8\OML/cmm/m/it/10.95 fb\OT1/cmr/m/n/10.95 44\OML/cmm/m/it/10.95 a\OT1
+/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 ae
+\OT1/cmr/m/n/10.95 55\OML/cmm/m/it/10.95 dc\OT1/cmr/m/n/10.95 0442\OML/cmm/m/it
+/10.95 c\OT1/cmr/m/n/10.95 139\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 77\OML/cm
+m/m/it/10.95 c\OT1/cmr/m/n/10.95 12 \OML/cmm/m/it/10.95 >>>>>>> \OT1/cmr/m/n/10
+.95 23\OML/cmm/m/it/10.95 e\OT1/cmr/m/n/10.95 8775715\OML/cmm/m/it/10.95 c\OT1/
+cmr/m/n/10.95 5\OML/cmm/m/it/10.95 cccf\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 
+a\OT1/cmr/m/n/10.95 57\OML/cmm/m/it/10.95 fdf\OT1/cmr/m/n/10.95 47634\OML/cmm/m
+/it/10.95 a\OT1/cmr/m/n/10.95 54\OML/cmm/m/it/10.95 ab\OT1/cmr/m/n/10.95 3\OML/
+cmm/m/it/10.95 ebf\OT1/cmr/m/n/10.95 43\OML/cmm/m/it/10.95 b >>>>>>>
+ []
+
+
+Overfull \hbox (12.8256pt too wide) in paragraph at lines 141--21
+\OT1/cmr/m/n/10.95 875\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 7568\OML/cmm/m/it
+/10.95 ef\OT1/cmr/m/n/10.95 824\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 327\OML/
+cmm/m/it/10.95 cffc\OT1/cmr/m/n/10.95 401388178\OML/cmm/m/it/10.95 e\OT1/cmr/m/
+n/10.95 61940\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 e\OT1
+/cmr/m/n/10.95 2 \OML/cmm/m/it/10.95 >>>>>>> parentof\OT1/cmr/m/n/10.95 8\OML/c
+mm/m/it/10.95 cbe\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 1\
+OML/cmm/m/it/10.95 :::test >>>>>>>
+ []
+
+[7]
+No file Verslag.lot.
+\tf@lot=\write4
+\openout4 = `Verslag.lot'.
+
+[8] (Verslag.lof
+! Missing $ inserted.
+<inserted text> 
+                $
+l.9 ...er' of https://github.com/benfidlers/peno3_
+                                                  esat1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
+\tf@lof=\write5
+\openout5 = `Verslag.lof'.
+
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 \listoffigures
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (152.03212pt too wide) in paragraph at lines 8--29
+[]\OT1/cmr/m/n/10.95 ======= >>>>>>> par-ent of 0f97449... Merge branch 'mas-te
+r' of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cmr/m/n
+/10.95 1 \OML/cmm/m/it/10.95 >>>>>>>
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
+
+ []
 
 ! Undefined control sequence.
-\AM@checklast ...pii \\ \@tempcntb =\AM@pagecount 
-                                                  \relax \ifAM@DVIoutput \if...
-l.14 \includepdf[pages=-]{frontpage.pdf}
-                                        
+l.50 ...ject has to be made with a budget of \euro
+                                                   250.\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.14 \includepdf[pages=-]{frontpage.pdf}
-                                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
-Runaway argument?
-\expandafter \AM@setphantomdoc \AM@doclist ,\END \ifthenelse {\boolean \ETC.
-! Paragraph ended before \AM@gobble was complete.
-<to be read again> 
-                   \par 
-l.15 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[1
-
-{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-=======
-<frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
- <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf used on input line 15.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf used on input line 15.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
- <frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 15.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 1>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 15.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 13.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 14.
-=======
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 12.
-=======
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
-<use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 14.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 14.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-<frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [1
-
- <./frontpage.pdf>]
-<<<<<<< HEAD
-=======
-<frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-<frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] [3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] 
->>>>>>> parent of 8cbe6d1... test
-(Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-<<<<<<< HEAD
-=======
-=======
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-<<<<<<< HEAD
-=======
-=======
-<frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] [3{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config
-/pdftex.map}] (Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 5.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-<<<<<<< HEAD
-=======
-<frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf used on input line 13.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf used on input line 13.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
- <frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 13.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [1
-
- <./frontpage.pdf>]
-<frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 13.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] [3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] 
-(Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
-<<<<<<< HEAD
-=======
-=======
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-<<<<<<< HEAD
-=======
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
->>>>>>> cff99d75fe83fe2f721178542a1d19d297617649
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
->>>>>>> 23e8775715c5cccf5a57fdf47634a54ab3ebf43b
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write3
-\openout3 = `Verslag.toc'.
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
- [2] (Verslag.lot)
-=======
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
- [4] (Verslag.lot)
->>>>>>> parent of 8cbe6d1... test
-\tf@lot=\write4
-\openout4 = `Verslag.lot'.
-
-<<<<<<< HEAD
-
-(Verslag.toc)
-=======
- (Verslag.toc)
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-\tf@toc=\write5
-\openout5 = `Verslag.toc'.
-
- [5] (Verslag.lof)
-\tf@lof=\write6
-\openout6 = `Verslag.lof'.
-
- [6]
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
-<<<<<<< HEAD
- []
-=======
- [4] (Verslag.lot)
-\tf@lot=\write4
-\openout4 = `Verslag.lot'.
-
-
-[5] (Verslag.lof)
-\tf@lof=\write5
-\openout5 = `Verslag.lof'.
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-=======
- [6]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 [1]
-<<<<<<< HEAD
-<./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
+<./verslag_figuren/opdracht.png, id=97, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 59.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 54.
 
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
- [2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.60 ...r' of https://github.com/benfidlers/peno3_
+                                                  esat1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.61 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (89.37366pt too wide) in paragraph at lines 59--61
+[]\OT1/cmr/m/n/10.95 ======= >>>>>>> par-ent of 0f97449... Merge branch 'mas-te
+r' of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cmr/m/n
+/10.95 1$ 
+ []
+
+[2 <./verslag_figuren/opdracht.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-<<<<<<< HEAD
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 75.
-=======
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
- [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
->>>>>>> parent of 8cbe6d1... test
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
 
-[3]
-<./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
-=======
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
- [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-=======
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 52.
-=======
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
- ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
- [2] [3]
-<<<<<<< HEAD
-<./verslag_figuren/comparison_methods.png, id=96, 860.013pt x 982.872pt>
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
-File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
-<use ./verslag_figuren/comparison_methods.png>
-Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-t line 95.
-(pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
+[3] [4]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.110 ...' of https://github.com/benfidlers/peno3_
+                                                  esat1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.119 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (2416.45238pt too wide) in paragraph at lines 108--119
+\OML/cmm/m/it/10.95 Thethirdwaytakesadifferentapproachtosolvingtheanalysisofthe
+colourimage:Whenusingthis; acompromiseinfunctionalityismade:Sinceitneedsapictur
+eoftheemptybackgroundwithoutanyobjects; theuserexperienceisworsened:Aftergettin
+gabackgroundimage; thepictureofthesituationwithobjectsgetsfilteredandthealgorit
+hmconvertsitintoagrayscaleimage:Usingthislesscomplexmatrix; thecodeloopsthrough
+theimagepixelbypixel:Thisnecessarybuttimeconsumingloopchecksifthepixelontheimag
+eismoreorlessthesameasthecorrespondingpixelonthebackgroundimage:Iflocatedwithin
+apre \OMS/cmsy/m/n/10.95  
+ []
+
+
+Overfull \hbox (184.5494pt too wide) in paragraph at lines 108--119
+\OML/cmm/m/it/10.95 determinedrange; thatelementofthearraygetsclassifiedasbackg
+round:Theconsequenceisthattheoutputisabinaryimagewithclear \OMS/cmsy/m/n/10.95 
+ 
+ []
+
+
+Overfull \hbox (65.21016pt too wide) in paragraph at lines 108--119
+\OML/cmm/m/it/10.95 cutobjects: >>>>>>> parentof\OT1/cmr/m/n/10.95 8\OML/cmm/m/
+it/10.95 cbe\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.95 1\OML/c
+mm/m/it/10.95 :::test >>>>>>> \OT1/cmr/m/n/10.95 8707996\OML/cmm/m/it/10.95 cdc
+\OT1/cmr/m/n/10.95 639303\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 895\OML/cmm/m/
+it/10.95 e\OT1/cmr/m/n/10.95 71\OML/cmm/m/it/10.95 b\OT1/cmr/m/n/10.95 274131\O
+ML/cmm/m/it/10.95 eabc\OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 d\OT1/cmr/m/n/10.
+95 1\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 92[] 
+ []
+
+
+Overfull \hbox (441.75165pt too wide) in paragraph at lines 108--119
+\OML/cmm/m/it/10.95 Disadvantages \OT1/cmr/m/n/10.95 : \OML/cmm/m/it/10.95 Ther
+eneedstobeanimageoftheemptybackground:Notethatthelightingconditionshavetobeunaf
+fectedinbetweentakingtheneededpicturesforthisalgorithm: <<<<<<<
+ []
+
+
+LaTeX Warning: File `comparison_methods.png' not found on input line 132.
+
+
+! Package pdftex.def Error: File `comparison_methods.png' not found: using draf
+t setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 ...th=0.7\linewidth]{comparison_methods.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (75.90561pt too wide) in paragraph at lines 128--136
+[]\OT1/cmr/m/n/10.95 >>>>>>> 875d7568ef824f327cffc401388178e61940b3e2 >>>>>>> 8
+707996cdc639303f895e71b274131eabc3d1f92
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-=======
-[4] [5 <./verslag_figuren/comparison_methods.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
+[5] [6]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.188 ...' of https://github.com/benfidlers/peno3_
+                                                  esat1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.190 \subsubsection
+                    {Analysis Depth Sensor}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (135.03212pt too wide) in paragraph at lines 187--190
+\OT1/cmr/m/n/10.95 ======= >>>>>>> par-ent of 0f97449... Merge branch 'mas-ter'
+ of https://github.com/benfidlers/peno3$[]\OML/cmm/m/it/10.95 sat\OT1/cmr/m/n/1
+0.95 1 \OML/cmm/m/it/10.95 >>>>>>>
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 
-<<<<<<< HEAD
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-[6] [7] [8] (Verslag.aux)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[8] [9] (Verslag.aux)
 
- []
-
-[6] [7] (Verslag.aux) ) 
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
-=======
-<<<<<<< HEAD
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
-
- []
-
-[1] <opdracht.png, id=87, 571.53525pt x 428.19975pt>
-File: opdracht.png Graphic file (type png)
- <use opdracht.png>
-Package pdftex.def Info: opdracht.png used on input line 60.
-(pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
-
-[2 <./opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-
-[3] [4]
-<./verslag_figuren/comparison_methods.png, id=103, 860.013pt x 982.872pt>
-File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
-
-<use ./verslag_figuren/comparison_methods.png>
-Package pdftex.def Info: ./verslag_figuren/comparison_methods.png used on input
- line 105.
-(pdftex.def)             Requested size: 221.78923pt x 253.47105pt.
- [5 <./verslag_figuren/comparison_methods.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-
- []
-
-[7] [8] (Verslag.aux) ) 
-Here is how much of TeX's memory you used:
- 4621 strings out of 493320
- 61440 string characters out of 3138953
- 139701 words of memory out of 3000000
- 8048 multiletter control sequences out of 15000+200000
- 10269 words of font info for 39 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,18n,46p,2274b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-<<<<<<< HEAD
-ic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/euros
-ym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on Verslag.pdf (14 pages, 1167966 bytes).
-PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-ic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (12 pages, 225753 bytes).
-PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
-=======
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (11 pages, 196101 bytes).
-PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
-=======
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-=======
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
-=======
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-=======
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
- (c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
- [2] [3] [4]
-(./Verslag.aux) ) 
-Here is how much of TeX's memory you used:
- 3934 strings out of 493013
- 53321 string characters out of 6136992
- 131882 words of memory out of 5000000
- 7394 multiletter control sequences out of 15000+600000
- 9806 words of font info for 37 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,18n,46p,2274b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fon
-ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (10 pages, 167758 bytes).
-PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
-=======
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
->>>>>>> 3c945b0271979ec24ed964bef8b680edfe9dcc3a
- ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
->>>>>>> cf033814e85aa8fc036dde3e3f9ca8d72a8e0cdf
->>>>>>> 8f9763b41025dd811fd12ea6305cdc70f728ad91
->>>>>>> c5749150ded8fb44a5d4ae55dc0442c139d77c12
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-<<<<<<< HEAD
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
- [2] [3] [4] [5] (Verslag.aux) ) 
-=======
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-
-[3] [4] [5] [6] (Verslag.aux)
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4301 strings out of 492970
- 61841 string characters out of 3126593
- 140530 words of memory out of 3000000
- 8074 multiletter control sequences out of 15000+200000
- 10269 words of font info for 39 fonts, out of 3000000 for 9000
+ 4232 strings out of 492970
+ 60539 string characters out of 3126593
+ 141157 words of memory out of 3000000
+ 8013 multiletter control sequences out of 15000+200000
+ 10320 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,46p,2274b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
@@ -2360,46 +1029,11 @@ C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/simon/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (14 pages, 1166233 bytes).
+eX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/simon/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Verslag.pdf (18 pages, 912617 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 166 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
-<<<<<<< HEAD
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-
- []
-
-[5] [6] (Verslag.aux) ) 
-Here is how much of TeX's memory you used:
- 4542 strings out of 493320
- 60181 string characters out of 3138953
- 142348 words of memory out of 3000000
- 7980 multiletter control sequences out of 15000+200000
- 10152 words of font info for 38 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,18n,46p,2274b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (12 pages, 225753 bytes).
-PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

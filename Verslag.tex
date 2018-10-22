@@ -56,8 +56,6 @@ The simplest objects, which the system is required to count, are rectangles, cyl
   \label{fig:example}
 \end{figure}
 
-=======
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
 
 
 \section{Design}
@@ -84,63 +82,20 @@ Method 2 tackles the colour analysis in the opposite order than method 1, as it 
 \\Disadvantages: The boundary between different objects needs to be clear for this to work.
 
 \paragraph{Method 3}\mbox{}\\
-<<<<<<< HEAD
-=======
 \paragraph{Method 3}\mbox{}\\
 The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
 Advantages: It is very good in detecting objects, not being based on colour or shape.
 Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected in between taking the needed pictures for this algorithm.
-
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
-The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-
-
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
-The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-<<<<<<< HEAD
-=======
-
-=======
-The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
->>>>>>> parent of 0f97449... Merge branch 'master' of https://github.com/benfidlers/peno3_esat1
-=======
-The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
->>>>>>> parent of 8cbe6d1... test
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
-<<<<<<< HEAD
-=======
-
 \paragraph{Implementation}\mbox{}\\
-<<<<<<< HEAD
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
-
-=======
-
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
-
->>>>>>> 875d7568ef824f327cffc401388178e61940b3e2
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.7\linewidth]{comparison_methods.png}
   \caption{A comparison between the 3 different methods.}
   \label{fig:comparison_methods}
 \end{figure}
-
-<<<<<<< HEAD
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
-=======
-\paragraph{Implementation}\mbox{}\\
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
-
->>>>>>> 8707996cdc639303f895e71b274131eabc3d1f92
 \begin{equation}
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
@@ -177,9 +132,6 @@ L =\begin{bmatrix}
 \end{equation}
 A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker. The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot. This means that every pixel greater than or equal to that threshold value becomes an edge, and the rest gets classified as background. After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, counting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
 
 \subsubsection{Depth sensor}
