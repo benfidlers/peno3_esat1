@@ -112,7 +112,7 @@ After a lot of testing different methods, the three methods above seemed the mos
 \end{figure}
 
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
->>>>>>> cfae3260c2e69cbdd5ed0d8e78be5f7baa69c44e
+After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 \begin{equation}
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
@@ -158,6 +158,19 @@ Using only the RGB image does have some shortcomings: it is rather difficult to 
  
 \paragraph{Detection of the difference in height}\mbox{}\\
 At first, the goal is to see a clear difference between the objects and the background. This can be achieved in different ways: it is possible to use a treshold and call everything closer than a predetermined value an object. A disadvantage of this method is that this value will be different for different positions of the sensor. Also, the image of the sensor contains some noise. For example, a big surface with every point at the same height will not return a matrix filled with the same number at every location. Another, and more preferred, method would be to use a Sobel-Feldman operator \textbf{[hier komt verwijzing naar boek in bronvermelding]}. This operation approximates the gradient in each of the points of the matrix, and so gives an idea where there is a sudden difference in height (thus where there might be an object). It works by convolving 2 kernels with the image matrix A to become $G_{x}$ and $G_{y}$ respectively one for the horizontal and one for the vertical change in height. The overall gradient is equal to 
+At first, the goal is to see a clear difference between the objects and the background. This can be achieved in different ways: it is possible to use a treshold and call everything closer than a predetermined value an object. A disadvantage of this method is that this value will be different for different positions of the sensor. Also, the image of the sensor contains some noise. For example, a big surface with every point at the same height will not return a matrix filled with the same number at every location. Another, and more preferred, method would be to use a Sobel-Feldman operator \textbf{[hier komt verwijzing naar boek in bronvermelding]}. This operation approximates the gradient in each of the points of the matrix, and so gives an idea where there is a sudden difference in height (thus where there might be an object). It works by convolving 2 kernels with the image matrix A to become $G_{x}$ and $G_{y}$ respectively one for the horizontal and one for the vertical change in height: 
+
+\begin{equation}
+G_{x} = 
+\begin{bmatrix}
+	1&0&-1\\
+	2&0&-2\\
+	1&0&-1
+\end{bmatrix}
+*A
+\end{equation}
+
+
 \paragraph{filtering of the noise}\mbox{}\\
 
 \paragraph{Edge detection of the objects}\mbox{}\\
