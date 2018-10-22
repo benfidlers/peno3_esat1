@@ -6,7 +6,6 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{amsmath}
-\graphicspath{ {figures/} }
 \usepackage{array}
 \usepackage{graphicx}
 \graphicspath{ {./verslag_figuren/} }
@@ -70,13 +69,14 @@ The hardware needed to solve the descripted problem is not complicated. In essen
 \\ As second element of hardware has the computer a less important role. Preferably, OSX isn't used as operating sytem for this application because the Kinect drivers don't exist for Macintosh computers. If the reader has a Mac, problems can be avoided by running Windows/Ubuntu via a virtual machine. Speed of the used computer system isn't anything to worry about. The algorithm should run in an acceptable timeframe on every machine.\\ To conclude this section a brief word on the necessary transfer cable. Since a depth sensing camera is used, two types of data (depth and color) need to be transfered. The Microsoft OEM Kinect Adapter makes this possible. The special adapter consists of two general parts . One part in function of delivering current to the camera and the other to transfer both types of data to the connected computer. 
 
 \subsection{Software}
-\subsubsection{Analysis colour image }
 There are a lot of options when it comes to software and a wide range of different algorithms exist for image processing. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right-way’ to count objects in an image. Different approaches have their own advantages and disadvantages. The only things that are common for most algorithms are:
 \begin{itemize}
 \item Converting the RGB image to grayscale
 \item Run filters over the image to remove noise
 \end{itemize}
 These elements are also visible in the diagram.
+\subsubsection{Analysis colour image }
+
 \paragraph{Method 1}\mbox{}\\
 This method is the most simple and easy to implement. As input, it takes a filtered greyscale image. This is run trough a thresholding-algorithm with a pre-defined threshold value. The output is a binary matrix. This array only has 0's and 1's, respectively representing the colours white and black. The key to solving the problem in this way is writing code that finds the treshold value based on environmental parameters. When in posession of a real black and white image, a simple edge detection program is run which makes the edges visible. 
 \\Advantages: It’s an easy and fast algorithm.
@@ -85,25 +85,19 @@ This method is the most simple and easy to implement. As input, it takes a filte
 Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. Since the input image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary. Viewing the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code. 
 \\Advantages: It detects all kind of objects, not based on colour or shape.
 \\Disadvantages: The boundary between different objects needs to be clear for this to work.
+
 \paragraph{Method 3}\mbox{}\\
-<<<<<<< HEAD
-The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-Advantages: It is very good in detecting objects, not being based on colour or shape.
-Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected in between taking the needed pictures for this algorithm.
-
-
 The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
-
-\paragraph{Implementation}\mbox{}\\
 \begin{figure}[h]
-\caption{Example of a parametric plot ($\sin (x), \cos(x), x$)}
-\centering
-\includegraphics[width=0.5\textwidth]{comparison_methods}
-\label{fig:comparison_methods}
+	\center
+  \includegraphics[width=0.7\linewidth]{comparison_methods.png}
+  \caption{A comparison between the 3 different methods.}
+  \label{fig:comparison_methods}
 \end{figure}
 
+\paragraph{Implementation}\mbox{}\\
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
 \begin{equation}
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
