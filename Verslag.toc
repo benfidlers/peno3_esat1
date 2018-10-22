@@ -4,8 +4,13 @@
 \contentsline {subsection}{\numberline {3.1}Hardware}{1}
 \contentsline {subsection}{\numberline {3.2}Software}{2}
 \contentsline {subsubsection}{\numberline {3.2.1}Analysis colour image }{2}
+<<<<<<< HEAD
 \contentsline {paragraph}{Method 1}{3}
 \contentsline {paragraph}{Method 2}{3}
+=======
+\contentsline {paragraph}{Method 1}{2}
+\contentsline {paragraph}{Method 2}{2}
+>>>>>>> 8f9763b41025dd811fd12ea6305cdc70f728ad91
 \contentsline {paragraph}{Method 3}{3}
 \contentsline {paragraph}{Implementation}{3}
 \contentsline {subsubsection}{\numberline {3.2.2}Depth sensor}{4}

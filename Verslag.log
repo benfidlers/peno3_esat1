@@ -412,14 +412,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
  []
 
 [1]
+<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+=======
+<<<<<<< HEAD
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
+=======
+<<<<<<< HEAD
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+=======
+<<<<<<< HEAD
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
+ (c:/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
+ [2] [3] [4]
+(./Verslag.aux) ) 
+Here is how much of TeX's memory you used:
+ 3934 strings out of 493013
+ 53321 string characters out of 6136992
+ 131882 words of memory out of 5000000
+ 7394 multiletter control sequences out of 15000+600000
+ 9806 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,18n,46p,2274b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Verslag.pdf (10 pages, 167758 bytes).
+PDF statistics:
+ 120 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+=======
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
+>>>>>>> 3c945b0271979ec24ed964bef8b680edfe9dcc3a
+ ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+>>>>>>> cf033814e85aa8fc036dde3e3f9ca8d72a8e0cdf
+>>>>>>> 8f9763b41025dd811fd12ea6305cdc70f728ad91
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<<<<<<< HEAD
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
+ [2] [3] [4] [5] (Verslag.aux) ) 
+=======
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
  [2] [3]
 [4] [5] [6] (./Verslag.aux) ) 
+>>>>>>> 3c945b0271979ec24ed964bef8b680edfe9dcc3a
 Here is how much of TeX's memory you used:
  4214 strings out of 492649
  58374 string characters out of 6129622
@@ -427,6 +475,21 @@ Here is how much of TeX's memory you used:
  8012 multiletter control sequences out of 15000+600000
  10152 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
+ 41i,18n,46p,2274b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/simon/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Verslag.pdf (11 pages, 212590 bytes).
+=======
  41i,18n,46p,2272b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
@@ -438,7 +501,12 @@ msfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
+<<<<<<< HEAD
 Output written on Verslag.pdf (12 pages, 203317 bytes).
+=======
+Output written on Verslag.pdf (12 pages, 202968 bytes).
+>>>>>>> 3c945b0271979ec24ed964bef8b680edfe9dcc3a
+>>>>>>> 8f9763b41025dd811fd12ea6305cdc70f728ad91
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  94 compressed objects within 1 object stream
