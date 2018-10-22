@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{amssymb}
+\usepackage{amsmath}
 \graphicspath{ {figures/} }
 \usepackage{array}
 
@@ -52,28 +53,7 @@ The hardware needed to solve the descripted problem is not complicated. In essen
 
 \subsection{Software}
 <<<<<<< HEAD
-\subsubsection{RGB sensor}
 
-There are a lot of options when it comes to software and there exist many different algorithms for image processing. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right-way’ to count objects in an image. Different methods have different advantages and disadvantages. The only things that appears in almost all algorithms are:
--	Converting the RGB image to grayscale
--	Run filters over the image to remove noise
-These things are also visible in the diagram. The methods don't differ much from each other, they reuse a lot of functions. Because of this, it is possible to easily change the methods if needed. The goal of these methods is (for now) just finding the edge of objects. The plan is to later finding the outline of the objects, drawing a boundary box and counting them.  
-These things are also visible in the diagram. The methods don't differ much from each other, they reuse a lot of functions. Because of this, it is possible to easily change the methods if needed. The goal of these methods is (for now) just finding the edge of objects. The plan is to later finding the outline of the objects, drawing a boundary box and counting them. 
-
-\paragraph{Method 1}
-This method is the most simple and easy to write. It starts with the grayscale image which has been filtered. Then it runs an thresholding-algorithm with a pre-defined threshold value over the image and the output is a binary image. That’s an image that only has 0’s and 1’s in his matrix.  It’s also possible to use an algorithm to search for the best threshold value.  After that there is a simple edge detection algorithm which makes the edges visible. 
-Advantages: it’s an easy and fast algorithm.
-Disadvantages: with a pre-defined threshold value it just classifies pixels based on colour. 
-\paragraph{Method 2}
-Method 2 is the reverse of method 1: it starts with an edge detection algorithm. But a different one than in method 1 and a bit more complicated. This algorithm gives back an greyscale image, not a binary image. After that is a threshold algorithm with a pre-defined threshold value and the edges are converted to a binary image. Because there is a lot of noise with this method, it's recommended to use a noise reduction algorithm. 
-Method 2 is the reverse of method 1: it starts with an edge detection algorithm. But a different one than in method 1 and a bit more complicated. This algorithm gives back an greyscale image, not a binary image. It is technically also a filter. After that is a threshold algorithm with a pre-defined threshold value and the edges are converted to a binary image. Because there is a lot of noise with this method, it's recommended to use a noise reduction algorithm. 
-Advantages: it detects all kind of objects, not based on colour or shape.
-Disadvantages: the boundary between different objects needs to be clear.
-\paragraph{Method 3}
-This method is different. It makes a compromise in functionality: it needs a picture of the background alone before it can detect objects. First it loads an background image, converts it to grayscale and runs some filters over the image. After that, the algorithm loops through the image pixel by pixel, checks if the pixel on the image is within a certain range of the same pixel on the background image. If the pixel is within that range, that pixel gets classified as background. The output is a binary image with only the objects.  
-Advantages: it is better in detecting objects, not based on colour or shape.
-Disadvantages: There needs to be an image of the empty background, and lightning conditions etc. can’t change.
-=======
 \subsubsection{Analysis colour image }
 There are a lot of options when it comes to software and a wide range of different algorithms exist for image processing. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right-way’ to count objects in an image. Different approaches have their own advantages and disadvantages. The only things that are common for most algorithms are:
 \begin{itemize}
@@ -82,71 +62,55 @@ There are a lot of options when it comes to software and a wide range of differe
 \end{itemize}
 These elements are also visible in the diagram.
 \paragraph{Method 1}\mbox{}\\
-This method is the most simple and easy to implement. As input, it takes a filtered greyscale image. This is run true a thresholding-algorithm with a pre-defined threshold value. The output is a binary matrix. This array only has 0's and 1's, respectively representing the colours white and black. The key to solving the problem in this way is writing code that finds the treshold value based on environmental parameters. When in posession of a real black and white image, a simple edge detection program is run which makes the edges visible. 
-Advantages: It’s an easy and fast algorithm.
-Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. 
+This method is the most simple and easy to implement. As input, it takes a filtered greyscale image. This is run trough a thresholding-algorithm with a pre-defined threshold value. The output is a binary matrix. This array only has 0's and 1's, respectively representing the colours white and black. The key to solving the problem in this way is writing code that finds the treshold value based on environmental parameters. When in posession of a real black and white image, a simple edge detection program is run which makes the edges visible. 
+\\Advantages: It’s an easy and fast algorithm.
+\\Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. 
 \paragraph{Method 2}\mbox{}\\
-Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. Since the inputted image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary. Viewing the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code. 
-Advantages: It detects all kind of objects, not based on colour or shape.
-Disadvantages: The boundary between different objects needs to be clear for this to work.
+Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. Since the input image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary. Viewing the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code. 
+\\Advantages: It detects all kind of objects, not based on colour or shape.
+\\Disadvantages: The boundary between different objects needs to be clear for this to work.
 \paragraph{Method 3}\mbox{}\\
-The third way takes a different approuch to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background withough any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-Advantages: It is very good in detecting objects, not being based on colour or shape.
-Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
->>>>>>> 274b2b56e6f35ed23361a3c78a1b52e4f10f8a5b
+The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
+\\Advantages: It is very good in detecting objects, not being based on colour or shape.
+\\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
 
-\paragraph{Implementation}
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison.
-
-As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
-
-grayscale_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE;  
-
+\paragraph{Implementation}\mbox{}\\
+After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to grayscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The grayscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional grayscale image.
+\begin{equation}
+grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
+\end{equation}
 All the weights count up to 1 so the values in the grayscale image can vary from 0 to 255.
-
-This method uses two filters to remove noise from the image. 
-Figure XXXX shows why those two filters are necessary.
-
+\\This method uses two filters to remove noise from the image. Figure XXXX shows why those two filters are necessary.
 At first the gaussian blur, this is an easy convolution on the image matrix.
-G = (1/159) * \[
-\begin{bmatrix}
-    2 & 4 & 5 & 4 & 2\\
-    4 & 9 & 12 & 9 &4\\
-    5 & 12 &15&12&5\\
-    4&9&12&9&4\\
-    2&4&5&4&2
-\end{bmatrix}
-\]
-
+\begin{equation}
+  G = (1/159) * 
+  \begin{bmatrix}
+   2 & 4 & 5 & 4 & 2\\
+   4 & 9 & 12 & 9 & 4\\
+   5 & 12 & 15 & 12 & 5\\
+   4 & 9 & 12 & 9& 4\\
+   2 & 4 & 5 & 4 & 2
+  \end{bmatrix}
+\end{equation}
 The blur can be applied by doing a convolution of the G matrix on the image matrix.
-
 The second blur is a mean blur. This is another matrix to do the convolution with.
-
-M = (1/9) * \[
+\begin{equation}
+M = (1/9) * 
 \begin{bmatrix}
 	1&1&1\\
 	1&1&1\\
 	1&1&1
 \end{bmatrix}
-\]
-
-Then comes the edge detection algorithm, this is also just a matrix to do the convolution with.
-Then comes the edge detection algorithm, this is also just a matrix to do the convolution with. It calculates the \textit{spatial  derivative}, this refers to how much the image intensity values change per change in image position. It highlights regions of rapid intensity change
-
-https://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm
-(!! meer info!!)
-L = \[
-\begin{bmatrix}
+\end{equation}
+Then comes the edge detection algorithm, this basically just a filter. So it is possible to calculate another convolution. It calculates the \textit{spatial  derivative}, this refers to how much the image intensity values change per change in image position. It highlights regions of rapid intensity change.
+\begin{equation}
+L =\begin{bmatrix}
 	0&-1&0\\
 	-1&4&-1\\
 	0&-1&0
 \end{bmatrix}
-\]
-
-A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker??????? nakijken
-The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot.
-
-After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, couting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
+\end{equation}
+A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker. The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot. This means that every pixel greater than or equal to that threshold value becomes an edge, and the rest gets classified as background. After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, couting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
 
 
 <<<<<<< HEAD
