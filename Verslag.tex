@@ -37,9 +37,9 @@
 \tableofcontents
 \thispagestyle{empty}
 
-\newpage
-\listoftables
-\thispagestyle{empty}
+%\newpage
+%\listoftables
+%\thispagestyle{empty}
 
 \newpage
 \listoffigures
@@ -113,7 +113,7 @@ greyscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
 The weights used count up to $1$ so the values in the greyscale image can vary from $0$ to $255$. All these values $greyscale\_image(row, col)$ form the new image.
 
-Before running the image through an edge detection algorithm, two filters are applied. Both blur the image to an extent such that noise after edge detection is considerably reduced. This effect is visualised in Fig. \ref{fig:filter_comparison}
+\noindent Before running the image through an edge detection algorithm, two filters are applied. Both blur the image to an extent such that noise after edge detection is considerably reduced. This effect is visualised in Fig. \ref{fig:filter_comparison}
 Firstly a Gaussian blur is applied. Most filters are a convolution of a kernel with the image. For a Gaussian blur the G kernel below is used. This is just a weighted average. The pixels centered around the main pixel have bigger weights than at the edges.
 \begin{figure}[h]
 	\center
@@ -154,7 +154,7 @@ L =\begin{bmatrix}
 \end{equation}
 
 
-Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filter before convolution with L, more 'edges' would have been drawn.\\
+\noindent Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filter before convolution with L, more 'edges' would have been drawn.\\
 Note also how this convolution returns a new image which can have negative values for its pixels. The more negative the value, the darker the image.\\
 The threshold algorithm, used in the following step, is based on this feature. This algorithm runs through to whole matrix and assigns each value with either a 0 or a 1. It decides this by assessing if the current value is either smaller than or bigger than a threshold value, respectively. After conducting multiple experiments and testing, a threshold value of 2 seems to do the trick. After applying the algorithm, the matrix becomes a binary image with only the edges in white. Based on these edges it is possible to outline the objects and count them, but further research and programming has to be done to complete the whole program.
 
@@ -202,11 +202,10 @@ After adding al the different magnitudes of the gradients to an array, some anom
 \end{figure}
 
 \section{Implementation}
-Throughout the project a lot of different approaches were tested and discarded. But in essence they all do the same thing they convert the original image to a binary image. In this binary image the objects are represented by one value and the background by another. Afterwards this binary image is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
 
-Throughout the project a lot of different approaches were tested and discarded. But in essence ,they all do the same thing. They convert the original image to a binary image. Afterwards, this binary array is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
+\noindent Throughout the project a lot of different approaches were tested and discarded. But in essence, they all do the same thing. They convert the original image to a binary image. Afterwards, this binary array is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
 \paragraph{Counting of the objects}\mbox{}\\
-The central objective of this paper is counting the amount of objects in a specific rectangular field of view. The general approach to this problem is converting the image to a binary image where black pixels represent the background and white pixels represent the objects. By counting the groups of pixels it is possible to know how many objects the original image contains. In the image processing toolbox for matlab there exist a few functions that come in really handy for this kind of tasks. One of these functions bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: 
+The central objective of this paper is counting the amount of objects in a specific rectangular field of view. The general approach to this problem is converting the image to a binary image where black pixels represent the background and white pixels represent the objects. By counting the groups of pixels, it is possible to know how many objects the original image contains. In the image processing toolbox for matlab\cite{Mathworks}, a few functions exist that are very usefull for this kind of tasks. One of these functions bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: 
 \begin{equation}
 [L, num] = bwlabel(BW)
 \end{equation}
@@ -234,7 +233,7 @@ The function bwboundaries implements the Moore-Neighbor tracing algorithm. The a
   \label{fig:Moore_Neighbor}
 \end{figure}
 
-This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited out of the same direction as it was initially entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
+\noindent This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited out of the same direction as it was initially entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
 To find the edges of all the interconnected image regions this process is repeated until every pixel of the image matrix has been checked. 
 
 \section{Further planning}
@@ -250,13 +249,15 @@ As seen above, the system explained in this paper primarily consists of software
 With a budget of 250 EURO, this is feasible. Both the Kinect and the adapter have been ordered but as of writing this paper, a fixed price isn't known. At the current market prices, the estimated cost is \euro 200. The remaining \euro 50 are a safe backup for other small costs.
 
 \section{Course Integration}
-For this project, some courses from the first three semesters are useful to be able to finish it. Linear algebra is used for working in the matrix the image represents. The programming in matlab is a lot easier after the course of computer science. Numerical Mathematics can be used for working with really large matrices. To make sure the system doesn't use to much memory, the course of information transmission and processing is used.
+For this project, some courses from the first three semesters at the institute of engineering science of the KUL are useful. These following courses are used to look in a more mathematical and structured way at the investigated data.\\
+Viewing the fact that an image is represented by an array, Linear Algebra is very important. From basic operations like multiplying matrices up untill more difficult acts like convoluting a matrix, has algebra an important role. Note that each picture taken from the Kinect v2 is viewed as a large matrix with roughly $350 000$ elements. A knowledge of Numerical Mathematics is advised to get an idea which influence measurement errors have on all of the calculations with this very large matrices. This course, together with Applied Informatics in Python, gives the tools to investigate the time complexity of the algorithm. When this project continues in a further stage, the course of Information Transmission and Processing could be used. Given this knowledge, the efficient use of memory during the algorithm can be monitored.
+
 
 \section{Conclusion}
 
-After four weeks of group gatherings, a lot of research was done and a decent amount of progress was made. The project will be executed by using a Microsoft Kinect version 2. The combination of a depth and RGB sensor at a reasonable cost are some of the decisive arguments over a standard webcam or an industrial camera. \\
-After obtaining the image from the RGB sensor, the three dimensional matrix is turned into a one dimensional matrix and thus into a greyscale image. A Gaussian blur and an edge detection algorithm are used to further reduce this matrix to a binary one where only the edges are highlighted. Meanwhile, using a Sobel-Feldman operator and a threshold filter, the image obtained from the depth sensor will become clean with a clearly visible outline around the differences in height. \\
-Next, the goal is to, together with the processed data from the RGB and depth sensor, perfect the positioning of the edges and fill in possible blank spots. Subsequently, a step towards counting the objects will be made. If the amount of progress made per day will stay consistent, all de deadlines should be easily accomplished in the given timeframe. But perseverance and a critical point of view are needed to successfully finish this assignment. 
+After four weeks of group gatherings, a lot of research has been done and a decent amount of progress was made. The project will be executed by using a Microsoft Kinect version 2. The combination of a depth and RGB sensor at a reasonable cost are some of the decisive arguments over a standard webcam or an industrial camera. \\
+When obtaining the image from the RGB sensor, the three dimensional matrix is turned into a one dimensional matrix and thus into a greyscale image. A Gaussian blur and an edge detection algorithm are used to further reduce this matrix to a binary array where only the edges are highlighted. Meanwhile, using a Sobel-Feldman operator and a threshold filter, the image obtained from the depth sensor will become clean with a clearly visible outline around the differences in height. \\
+Next, the goal is to, after merging the processed data from the RGB and depth sensor, perfect the positioning of the edges and fill in possible blank spots. Subsequently, a step towards counting the objects will be made. If the amount of progress made per day will stay consistent, all the deadlines should be  accomplished in the given timeframe. But perseverance and a critical point of view are needed to successfully finish this assignment. 
 
 \newpage
 
@@ -304,7 +305,7 @@ Next, the goal is to, together with the processed data from the RGB and depth se
 \includepdf[pages=1,scale=.8,pagecommand={\section*{Diagram}\label{pdf:work_plan}},linktodoc=true]{work_plan.pdf}
 
 \newpage
-\includepdf[scale=.8,pagecommand={\section*{Gantt chart}\label{pdf:Automatic}},linktodoc=true]{Automatic.pdf}}
+\includepdf[scale=.8,pagecommand={\section*{Gantt chart}\label{pdf:Auto}},linktodoc=true]{Auto.pdf}}
 
 
 \end{document}
