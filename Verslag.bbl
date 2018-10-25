@@ -1,9 +1,27 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{einstein}
-Albert Einstein.
-\newblock {Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On} the
-  electrodynamics of moving bodies].
-\newblock {\em Annalen der Physik}, 322(10):891--921, 1905.
+\bibitem [\protect \citeauthoryear {%
+Knuth%
+}{%
+Knuth%
+}{%
+{\protect \APACyear {1981}}%
+}]{%
+knuthwebsite}
+\APACinsertmetastar {%
+knuthwebsite}%
+\begin{APACrefauthors}%
+Knuth, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{}{}.
+\newblock
+\APACrefbtitle {Knuth: Computers and Typesetting.} {Knuth: Computers and
+  typesetting.}
+\newblock
+\begin{APACrefURL} \url{http://www-cs-faculty.stanford.edu/~uno/abcde.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
