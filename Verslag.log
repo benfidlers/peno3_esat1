@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 17:32
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  25 OCT 2018 17:32
->>>>>>> 020e406dc1589711db468022c3f1450872d4ec51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  25 OCT 2018 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,19 +447,12 @@ LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
-
-[3]
-
-LaTeX Warning: Citation `greyscale' on page 4 undefined on input line 94.
-
-<./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
-=======
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
  [3]
+
+LaTeX Warning: Citation `greyscale' on page 4 undefined on input line 91.
+
 <./verslag_figuren/comparison_methods.png, id=102, 860.013pt x 982.872pt>
->>>>>>> 020e406dc1589711db468022c3f1450872d4ec51
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
@@ -472,14 +461,10 @@ t line 94.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 
-LaTeX Warning: Citation `gaussian' on page 4 undefined on input line 106.
+LaTeX Warning: Citation `gaussian' on page 4 undefined on input line 103.
 
-<./verslag_figuren/filter_comparison.png, id=100, 913.61325pt x 513.117pt>
-=======
 <./verslag_figuren/filter_comparison.png, id=103, 913.61325pt x 513.117pt>
->>>>>>> 020e406dc1589711db468022c3f1450872d4ec51
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 <use ./verslag_figuren/filter_comparison.png>
 Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
@@ -488,77 +473,52 @@ Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-
-LaTeX Warning: Citation `mean' on page 4 undefined on input line 126.
-
 [4]
 
-LaTeX Warning: Citation `edge_detection' on page 5 undefined on input line 135.
+LaTeX Warning: Citation `mean' on page 5 undefined on input line 123.
+
+
+LaTeX Warning: Citation `edge_detection' on page 5 undefined on input line 132.
 
 
 [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter_com
-parison.png>] [7]
-<./verslag_figuren/Moore_Neighbor.png, id=119, 206.27063pt x 171.13937pt>
-=======
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
-_comparison.png>] [7] [8]
+parison.png>] [7] [8]
 <./verslag_figuren/Moore_Neighbor.png, id=124, 206.27063pt x 171.13937pt>
->>>>>>> 020e406dc1589711db468022c3f1450872d4ec51
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
 ne 198.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
- [9 <./verslag_figuren/Moore_Neighbor.png>]
-(./Verslag.bbl) [10] (./Verslag.aux) ) 
+ [9 <./verslag_figuren/Moore_Neighbor.png>] (./Verslag.bbl) [10] (./Verslag.aux
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4406 strings out of 492970
- 63504 string characters out of 3126593
- 141367 words of memory out of 3000000
- 8173 multiletter control sequences out of 15000+200000
- 10269 words of font info for 39 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,18n,46p,2274b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/simon/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/simon/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sim
-on/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/simon/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (16 pages, 1255517 bytes).
-=======
- 4447 strings out of 492649
- 62000 string characters out of 6129621
+ 4451 strings out of 492649
+ 62043 string characters out of 6129621
  144581 words of memory out of 5000000
- 8220 multiletter control sequences out of 15000+600000
+ 8224 multiletter control sequences out of 15000+600000
  10269 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,46p,1541b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/e
-urosym/feymr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (16 pages, 1243989 bytes).
->>>>>>> 020e406dc1589711db468022c3f1450872d4ec51
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
+texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Verslag.pdf (16 pages, 1244403 bytes).
 PDF statistics:
  172 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams

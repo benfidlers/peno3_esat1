@@ -3,44 +3,62 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Verslag.aux
 The style file: plain.bst
 Database file #1: references.bib
-You've used 1 entry,
+Warning--entry type for "greyscale" isn't style-file defined
+--line 13 of file references.bib
+Warning--entry type for "gaussian" isn't style-file defined
+--line 19 of file references.bib
+Warning--entry type for "mean" isn't style-file defined
+--line 24 of file references.bib
+Warning--entry type for "edge_detection" isn't style-file defined
+--line 30 of file references.bib
+I was expecting a `,' or a `}'---line 32 of file references.bib
+ :   
+ :   url = "https://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in greyscale
+Warning--to sort, need author or key in gaussian
+Warning--to sort, need author or key in mean
+Warning--to sort, need author or key in edge_detection
+You've used 5 entries,
             2118 wiz_defined-function locations,
-            505 strings with 4146 characters,
-and the built_in function-call counts, 317 in all, are:
-= -- 32
-> -- 7
+            513 strings with 4256 characters,
+and the built_in function-call counts, 909 in all, are:
+= -- 80
+> -- 11
 < -- 0
-+ -- 3
++ -- 7
 - -- 2
-* -- 24
-:= -- 58
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 4
+* -- 44
+:= -- 114
+add.period$ -- 7
+call.type$ -- 5
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 11
-empty$ -- 28
+cite$ -- 9
+duplicate$ -- 39
+empty$ -- 120
 format.name$ -- 2
-if$ -- 62
+if$ -- 210
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 5
 missing$ -- 1
-newline$ -- 8
+newline$ -- 20
 num.names$ -- 2
-pop$ -- 2
+pop$ -- 34
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 11
 quote$ -- 0
-skip$ -- 7
+skip$ -- 47
 stack$ -- 0
-substring$ -- 30
-swap$ -- 1
+substring$ -- 50
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 0
+type$ -- 20
+warning$ -- 4
 while$ -- 4
-width$ -- 2
-write$ -- 13
+width$ -- 6
+write$ -- 33
+(There was 1 error message)
