@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Verslag.aux
@@ -46,3 +47,16 @@ while$ -- 2
 width$ -- 2
 write$ -- 11
 (There was 1 warning)
+=======
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Verslag.aux
+The style file: plain.bst
+Database file #1: references.bib
+Illegal end of database file---line 41 of file references.bib
+ : \end{filecontents}
+ :                   
+I'm skipping whatever remains of this entry
+Warning--empty title in einstein
+Warning--empty journal in einstein
+Warning--empty year in einstein
+(There was 1 error message)
+>>>>>>> 6a0ad59ad80b4e81f544aa3d2f6ff5362555e694

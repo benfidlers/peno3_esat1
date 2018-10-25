@@ -2,7 +2,10 @@
 
 \bibitem{einstein}
 Albert Einstein.
+<<<<<<< HEAD
 \newblock Zever.
 \newblock 1905.
+=======
+>>>>>>> 6a0ad59ad80b4e81f544aa3d2f6ff5362555e694
 
 \end{thebibliography}
