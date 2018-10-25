@@ -16,11 +16,12 @@
 \contentsline {paragraph}{Counting of the objects}{7}
 \contentsline {paragraph}{Boundary boxes}{7}
 \contentsline {paragraph}{Edge detection}{8}
-\contentsline {section}{\numberline {5}Steps of implementation}{8}
-\contentsline {subsubsection}{\numberline {5.0.1}Stages of difficulty}{8}
-\contentsline {subsubsection}{\numberline {5.0.2}Previous implementations}{8}
-\contentsline {section}{\numberline {6}Budget management}{8}
-\contentsline {section}{\numberline {7}Course Integration}{8}
-\contentsline {section}{\numberline {8}Conclusion}{8}
-\contentsline {section}{\numberline {9}List of references}{8}
-\contentsline {section}{\numberline {10}Appendix}{8}
+\contentsline {section}{\numberline {5}further planning}{8}
+\contentsline {section}{\numberline {6}Steps of implementation}{8}
+\contentsline {subsubsection}{\numberline {6.0.1}Stages of difficulty}{8}
+\contentsline {subsubsection}{\numberline {6.0.2}Previous implementations}{8}
+\contentsline {section}{\numberline {7}Budget management}{8}
+\contentsline {section}{\numberline {8}Course Integration}{8}
+\contentsline {section}{\numberline {9}Conclusion}{8}
+\contentsline {section}{\numberline {10}List of references}{8}
+\contentsline {section}{\numberline {11}Appendix}{8}
