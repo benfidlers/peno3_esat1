@@ -1,51 +1,59 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Verslag.aux
-The style file: plain.bst
-Illegal, another \bibdata command---line 41 of file Verslag.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+Warning--entry type for "knuthwebsite" isn't style-file defined
+--line 22 of file references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 1 entry,
-            2118 wiz_defined-function locations,
-            505 strings with 4155 characters,
-and the built_in function-call counts, 317 in all, are:
-= -- 32
-> -- 7
-< -- 0
-+ -- 3
+            6951 wiz_defined-function locations,
+            1273 strings with 10764 characters,
+and the built_in function-call counts, 1640 in all, are:
+= -- 240
+> -- 10
+< -- 48
++ -- 43
 - -- 2
-* -- 24
-:= -- 58
-add.period$ -- 3
+* -- 72
+:= -- 253
+add.period$ -- 4
 call.type$ -- 1
-change.case$ -- 4
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 11
-empty$ -- 28
-format.name$ -- 2
-if$ -- 62
+cite$ -- 2
+duplicate$ -- 31
+empty$ -- 69
+format.name$ -- 14
+if$ -- 350
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 2
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 25
+num.names$ -- 8
+pop$ -- 19
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 4
 quote$ -- 0
-skip$ -- 7
+skip$ -- 175
 stack$ -- 0
-substring$ -- 30
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 48
+swap$ -- 15
+text.length$ -- 2
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 4
+top$ -- 1
+type$ -- 152
 warning$ -- 0
-while$ -- 4
-width$ -- 2
-write$ -- 13
-(There was 1 error message)
+while$ -- 5
+width$ -- 0
+write$ -- 26
+(There was 1 warning)
