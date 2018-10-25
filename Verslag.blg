@@ -5,5 +5,7 @@ Illegal end of database file---line 41 of file references.bib
  : \end{filecontents}
  :                   
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "dirac"
+Warning--empty title in einstein
+Warning--empty journal in einstein
+Warning--empty year in einstein
 (There was 1 error message)
