@@ -46,7 +46,6 @@ These methods, while being the core of the solution, are fairly simple to implem
 \hspace{\parindent} Object counting as explained and demonstrated in this report, requires a system which can count objects on a plain background in real time. These objects can vary in shape and colour. Both the colour of the background and the shape and colour of the objects are free from restrictions.\\
 The simplest objects, which the system is required to count, are rectangles, cylinders and circles with a uniform colour.
 
-<<<<<<< HEAD
 \noindent Given is a basket with a standard rectangular shape with fixed dimensions. The objective is to count every non-moving object in this basket. If possible, the objects can be outlined by the system, as shown in Figure ~\ref{fig:example}. An optional objective is to be able to measure the circumference of the objects in the basket.\\
 
 \noindent The system used should be based on colour and depth images. The used objects don't have the same colour as the basket and/or have a noticeable depth. Otherwise the camera can't notice the objects. the project has to be made with a budget of \euro 250.\\
@@ -90,7 +89,6 @@ Disadvantages: There needs to be an image of the empty background. Note that the
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
 \paragraph{Implementation}\mbox{}\\
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 \begin{figure}[h]
 	\center
