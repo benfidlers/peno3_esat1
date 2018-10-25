@@ -144,7 +144,7 @@ function thresholded_img = threshold_edge(img)
     for row=1:MAX_ROW
         for col=1:MAX_COLUMN
             if img(row, col) > threshold_value
-                value = 0;
+                value = 1;
                 for i=1:THICKNESS
                     % Create thicker edges (edges of THICKNESS pixels thick)
                     if (col - i) > 0
@@ -152,7 +152,7 @@ function thresholded_img = threshold_edge(img)
                     end
                 end
             else
-                value = 1;
+                value = 0;
             end
             thresholded_img(row, col) = value;
         end
@@ -279,10 +279,10 @@ function thresholded_img = threshold(img)
     for row=1:MAX_ROW
         for col=1:MAX_COLUMN
             if img(row, col) > threshold_value
-                value = 0;
+                value = 1;
                 
             else
-                value = 1;
+                value = 0;
             end
             thresholded_img(row, col) = value;
         end
