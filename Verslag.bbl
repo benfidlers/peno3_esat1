@@ -1,6 +1,8 @@
 \begin{thebibliography}{}
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 \bibitem{greyscale}
 Greyscale.
 
@@ -15,29 +17,88 @@ Mean filter.
 
 =======
 <<<<<<< HEAD
+>>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
 \bibitem [\protect \citeauthoryear {%
-Knuth%
+test%
 }{%
-Knuth%
+test%
 }{%
-{\protect \APACyear {1981}}%
-}]{%
-knuthwebsite}
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {1}}}}}]{%
+greyscale}
 \APACinsertmetastar {%
-knuthwebsite}%
+greyscale}%
 \begin{APACrefauthors}%
-Knuth, D.%
+test.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1981}{}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {1}}}{}{}.
 \newblock
-\APACrefbtitle {Knuth: Computers and Typesetting.} {Knuth: Computers and
-  typesetting.}
-\newblock
-\begin{APACrefURL} \url{http://www-cs-faculty.stanford.edu/~uno/abcde.html}
-  \end{APACrefURL}
+
 \PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+test%
+}{%
+test%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {2}}}}}]{%
+gaussian}
+\APACinsertmetastar {%
+gaussian}%
+\begin{APACrefauthors}%
+test.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {2}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+test%
+}{%
+test%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {3}}}}}]{%
+mean}
+\APACinsertmetastar {%
+mean}%
+\begin{APACrefauthors}%
+test.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {3}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+test%
+}{%
+test%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {4}}}}}]{%
+edge_detection}
+\APACinsertmetastar {%
+edge_detection}%
+\begin{APACrefauthors}%
+test.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {4}}}{}{}.
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
 \bibitem{einstein}
@@ -46,5 +107,6 @@ Albert Einstein.
   electrodynamics of moving bodies].
 \newblock {\em Annalen der Physik}, 322(10):891--921, 1905.
 >>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
+>>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
 
 \end{thebibliography}
