@@ -18,6 +18,15 @@
 
 \usepackage[numbib]{tocbibind}
 
+%%%%% voor implementeren matlabcode in latex %%%%%
+
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 
 \includepdf[pages=-]{frontpage.pdf}
@@ -174,8 +183,22 @@ G &=& \sqrt{G_{x}^2+G_{y}^2}
 \end{eqnarray*}
 In the last equation, G is the magnitude of the total gradient as well as the value inserted in the new matrix.
 
+\begin{figure}[h]
+	\center
+  \includegraphics[width=1\linewidth]{original_and_sobel.png}
+  \caption{the original RGB image (left) and the image after the Sobel-Feldman operator (right)}
+  \label{fig:Moore_Neighbor}
+\end{figure}
+
 \paragraph{Filtering of the noise}\mbox{}\\
 After adding al the different magnitudes of the gradients to an array, some anomalies still exist. There can be some impossible elements, like points that seem to be further away than the basket, or fluctuations in areas that are supposed to be flat (noise). The simplest way to solve this problem would be to use a maximum and minimum treshold: The maximum treshold can be a value that is further away than the basket. These values are impossible and the corresponding values in the matrix can be set to zero. The minimum treshold can be decided by empirical research. Values lower than this value can be seen as noise and thus can be set to zero.
+
+\begin{figure}[h]
+	\center
+  \includegraphics[width=0.6\linewidth]{sobel_and_threshold.png}
+  \caption{the original image after using a Sobel-Feldman operator and a threshold filter}
+  \label{fig:Moore_Neighbor}
+\end{figure}
 
 \section{Implementation}
 Throughout the project a lot of different approaches were tested and discarded. But in essence they all do the same thing they convert the original image to a binary image. In this binary image the objects are represented by one value and the background by another. Afterwards this binary image is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
@@ -238,5 +261,37 @@ For this project, some courses from the first three semesters are useful to be a
 \bibliography{references.bib}
 
 \section{Appendix}
+
+%%%%% code RGB sensor %%%%%
+
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{blue}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+
+\section*{Matlab Code RGB sensor}
+
+\lstinputlisting{image_processing_week4.m}
+
+%%%%% code depth sensor %%%%%
+
+\section*{Matlab Code depth sensor}
+
+\lstinputlisting{testDepth.m}
+
+
 
 \end{document}
