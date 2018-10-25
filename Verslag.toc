@@ -1,5 +1,29 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Problem Description}{1}
+<<<<<<< HEAD
+\contentsline {section}{\numberline {3}Design}{1}
+\contentsline {subsection}{\numberline {3.1}Hardware}{1}
+\contentsline {subsection}{\numberline {3.2}Software}{2}
+\contentsline {subsubsection}{\numberline {3.2.1}Analysis colour image }{2}
+\contentsline {paragraph}{Method 1}{3}
+\contentsline {paragraph}{Method 2}{3}
+\contentsline {paragraph}{Method 3}{3}
+\contentsline {paragraph}{Implementation}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Depth sensor}{4}
+\contentsline {subsubsection}{\numberline {3.2.3}Analysis Depth Sensor}{4}
+\contentsline {section}{\numberline {4}Implementation}{4}
+\contentsline {paragraph}{Counting of the objects}{5}
+\contentsline {paragraph}{Boundary boxes}{5}
+\contentsline {paragraph}{Edge detection}{5}
+\contentsline {section}{\numberline {5}Methods of approach}{6}
+\contentsline {subsubsection}{\numberline {5.0.1}Stages of difficulty}{6}
+\contentsline {subsubsection}{\numberline {5.0.2}Previous implementations}{6}
+\contentsline {section}{\numberline {6}Budget management}{6}
+\contentsline {section}{\numberline {7}Course Integration}{6}
+\contentsline {section}{\numberline {8}Conclusion}{6}
+\contentsline {section}{\numberline {9}List of references}{6}
+\contentsline {section}{\numberline {10}Appendix}{6}
+=======
 \contentsline {section}{\numberline {3}Design}{2}
 \contentsline {subsection}{\numberline {3.1}Hardware}{2}
 \contentsline {subsection}{\numberline {3.2}Software}{3}
@@ -17,8 +41,20 @@
 \contentsline {paragraph}{Boundary boxes}{7}
 \contentsline {paragraph}{Edge detection}{8}
 \contentsline {section}{\numberline {5}further planning}{8}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {6}Budget management}{8}
 \contentsline {section}{\numberline {7}Course Integration}{8}
 \contentsline {section}{\numberline {8}Conclusion}{8}
 \contentsline {section}{\numberline {9}List of references}{8}
 \contentsline {section}{\numberline {10}Appendix}{8}
+=======
+\contentsline {section}{\numberline {6}Steps of implementation}{8}
+\contentsline {subsubsection}{\numberline {6.0.1}Stages of difficulty}{8}
+\contentsline {subsubsection}{\numberline {6.0.2}Previous implementations}{8}
+\contentsline {section}{\numberline {7}Budget management}{8}
+\contentsline {section}{\numberline {8}Course Integration}{8}
+\contentsline {section}{\numberline {9}Conclusion}{8}
+\contentsline {section}{\numberline {10}List of references}{8}
+\contentsline {section}{\numberline {11}Appendix}{8}
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 1831f80a388fc7b55a2a4f024d9d7418b80553fb
