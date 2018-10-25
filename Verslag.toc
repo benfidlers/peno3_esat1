@@ -35,51 +35,23 @@
 \contentsline {paragraph}{Boundary boxes}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Edge detection}{8}
-<<<<<<< HEAD
 \defcounter {refsection}{0}\relax 
-=======
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}further planning}{9}
-\contentsline {section}{\numberline {6}Budget management}{10}
-\contentsline {section}{\numberline {7}Course Integration}{10}
-\contentsline {section}{\numberline {8}Conclusion}{10}
-\contentsline {section}{\numberline {9}List of references}{10}
-\contentsline {section}{\numberline {10}Appendix}{10}
-=======
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}Methods of approach}{9}
-\contentsline {subsubsection}{\numberline {5.0.1}Stages of difficulty}{9}
-\contentsline {section}{\numberline {6}further planning}{9}
-\contentsline {section}{\numberline {7}Budget management}{9}
-\contentsline {section}{\numberline {8}Course Integration}{10}
-\contentsline {section}{\numberline {9}Conclusion}{10}
-\contentsline {section}{\numberline {10}List of references}{10}
-\contentsline {section}{\numberline {11}Appendix}{10}
-=======
->>>>>>> d77146096ad5ca16aa6c816e4139135744360755
 \contentsline {section}{\numberline {5}further planning}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Steps of implementation}{8}
+\contentsline {section}{\numberline {6}further planning}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.0.1}Stages of difficulty}{8}
+\contentsline {section}{\numberline {7}Steps of implementation}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.0.2}Previous implementations}{8}
+\contentsline {subsubsection}{\numberline {7.0.1}Stages of difficulty}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Budget management}{8}
+\contentsline {subsubsection}{\numberline {7.0.2}Previous implementations}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Course Integration}{8}
+\contentsline {section}{\numberline {8}Budget management}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Conclusion}{8}
+\contentsline {section}{\numberline {9}Course Integration}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}List of references}{8}
+\contentsline {section}{\numberline {10}Conclusion}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}Appendix}{8}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
->>>>>>> 1831f80a388fc7b55a2a4f024d9d7418b80553fb
->>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
->>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
->>>>>>> d77146096ad5ca16aa6c816e4139135744360755
+\contentsline {section}{\numberline {11}List of references}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12}Appendix}{9}

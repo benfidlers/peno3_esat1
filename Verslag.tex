@@ -183,6 +183,7 @@ where BW represents the input, this is a binary image which only consists out of
 The function bwboundaries implements the Moore-Neighbor tracing algorithm. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start (see ILLUSTRATION). The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited (See ILLUSTRATION). This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited out of the same direction as it was initially entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
 To find the edges of all the interconnected image regions this process is repeated until every pixel of the image matrix has been checked. 
 }
+
 \section{further planning}
 
 Being halfway trough the project, a visual timeframe is created. In the appendices, a Gantt chart can be found.(verwijzing) 
@@ -200,6 +201,7 @@ Test 123
 \subsubsection{Stages of difficulty}
 
 \subsubsection{Previous implementations}
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 
 \section{Budget management}
 
