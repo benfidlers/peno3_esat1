@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  22 OCT 2018 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Verslag.tex
-(./Verslag.tex
+**verslag.tex
+(./verslag.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -217,8 +217,8 @@ Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box31
-) (./Verslag.aux)
-\openout1 = `Verslag.aux'.
+) (./verslag.aux)
+\openout1 = `verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -382,7 +382,7 @@ File: frontpage.pdf Graphic file (type pdf)
 Package pdftex.def Info: frontpage.pdf , page2 used on input line 13.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [2 <./frontpage.pdf>] [3{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map}] (./Verslag.toc
+dmap/pdftex.map}] (./verslag.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -394,16 +394,16 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
-\openout3 = `Verslag.toc'.
+\openout3 = `verslag.toc'.
 
  [4]
-(./Verslag.lot)
+(./verslag.lot)
 \tf@lot=\write4
-\openout4 = `Verslag.lot'.
+\openout4 = `verslag.lot'.
 
- [5] (./Verslag.lof)
+ [5] (./verslag.lof)
 \tf@lof=\write5
-\openout5 = `Verslag.lof'.
+\openout5 = `verslag.lof'.
 
  [6]
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
@@ -418,7 +418,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
  [2] [3]
-[4] [5] [6] (./Verslag.aux) ) 
+[4] [5] [6] (./verslag.aux) ) 
 Here is how much of TeX's memory you used:
  4218 strings out of 492649
  58422 string characters out of 6129622
@@ -435,12 +435,13 @@ c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (12 pages, 204223 bytes).
+nts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on verslag.pdf (12 pages, 214758 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 142 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
