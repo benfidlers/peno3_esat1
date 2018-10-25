@@ -82,18 +82,12 @@ This method is the most simple and easy to implement. As input, it takes a filte
 Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. Since the input image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary. Viewing the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code. 
 \\Advantages: It detects all kind of objects, not based on colour or shape.
 \\Disadvantages: The boundary between different objects needs to be clear for this to work.
-\paragraph{Method 3}\mbox{}\\
-The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a grayscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-\\Advantages: It is very good in detecting objects, not being based on colour or shape.
-\\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
-
 
 \paragraph{Method 3}\mbox{}\\
 The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
-Advantages: It is very good in detecting objects, not being based on colour or shape.
-Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected in between taking the needed pictures for this algorithm.
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
+
 \paragraph{Implementation}\mbox{}\\
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 \begin{figure}[h]
@@ -138,7 +132,6 @@ L =\begin{bmatrix}
 \end{equation}
 A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker. The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot. This means that every pixel greater than or equal to that threshold value becomes an edge, and the rest gets classified as background. After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, counting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
 
-
 \subsubsection{Analysis Depth Sensor}
 Using only the RGB image does have some shortcomings: it is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects or a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. The data enters the system in a matrix in which every number stands for the distance between the sensor and the object (in millimeters). Firstly the code should be able to see a clear difference in height between the objects and the background. After that the noise that can exist will be filtered out. At last the cleaned matrix will be used to detect the edges of the objects and thus detect the objects themselves. \textbf{The code that accompanies this description, can be found at page...}
  
@@ -167,8 +160,6 @@ In the last equation, G is the magnitude of the total gradient as well as the va
 \paragraph{filtering of the noise}\mbox{}\\
 After adding al the different magnitudes of the gradients to a matrix. There can still be some impossible numbers, like points that are further away than the basket, or fluctuations in areas that are supposed to be flat (noise). The simplest way to solve this problem would be to use a maximum and minimum treshold: The maximum treshold can be a value that is further away than the basket. These values are impossible and can be set to zero. The minimum treshold can be decided by empirical research. Values lower than this value can be seen as noise and thus can be set to zero.
 
-\paragraph{Edge detection of the objects}\mbox{}\\
-
 \section{Implementation}
 Throughout the project a lot of different approaches were tested and discarded. But in essence they all do the same thing they convert the original image to a binary image. In this binary image the objects are represented by one value and the background by another. Afterwards this binary image is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
 
@@ -195,7 +186,6 @@ B = bwboundaries (BW)
 where BW represents the input, this is a binary image which only consists out of black and white pixels; and B represents the output, which consist out of a cell array with N elements (number of image regions in the binary image), all these elements contain a list of the boundary pixels. Which in turn are fairly easy to draw. They can be inserted in the matrix of the image by replacing values, this is done by looping through the cell arrays. The advantage of this method is that the image can actually be printed. When they are drawn on top of the image with a function like visboundaries the actual values of the pixels stay unchanged, but it become different figures. One with the image and another on top of it with the edges. 
 The function bwboundaries implements the Moore-Neighbor tracing algorithm. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start (see ILLUSTRATION). The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited (See ILLUSTRATION). This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited out of the same direction as it was initially entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
 To find the edges of all the interconnected image regions this process is repeated until every pixel of the image matrix has been checked. 
-}
 
 \section{further planning}
 
@@ -203,17 +193,6 @@ Being halfway trough the project, a visual timeframe is created. In the appendic
 This visualizes the current state of the solution for the described problem, as well as the schedule for the next few weeks. 
 This project contains five milestones, two of them are already achieved. These have a minor value in prospect to the total paper though. The most important occupancy of the next weeks is implementing key elements of the final algorithm. Key components like filling the edges, creating the boundary boxes and eventually counting the number of objects still need the necessary attention. All of this while the given deadlines need to be respected. As it is possible to view in the chart, the decision to start rather early on the folder is made. A professional representation of the findings takes time. So planning it like this, ensures enough time to perfect the folder. \\
 In general, the project is on schedule. From a critical point of view, too much time writing the report during the team sessions was wasted. For the final paper, more individual work is recommended and will happen.
-Test 123
-
-\section{further planning}
-
-
-
-\section{Steps of implementation}
-
-\subsubsection{Stages of difficulty}
-
-\subsubsection{Previous implementations}
 
 \section{Budget management}
 
