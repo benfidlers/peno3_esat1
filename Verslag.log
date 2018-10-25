@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 23:31
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -557,7 +557,14 @@ Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
-) (Verslag.aux)
+) (Verslag.aux
+
+LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
+
+
+LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
+
+)
 \openout1 = `Verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -809,15 +816,35 @@ line 110.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
-_comparison.png>] [7] [8]
-<./verslag_figuren/Moore_Neighbor.png, id=123, 206.27063pt x 171.13937pt>
+_comparison.png>]
+<./verslag_figuren/original_and_sobel.png, id=115, 769.4346pt x 206.2104pt>
+File: ./verslag_figuren/original_and_sobel.png Graphic file (type png)
+
+<use ./verslag_figuren/original_and_sobel.png>
+Package pdftex.def Info: ./verslag_figuren/original_and_sobel.png used on input
+ line 179.
+(pdftex.def)             Requested size: 443.57848pt x 118.88155pt.
+ [7 <./verslag_figuren/original_and_sobel.png>]
+<./verslag_figuren/sobel_and_threshold.png, id=122, 407.27156pt x 228.855pt>
+File: ./verslag_figuren/sobel_and_threshold.png Graphic file (type png)
+
+<use ./verslag_figuren/sobel_and_threshold.png>
+Package pdftex.def Info: ./verslag_figuren/sobel_and_threshold.png used on inpu
+t line 189.
+(pdftex.def)             Requested size: 266.14978pt x 149.56064pt.
+ [8 <./verslag_figuren/sobel_and_threshold.png>]
+<./verslag_figuren/Moore_Neighbor.png, id=127, 206.27063pt x 171.13937pt>
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png used on input lin
-e 208.
+e 222.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
- [9 <./verslag_figuren/Moore_Neighbor.png>] (Verslag.bbl
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9] [10 <./verslag_figuren/Moore_Neighbor.png>] (Verslag.bbl
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1175,30 +1202,33 @@ Underfull \hbox (badness 7256) in paragraph at lines 3--112
 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
  []
 
-) [10] (Verslag.aux) ) 
+) [11] (Verslag.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5310 strings out of 493320
- 70641 string characters out of 3138953
- 155140 words of memory out of 3000000
- 8715 multiletter control sequences out of 15000+200000
+ 5320 strings out of 493320
+ 71048 string characters out of 3138953
+ 155180 words of memory out of 3000000
+ 8723 multiletter control sequences out of 15000+200000
  10269 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,18n,46p,1543b,428s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pf
-b>
-Output written on Verslag.pdf (16 pages, 1259398 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Verslag.pdf (17 pages, 2343766 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

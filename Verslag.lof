@@ -1,4 +1,6 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces The example included in the assignment.}}{2}
 \contentsline {figure}{\numberline {2}{\ignorespaces A comparison between the 3 different methods.}}{5}
 \contentsline {figure}{\numberline {3}{\ignorespaces A comparison with the use of filters.}}{6}
-\contentsline {figure}{\numberline {4}{\ignorespaces Problem with stopping criteria Moore-Neighbor tracing algorithm.}}{9}
+\contentsline {figure}{\numberline {4}{\ignorespaces the original RGB image (left) and the image after the Sobel-Feldman operator (right)}}{7}
+\contentsline {figure}{\numberline {5}{\ignorespaces the original image after using a Sobel-Feldman operator and a threshold filter}}{8}
+\contentsline {figure}{\numberline {6}{\ignorespaces Problem with stopping criteria Moore-Neighbor tracing algorithm.}}{10}
