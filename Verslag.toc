@@ -14,7 +14,7 @@
 \contentsline {paragraph}{Counting of the objects}{5}
 \contentsline {paragraph}{Boundary boxes}{5}
 \contentsline {paragraph}{Edge detection}{5}
-\contentsline {section}{\numberline {5}Steps of implementation}{6}
+\contentsline {section}{\numberline {5}Methods of approach}{6}
 \contentsline {subsubsection}{\numberline {5.0.1}Stages of difficulty}{6}
 \contentsline {subsubsection}{\numberline {5.0.2}Previous implementations}{6}
 \contentsline {section}{\numberline {6}Budget management}{6}
