@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 23:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  26 OCT 2018 00:00
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -842,6 +842,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
 _comparison.png>]
+
+LaTeX Warning: Citation `Sobel_operator' undefined on input line 165.
+
 <./verslag_figuren/original_and_sobel.png, id=115, 769.4346pt x 206.2104pt>
 File: ./verslag_figuren/original_and_sobel.png Graphic file (type png)
 
@@ -935,10 +938,10 @@ Underfull \hbox (badness 5133) in paragraph at lines 97--109
  and type-set-ting.  \OT1/cmr/m/n/10.95 Re-trieved from
  []
 
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+[11]) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(image_processing_week4.m [11] [12]
+(image_processing_week4.m [12]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
@@ -949,14 +952,17 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
  [13] [14] [15]
 [16] [17] [18]) (testDepth.m [19]) [20] (Verslag.aux)
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7773 strings out of 493320
- 102301 string characters out of 3138953
- 343983 words of memory out of 3000000
- 11149 multiletter control sequences out of 15000+200000
+ 7775 strings out of 493320
+ 102333 string characters out of 3138953
+ 324619 words of memory out of 3000000
+ 11151 multiletter control sequences out of 15000+200000
  10437 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,18n,46p,1543b,2108s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -973,7 +979,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (26 pages, 2402868 bytes).
+Output written on Verslag.pdf (26 pages, 2403549 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
