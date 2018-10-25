@@ -96,11 +96,9 @@ After a lot of testing different methods, the three methods above seemed the mos
   \caption{A comparison between the 3 different methods.}
   \label{fig:comparison_methods}
 \end{figure}
-
 \begin{equation}
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
-
 All the weights count up to 1 so the values in the greyscale image can vary from 0 to 255.
 \\This method uses two filters to remove noise from the image. Figure XXXX shows why those two filters are necessary.
 At first the Gaussian blur, this is an easy convolution on the image matrix.

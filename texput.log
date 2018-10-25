@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 15:42
 entering extended mode
  restricted \write18 enabled.
@@ -7,10 +8,20 @@ entering extended mode
 ! Emergency stop.
 <*> references.tex
                   
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 15:03
+entering extended mode
+**refrences.tex
+
+! Emergency stop.
+<*> refrences.tex
+                 
+>>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
 *** (job aborted, file error in nonstop mode)
 
  
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  3 strings out of 492649
  105 string characters out of 6129622
  56311 words of memory out of 5000000
@@ -18,4 +29,13 @@ Here is how much of TeX's memory you used:
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  0i,0n,0p,1b,6s stack positions out of 5000i,500n,10000p,200000b,80000s
+=======
+ 2 strings out of 492970
+ 19 string characters out of 3126593
+ 56106 words of memory out of 3000000
+ 3980 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 0i,0n,0p,1b,6s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
 !  ==> Fatal error occurred, no output PDF file produced!
