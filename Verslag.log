@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 23:31
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 23:22
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 entering extended mode
-**./Verslag.tex
-(Verslag.tex
-LaTeX2e <2017-04-15>
-Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Verslag.tex
+(./Verslag.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,6 +31,7 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -36,6 +47,23 @@ Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count87
@@ -50,6 +78,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
+<<<<<<< HEAD
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
@@ -62,6 +91,19 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count90
 \calc@Bcount=\count91
+=======
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 \calc@Adimen=\dimen111
 \calc@Bdimen=\dimen112
 \calc@Askip=\skip43
@@ -71,6 +113,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count92
 \calc@Cskip=\skip45
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
@@ -87,13 +130,36 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gread@gobject=\count93
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -105,6 +171,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -115,6 +182,18 @@ Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -125,8 +204,13 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \AM@pagewidth=\dimen115
 \AM@pageheight=\dimen116
 
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
 File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 )
 \AM@pagebox=\box26
 \AM@global@opts=\toks16
@@ -134,17 +218,30 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count94
 \AM@templatesizebox=\box27
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box28
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box28
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 
@@ -393,6 +490,7 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+1E20 (decimal 7712)
    defining Unicode char U+1E21 (decimal 7713)
 )
+<<<<<<< HEAD
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
@@ -465,6 +563,12 @@ Now handling font encoding U ...
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -472,6 +576,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip46
@@ -481,15 +586,34 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen117
 ))
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen118
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen118
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count95
@@ -530,15 +654,24 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 \col@sep=\dimen126
 \extrarowheight=\dimen127
 \NC@list=\toks26
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\apacite.sty"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/apacite/apacite.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count107
 \bibleftmargin=\skip51
@@ -547,16 +680,24 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibitemsep=\skip54
 \biblabelsep=\skip55
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\was\gensymb.sty"
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
+<<<<<<< HEAD
 ) (Verslag.aux
 
 LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
@@ -565,6 +706,9 @@ LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
 LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
 
 )
+=======
+) (./Verslag.aux)
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 \openout1 = `Verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -614,8 +758,13 @@ LaTeX Font Info:    ... okay on input line 21.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<<<<<<< HEAD
 \AtBeginShipoutBox=\box31
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+=======
+\AtBeginShipoutBox=\box33
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen128
@@ -628,6 +777,7 @@ LaTeX Font Info:    ... okay on input line 21.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks28
+<<<<<<< HEAD
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -658,29 +808,80 @@ Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+=======
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+<<<<<<< HEAD
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+<<<<<<< HEAD
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+=======
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@maskedRefs=\count114
 
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\apacite\english.apc"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/apacite/english.apc
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
@@ -731,10 +932,17 @@ File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
 Package pdftex.def Info: frontpage.pdf, page1 used on input line 23.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+<<<<<<< HEAD
  [1
 
  <./frontpage.pdf>]
 <frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
+=======
+[1
+
+ <./frontpage.pdf>]
+<frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: frontpage.pdf Graphic file (type pdf)
 
 <use frontpage.pdf, page 2>
@@ -749,32 +957,57 @@ File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
 Package pdftex.def Info: frontpage.pdf, page2 used on input line 23.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+<<<<<<< HEAD
  [2 <./frontpage.pdf>] [3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] 
 (Verslag.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+=======
+ [2 <./frontpage.pdf>] [3{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map}] (./Verslag.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
 \openout3 = `Verslag.toc'.
 
+<<<<<<< HEAD
  [4] (Verslag.lot)
 \tf@lot=\write4
 \openout4 = `Verslag.lot'.
 
 
 [5] (Verslag.lof)
+=======
+ [4]
+(./Verslag.lot)
+\tf@lot=\write4
+\openout4 = `Verslag.lot'.
+
+ [5] (./Verslag.lof)
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 \tf@lof=\write5
 \openout5 = `Verslag.lof'.
 
  [6]
+<<<<<<< HEAD
 <./verslag_figuren/opdracht.png, id=82, 571.53525pt x 428.19975pt>
+=======
+<./verslag_figuren/opdracht.png, id=83, 571.53525pt x 428.19975pt>
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 
 <use ./verslag_figuren/opdracht.png>
@@ -787,27 +1020,44 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1] [2 <./verslag_figuren/opdracht.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
 
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
  [3]
+<<<<<<< HEAD
 <./verslag_figuren/comparison_methods.png, id=101, 860.013pt x 982.872pt>
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png used on input
  line 97.
+=======
+<./verslag_figuren/comparison_methods.png, id=102, 860.013pt x 982.872pt>
+File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
+<use ./verslag_figuren/comparison_methods.png>
+Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
+t line 97.
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<<<<<<< HEAD
 <./verslag_figuren/filter_comparison.png, id=102, 913.61325pt x 513.117pt>
+=======
+<./verslag_figuren/filter_comparison.png, id=103, 913.61325pt x 513.117pt>
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 
 <use ./verslag_figuren/filter_comparison.png>
+<<<<<<< HEAD
 Package pdftex.def Info: ./verslag_figuren/filter_comparison.png used on input 
 line 110.
 (pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
@@ -843,29 +1093,68 @@ e 222.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+=======
+Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
+ line 110.
+(pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
+_comparison.png>] [7] [8]
+<./verslag_figuren/Moore_Neighbor.png, id=124, 206.27063pt x 171.13937pt>
+File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
+<use ./verslag_figuren/Moore_Neighbor.png>
+Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
+ne 208.
+(pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
+ [9 <./verslag_figuren/Moore_Neighbor.png>]
+(./Verslag.bbl
+Underfull \hbox (badness 1762) in paragraph at lines 37--52
+[]\OT1/cmr/m/n/10.95 Einstein, A.  (1905).  Zur Elek-tro-dy-namik be-wegter K^^
+?orper. (Ger-man) [On the
+ []
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 
 [9] [10 <./verslag_figuren/Moore_Neighbor.png>] (Verslag.bbl
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+Underfull \hbox (badness 1178) in paragraph at lines 37--52
+\OT1/cmr/m/n/10.95 elec-tro-dy-nam-ics of mov-ing bod-ies].  \OT1/cmr/m/it/10.9
+5 An-nalen der Physik\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 322\OT1/cmr/m/n/1
+0.95 (10), 891--921.  doi:
+ []
 
+<<<<<<< HEAD
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
+=======
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 ...ipedia.org/wiki/Kernel_(image_processing)}
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
                                                   
-l.6 \bibitem{greyscale}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.82 ...ipedia.org/wiki/Kernel_(image_processing)}
                                                   
-l.6 \bibitem{greyscale}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83   \end{APACrefURL}
                        
+<<<<<<< HEAD
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1037,9 +1326,27 @@ l.48 gaussian}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+=======
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+! Missing } inserted.
+<inserted text> 
+                }
+l.83   \end{APACrefURL}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 
+
+<<<<<<< HEAD
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
@@ -1182,14 +1489,20 @@ e pro-cess-
 Underfull \hbox (badness 10000) in paragraph at lines 3--112
 \OT1/cmr/m/n/10.95 ing). []Laplacian of gaus-sian. []Mean fil-ter. ======= <<<<
 <<< HEAD >>>>>>>
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 77--85
+[]\OT1/cmr/m/it/10.95 Kernel (im-age pro-cess-ing).  \OT1/cmr/m/n/10.95 (n.d.[]
+).  Re-trieved from
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
  []
 
 
-Underfull \hbox (badness 4096) in paragraph at lines 3--112
-\OT1/cmr/m/n/10.95 (n.d.[][]).   []test.  (n.d.[][]).   <<<<<<< HEAD ======= ==
-===== >>>>>>>
+Underfull \hbox (badness 5133) in paragraph at lines 97--109
+[]\OT1/cmr/m/n/10.95 Knuth, D.  (1981).  \OT1/cmr/m/it/10.95 Knuth: Com-put-ers
+ and type-set-ting.  \OT1/cmr/m/n/10.95 Re-trieved from
  []
 
+<<<<<<< HEAD
 
 Underfull \hbox (badness 4108) in paragraph at lines 3--112
 \OT1/cmr/m/n/10.95 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7 []Albert Ein-stein.
@@ -1229,6 +1542,35 @@ es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on Verslag.pdf (17 pages, 2343766 bytes).
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
+=======
+[10]) [11] (./Verslag.aux) ) 
+Here is how much of TeX's memory you used:
+ 4987 strings out of 492649
+ 68968 string characters out of 6129622
+ 154462 words of memory out of 5000000
+ 8747 multiletter control sequences out of 15000+600000
+ 10437 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,18n,46p,1541b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feym
+r10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on Verslag.pdf (17 pages, 1263829 bytes).
+PDF statistics:
+ 179 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+>>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
