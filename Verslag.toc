@@ -1,6 +1,6 @@
-\contentsline {section}{Contents}{4}
-\contentsline {section}{List of Tables}{5}
-\contentsline {section}{List of Figures}{6}
+\contentsline {section}{Contents}{5}
+\contentsline {section}{List of Tables}{6}
+\contentsline {section}{List of Figures}{7}
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Problem Description}{1}
 \contentsline {section}{\numberline {3}Design}{2}
@@ -11,7 +11,7 @@
 \contentsline {paragraph}{Method 3}{4}
 \contentsline {paragraph}{Implementation}{4}
 \contentsline {subsubsection}{\numberline {3.2.1}Analysis Depth Sensor}{6}
-\contentsline {paragraph}{Detection of the difference in height}{6}
+\contentsline {paragraph}{Detection of the difference in height}{7}
 \contentsline {paragraph}{filtering of the noise}{7}
 \contentsline {section}{\numberline {4}Implementation}{7}
 \contentsline {paragraph}{Counting of the objects}{8}
@@ -23,4 +23,5 @@
 \contentsline {section}{\numberline {8}Conclusion}{10}
 \contentsline {section}{\numberline {9}List of references}{10}
 \contentsline {section}{\numberline {10}References}{10}
-\contentsline {section}{\numberline {11}Appendix}{10}
+\contentsline {section}{\numberline {11}References}{10}
+\contentsline {section}{\numberline {12}Appendix}{10}
