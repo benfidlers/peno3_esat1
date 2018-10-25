@@ -89,6 +89,7 @@ The third way takes a different approach to solving the analysis of the colour i
 \paragraph{Implementation}\mbox{}\\
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 
+After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.7\linewidth]{comparison_methods.png}
@@ -210,6 +211,7 @@ As seen above, the system explained in this paper consist primarily of software 
 With a budget of 250 EURO this is feasible. Both the kinect and the adapter have been ordered but at as of writing this paper a fixed price isn't know. But at current market prices the estimated cost will be 200 EURO. The remaining 50 euros are a safe backup for other small costs.
 
 \section{Course Integration}
+For this project, some courses from the first three semesters are useful to be able to finish it. Linear algebra is used for working in the matrix the image represents. The programming in matlab is a lot easier after the course of computer science. Numerical Mathematics can be used for working with really large matrices. To make sure the system doesn't use to much memory, the course of information transmission and processing is used.
 
 \section{Conclusion}
 
