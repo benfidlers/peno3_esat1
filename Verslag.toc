@@ -13,27 +13,15 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Analysis Depth Sensor}{6}
 \contentsline {paragraph}{Detection of the difference in height}{7}
 \contentsline {paragraph}{Filtering of the noise}{7}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {4}Implementation}{8}
-=======
-\contentsline {section}{\numberline {4}Implementation}{7}
->>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 \contentsline {paragraph}{Counting of the objects}{8}
 \contentsline {paragraph}{Boundary boxes}{9}
 \contentsline {paragraph}{Edge detection}{9}
 \contentsline {section}{\numberline {5}Further planning}{10}
 \contentsline {section}{\numberline {6}Budget management}{10}
-<<<<<<< HEAD
 \contentsline {section}{\numberline {7}Course Integration}{11}
 \contentsline {section}{\numberline {8}Conclusion}{11}
 \contentsline {section}{\numberline {9}List of references}{11}
 \contentsline {section}{\numberline {10}References}{11}
 \contentsline {section}{\numberline {11}References}{11}
-=======
-\contentsline {section}{\numberline {7}Course Integration}{10}
-\contentsline {section}{\numberline {8}Conclusion}{10}
-\contentsline {section}{\numberline {9}List of references}{10}
-\contentsline {section}{\numberline {10}References}{10}
-\contentsline {section}{\numberline {11}References}{10}
->>>>>>> b1e03b4e7dd449d03c44411059a2febadbbb7f86
 \contentsline {section}{\numberline {12}Appendix}{11}
