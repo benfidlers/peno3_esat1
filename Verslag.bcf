@@ -131,7 +131,21 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+      <bcf:key>sortingtemplatename</bcf:key>
+      <bcf:value>ynt</bcf:value>
+=======
+      <bcf:key>sortscheme</bcf:key>
+>>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
+>>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
       <bcf:value>nty</bcf:value>
+    </bcf:option>
+    <bcf:option type="singlevalued">
+      <bcf:key>sortsets</bcf:key>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -1974,9 +1988,28 @@
     <bcf:datasource type="file" datatype="bibtex">refrences.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <bcf:citekey order="1">einstein</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
+=======
+    <bcf:citekey order="1">dirac</bcf:citekey>
+>>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+<<<<<<< HEAD
+  <bcf:sortingtemplate name="nty">
+=======
+  <bcf:sortingtemplate name="ynt">
+=======
+  <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
+  <bcf:sorting>
+>>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
+>>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
+>>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
     <bcf:sort order="1">
       <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
@@ -2014,4 +2047,33 @@
                 uniquenametemplatename="global"
                 labelalphanametemplatename="global">
   </bcf:datalist>
+<<<<<<< HEAD
+=======
+=======
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0</bcf:sortitem>
+    </bcf:sort>
+<<<<<<< HEAD
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nty/global//global/global"
+                type="entry"
+                sortingtemplatename="nty"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+=======
+  </bcf:sorting>
+  </bcf:sortlist>
+>>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
+>>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
+>>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 </bcf:controlfile>

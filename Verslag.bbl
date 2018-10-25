@@ -1,0 +1,30 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Einstein%
+}{%
+Einstein%
+}{%
+{\protect \APACyear {1905}}%
+}]{%
+einstein}
+\APACinsertmetastar {%
+einstein}%
+\begin{APACrefauthors}%
+Einstein, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1905}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Zur Elektrodynamik bewegter K{\"o}rper}. ({German})
+  [{On} the electrodynamics of moving bodies]} {{Zur Elektrodynamik bewegter
+  K{\"o}rper}. ({German}) [{On} the electrodynamics of moving bodies]}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Annalen der Physik}{322}{10}{891--921}.
+\newblock
+\begin{APACrefDOI} \doi{http://dx.doi.org/10.1002/andp.19053221004}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

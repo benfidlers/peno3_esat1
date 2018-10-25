@@ -1,9 +1,10 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces The example included in the assignment.}}{2}
-\defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2}{\ignorespaces A comparison between the 3 different methods.}}{5}
+<<<<<<< HEAD
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3}{\ignorespaces A comparison with the use of filters.}}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4}{\ignorespaces Problem with stopping criteria Moore-Neighbor tracing algorithm.}}{9}
+=======
+\contentsline {figure}{\numberline {3}{\ignorespaces Problem with stopping criteria Moore-Neighbor tracing algorithm.}}{9}
+>>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
