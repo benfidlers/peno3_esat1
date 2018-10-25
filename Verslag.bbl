@@ -1,5 +1,6 @@
 \begin{thebibliography}{}
 
+<<<<<<< HEAD
 \bibitem [\protect \citeauthoryear {%
 Knuth%
 }{%
@@ -23,5 +24,12 @@ Knuth, D.%
 \begin{APACrefURL} \url{http://www-cs-faculty.stanford.edu/~uno/abcde.html}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
+=======
+\bibitem{einstein}
+Albert.
+\newblock {Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On} the
+  electrodynamics of moving bodies].
+\newblock {\em Annalen der Physik}, 322(10):891--921, 1905.
+>>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
 
 \end{thebibliography}
