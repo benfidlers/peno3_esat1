@@ -2,10 +2,8 @@
 
 \bibitem{einstein}
 Albert Einstein.
-<<<<<<< HEAD
-\newblock Zever.
-\newblock 1905.
-=======
->>>>>>> 6a0ad59ad80b4e81f544aa3d2f6ff5362555e694
+\newblock {Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On} the
+  electrodynamics of moving bodies].
+\newblock {\em Annalen der Physik}, 322(10):891--921, 1905.
 
 \end{thebibliography}
