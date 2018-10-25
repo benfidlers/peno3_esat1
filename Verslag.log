@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 14:39
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -697,12 +697,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
@@ -710,37 +710,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 <./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 56.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 55.
 
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
  [2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
 
 [3]
 <./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-t line 96.
+t line 95.
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./verslag_figuren/comparison_methods.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
 [7] [8]
 
-LaTeX Warning: Empty bibliography on input line 216.
+LaTeX Warning: Empty bibliography on input line 215.
 
 [9] (Verslag.aux)
 Package logreq Info: Writing requests to 'Verslag.run.xml'.
@@ -768,7 +768,7 @@ amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/simon/AppData/Local/Pro
 grams/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (15 pages, 1174102 bytes).
+Output written on Verslag.pdf (15 pages, 1174090 bytes).
 PDF statistics:
  158 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
