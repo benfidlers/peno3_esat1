@@ -24,47 +24,51 @@ Warning--entry type for "kinect_specifications" isn't style-file defined
 --line 45 of file references.bib
 Warning--entry type for "kinect_v2" isn't style-file defined
 --line 54 of file references.bib
+Warning--entry type for "stackoverflow" isn't style-file defined
+--line 63 of file references.bib
+Warning--entry type for "Mathworks" isn't style-file defined
+--line 71 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Sobel_operator
-You've used 8 entries,
+You've used 10 entries,
             6951 wiz_defined-function locations,
-            1303 strings with 11563 characters,
-and the built_in function-call counts, 12659 in all, are:
-= -- 1836
+            1310 strings with 11666 characters,
+and the built_in function-call counts, 15344 in all, are:
+= -- 2290
 > -- 82
-< -- 380
-+ -- 383
+< -- 421
++ -- 417
 - -- 13
-* -- 617
-:= -- 1755
-add.period$ -- 30
-call.type$ -- 8
-change.case$ -- 84
+* -- 717
+:= -- 1999
+add.period$ -- 36
+call.type$ -- 10
+change.case$ -- 116
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 284
-empty$ -- 591
+cite$ -- 21
+duplicate$ -- 329
+empty$ -- 753
 format.name$ -- 131
-if$ -- 2764
+if$ -- 3435
 int.to.chr$ -- 0
-int.to.str$ -- 28
+int.to.str$ -- 34
 missing$ -- 0
-newline$ -- 177
+newline$ -- 207
 num.names$ -- 48
-pop$ -- 189
+pop$ -- 231
 preamble$ -- 1
-purify$ -- 28
+purify$ -- 34
 quote$ -- 0
-skip$ -- 1245
+skip$ -- 1593
 stack$ -- 0
-substring$ -- 430
-swap$ -- 144
-text.length$ -- 14
+substring$ -- 468
+swap$ -- 166
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1120
+type$ -- 1472
 warning$ -- 1
-while$ -- 45
+while$ -- 49
 width$ -- 0
-write$ -- 213
-(There were 7 warnings)
+write$ -- 251
+(There were 9 warnings)

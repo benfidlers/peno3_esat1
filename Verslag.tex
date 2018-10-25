@@ -29,8 +29,7 @@
 
 \includepdf[pages=-]{frontpage.pdf}
 
-\section*{Abstract}
-\thispagestyle{empty}
+
 
 \newpage
 \tableofcontents
@@ -74,6 +73,8 @@ To conclude this section a brief word on the necessary transfer cable. Since a d
 
 
 \subsection{Software}
+
+\subsubsection{Analysis RGB Sensor}
 There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right way’ to count objects in an image. Different approaches have their own advantages and disadvantages. The only general ideas that are common throughout most algorithms are:
 \begin{itemize}
 \item Converting the RGB image to greyscale
@@ -182,7 +183,7 @@ In the last equation, G is the magnitude of the total gradient as well as the va
 \begin{figure}[h]
 	\center
   \includegraphics[width=1\linewidth]{original_and_sobel.png}
-  \caption{the original RGB image (left) and the image after the Sobel-Feldman operator (right)}
+  \caption{The original RGB image (left) and the image after the Sobel-Feldman operator (right)}
   \label{fig:Moore_Neighbor}
 \end{figure}
 
@@ -192,7 +193,7 @@ After adding al the different magnitudes of the gradients to an array, some anom
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.6\linewidth]{sobel_and_threshold.png}
-  \caption{the original image after using a Sobel-Feldman operator and a threshold filter}
+  \caption{The original image after using a Sobel-Feldman operator and a threshold filter}
   \label{fig:Moore_Neighbor}
 \end{figure}
 
@@ -258,6 +259,9 @@ Next, the goal is to, together with the processed data from the RGB and depth se
 \bibliographystyle{apacite}
 \bibliography{references.bib}
 
+\nocite{*}
+\bibliographystyle{apacite}
+\bibliography{references.bib}
 \newpage
 \section{Appendix}
 
