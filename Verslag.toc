@@ -18,42 +18,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Method 3}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Method 3}{4}
-\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Implementation}{4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2}Analysis Depth Sensor}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Detection of the difference in height}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{filtering of the noise}{7}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Edge detection of the objects}{7}
+\contentsline {paragraph}{filtering of the noise}{6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Implementation}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Counting of the objects}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Boundary boxes}{8}
+\contentsline {paragraph}{Boundary boxes}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Edge detection}{8}
+\contentsline {paragraph}{Edge detection}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}further planning}{9}
+\contentsline {section}{\numberline {5}further planning}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}further planning}{9}
+\contentsline {section}{\numberline {6}Budget management}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Steps of implementation}{9}
+\contentsline {section}{\numberline {7}Course Integration}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.0.1}Stages of difficulty}{9}
+\contentsline {section}{\numberline {8}Conclusion}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.0.2}Previous implementations}{9}
+\contentsline {section}{\numberline {9}List of references}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Budget management}{9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Course Integration}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Conclusion}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11}List of references}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12}Appendix}{10}
+\contentsline {section}{\numberline {10}Appendix}{9}
