@@ -81,7 +81,7 @@ This method is the most simple and easy to implement. As input, it takes a filte
 \\Advantages: It’s an easy and fast algorithm.
 \\Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. 
 \paragraph{Method 2}\mbox{}\\
-Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. Since the input image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary. Viewing the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code. 
+Method 2 tackles the colour analysis in the opposite order than method 1, as it starts with an edge detection algorithm. The output is a greyscale image, contrary to the binary array the reader might expected. This is followed by some tresholding code with a pre-defined treshold value. The current image is now represented by a matrix where the edges are represented in binary.
 \\Advantages: It detects all kind of objects, not based on colour or shape.
 \\Disadvantages: The boundary between different objects needs to be clear for this to work.
 
