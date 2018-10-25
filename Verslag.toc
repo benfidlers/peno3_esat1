@@ -34,7 +34,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Edge detection}{7}
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {section}{\numberline {5}Further planning}{8}
+=======
+<<<<<<< HEAD
+\contentsline {section}{\numberline {5}Further planning}{8}
+=======
+\contentsline {section}{\numberline {5}further planning}{8}
+>>>>>>> ccc4794faf37424861922aac476a8810c8e76215
+>>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Budget management}{9}
 \defcounter {refsection}{0}\relax 
