@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 15:49
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 15:44
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 15:12
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 16:01
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -14,39 +6,6 @@ LaTeX2e <2018-04-01> patch level 5
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 14:54
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 14:45
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 14:39
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 14:34
->>>>>>> 704091484066b8ed7afdbf627ed73fec2356b4b7
->>>>>>> db640dcbe687662f1daea3ac8252ce40f2427b5a
->>>>>>> ccc4794faf37424861922aac476a8810c8e76215
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**Verslag.tex
-(./Verslag.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -61,14 +20,6 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2018/03/24 v5.7 Page Geometry
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
 sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
@@ -89,31 +40,6 @@ Package ifvtex Info: VTeX not detected.
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
 sty"
-<<<<<<< HEAD
-=======
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -128,15 +54,6 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
 cfg"))
@@ -151,27 +68,6 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count91
-\calc@Bcount=\count92
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 \calc@Adimen=\dimen111
 \calc@Bdimen=\dimen112
 \calc@Askip=\skip43
@@ -181,13 +77,6 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
 y"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
@@ -209,56 +98,13 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
 .cfg"
-<<<<<<< HEAD
-=======
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
 x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count93
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -270,14 +116,6 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
 sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -291,26 +129,6 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
 ics.cfg"
-<<<<<<< HEAD
-=======
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -321,25 +139,9 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \AM@pagewidth=\dimen115
 \AM@pageheight=\dimen116
 
-<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
 def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
-def"
-File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 )
 \AM@pagebox=\box26
 \AM@global@opts=\toks16
@@ -347,16 +149,6 @@ File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count94
 \AM@templatesizebox=\box27
 )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks18
@@ -368,61 +160,6 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
 sty"
-<<<<<<< HEAD
-=======
-=======
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -430,14 +167,6 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
 y"
 Package: amsmath 2017/09/02 v2.17a AMS math features
@@ -451,40 +180,10 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
 "
-<<<<<<< HEAD
-=======
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-\@mathmargin=\skip46
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen117
 ))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen118
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -492,17 +191,6 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
 "
-<<<<<<< HEAD
-=======
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen118
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count95
@@ -544,19 +232,6 @@ LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 ) ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
-<<<<<<< HEAD
-=======
-=======
-)
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 \col@sep=\dimen126
 \ar@mcellbox=\box30
 \extrarowheight=\dimen127
@@ -564,340 +239,26 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 \ar@cellbox=\box31
-<<<<<<< HEAD
 )
-=======
-)
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/eurosym/eurosym.sty
-Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box32
-)
-(./Verslag.aux)
-\openout1 = `Verslag.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.st
 y"
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box32
-)
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-sty"
-Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
-x.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.
-sty"
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count107
-)
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
-.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
-ys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
-s.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count108
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\logreq\logreq.def"
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xstring\xstring.st
-y"
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xstring\xstring.
-tex"
-\@xs@message=\write3
-\integerpart=\count109
-\decimalpart=\count110
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count111
-\c@listtotal=\count112
-\c@listcount=\count113
-\c@liststart=\count114
-\c@liststop=\count115
-\c@citecount=\count116
-\c@citetotal=\count117
-\c@multicitecount=\count118
-\c@multicitetotal=\count119
-\c@instcount=\count120
-\c@maxnames=\count121
-\c@minnames=\count122
-\c@maxitems=\count123
-\c@minitems=\count124
-\c@citecounter=\count125
-\c@savedcitecounter=\count126
-\c@uniquelist=\count127
-\c@uniquename=\count128
-\c@refsection=\count129
-\c@refsegment=\count130
-\c@maxextratitle=\count131
-\c@maxextratitleyear=\count132
-\c@maxextradate=\count133
-\c@maxextraalpha=\count134
-\c@abbrvpenalty=\count135
-\c@highnamepenalty=\count136
-\c@lownamepenalty=\count137
-\c@maxparens=\count138
-\c@parenlevel=\count139
-\blx@tempcnta=\count140
-\blx@tempcntb=\count141
-\blx@tempcntc=\count142
-\blx@maxsection=\count143
-\blx@maxsegment@0=\count144
-\blx@notetype=\count145
-\blx@parenlevel@text=\count146
-\blx@parenlevel@foot=\count147
-\blx@sectionciteorder@0=\count148
-\labelnumberwidth=\skip51
-\labelalphawidth=\skip52
-\biblabelsep=\skip53
-\bibitemsep=\skip54
-\bibnamesep=\skip55
-\bibinitsep=\skip56
-\bibparsep=\skip57
-\bibhang=\skip58
-\blx@bcfin=\read1
-\blx@bcfout=\write4
-\c@mincomprange=\count149
-\c@maxcomprange=\count150
-\c@mincompwidth=\count151
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-dm.de
-f"
-File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count152
-\c@savedafterword=\count153
-\c@annotator=\count154
-\c@savedannotator=\count155
-\c@author=\count156
-\c@savedauthor=\count157
-\c@bookauthor=\count158
-\c@savedbookauthor=\count159
-\c@commentator=\count160
-\c@savedcommentator=\count161
-\c@editor=\count162
-\c@savededitor=\count163
-\c@editora=\count164
-\c@savededitora=\count165
-\c@editorb=\count166
-\c@savededitorb=\count167
-\c@editorc=\count168
-\c@savededitorc=\count169
-\c@foreword=\count170
-\c@savedforeword=\count171
-\c@holder=\count172
-\c@savedholder=\count173
-\c@introduction=\count174
-\c@savedintroduction=\count175
-\c@namea=\count176
-\c@savednamea=\count177
-\c@nameb=\count178
-\c@savednameb=\count179
-\c@namec=\count180
-\c@savednamec=\count181
-\c@translator=\count182
-\c@savedtranslator=\count183
-\c@shortauthor=\count184
-\c@savedshortauthor=\count185
-\c@shorteditor=\count186
-\c@savedshorteditor=\count187
-\c@labelname=\count188
-\c@savedlabelname=\count189
-\c@institution=\count190
-\c@savedinstitution=\count191
-\c@lista=\count192
-\c@savedlista=\count193
-\c@listb=\count194
-\c@savedlistb=\count195
-\c@listc=\count196
-\c@savedlistc=\count197
-\c@listd=\count198
-\c@savedlistd=\count199
-\c@liste=\count266
-\c@savedliste=\count267
-\c@listf=\count268
-\c@savedlistf=\count269
-\c@location=\count270
-\c@savedlocation=\count271
-\c@organization=\count272
-\c@savedorganization=\count273
-\c@origlocation=\count274
-\c@savedoriglocation=\count275
-\c@origpublisher=\count276
-\c@savedorigpublisher=\count277
-\c@publisher=\count278
-\c@savedpublisher=\count279
-\c@language=\count280
-\c@savedlanguage=\count281
-\c@origlanguage=\count282
-\c@savedoriglanguage=\count283
-\c@pageref=\count284
-\c@savedpageref=\count285
-\shorthandwidth=\skip59
-\shortjournalwidth=\skip60
-\shortserieswidth=\skip61
-\shorttitlewidth=\skip62
-\shortauthorwidth=\skip63
-\shorteditorwidth=\skip64
-\locallabelnumberwidth=\skip65
-\locallabelalphawidth=\skip66
-\localshorthandwidth=\skip67
-\localshortjournalwidth=\skip68
-\localshortserieswidth=\skip69
-\localshorttitlewidth=\skip70
-\localshortauthorwidth=\skip71
-\localshorteditorwidth=\skip72
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\blx-compa
-t.def"
-File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-def"
-File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count286
-\c@textcitetotal=\count287
-\c@textcitemaxnames=\count288
-\c@biburlnumpenalty=\count289
-\c@biburlucpenalty=\count290
-\c@biburllcpenalty=\count291
-\c@smartand=\count292
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\numer
-ic.bbx"
-File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\bbx\stand
-ard.bbx"
-File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count293
-\c@bbx:relatedtotal=\count294
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\cbx\numer
-ic.cbx"
-File: numeric.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\biblatex.
-cfg"
-File: biblatex.cfg 
-))
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\biblatex\lbx\engli
-sh.lbx"
-File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
-)
-\@quotelevel=\count295
-\@quotereset=\count296
- (Verslag.aux)
+) (Verslag.aux)
 \openout1 = `Verslag.aux'.
 
-<<<<<<< HEAD
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-=======
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -934,32 +295,9 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box33
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-=======
-<<<<<<< HEAD
-\AtBeginShipoutBox=\box33
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
-<<<<<<< HEAD
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
-\scratchdimen=\dimen128
-\scratchbox=\box34
-\nofMPsegments=\count298
-\nofMParguments=\count299
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count300
-\MPscratchDim=\dimen129
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
-\everyMPtoPDFconversion=\toks28
-=======
-=======
-\AtBeginShipoutBox=\box31
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen128
@@ -972,11 +310,6 @@ ii"
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
-<<<<<<< HEAD
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -988,35 +321,22 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
 ekeys.sty"
-<<<<<<< HEAD
-=======
-=======
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-=======
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -1025,8 +345,9 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1039,17 +360,6 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-<<<<<<< HEAD
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
-=======
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
 .sty"
@@ -1057,398 +367,129 @@ Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
 y"
-<<<<<<< HEAD
-=======
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<<<<<<< HEAD
 <frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 15.
-=======
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `Verslag.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Verslag.bbl' not found.
-
-No file Verslag.bbl.
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
-<frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf  used on input line 16.
+Package pdftex.def Info: frontpage.pdf  used on input line 14.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 16.
-=======
-Package pdftex.def Info: frontpage.pdf  used on input line 22.
-=======
- <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf used on input line 16.
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf  used on input line 15.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf  used on input line 22.
-=======
-Package pdftex.def Info: frontpage.pdf used on input line 16.
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+Package pdftex.def Info: frontpage.pdf  used on input line 14.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 <frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 16.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 16.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 16.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 16.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 16.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 15.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 15.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 22.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 22.
-=======
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 15.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 22.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 22.
-=======
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 15.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 22.
-=======
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-[1
+ [1
 
  <./frontpage.pdf>]
-<frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
+<frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 16.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 16.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 16.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 15.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 15.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 22.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 22.
-=======
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 16.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
- <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 16.
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 2>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 15.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 22.
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [2 <./frontpage.pdf>] [3{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config
 /pdftex.map}] (Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-<<<<<<< HEAD
-=======
-=======
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 16.
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] [3{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/up
-dmap/pdftex.map}] (./Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
 \openout3 = `Verslag.toc'.
 
-<<<<<<< HEAD
- [4]
-(./Verslag.lot)
+ [4] (Verslag.lot)
 \tf@lot=\write4
 \openout4 = `Verslag.lot'.
 
- [5] (./Verslag.lof)
+ [5] (Verslag.lof)
 \tf@lof=\write5
 \openout5 = `Verslag.lof'.
 
  [6]
 
-LaTeX Warning: Citation `dirac' on page 1 undefined on input line 37.
+LaTeX Warning: Citation `dirac' on page 1 undefined on input line 35.
 
 
-<<<<<<< HEAD
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
- [5] (Verslag.lof)
-\tf@lof=\write7
-\openout7 = `Verslag.lof'.
-
- [6]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
->>>>>>> 704091484066b8ed7afdbf627ed73fec2356b4b7
->>>>>>> ccc4794faf37424861922aac476a8810c8e76215
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 [1]
 <./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
-<<<<<<< HEAD
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 54.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 52.
 
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
  [2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-<<<<<<< HEAD
-[1]
-<./verslag_figuren/opdracht.png, id=87, 571.53525pt x 428.19975pt>
-=======
-[1] <./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-File: ./verslag_figuren/opdracht.png Graphic file (type png)
-<use ./verslag_figuren/opdracht.png>
-<<<<<<< HEAD
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 54.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 62.
-=======
-<<<<<<< HEAD
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 54.
-=======
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 55.
->>>>>>> db640dcbe687662f1daea3ac8252ce40f2427b5a
->>>>>>> ccc4794faf37424861922aac476a8810c8e76215
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-
-(pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
- [2 <./verslag_figuren/opdracht.png>]
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
-=======
-<<<<<<< HEAD
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 69.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
 
 [3]
 <./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-t line 93.
+t line 91.
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 <./verslag_figuren/filter_comparison.png, id=100, 913.61325pt x 513.117pt>
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 <use ./verslag_figuren/filter_comparison.png>
 Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
- line 106.
+ line 104.
 (pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1459,271 +500,26 @@ _comparison.png>] [7]
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 197.
+ne 195.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
  [8] [9 <./verslag_figuren/Moore_Neighbor.png>]
-=======
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Verslag
-(biblatex)                and rerun LaTeX afterwards.
+(Verslag.bbl
 
-=======
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-=======
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
->>>>>>> ccc4794faf37424861922aac476a8810c8e76215
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
- [3]
-<./verslag_figuren/comparison_methods.png, id=100, 860.013pt x 982.872pt>
-File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
-<use ./verslag_figuren/comparison_methods.png>
-Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-t line 95.
-(pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6] [7]
-<./verslag_figuren/Moore_Neighbor.png, id=118, 206.27063pt x 171.13937pt>
-File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
-<use ./verslag_figuren/Moore_Neighbor.png>
-Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-<<<<<<< HEAD
-ne 193.
-(pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8] [9 <./verslag_figuren/Moore_Neighbor.png>] (./Verslag.bbl
-! Undefined control sequence.
-<argument> \protect \citeauthoryear 
-                                    {Einstein}{Einstein}{{\protect \APACyear...
-l.10 einstein}
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...tein}{Einstein}{{\protect \APACyear 
-                                                  {1905}}}
-l.10 einstein}
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.11 \APACinsertmetastar
-                         {%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment APACrefauthors undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \begin{APACrefauthors}
-                           %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{APACrefaut
-hors}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \end{APACrefauthors}
-                         %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.18 \APACrefYearMonthDay
-                         {1905}{}{}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.20 {\BBOQ
-           }\APACrefatitle {{Zur Elektrodynamik bewegter K{\"o}rper}. ({Germ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.20 {\BBOQ}\APACrefatitle
-                           {{Zur Elektrodynamik bewegter K{\"o}rper}. ({Germ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.22 ... electrodynamics of moving bodies]}.{\BBCQ
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.24 \APACjournalVolNumPages
-                            {Annalen der Physik}{322}{10}{891--921}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment APACrefDOI undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 \begin{APACrefDOI}
-                        \doi{http://dx.doi.org/10.1002/andp.19053221004}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.26 \begin{APACrefDOI} \doi
-                            {http://dx.doi.org/10.1002/andp.19053221004}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{APACrefDOI
-}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27   \end{APACrefDOI}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.28 \PrintBackRefs
-                   {\CurrentBib}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.28 \PrintBackRefs{\CurrentBib
-                               }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [10] (./Verslag.aux)
+) [10] (Verslag.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4310 strings out of 492649
- 60049 string characters out of 6129622
- 140537 words of memory out of 5000000
- 8091 multiletter control sequences out of 15000+600000
-=======
-ne 192.
-(pdftex.def)             Requested size: 133.07489pt x 111.96931pt.
- [8 <./verslag_figuren/Moore_Neighbor.png>]
-
-LaTeX Warning: Empty bibliography on input line 217.
-
-[9] (./Verslag.aux)
-=======
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6] [7] [8]
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
-
-LaTeX Warning: Empty bibliography on input line 223.
-
-[10] (Verslag.aux)
-Package logreq Info: Writing requests to 'Verslag.run.xml'.
-\openout1 = `Verslag.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 10753 strings out of 492970
- 181965 string characters out of 3126593
- 613687 words of memory out of 3000000
- 14470 multiletter control sequences out of 15000+200000
+ 4317 strings out of 492970
+ 62297 string characters out of 3126593
+ 140577 words of memory out of 3000000
+ 8087 multiletter control sequences out of 15000+200000
  10269 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
-<<<<<<< HEAD
-=======
- 40i,18n,46p,2274b,1541s stack positions out of 5000i,500n,10000p,200000b,50000s
-=======
-<<<<<<< HEAD
- 10742 strings out of 492649
- 179133 string characters out of 6129622
- 613647 words of memory out of 5000000
- 14471 multiletter control sequences out of 15000+600000
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
- 10269 words of font info for 39 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
-<<<<<<< HEAD
- 41i,18n,46p,2272b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
-<<<<<<< HEAD
- 40i,18n,46p,2274b,698s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (15 pages, 1181684 bytes).
-=======
-<<<<<<< HEAD
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
- 40i,18n,46p,2274b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,18n,46p,2274b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/f
@@ -1738,45 +534,9 @@ type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/simon/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-<<<<<<< HEAD
-Output written on Verslag.pdf (16 pages, 1254873 bytes).
+Output written on Verslag.pdf (16 pages, 1255091 bytes).
 PDF statistics:
  169 PDF objects out of 1000 (max. 8388607)
-=======
-Output written on Verslag.pdf (15 pages, 1181519 bytes).
-PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
-=======
-type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/simon/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (15 pages, 1174090 bytes).
-=======
- 40i,18n,46p,2272b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (16 pages, 1173579 bytes).
-PDF statistics:
-<<<<<<< HEAD
- 170 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
-=======
- 162 PDF objects out of 1000 (max. 8388607)
->>>>>>> ccc4794faf37424861922aac476a8810c8e76215
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

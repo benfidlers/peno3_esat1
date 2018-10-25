@@ -10,40 +10,13 @@
 \contentsline {paragraph}{Implementation}{4}
 \contentsline {subsubsection}{\numberline {3.2.2}Analysis Depth Sensor}{6}
 \contentsline {paragraph}{Detection of the difference in height}{6}
-<<<<<<< HEAD
-\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{filtering of the noise}{7}
-\defcounter {refsection}{0}\relax 
-=======
-\contentsline {paragraph}{filtering of the noise}{7}
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
 \contentsline {section}{\numberline {4}Implementation}{7}
 \contentsline {paragraph}{Counting of the objects}{7}
-<<<<<<< HEAD
 \contentsline {paragraph}{Boundary boxes}{8}
 \contentsline {paragraph}{Edge detection}{8}
 \contentsline {section}{\numberline {5}Further planning}{9}
-=======
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Boundary boxes}{8}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Edge detection}{8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Further planning}{9}
-\defcounter {refsection}{0}\relax 
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
 \contentsline {section}{\numberline {6}Budget management}{9}
-<<<<<<< HEAD
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Course Integration}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Conclusion}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}List of references}{10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Appendix}{10}
-=======
 \contentsline {section}{\numberline {7}Course Integration}{10}
 \contentsline {section}{\numberline {8}Conclusion}{10}
 \contentsline {section}{\numberline {9}Appendix}{10}
->>>>>>> a1d2305a92896dea12629275ba6b0379d7d6bd26
