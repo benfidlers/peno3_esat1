@@ -13,27 +13,9 @@
 \contentsline {paragraph}{filtering of the noise}{7}
 \contentsline {section}{\numberline {4}Implementation}{7}
 \contentsline {paragraph}{Counting of the objects}{7}
-<<<<<<< HEAD
 \contentsline {paragraph}{Boundary boxes}{8}
 \contentsline {paragraph}{Edge detection}{8}
 \contentsline {section}{\numberline {5}Further planning}{9}
-=======
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Boundary boxes}{7}
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Edge detection}{7}
-\defcounter {refsection}{0}\relax 
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}Further planning}{8}
-=======
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}Further planning}{8}
-=======
-\contentsline {section}{\numberline {5}further planning}{8}
->>>>>>> ccc4794faf37424861922aac476a8810c8e76215
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
-\defcounter {refsection}{0}\relax 
->>>>>>> 84a130b58b5b7680e7004888096ed66354ba20e1
 \contentsline {section}{\numberline {6}Budget management}{9}
 \contentsline {section}{\numberline {7}Course Integration}{10}
 \contentsline {section}{\numberline {8}Conclusion}{10}
