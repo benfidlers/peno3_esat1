@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 14:45
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 14:39
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 14:34
->>>>>>> 704091484066b8ed7afdbf627ed73fec2356b4b7
->>>>>>> db640dcbe687662f1daea3ac8252ce40f2427b5a
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 15:10
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -936,8 +928,34 @@ File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
 Package pdftex.def Info: frontpage.pdf, page2 used on input line 16.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] [3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] 
-(Verslag.toc
+ [2 <./frontpage.pdf>]
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \usepackage
+                {listings}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \usepackage
+                {color} %red, green, blue, yellow, cyan, magenta, black, white
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (Verslag.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -961,89 +979,80 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout7 = `Verslag.lof'.
 
  [6]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
->>>>>>> 704091484066b8ed7afdbf627ed73fec2356b4b7
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 [1] <./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
-<<<<<<< HEAD
-=======
-<use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 55.
->>>>>>> db640dcbe687662f1daea3ac8252ce40f2427b5a
 
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png used on input line 56.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png used on input line 61.
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
  [2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
-
-[3]
-<./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
-File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
-<use ./verslag_figuren/comparison_methods.png>
-Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-t line 95.
-(pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-=======
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
  [3]
 <./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png used on input
- line 95.
+ line 100.
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
-<<<<<<< HEAD
-=======
- [4] [5 <./verslag_figuren/comparison_methods.png>] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
->>>>>>> 704091484066b8ed7afdbf627ed73fec2356b4b7
->>>>>>> db640dcbe687662f1daea3ac8252ce40f2427b5a
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./verslag_figuren/comparison_methods.png>] [6] [7] [8]
 
-<<<<<<< HEAD
-LaTeX Warning: Empty bibliography on input line 208.
-=======
-<<<<<<< HEAD
-LaTeX Warning: Empty bibliography on input line 215.
-=======
-LaTeX Warning: Empty bibliography on input line 228.
->>>>>>> 704091484066b8ed7afdbf627ed73fec2356b4b7
->>>>>>> db640dcbe687662f1daea3ac8252ce40f2427b5a
+LaTeX Warning: Empty bibliography on input line 213.
+
+! Undefined control sequence.
+l.217 \lstset
+             {language=Matlab,%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (31.31767pt too wide) in paragraph at lines 217--233
+\OT1/cmr/m/n/10.95 language=Matlab,breaklines=true,morekeywords=matlab2tikz, ke
+y-word-style=[],morekeywords=[2]1,
+ []
+
+
+Overfull \hbox (189.9711pt too wide) in paragraph at lines 217--233
+\OT1/cmr/m/n/10.95 key-word-style=[2][][], iden-ti-fier-style=[],stringstyle=[]
+, com-mentstyle=[],showstringspaces=false,numbers=left,numberstyle=[][],numbers
+ep=9pt,
+ []
+
+! Undefined control sequence.
+l.237 \lstinputlisting
+                      {testDepth.m}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [9] (Verslag.aux)
 Package logreq Info: Writing requests to 'Verslag.run.xml'.
@@ -1051,13 +1060,12 @@ Package logreq Info: Writing requests to 'Verslag.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10774 strings out of 493320
- 173665 string characters out of 3138953
+ 10776 strings out of 493320
+ 173693 string characters out of 3138953
  619172 words of memory out of 3000000
- 14147 multiletter control sequences out of 15000+200000
+ 14149 multiletter control sequences out of 15000+200000
  10269 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
-<<<<<<< HEAD
  40i,18n,46p,2274b,698s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
@@ -1070,41 +1078,7 @@ m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (15 pages, 1181684 bytes).
-=======
-<<<<<<< HEAD
- 40i,18n,46p,2274b,742s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/simon/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/simon/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/sim
-on/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/simon/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (15 pages, 1174090 bytes).
-=======
- 40i,18n,46p,2272b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (16 pages, 1168491 bytes).
->>>>>>> 704091484066b8ed7afdbf627ed73fec2356b4b7
->>>>>>> db640dcbe687662f1daea3ac8252ce40f2427b5a
+Output written on Verslag.pdf (15 pages, 1182454 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

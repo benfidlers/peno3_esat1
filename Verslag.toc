@@ -34,7 +34,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Edge detection}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}further planning}{8}
+\contentsline {section}{\numberline {5}Further planning}{8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Budget management}{9}
 \defcounter {refsection}{0}\relax 
