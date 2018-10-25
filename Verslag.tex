@@ -10,9 +10,13 @@
 \usepackage{amsmath}
 \usepackage{array}
 \usepackage{graphicx}
+\usepackage{apacite}
 
 \graphicspath{ {figures/} }
 \graphicspath{ {./verslag_figuren/} }
+
+\usepackage[numbib]{tocbibind}
+
 \begin{document}
 
 \includepdf[pages=-]{frontpage.pdf}
@@ -20,7 +24,7 @@
 \section*{Abstract}
 \thispagestyle{empty}
 
-test123 \cite{einstein}
+test123 \cite{knuthwebsite}
 
 \newpage
 \tableofcontents
@@ -223,9 +227,8 @@ For this project, some courses from the first three semesters are useful to be a
 
 \section{Conclusion}
 
-\section{References}
-
-\bibliographystyle{plain}
+\nocite{*}
+\bibliographystyle{apacite}
 \bibliography{references.bib}
 
 \section{Appendix}
