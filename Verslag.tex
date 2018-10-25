@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass{article}
 
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{pdfpages}
@@ -24,8 +24,6 @@
 \usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
@@ -65,8 +63,6 @@ In the primary stage of this paper, not all these variables are taken into accou
   \caption{The example included in the assignment.}
   \label{fig:example}
 \end{figure}
-
-
 
 \section{Design}
 \subsection{Hardware}
@@ -257,14 +253,12 @@ After four weeks of group gatherings, a lot of research was done and a decent am
 After obtaining the image from the RGB sensor, the three dimensional matrix is turned into a one dimensional matrix and thus into a greyscale image. A Gaussian blur and an edge detection algorithm are used to further reduce this matrix to a binary one where only the edges are highlighted. Meanwhile, using a Sobel-Feldman operator and a threshold filter, the image obtained from the depth sensor will become clean with a clearly visible outline around the differences in height. \\
 Next, the goal is to, together with the processed data from the RGB and depth sensor, perfect the positioning of the edges and fill in possible blank spots. Subsequently, a step towards counting the objects will be made. If the amount of progress made per day will stay consistent, all de deadlines should be easily accomplished in the given timeframe. But perseverance and a critical point of view are needed to successfully finish this assignment. 
 
-
-\section{List of references}
-\section{References}
-
+\newpage
 \nocite{*}
 \bibliographystyle{apacite}
 \bibliography{references.bib}
 
+\newpage
 \section{Appendix}
 
 %%%%% code RGB sensor %%%%%
@@ -287,23 +281,19 @@ Next, the goal is to, together with the processed data from the RGB and depth se
 }
 
 
-\section*{Matlab Code RGB sensor}
+\subsection*{A: Matlab Code RGB sensor}
 
 \lstinputlisting{image_processing_week4.m}
 
-%%%%% code depth sensor %%%%%
-
-\section*{Matlab Code depth sensor}
+\newpage
+\subsection*{Matlab Code depth sensor}
 
 \lstinputlisting{testDepth.m}
 
-%%%%%
 \newpage
-
-\includepdf[pages=1,scale=.8,pagecommand={\section*{Diagram}\label{pdf:work_plan}},linktodoc=true]{work_plan.pdf}
+\includepdf[pages=1,scale=.8,pagecommand={\subsection*{C: Diagram}\label{pdf:work_plan}},linktodoc=true]{work_plan.pdf}
 
 \newpage
-\includepdf[scale=.8,pagecommand={\section*{Gantt chart}\label{pdf:Automatic}},linktodoc=true]{Automatic.pdf}}
-
+\includepdf[scale=.8,pagecommand={\subsection*{D: Gantt chart}\label{pdf:Automatic}},linktodoc=true]{Automatic.pdf}}
 
 \end{document}
