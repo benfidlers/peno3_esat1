@@ -31,8 +31,7 @@
 
 \includepdf[pages=-]{frontpage.pdf}
 
-\section*{Abstract}
-\thispagestyle{empty}
+
 
 \newpage
 \tableofcontents
@@ -78,6 +77,8 @@ To conclude this section a brief word on the necessary transfer cable. Since a d
 
 
 \subsection{Software}
+
+\subsubsection{Analysis RGB Sensor}
 There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right way’ to count objects in an image. Different approaches have their own advantages and disadvantages. The only general ideas that are common throughout most algorithms are:
 \begin{itemize}
 \item Converting the RGB image to greyscale
@@ -186,7 +187,7 @@ In the last equation, G is the magnitude of the total gradient as well as the va
 \begin{figure}[h]
 	\center
   \includegraphics[width=1\linewidth]{original_and_sobel.png}
-  \caption{the original RGB image (left) and the image after the Sobel-Feldman operator (right)}
+  \caption{The original RGB image (left) and the image after the Sobel-Feldman operator (right)}
   \label{fig:Moore_Neighbor}
 \end{figure}
 
@@ -196,7 +197,7 @@ After adding al the different magnitudes of the gradients to an array, some anom
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.6\linewidth]{sobel_and_threshold.png}
-  \caption{the original image after using a Sobel-Feldman operator and a threshold filter}
+  \caption{The original image after using a Sobel-Feldman operator and a threshold filter}
   \label{fig:Moore_Neighbor}
 \end{figure}
 
@@ -257,14 +258,14 @@ After four weeks of group gatherings, a lot of research was done and a decent am
 After obtaining the image from the RGB sensor, the three dimensional matrix is turned into a one dimensional matrix and thus into a greyscale image. A Gaussian blur and an edge detection algorithm are used to further reduce this matrix to a binary one where only the edges are highlighted. Meanwhile, using a Sobel-Feldman operator and a threshold filter, the image obtained from the depth sensor will become clean with a clearly visible outline around the differences in height. \\
 Next, the goal is to, together with the processed data from the RGB and depth sensor, perfect the positioning of the edges and fill in possible blank spots. Subsequently, a step towards counting the objects will be made. If the amount of progress made per day will stay consistent, all de deadlines should be easily accomplished in the given timeframe. But perseverance and a critical point of view are needed to successfully finish this assignment. 
 
+\newpage
 
-\section{List of references}
-\section{References}
+
 
 \nocite{*}
 \bibliographystyle{apacite}
 \bibliography{references.bib}
-
+\newpage
 \section{Appendix}
 
 %%%%% code RGB sensor %%%%%

@@ -88,6 +88,21 @@ gaussian}%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Mathworks}}{%
+\APACcitebtitle {Mathworks}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Mathworks}
+\APACinsertmetastar {%
+Mathworks}%
+\APACrefbtitle {Mathworks.} {Mathworks.}
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://nl.mathworks.com/help/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 R.~Fisher%
 \ \BBA {} Wolfart%
 }{%
@@ -184,6 +199,21 @@ Sobel, I.%
   3x3 image gradient operator}.{\BBCQ}
 \newblock
 
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Stackoverflow}}{%
+\APACcitebtitle {Stackoverflow}}{%
+{\protect \APACyear {2018}}%
+}]{%
+stackoverflow}
+\APACinsertmetastar {%
+stackoverflow}%
+\APACrefbtitle {Stackoverflow.} {Stackoverflow.}
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://stackoverflow.com} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
