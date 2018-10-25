@@ -13,59 +13,58 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
 Warning--entry type for "greyscale" isn't style-file defined
---line 13 of file references.bib
+--line 1 of file references.bib
 Warning--entry type for "gaussian" isn't style-file defined
---line 19 of file references.bib
+--line 7 of file references.bib
 Warning--entry type for "mean" isn't style-file defined
---line 24 of file references.bib
+--line 12 of file references.bib
 Warning--entry type for "edge_detection" isn't style-file defined
---line 31 of file references.bib
-Warning--entry type for "knuthwebsite" isn't style-file defined
---line 50 of file references.bib
+--line 19 of file references.bib
 Warning--entry type for "kinect_specifications" isn't style-file defined
---line 69 of file references.bib
+--line 45 of file references.bib
 Warning--entry type for "kinect_v2" isn't style-file defined
---line 78 of file references.bib
+--line 54 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 10 entries,
+Warning--No journal in Sobel_operator
+You've used 8 entries,
             6951 wiz_defined-function locations,
-            1314 strings with 11801 characters,
-and the built_in function-call counts, 16731 in all, are:
-= -- 2421
-> -- 105
-< -- 521
-+ -- 547
-- -- 17
-* -- 827
-:= -- 2364
-add.period$ -- 40
-call.type$ -- 10
-change.case$ -- 116
+            1303 strings with 11563 characters,
+and the built_in function-call counts, 12659 in all, are:
+= -- 1836
+> -- 82
+< -- 380
++ -- 383
+- -- 13
+* -- 617
+:= -- 1755
+add.period$ -- 30
+call.type$ -- 8
+change.case$ -- 84
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 399
-empty$ -- 757
-format.name$ -- 167
-if$ -- 3606
+cite$ -- 17
+duplicate$ -- 284
+empty$ -- 591
+format.name$ -- 131
+if$ -- 2764
 int.to.chr$ -- 0
-int.to.str$ -- 34
+int.to.str$ -- 28
 missing$ -- 0
-newline$ -- 225
-num.names$ -- 64
-pop$ -- 270
+newline$ -- 177
+num.names$ -- 48
+pop$ -- 189
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 28
 quote$ -- 0
-skip$ -- 1586
+skip$ -- 1245
 stack$ -- 0
-substring$ -- 628
-swap$ -- 208
-text.length$ -- 20
+substring$ -- 430
+swap$ -- 144
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1416
-warning$ -- 0
-while$ -- 62
+type$ -- 1120
+warning$ -- 1
+while$ -- 45
 width$ -- 0
-write$ -- 265
+write$ -- 213
 (There were 7 warnings)
