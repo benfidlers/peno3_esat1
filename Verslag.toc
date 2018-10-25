@@ -2,15 +2,16 @@
 \contentsline {section}{List of Figures}{4}
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Problem Description}{1}
-\contentsline {section}{\numberline {3}Design}{2}
-\contentsline {subsection}{\numberline {3.1}Hardware}{2}
+\contentsline {section}{\numberline {3}Design}{1}
+\contentsline {subsection}{\numberline {3.1}Hardware}{1}
 \contentsline {subsection}{\numberline {3.2}Software}{3}
 \contentsline {subsubsection}{\numberline {3.2.1}Analysis RGB Sensor}{3}
 \contentsline {paragraph}{Method 1}{3}
-\contentsline {paragraph}{Method 2}{4}
-\contentsline {paragraph}{Method 3}{4}
+\contentsline {paragraph}{Method 2}{3}
+\contentsline {paragraph}{Method 3}{3}
 \contentsline {paragraph}{Implementation}{4}
 \contentsline {subsubsection}{\numberline {3.2.2}Analysis Depth Sensor}{6}
+<<<<<<< HEAD
 \contentsline {paragraph}{Detection of the difference in height}{7}
 \contentsline {paragraph}{Filtering of the noise}{7}
 \contentsline {section}{\numberline {4}Implementation}{8}
@@ -23,3 +24,17 @@
 \contentsline {section}{\numberline {8}Conclusion}{11}
 \contentsline {section}{\numberline {9}References}{12}
 \contentsline {section}{\numberline {10}Appendix}{13}
+=======
+\contentsline {paragraph}{Detection of the difference in height}{6}
+\contentsline {paragraph}{Filtering of the noise}{6}
+\contentsline {section}{\numberline {4}Implementation}{7}
+\contentsline {paragraph}{Counting of the objects}{7}
+\contentsline {paragraph}{Boundary boxes}{8}
+\contentsline {paragraph}{Edge detection}{8}
+\contentsline {section}{\numberline {5}Further planning}{9}
+\contentsline {section}{\numberline {6}Budget management}{9}
+\contentsline {section}{\numberline {7}Course Integration}{9}
+\contentsline {section}{\numberline {8}Conclusion}{9}
+\contentsline {section}{\numberline {9}References}{11}
+\contentsline {section}{\numberline {10}Appendix}{12}
+>>>>>>> 4cc62c12648e4f354b2505c7da8af252382bfa1d
