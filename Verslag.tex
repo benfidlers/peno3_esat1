@@ -10,10 +10,9 @@
 \usepackage{eurosym}
 \usepackage{graphicx}
 \usepackage{biblatex}
-\addbibresource{refrences.bib}
 \graphicspath{ {./verslag_figuren/} }
+\addbibresource{refrences.bib}
 \begin{document}
-
 \includepdf[pages=-]{frontpage.pdf}
 
 \section*{Abstract}
@@ -197,13 +196,13 @@ where BW represents the input, this is a binary image which only consists out of
 The function bwboundaries implements the Moore-Neighbor tracing algorithm. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start (see ILLUSTRATION). The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited (See ILLUSTRATION). This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited out of the same direction as it was initially entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
 To find the edges of all the interconnected image regions this process is repeated until every pixel of the image matrix has been checked. 
 }
+
 \section{further planning}
 
 Being halfway trough the project, a visual timeframe is created. In the appendices, a Gantt chart can be found.(verwijzing) 
 This visualizes the current state of the solution for the described problem, as well as the schedule for the next few weeks. 
 This project contains five milestones, two of them are already achieved. These have a minor value in prospect to the total paper though. The most important occupancy of the next weeks is implementing key elements of the final algorithm. Key components like filling the edges, creating the boundary boxes and eventually counting the number of objects still need the necessary attention. All of this while the given deadlines need to be respected. As it is possible to view in the chart, the decision to start rather early on the folder is made. A professional representation of the findings takes time. So planning it like this, ensures enough time to perfect the folder. \\
 In general, the project is on schedule. From a critical point of view, too much time writing the report during the team sessions was wasted. For the final paper, more individual work is recommended and will happen.
-=======
 Test 123
 
 \section{further planning}

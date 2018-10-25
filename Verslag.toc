@@ -1,25 +1,41 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}Problem Description}{1}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Design}{2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1}Hardware}{2}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Software}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.1}Analysis colour image }{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Method 1}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Method 2}{3}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Method 3}{4}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Implementation}{4}
-\contentsline {paragraph}{Method 3}{4}
-\contentsline {paragraph}{Implementation}{5}
-\contentsline {subsubsection}{\numberline {3.2.2}Depth sensor}{6}
-\contentsline {subsubsection}{\numberline {3.2.3}Analysis Depth Sensor}{6}
-\contentsline {subsubsection}{\numberline {3.2.4}Analysis Depth Sensor}{6}
-\contentsline {paragraph}{Detection of the difference in height}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.2}Analysis Depth Sensor}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Detection of the difference in height}{6}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{filtering of the noise}{7}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Edge detection of the objects}{7}
-\contentsline {section}{\numberline {4}Implementation}{8}
-\contentsline {paragraph}{Counting of the objects}{8}
-\contentsline {paragraph}{Boundary boxes}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Implementation}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Counting of the objects}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Boundary boxes}{7}
+\defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Edge detection}{8}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -69,3 +85,25 @@
 >>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
 >>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 >>>>>>> d77146096ad5ca16aa6c816e4139135744360755
+=======
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}further planning}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}further planning}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Steps of implementation}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.0.1}Stages of difficulty}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.0.2}Previous implementations}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Budget management}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Course Integration}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Conclusion}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11}List of references}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12}Appendix}{9}
+>>>>>>> 55ac7df4899151e4319ee1557a6898b70d01dbcf
