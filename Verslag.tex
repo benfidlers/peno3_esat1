@@ -90,7 +90,8 @@ The third way takes a different approach to solving the analysis of the colour i
 
 
 \paragraph{Implementation}\mbox{}\\
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale \cite{greyscale}. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
+After comparing these methods, the second method comes out as the better of the three. See Fig.\ref{fig:comparison_methods} for the comparison.\\
+The first step, as seen above, is to convert the image to greyscale \cite{greyscale}. This is easily done by a calculating a weighted average of the values of all three red, green and blue matrices as shown in the following equation.
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.7\linewidth]{comparison_methods.png}
@@ -100,10 +101,10 @@ After a lot of testing different methods, the three methods above seemed the mos
 \begin{equation}
 greyscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
-All the weights count up to 1 so the values in the greyscale image can vary from 0 to 255.
-\\This method uses two filters to remove noise from the image. Figure \ref{fig:filter_comparison} shows why those two filters are necessary.
-At first the Gaussian blur \cite{gaussian}, this is an easy convolution on the image matrix. Note that the sum of all the elements in the matrix is equal to 159. So this calculates a weighted average of the pixels around the main pixel. So the values of the pixel never gets out of the 0 to 255 range. In the gaussian blur, the center pixels around the main pixel are more important than the rest, that is why they have a bigger value. This filter preserves more of the edges. A better name for the following matrix is the kernel.
+The weights used count up to $1$ so the values in the greyscale image can vary from $0$ to $255$. All these values $greyscale\_image(row, col)$ form the new image.
 
+Before running the image through an edge detection algorithm, two filters are applied. Both blur the image to an extent such that noise after edge detection is considerably reduced. This effect is visualised in Fig. \ref{fig:filter_comparison}
+Firstly a Gaussian blur is applied. Most filters are a convolution of a kernel with the image. For a Gaussian blur the G kernel below is used. This is just a weighted average. The pixels centered around the main pixel have bigger weights than at the edges.
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.7\linewidth]{filter_comparison.png}
@@ -131,7 +132,9 @@ M = (1/9) *
 	1&1&1
 \end{bmatrix}
 \end{equation}
-Then comes the edge detection algorithm \cite{edge_detection}, this basically just a filter. So it is possible to calculate another convolution. It calculates the \textit{spatial  derivative}, this refers to how much the image intensity values change per change in image position. It highlights regions of rapid intensity change.
+Note that both G and M have a norm of 1. If this wasn't the case pixel values of the filtered image could exceed the boundary values of 0 to 255. //
+After both filters the image is ready to run through an edge detection algorithm\cite{edge_detection}. This algorithm is itself also a filter with kernel given by the matrix L below.
+It calculates the \textit{spatial  derivative} or in simpler words, it highlights regions of rapid intensity change.
 \begin{equation}
 L =\begin{bmatrix}
 	0&-1&0\\
@@ -139,7 +142,11 @@ L =\begin{bmatrix}
 	0&-1&0
 \end{bmatrix}
 \end{equation}
-A convolution with this returns a matrix the same size as the input image matrix, but the values can now be negative. More negative is darker. The threshold algorithm is based off this feature. After a lot of experimenting it seemed that a threshold of value 2 was the sweet spot. This means that every pixel greater than or equal to that threshold value becomes an edge, and the rest gets classified as background. After applying that algorithm, the image becomes a binary image with only the edges in black. Finding the edge of an object is one thing, counting objects is another. Based of these edges it's possible to outline the objects and count them. Further programming has to be done to reach our goal and complete this algorithm.
+
+
+Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filter before convolution with L, more 'edges' would have been drawn.\\
+Note also how this convolution returns a new image which can have negative values for its pixels. The more negative the value, the darker the image.\\
+The threshold algorithm, used in the following step, is based on this feature. This algorithm runs through to whole matrix and assigns each value with either a 0 or a 1. It decides this by assessing if the current value is either smaller than or bigger than a threshold value, respectively. After conducting multiple experiments and testing, a threshold value of 2 seems to do the trick. After applying the algorithm, the matrix becomes a binary image with only the edges in white. Based on these edges it is possible to outline the objects and count them, but further research and programming has to be done to complete the whole program.
 
 \subsubsection{Analysis Depth Sensor}
 Using only the RGB image does have some shortcomings. Iit is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects and a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. Like featured in the section about the hardware, each element of the input data represents a distance in millimeters.\\
@@ -223,17 +230,13 @@ For this project, some courses from the first three semesters are useful to be a
 
 \section{Conclusion}
 
-<<<<<<< HEAD
 \section{List of references}
 \section{References}
 
 \bibliographystyle{plain}
-=======
 \nocite{*}
 \bibliographystyle{apacite}
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
 \bibliography{references.bib}
-
 
 \section{Appendix}
 
