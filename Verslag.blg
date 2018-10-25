@@ -1,17 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Verslag.aux
-<<<<<<< HEAD
-I found no \citation commands---while reading file Verslag.aux
-I found no \bibdata command---while reading file Verslag.aux
-I found no \bibstyle command---while reading file Verslag.aux
-(There were 3 error messages)
-=======
 The style file: plain.bst
 I couldn't open database file references.bib.bib
----line 31 of file Verslag.aux
+---line 30 of file Verslag.aux
  : \bibdata{references.bib
  :                        }
 I'm skipping whatever remains of this command
 I found no database files---while reading file Verslag.aux
 Warning--I didn't find a database entry for "einstein"
 (There were 2 error messages)
->>>>>>> c6d9a6f1d1b56f1defd3c356ddc2de70b3fb733b
