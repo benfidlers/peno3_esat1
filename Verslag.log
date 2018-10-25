@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 14:25
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 14:26
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 14:20
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 14:20
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 14:20
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 14:07
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+>>>>>>> d77146096ad5ca16aa6c816e4139135744360755
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,6 +28,31 @@ Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 14:10
+>>>>>>> 1831f80a388fc7b55a2a4f024d9d7418b80553fb
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+entering extended mode
+**./Verslag.tex
+(Verslag.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+>>>>>>> d77146096ad5ca16aa6c816e4139135744360755
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -23,6 +67,17 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
 
@@ -38,6 +93,39 @@ Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
+sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
+sty"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -52,6 +140,8 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
+<<<<<<< HEAD
+=======
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
@@ -63,6 +153,36 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
+cfg"))
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
+sty"
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count90
+\calc@Bcount=\count91
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 \calc@Adimen=\dimen111
 \calc@Bdimen=\dimen112
 \calc@Askip=\skip43
@@ -72,6 +192,17 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
+y"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 (/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
@@ -88,12 +219,69 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
+i.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
+.cfg"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
+<<<<<<< HEAD
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count93
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+=======
+<<<<<<< HEAD
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+\Gread@gobject=\count93
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -105,6 +293,17 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -115,6 +314,32 @@ Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
+ics.cfg"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -125,8 +350,29 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \AM@pagewidth=\dimen115
 \AM@pageheight=\dimen116
 
+<<<<<<< HEAD
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
+def"
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+=======
+<<<<<<< HEAD
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 )
 \AM@pagebox=\box26
 \AM@global@opts=\toks16
@@ -134,15 +380,105 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count94
 \AM@templatesizebox=\box27
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+<<<<<<< HEAD
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 )
+<<<<<<< HEAD
+=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
+ty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
+sty"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -150,6 +486,17 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
+y"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip46
@@ -159,15 +506,71 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
+y"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen117
 ))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen118
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+"
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen118
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen118
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count95
@@ -207,22 +610,76 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
+<<<<<<< HEAD
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen126
+=======
+<<<<<<< HEAD
+) ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen126
+\ar@mcellbox=\box30
+=======
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \col@sep=\dimen126
 \ar@mcellbox=\box30
+<<<<<<< HEAD
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen126
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 \extrarowheight=\dimen127
 \NC@list=\toks26
 \extratabsurround=\skip49
 \backup@length=\skip50
+<<<<<<< HEAD
+=======
 \ar@cellbox=\box31
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+\ar@cellbox=\box31
+) (./verslag.aux)
+\openout1 = `verslag.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+=======
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.st
+y"
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box32
+) (Verslag.aux)
+=======
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box32
 )
 (./Verslag.aux)
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 \openout1 = `Verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -272,12 +729,46 @@ LaTeX Font Info:    ... okay on input line 14.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
 \AtBeginShipoutBox=\box33
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
+ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen128
 \scratchbox=\box34
+=======
+<<<<<<< HEAD
+\AtBeginShipoutBox=\box32
+=======
+\AtBeginShipoutBox=\box33
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen128
+<<<<<<< HEAD
+\scratchbox=\box33
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+\AtBeginShipoutBox=\box31
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen128
+\scratchbox=\box32
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+\scratchbox=\box34
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 \nofMPsegments=\count108
 \nofMParguments=\count109
 \everyMPshowfont=\toks27
@@ -286,6 +777,14 @@ LaTeX Font Info:    ... okay on input line 14.
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -308,25 +807,98 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+<<<<<<< HEAD
+=======
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -336,14 +908,46 @@ e
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+)
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
+.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
+y"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 <frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
+<<<<<<< HEAD
+ <use frontpage.pdf>
+Package pdftex.def Info: frontpage.pdf used on input line 16.
+=======
 <use frontpage.pdf>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf  used on input line 14.
+=======
+<<<<<<< HEAD
+<use frontpage.pdf>
+Package pdftex.def Info: frontpage.pdf  used on input line 13.
+=======
 Package pdftex.def Info: frontpage.pdf  used on input line 16.
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
@@ -368,11 +972,76 @@ Package pdftex.def Info: frontpage.pdf , page1 used on input line 16.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 13.
+=======
+ <use frontpage.pdf>
+Package pdftex.def Info: frontpage.pdf used on input line 14.
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf used on input line 16.
+=======
+Package pdftex.def Info: frontpage.pdf  used on input line 14.
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+<frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: frontpage.pdf Graphic file (type pdf)
+ <use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
+=======
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+ <use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
+=======
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 16.
+=======
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 14.
+=======
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 14.
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+=======
 Package pdftex.def Info: frontpage.pdf , page1 used on input line 16.
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [1
 
  <./frontpage.pdf>]
+<<<<<<< HEAD
+=======
 <frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
@@ -391,14 +1060,78 @@ dmap/pdftex.map}] (./Verslag.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+<<<<<<< HEAD
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+<frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 2>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf, page2 used on input line 16.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+ <use frontpage.pdf, page 2>
+Package pdftex.def Info: frontpage.pdf, page2 used on input line 16.
+=======
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 2>
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 2>
+<<<<<<< HEAD
+Package pdftex.def Info: frontpage.pdf, page2 used on input line 16.
+=======
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 14.
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+ [2 <./frontpage.pdf>] [3{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config
+/pdftex.map}] (Verslag.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+=======
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+<<<<<<< HEAD
+=======
+>>>>>>> f57d7bae21cb23a358a76864756de25e897d8715
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
+<<<<<<< HEAD
+=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
+<<<<<<< HEAD
+\openout3 = `verslag.toc'.
+
+ [4]
+(./verslag.lot)
+\tf@lot=\write4
+\openout4 = `verslag.lot'.
+=======
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write3
+=======
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 \openout3 = `Verslag.toc'.
 
  [4]
@@ -406,7 +1139,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lot=\write4
 \openout4 = `Verslag.lot'.
 
+<<<<<<< HEAD
+ [5] (Verslag.lof)
+=======
  [5] (./Verslag.lof)
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 \tf@lof=\write5
 \openout5 = `Verslag.lof'.
 
@@ -419,6 +1156,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
+<<<<<<< HEAD
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+=======
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
@@ -426,15 +1168,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
  []
 
 [1]
+<<<<<<< HEAD
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 58.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+ [2] [3]
+[4] [5] [6] (./verslag.aux) ) 
+Here is how much of TeX's memory you used:
+ 4218 strings out of 492649
+ 58422 string characters out of 6129622
+ 142145 words of memory out of 5000000
+ 8012 multiletter control sequences out of 15000+600000
+ 10152 words of font info for 38 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,18n,46p,2272b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msbm10.pfb>
+Output written on verslag.pdf (12 pages, 214758 bytes).
+PDF statistics:
+ 142 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+
+ []
+
+[1]
+<./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
+File: ./verslag_figuren/opdracht.png Graphic file (type png)
+<use ./verslag_figuren/opdracht.png>
+<<<<<<< HEAD
+Package pdftex.def Info: ./verslag_figuren/opdracht.png used on input line 56.
+=======
+Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 55.
+=======
 <./verslag_figuren/opdracht.png, id=87, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
 Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 56.
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
 
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
  [2 <./verslag_figuren/opdracht.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
 
+<<<<<<< HEAD
+("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+<<<<<<< HEAD
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+ [3] [4]
+<./verslag_figuren/comparison_methods.png, id=102, 860.013pt x 982.872pt>
+=======
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
+
+[3]
+<./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
+File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
+<use ./verslag_figuren/comparison_methods.png>
+<<<<<<< HEAD
+Package pdftex.def Info: ./verslag_figuren/comparison_methods.png used on input
+ line 102.
+=======
+Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
+t line 95.
+=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -446,14 +1263,52 @@ File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
 t line 102.
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
  [5 <./verslag_figuren/comparison_methods.png>] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
+<<<<<<< HEAD
+[7] [8]
+! Too many }'s.
+l.205 }
+       
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[9] [10] (Verslag.aux) ) 
+=======
 [7] [8] [9] [10] (./Verslag.aux) ) 
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 4299 strings out of 492970
+ 61750 string characters out of 3126593
+ 140527 words of memory out of 3000000
+ 8074 multiletter control sequences out of 15000+200000
+ 10269 words of font info for 39 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+<<<<<<< HEAD
+ 41i,18n,46p,2274b,422s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/simon/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/simon/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/si
+mon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on Verslag.pdf (14 pages, 1169086 bytes).
+=======
  4295 strings out of 492649
  59750 string characters out of 6129622
  140495 words of memory out of 5000000
@@ -474,10 +1329,48 @@ sfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/euros
 ym/feymr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
 symbols/msbm10.pfb>
+<<<<<<< HEAD
 Output written on Verslag.pdf (16 pages, 1168639 bytes).
+=======
+Output written on Verslag.pdf (16 pages, 1168359 bytes).
+>>>>>>> 07da4dab367a897e8eae45509c89f465f80fb7af
+=======
+ 40i,18n,46p,2274b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
+<<<<<<< HEAD
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.
+pfb>
+Output written on Verslag.pdf (16 pages, 1183374 bytes).
+PDF statistics:
+ 165 PDF objects out of 1000 (max. 8388607)
+=======
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/euros
+ym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on Verslag.pdf (14 pages, 1169115 bytes).
+>>>>>>> 3a0aa00595b81937856d8353cd04e87d32d0736b
+>>>>>>> d77146096ad5ca16aa6c816e4139135744360755
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
+>>>>>>> fb44b67f79d918e3bee0e932d491668b5db1b67a
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
