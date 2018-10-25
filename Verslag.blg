@@ -1,8 +1,22 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Verslag.aux
+<<<<<<< HEAD
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+=======
 The style file: plain.bst
+>>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
 Database file #1: references.bib
+<<<<<<< HEAD
 Warning--entry type for "greyscale" isn't style-file defined
 --line 13 of file references.bib
 Warning--entry type for "gaussian" isn't style-file defined
@@ -21,12 +35,28 @@ Warning--to sort, need author or key in gaussian
 Warning--to sort, need author or key in mean
 Warning--to sort, need author or key in edge_detection
 You've used 5 entries,
+=======
+Warning--entry type for "knuthwebsite" isn't style-file defined
+--line 22 of file references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 1 entry,
+<<<<<<< HEAD
+            6951 wiz_defined-function locations,
+            1273 strings with 10764 characters,
+and the built_in function-call counts, 1640 in all, are:
+= -- 240
+> -- 10
+< -- 48
++ -- 43
+=======
+>>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
             2118 wiz_defined-function locations,
             513 strings with 4256 characters,
 and the built_in function-call counts, 909 in all, are:
 = -- 80
 > -- 11
 < -- 0
+<<<<<<< HEAD
 + -- 7
 - -- 2
 * -- 44
@@ -62,3 +92,47 @@ while$ -- 4
 width$ -- 6
 write$ -- 33
 (There was 1 error message)
+=======
++ -- 3
+>>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
+- -- 2
+* -- 72
+:= -- 253
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 31
+empty$ -- 69
+format.name$ -- 14
+if$ -- 350
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 25
+num.names$ -- 8
+pop$ -- 19
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 175
+stack$ -- 0
+substring$ -- 48
+swap$ -- 15
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 152
+warning$ -- 0
+<<<<<<< HEAD
+while$ -- 5
+width$ -- 0
+write$ -- 26
+(There was 1 warning)
+=======
+while$ -- 4
+width$ -- 2
+write$ -- 13
+>>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
+>>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7

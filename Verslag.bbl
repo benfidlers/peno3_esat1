@@ -1,5 +1,6 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
+<<<<<<< HEAD
 \bibitem{greyscale}
 Greyscale.
 
@@ -12,10 +13,38 @@ Laplacian of gaussian.
 \bibitem{mean}
 Mean filter.
 
+=======
+<<<<<<< HEAD
+\bibitem [\protect \citeauthoryear {%
+Knuth%
+}{%
+Knuth%
+}{%
+{\protect \APACyear {1981}}%
+}]{%
+knuthwebsite}
+\APACinsertmetastar {%
+knuthwebsite}%
+\begin{APACrefauthors}%
+Knuth, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{}{}.
+\newblock
+\APACrefbtitle {Knuth: Computers and Typesetting.} {Knuth: Computers and
+  typesetting.}
+\newblock
+\begin{APACrefURL} \url{http://www-cs-faculty.stanford.edu/~uno/abcde.html}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+=======
+>>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
 \bibitem{einstein}
 Albert Einstein.
 \newblock {Zur Elektrodynamik bewegter K{\"o}rper}. ({German}) [{On} the
   electrodynamics of moving bodies].
 \newblock {\em Annalen der Physik}, 322(10):891--921, 1905.
+>>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
 
 \end{thebibliography}
