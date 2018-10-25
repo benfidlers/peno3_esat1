@@ -11,7 +11,7 @@
 \contentsline {paragraph}{Method 3}{4}
 \contentsline {paragraph}{Implementation}{4}
 \contentsline {subsubsection}{\numberline {3.2.1}Analysis Depth Sensor}{6}
-\contentsline {paragraph}{Detection of the difference in height}{6}
+\contentsline {paragraph}{Detection of the difference in height}{7}
 \contentsline {paragraph}{filtering of the noise}{7}
 \contentsline {section}{\numberline {4}Implementation}{7}
 \contentsline {paragraph}{Counting of the objects}{8}
