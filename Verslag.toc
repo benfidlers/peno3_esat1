@@ -24,32 +24,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Detection of the difference in height}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{filtering of the noise}{6}
+\contentsline {paragraph}{filtering of the noise}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Implementation}{7}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Counting of the objects}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Boundary boxes}{7}
+\contentsline {paragraph}{Boundary boxes}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Edge detection}{7}
+\contentsline {paragraph}{Edge detection}{8}
 \defcounter {refsection}{0}\relax 
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}Further planning}{8}
-=======
-<<<<<<< HEAD
-\contentsline {section}{\numberline {5}Further planning}{8}
-=======
-\contentsline {section}{\numberline {5}further planning}{8}
->>>>>>> ccc4794faf37424861922aac476a8810c8e76215
->>>>>>> 243410e3a77765884a92e23265d3cfdb50355aee
+\contentsline {section}{\numberline {5}Further planning}{9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Budget management}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Course Integration}{9}
+\contentsline {section}{\numberline {7}Course Integration}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Conclusion}{9}
+\contentsline {section}{\numberline {8}Conclusion}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}List of references}{9}
+\contentsline {section}{\numberline {9}List of references}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10}Appendix}{9}
+\contentsline {section}{\numberline {10}Appendix}{10}

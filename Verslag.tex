@@ -87,8 +87,6 @@ The third way takes a different approach to solving the analysis of the colour i
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected inbetween taking the needed pictures for this algorithm.
 
 \paragraph{Implementation}\mbox{}\\
-After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
-
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure \ref{fig:comparison_methods} for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
 \begin{figure}[h]
 	\center
@@ -100,8 +98,16 @@ After a lot of testing different methods, the three methods above seemed the mos
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
 All the weights count up to 1 so the values in the greyscale image can vary from 0 to 255.
-\\This method uses two filters to remove noise from the image. Figure XXXX shows why those two filters are necessary.
-At first the Gaussian blur, this is an easy convolution on the image matrix.
+\\This method uses two filters to remove noise from the image. Figure \ref{fig:filter_comparison} shows why those two filters are necessary.
+At first the Gaussian blur, this is an easy convolution on the image matrix. Note that the sum of all the elements in the matrix is equal to 159. So this calculates a weighted average of the pixels around the main pixel. So the values of the pixel never gets out of the 0 to 255 range. In the gaussian blur, the center pixels around the main pixel are more important than the rest, that is why they have a bigger value. This filter preserves more of the edges. A better name for the following matrix is the kernel.
+
+\begin{figure}[h]
+	\center
+  \includegraphics[width=0.7\linewidth]{filter_comparison.png}
+  \caption{A comparison with the use of filters.}
+  \label{fig:filter_comparison}
+\end{figure}
+
 \begin{equation}
   G = (1/159) * 
   \begin{bmatrix}
@@ -112,8 +118,8 @@ At first the Gaussian blur, this is an easy convolution on the image matrix.
    2 & 4 & 5 & 4 & 2
   \end{bmatrix}
 \end{equation}
-The blur can be applied by doing a convolution of the G matrix on the image matrix.
-The second blur is a mean blur. This is another matrix to do the convolution with.
+The blur can be applied by doing a convolution of the G matrix (the kernel) on the image matrix.
+The second blur is a mean blur. This is just the same, just another kernel. This kernel calculates the average of the values around the pixel.
 \begin{equation}
 M = (1/9) * 
 \begin{bmatrix}
