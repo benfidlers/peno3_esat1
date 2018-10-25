@@ -40,8 +40,6 @@ Regardless which way a method processes images, it needs a visual source. In thi
 By far the most important part of this task is the algorithm by which the the objects will be counted. Classically, object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These segments don't have a fixed order and can occur multiple times in the final method. Most of these steps can also be approached in different ways. A wide range of possible filters, kernels, edge detection methods, etc. exist, which all have there benefits and drawbacks.!REFERENTIE BOEK! These choices will be discussed in !TITEL SOFTWARE HERE!.\\
 These methods, while being the core of the solution, are fairly simple to implement with the use of libraries or built-in functions. In this paper is opted to give a full implementation of these functions in !TITEL IMPLEMENTATION HERE!. If the functions are deemed to be basic, a simple explanation will be given.
 
-
-
 \section{Problem Description}
 
 \hspace{\parindent} Object counting as explained and demonstrated in this report, requires a system which can count objects on a plain background in real time. These objects can vary in shape and colour. Both the colour of the background and the shape and colour of the objects are free from restrictions.\\
@@ -90,15 +88,18 @@ The third way takes a different approach to solving the analysis of the colour i
 
 \paragraph{Implementation}\mbox{}\\
 After a lot of testing different methods, the three methods above seemed the most interesting. After comparing these methods with each other, it seems that method 2 is the best choice. See figure XXXX for the comparison. As mentioned above, the fist thing that needs to be done with the image is converting it to greyscale. An RGB image exists from colors: red, green and blue. Thus an RGB image is a 3-dimensional matrix. The greyscale image is calculated by multiplying the individual color values with a color-specific weight. So loop through every pixel and combine the 3-dimensional RGB matrix to a 1-dimensional greyscale image.
+
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.7\linewidth]{comparison_methods.png}
   \caption{A comparison between the 3 different methods.}
   \label{fig:comparison_methods}
 \end{figure}
+
 \begin{equation}
 grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
+
 All the weights count up to 1 so the values in the greyscale image can vary from 0 to 255.
 \\This method uses two filters to remove noise from the image. Figure XXXX shows why those two filters are necessary.
 At first the Gaussian blur, this is an easy convolution on the image matrix.
@@ -184,7 +185,16 @@ There are a lot of ways to implement edge detection. Edge detection algorithms a
 B = bwboundaries (BW)
 \end{equation}
 where BW represents the input, this is a binary image which only consists out of black and white pixels; and B represents the output, which consist out of a cell array with N elements (number of image regions in the binary image), all these elements contain a list of the boundary pixels. Which in turn are fairly easy to draw. They can be inserted in the matrix of the image by replacing values, this is done by looping through the cell arrays. The advantage of this method is that the image can actually be printed. When they are drawn on top of the image with a function like visboundaries the actual values of the pixels stay unchanged, but it become different figures. One with the image and another on top of it with the edges. 
-The function bwboundaries implements the Moore-Neighbor tracing algorithm. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start (see ILLUSTRATION). The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited (See ILLUSTRATION). This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited out of the same direction as it was initially entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
+The function bwboundaries implements the Moore-Neighbor tracing algorithm. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start. The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited (See fig. 3).
+
+\begin{figure}[h]
+	\center
+  \includegraphics[width=0.3\linewidth]{Moore_Neighbor.png}
+  \caption{Problem with stopping criteria Moore-Neighbor tracing algorithm.}
+  \label{fig:Moore_Neighbor}
+\end{figure}
+
+This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited out of the same direction as it was initially entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
 To find the edges of all the interconnected image regions this process is repeated until every pixel of the image matrix has been checked. 
 
 \section{Further planning}
