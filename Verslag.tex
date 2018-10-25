@@ -47,6 +47,7 @@ These methods, while being the core of the solution, are fairly simple to implem
 \hspace{\parindent} Object counting as explained and demonstrated in this report, requires a system which can count objects on a plain background in real time. These objects can vary in shape and colour. Both the colour of the background and the shape and colour of the objects are free from restrictions.\\
 The simplest objects, which the system is required to count, are rectangles, cylinders and circles with a uniform colour.
 
+<<<<<<< HEAD
 \noindent Given is a basket with a standard rectangular shape with fixed dimensions. The objective is to count every non-moving object in this basket. If possible, the objects can be outlined by the system, as shown in Figure ~\ref{fig:example}. An optional objective is to be able to measure the circumference of the objects in the basket.\\
 
 \noindent The system used should be based on colour and depth images. The used objects don't have the same colour as the basket and/or have a noticeable depth. Otherwise the camera can't notice the objects. the project has to be made with a budget of \euro 250.\\
@@ -73,6 +74,7 @@ There are a lot of options when it comes to software and a wide range of differe
 \end{itemize}
 These elements are also visible in the diagram.
 \subsubsection{Analysis colour image }
+
 \paragraph{Method 1}\mbox{}\\
 This method is the most simple and easy to implement. As input, it takes a filtered greyscale image. This is run trough a thresholding-algorithm with a pre-defined threshold value. The output is a binary matrix. This array only has 0's and 1's, respectively representing the colours white and black. The key to solving the problem in this way is writing code that finds the treshold value based on environmental parameters. When in possession of a real black and white image, a simple edge detection program is run which makes the edges visible. 
 \\Advantages: It’s an easy and fast algorithm.
@@ -101,7 +103,7 @@ grayscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
 All the weights count up to 1 so the values in the greyscale image can vary from 0 to 255.
 \\This method uses two filters to remove noise from the image. Figure XXXX shows why those two filters are necessary.
-At first the gaussian blur, this is an easy convolution on the image matrix.
+At first the Gaussian blur, this is an easy convolution on the image matrix.
 \begin{equation}
   G = (1/159) * 
   \begin{bmatrix}
