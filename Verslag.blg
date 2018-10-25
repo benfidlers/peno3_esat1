@@ -20,6 +20,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: references.bib
+<<<<<<< HEAD
 Warning--entry type for "greyscale" isn't style-file defined
 --line 1 of file references.bib
 I was expecting a `,' or a `}'---line 3 of file references.bib
@@ -49,9 +50,34 @@ I was expecting a `,' or a `}'---line 26 of file references.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "knuthwebsite"
+=======
+<<<<<<< HEAD
+Warning--entry type for "greyscale" isn't style-file defined
+--line 13 of file references.bib
+Warning--entry type for "gaussian" isn't style-file defined
+--line 19 of file references.bib
+Warning--entry type for "mean" isn't style-file defined
+--line 24 of file references.bib
+Warning--entry type for "edge_detection" isn't style-file defined
+--line 30 of file references.bib
+I was expecting a `,' or a `}'---line 32 of file references.bib
+ :   
+ :   url = "https://homepages.inf.ed.ac.uk/rbf/HIPR2/log.htm",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in greyscale
+Warning--to sort, need author or key in gaussian
+Warning--to sort, need author or key in mean
+Warning--to sort, need author or key in edge_detection
+You've used 5 entries,
+=======
+Warning--entry type for "knuthwebsite" isn't style-file defined
+--line 22 of file references.bib
+>>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 4 entries,
             6951 wiz_defined-function locations,
+<<<<<<< HEAD
             1273 strings with 10701 characters,
 and the built_in function-call counts, 4799 in all, are:
 = -- 760
@@ -64,6 +90,67 @@ and the built_in function-call counts, 4799 in all, are:
 add.period$ -- 16
 call.type$ -- 4
 change.case$ -- 8
+=======
+            1273 strings with 10764 characters,
+and the built_in function-call counts, 1640 in all, are:
+= -- 240
+> -- 10
+< -- 48
++ -- 43
+=======
+>>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
+            2118 wiz_defined-function locations,
+            513 strings with 4256 characters,
+and the built_in function-call counts, 909 in all, are:
+= -- 80
+> -- 11
+< -- 0
+<<<<<<< HEAD
++ -- 7
+- -- 2
+* -- 44
+:= -- 114
+add.period$ -- 7
+call.type$ -- 5
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 39
+empty$ -- 120
+format.name$ -- 2
+if$ -- 210
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 1
+newline$ -- 20
+num.names$ -- 2
+pop$ -- 34
+preamble$ -- 1
+purify$ -- 11
+quote$ -- 0
+skip$ -- 47
+stack$ -- 0
+substring$ -- 50
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 4
+while$ -- 4
+width$ -- 6
+write$ -- 33
+(There was 1 error message)
+=======
++ -- 3
+>>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
+- -- 2
+* -- 72
+:= -- 253
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 17
+>>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
 chr.to.int$ -- 0
 cite$ -- 8
 duplicate$ -- 92
@@ -90,5 +177,16 @@ type$ -- 608
 warning$ -- 0
 while$ -- 16
 width$ -- 0
+<<<<<<< HEAD
 write$ -- 90
 (There were 6 error messages)
+=======
+write$ -- 26
+(There was 1 warning)
+=======
+while$ -- 4
+width$ -- 2
+write$ -- 13
+>>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
+>>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
+>>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
