@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 23:48
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -938,24 +938,25 @@ Underfull \hbox (badness 5133) in paragraph at lines 97--109
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(thresholding_and_edge.m
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+(image_processing_week4.m [11] [12]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 51.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1.
- [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-[25] [26] [27] [28]) (testDepth.m [29]) [30] (Verslag.aux)
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
+ [13] [14] [15]
+[16] [17] [18]) (testDepth.m [19]) [20] (Verslag.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7800 strings out of 493320
- 102807 string characters out of 3138953
- 352983 words of memory out of 3000000
- 11176 multiletter control sequences out of 15000+200000
+ 7773 strings out of 493320
+ 102301 string characters out of 3138953
+ 343983 words of memory out of 3000000
+ 11149 multiletter control sequences out of 15000+200000
  10437 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,18n,46p,1543b,2108s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -972,9 +973,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (36 pages, 2437427 bytes).
+Output written on Verslag.pdf (26 pages, 2402868 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
+ 213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
