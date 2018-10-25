@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  26 OCT 2018 00:17
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 00:09
->>>>>>> 7ecc736caf2fbf467b4f4ed9bd4c6b12ba3bd980
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 00:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -12,8 +8,8 @@ LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -285,18 +281,18 @@ LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
 )
 \openout1 = `Verslag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -317,12 +313,12 @@ LaTeX Font Info:    ... okay on input line 30.
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -407,15 +403,15 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-LaTeX Info: Redefining \celsius on input line 30.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 30.
+LaTeX Info: Redefining \celsius on input line 28.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 28.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 30.
-Package gensymb Info: Using \Omega for \ohm on input line 30.
+LaTeX Info: Redefining \ohm on input line 28.
+Package gensymb Info: Using \Omega for \ohm on input line 28.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -423,32 +419,32 @@ Package gensymb Warning: Not defining \micro.
 <frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 32.
+Package pdftex.def Info: frontpage.pdf  used on input line 30.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 32.
+Package pdftex.def Info: frontpage.pdf  used on input line 30.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 <frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 30.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 30.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 30.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 30.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 30.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 [1
 
@@ -456,15 +452,15 @@ Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
 <frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 30.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 30.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 30.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [2 <./frontpage.pdf>] [3{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/up
 dmap/pdftex.map}] (./Verslag.toc
@@ -494,7 +490,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <./verslag_figuren/opdracht.png, id=83, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 64.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 62.
 
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
 
@@ -502,75 +498,54 @@ Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 64.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1] [2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
- [3]
-<./verslag_figuren/comparison_methods.png, id=102, 860.013pt x 982.872pt>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+<./verslag_figuren/comparison_methods.png, id=98, 860.013pt x 982.872pt>
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-t line 106.
+t line 102.
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ [3]
 <./verslag_figuren/filter_comparison.png, id=103, 913.61325pt x 513.117pt>
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 <use ./verslag_figuren/filter_comparison.png>
 Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
- line 119.
+ line 115.
 (pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
-_comparison.png>]
-<./verslag_figuren/original_and_sobel.png, id=116, 769.4346pt x 206.2104pt>
+[4 <./verslag_figuren/comparison_methods.png>] [5 <./verslag_figuren/filter_com
+parison.png>]
+<./verslag_figuren/original_and_sobel.png, id=113, 769.4346pt x 206.2104pt>
 File: ./verslag_figuren/original_and_sobel.png Graphic file (type png)
 <use ./verslag_figuren/original_and_sobel.png>
 Package pdftex.def Info: ./verslag_figuren/original_and_sobel.png  used on inpu
-t line 188.
+t line 184.
 (pdftex.def)             Requested size: 443.57848pt x 118.88155pt.
- [7 <./verslag_figuren/original_and_sobel.png>]
-<./verslag_figuren/sobel_and_threshold.png, id=123, 407.27156pt x 228.855pt>
+<./verslag_figuren/sobel_and_threshold.png, id=114, 407.27156pt x 228.855pt>
 File: ./verslag_figuren/sobel_and_threshold.png Graphic file (type png)
 <use ./verslag_figuren/sobel_and_threshold.png>
 Package pdftex.def Info: ./verslag_figuren/sobel_and_threshold.png  used on inp
-ut line 198.
+ut line 194.
 (pdftex.def)             Requested size: 266.14978pt x 149.56064pt.
- [8 <./verslag_figuren/sobel_and_threshold.png>]
-<./verslag_figuren/Moore_Neighbor.png, id=128, 206.27063pt x 171.13937pt>
+ [6 <./verslag_figuren/original_and_sobel.png>] [7 <./verslag_figuren/sobel_and
+_threshold.png>]
+<./verslag_figuren/Moore_Neighbor.png, id=125, 206.27063pt x 171.13937pt>
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 231.
+ne 227.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9] [10 <./verslag_figuren/Moore_Neighbor.png>] (./Verslag.bbl
-<<<<<<< HEAD
-Underfull \hbox (badness 1762) in paragraph at lines 37--52
-[]\OT1/cmr/m/n/10.95 Einstein, A.  (1905).  Zur Elek-tro-dy-namik be-wegter K^^
-?orper. (Ger-man) [On the
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 37--52
-\OT1/cmr/m/n/10.95 elec-tro-dy-nam-ics of mov-ing bod-ies].  \OT1/cmr/m/it/10.9
-5 An-nalen der Physik\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 322\OT1/cmr/m/n/1
-0.95 (10), 891--921.  doi:
- []
-
-=======
->>>>>>> 7ecc736caf2fbf467b4f4ed9bd4c6b12ba3bd980
+ [8 <./verslag_figuren/Moore_Neighbor.png>]
+[9] (./Verslag.bbl
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -614,21 +589,20 @@ my insertion and my current dilemma will both disappear.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--72
-[]\OT1/cmr/m/n/10.95 Jiao, J., Yuan, L., Tang, W., & Wu, Q.  (Nov 2017).  \OT1/
-cmr/m/it/10.95 Kinect
+[]\OT1/cmr/m/n/10 Jiao, J., Yuan, L., Tang, W., & Wu, Q.  (Nov 2017).  \OT1/cmr
+/m/it/10 Kinect
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 56--72
-\OT1/cmr/m/it/10.95 v1 and kinect v2 fields of view com-pared.  \OT1/cmr/m/n/10
-.95 Re-trieved from
+\OT1/cmr/m/it/10 v1 and kinect v2 fields of view com-pared.  \OT1/cmr/m/n/10 Re
+-trieved from
  []
 
 
-Overfull \hbox (119.4135pt too wide) in paragraph at lines 56--72
-\OT1/cmtt/m/n/10.95 https://www.researchgate.net/figure/Kinect-v2-sensor-workin
-g-on-a-photographic-tripod$[]\OML/cmm/m/it/10.95 ig\OT1/cmr/m/n/10.95 1[]210484
-76$
+Overfull \hbox (70.91158pt too wide) in paragraph at lines 56--72
+\OT1/cmtt/m/n/10 https://www.researchgate.net/figure/Kinect-v2-sensor-working-o
+n-a-photographic-tripod$[]\OML/cmm/m/it/10 ig\OT1/cmr/m/n/10 1[]21048476$
  []
 
 
@@ -676,70 +650,69 @@ I've inserted something that you may have forgotten.
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (46.23929pt too wide) in paragraph at lines 81--89
+[]\OT1/cmr/m/it/10 Kernel (im-age pro-cess-ing).  \OT1/cmr/m/n/10 (n.d.[]).  Re
+-trieved from \OT1/cmtt/m/n/10 https://en.wikipedia.org/wiki/Kernel$[]\OML/cmm/
+m/it/10 image[]rocessing\OT1/cmr/m/n/10 )$
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--89
-[]\OT1/cmr/m/it/10.95 Kernel (im-age pro-cess-ing).  \OT1/cmr/m/n/10.95 (n.d.[]
-).  Re-trieved from
+
  []
 
-<<<<<<< HEAD
 
-Underfull \hbox (badness 5133) in paragraph at lines 128--140
-[]\OT1/cmr/m/n/10.95 Knuth, D.  (1981).  \OT1/cmr/m/it/10.95 Knuth: Com-put-ers
- and type-set-ting.  \OT1/cmr/m/n/10.95 Re-trieved from
+Underfull \hbox (badness 1655) in paragraph at lines 129--141
+[]\OT1/cmr/m/n/10 R. Fisher, A. W., S. Perkins, & Wol-fart, E.  (n.d.[][]).  \O
+T1/cmr/m/it/10 Mean fil-ter.  \OT1/cmr/m/n/10 Re-trieved from
  []
 
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [11]
-=======
-[11]) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+) [10] (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
->>>>>>> 7ecc736caf2fbf467b4f4ed9bd4c6b12ba3bd980
-(./image_processing_week4.m [12]
+(./image_processing_week4.m [11]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 51.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
- [13] [14]
-<<<<<<< HEAD
-[15] [16] [17] [18]) (./testDepth.m [19]) [20]
-<work_plan.pdf, id=170, 597.23125pt x 845.1575pt>
+ [12] [13]
+[14] [15] [16]) [17] (./testDepth.m) [18]
+<work_plan.pdf, id=163, 597.23125pt x 845.1575pt>
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf>
-Package pdftex.def Info: work_plan.pdf  used on input line 298.
+Package pdftex.def Info: work_plan.pdf  used on input line 294.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf>
-Package pdftex.def Info: work_plan.pdf  used on input line 298.
+Package pdftex.def Info: work_plan.pdf  used on input line 294.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<work_plan.pdf, id=173, page=1, 597.23125pt x 845.1575pt>
+<work_plan.pdf, id=166, page=1, 597.23125pt x 845.1575pt>
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 294.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 294.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 294.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 294.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 294.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
- [21 <./work_plan.pdf
+ [19 <./work_plan.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./work_plan.pdf): PDF inclus
 ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
@@ -748,10 +721,10 @@ nored.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Automatic.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Automatic.pdf, id=203, 614.295pt x 794.97pt>
+<Automatic.pdf, id=197, 614.295pt x 794.97pt>
 File: Automatic.pdf Graphic file (type pdf)
 <use Automatic.pdf>
-Package pdftex.def Info: Automatic.pdf  used on input line 301.
+Package pdftex.def Info: Automatic.pdf  used on input line 297.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -759,7 +732,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Automatic.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
 File: Automatic.pdf Graphic file (type pdf)
 <use Automatic.pdf>
-Package pdftex.def Info: Automatic.pdf  used on input line 301.
+Package pdftex.def Info: Automatic.pdf  used on input line 297.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -769,85 +742,65 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Automatic.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Automatic.pdf, id=206, page=1, 614.295pt x 794.97pt>
+<Automatic.pdf, id=200, page=1, 614.295pt x 794.97pt>
 File: Automatic.pdf Graphic file (type pdf)
 <use Automatic.pdf, page 1>
-Package pdftex.def Info: Automatic.pdf , page1 used on input line 301.
+Package pdftex.def Info: Automatic.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Automatic.pdf Graphic file (type pdf)
 <use Automatic.pdf, page 1>
-Package pdftex.def Info: Automatic.pdf , page1 used on input line 301.
+Package pdftex.def Info: Automatic.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Automatic.pdf Graphic file (type pdf)
 <use Automatic.pdf, page 1>
-Package pdftex.def Info: Automatic.pdf , page1 used on input line 301.
+Package pdftex.def Info: Automatic.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Automatic.pdf Graphic file (type pdf)
 <use Automatic.pdf, page 1>
-Package pdftex.def Info: Automatic.pdf , page1 used on input line 301.
+Package pdftex.def Info: Automatic.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Automatic.pdf Graphic file (type pdf)
 <use Automatic.pdf, page 1>
-Package pdftex.def Info: Automatic.pdf , page1 used on input line 301.
+Package pdftex.def Info: Automatic.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-[22 <./Automatic.pdf>]
+[20 <./Automatic.pdf>]
 ! Too many }'s.
-l.301 ...tomatic}},linktodoc=true]{Automatic.pdf}}
+l.297 ...tomatic}},linktodoc=true]{Automatic.pdf}}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 (./Verslag.aux)
-=======
-[15] [16] [17] [18]) (./testDepth.m [19]) [20] (./Verslag.aux)
->>>>>>> 7ecc736caf2fbf467b4f4ed9bd4c6b12ba3bd980
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 7436 strings out of 492649
- 100756 string characters out of 6129621
- 343945 words of memory out of 5000000
- 11164 multiletter control sequences out of 15000+600000
- 10437 words of font info for 40 fonts, out of 8000000 for 9000
+ 7416 strings out of 492649
+ 100496 string characters out of 6129622
+ 361758 words of memory out of 5000000
+ 11149 multiletter control sequences out of 15000+600000
+ 7488 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,46p,1563b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 7411 strings out of 492649
- 100242 string characters out of 6129622
- 316091 words of memory out of 5000000
- 11143 multiletter control sequences out of 15000+600000
- 10437 words of font info for 40 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,18n,46p,1563b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> 7ecc736caf2fbf467b4f4ed9bd4c6b12ba3bd980
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
 texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
 live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2
 018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-<<<<<<< HEAD
-Output written on Verslag.pdf (28 pages, 2569217 bytes).
+Output written on Verslag.pdf (26 pages, 2565585 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
-=======
-Output written on Verslag.pdf (26 pages, 2384481 bytes).
-PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
->>>>>>> 7ecc736caf2fbf467b4f4ed9bd4c6b12ba3bd980
+ 270 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
