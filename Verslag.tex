@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{pdfpages}
@@ -25,9 +25,13 @@
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241} 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 
 \includepdf[pages=-]{frontpage.pdf}
+
+
 
 \newpage
 \tableofcontents
@@ -69,7 +73,9 @@ Having considered all of the above, the best option is the latter one. More spec
 As second element of hardware the computer has a less important role. Preferably, OSX isn't used as operating system for this application because the Kinect drivers do not exist for Macintosh computers. If the reader has a Mac, problems can be avoided by running either Windows or Ubuntu via a virtual machine. The algorithm should run in an acceptable time frame on every machine.\\
 To conclude this section a brief word on the necessary transfer cable. Since a depth sensing camera is used, two types of data (depth and color) need to be transferred. The Microsoft OEM Kinect Adapter makes this possible. The special adapter is the only available option and consists of two general parts. One part for delivering current to the camera and the other to transfer both types of data to the connected computer.
 
+
 \subsection{Software}
+
 \subsubsection{Analysis RGB Sensor}
 There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right way’ to count objects in an image. Different approaches have their own advantages and disadvantages. The only general ideas that are common throughout most algorithms are:
 \begin{itemize}
@@ -89,6 +95,7 @@ The second method tackles the colour analysis in the opposite order than the fir
 The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected in between taking the needed pictures for this algorithm.
+
 
 \paragraph{Implementation}\mbox{}\\
 After comparing these methods, the second method comes out as the better of the three. See Fig.\ref{fig:comparison_methods} for the comparison.\\
@@ -179,7 +186,7 @@ In the last equation, G is the magnitude of the total gradient as well as the va
 	\center
   \includegraphics[width=1\linewidth]{original_and_sobel.png}
   \caption{The original RGB image (left) and the image after the Sobel-Feldman operator (right)}
-  \label{fig:Original_and_Sobel}
+  \label{fig:Moore_Neighbor}
 \end{figure}
 
 \paragraph{Filtering of the noise}\mbox{}\\
@@ -189,19 +196,12 @@ After adding al the different magnitudes of the gradients to an array, some anom
 	\center
   \includegraphics[width=0.6\linewidth]{sobel_and_threshold.png}
   \caption{The original image after using a Sobel-Feldman operator and a threshold filter}
-  \label{fig:Sobel-Feldman}
+  \label{fig:Moore_Neighbor}
 \end{figure}
 
 \section{Implementation}
-<<<<<<< HEAD
 
 \noindent Throughout the project a lot of different approaches were tested and discarded. But in essence, they all do the same thing. They convert the original image to a binary image. Afterwards, this binary array is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
-=======
-Throughout the project a lot of different approaches were tested and discarded. But in essence they all do the same thing they convert the original image to a binary image. In this binary image the objects are represented by one value and the background by another. Afterwards this binary image is analysed and a simple algorithm suffices to count the objects. In this phase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
-
-Throughout the project a lot of different approaches were tested and discarded. But in essence ,they all do the same thing. They convert the original image to a binary image. Afterwards, this binary array is analysed and a simple algorithm suffices to count the objects. In this fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
-
->>>>>>> 4cc62c12648e4f354b2505c7da8af252382bfa1d
 \paragraph{Counting of the objects}\mbox{}\\
 The central objective of this paper is counting the amount of objects in a specific rectangular field of view. The general approach to this problem is converting the image to a binary image where black pixels represent the background and white pixels represent the objects. By counting the groups of pixels, it is possible to know how many objects the original image contains. In the image processing toolbox for matlab\cite{Mathworks}, a few functions exist that are very usefull for this kind of tasks. One of these functions bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: 
 \begin{equation}
@@ -258,10 +258,10 @@ When obtaining the image from the RGB sensor, the three dimensional matrix is tu
 Next, the goal is to, after merging the processed data from the RGB and depth sensor, perfect the positioning of the edges and fill in possible blank spots. Subsequently, a step towards counting the objects will be made. If the amount of progress made per day will stay consistent, all the deadlines should be  accomplished in the given timeframe. But perseverance and a critical point of view are needed to successfully finish this assignment. 
 
 \newpage
+
 \nocite{*}
 \bibliographystyle{apacite}
 \bibliography{references.bib}
-
 \newpage
 \section{Appendix}
 
@@ -284,12 +284,13 @@ Next, the goal is to, after merging the processed data from the RGB and depth se
     %emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
 
+
 \subsection*{A: Matlab Code RGB sensor}
 
 \lstinputlisting{image_processing_week4.m}
 
 \newpage
-\subsection*{Matlab Code depth sensor}
+\subsection*{B: Matlab Code depth sensor}
 
 \lstinputlisting{testDepth.m}
 
@@ -297,11 +298,11 @@ Next, the goal is to, after merging the processed data from the RGB and depth se
 \includepdf[pages=1,scale=.8,pagecommand={\subsection*{C: Diagram}\label{pdf:work_plan}},linktodoc=true]{work_plan.pdf}
 
 \newpage
-<<<<<<< HEAD
-\includepdf[scale=.8,pagecommand={\section*{Gantt chart}\label{pdf:Auto}},linktodoc=true]{Auto.pdf}}
 
-=======
-\includepdf[scale=.8,pagecommand={\subsection*{D: Gantt chart}\label{pdf:Automatic}},linktodoc=true]{Automatic.pdf}}
->>>>>>> 4cc62c12648e4f354b2505c7da8af252382bfa1d
+
+
+
+\includepdf[scale=.8,pagecommand={\subsection*{D: Gantt chart}\label{pdf:Auto}},linktodoc=true]{Auto.pdf}}
+
 
 \end{document}
