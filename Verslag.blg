@@ -1,56 +1,48 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Verslag.aux
-The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
+The style file: plain.bst
 Database file #1: references.bib
-apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--empty journal in einstein
 You've used 1 entry,
-            6951 wiz_defined-function locations,
-            1276 strings with 10844 characters,
-and the built_in function-call counts, 1840 in all, are:
-= -- 216
-> -- 10
-< -- 98
-+ -- 93
+            2118 wiz_defined-function locations,
+            501 strings with 4033 characters,
+and the built_in function-call counts, 223 in all, are:
+= -- 19
+> -- 7
+< -- 0
++ -- 3
 - -- 2
-* -- 129
-:= -- 399
-add.period$ -- 4
+* -- 10
+:= -- 47
+add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 17
+change.case$ -- 4
 chr.to.int$ -- 0
 cite$ -- 2
-duplicate$ -- 34
-empty$ -- 70
-format.name$ -- 14
-if$ -- 326
+duplicate$ -- 10
+empty$ -- 18
+format.name$ -- 2
+if$ -- 41
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 0
-newline$ -- 27
-num.names$ -- 8
-pop$ -- 21
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 6
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 3
 quote$ -- 0
-skip$ -- 120
+skip$ -- 7
 stack$ -- 0
-substring$ -- 98
-swap$ -- 27
-text.length$ -- 2
+substring$ -- 5
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
-top$ -- 1
-type$ -- 80
-warning$ -- 0
-while$ -- 5
-width$ -- 0
-write$ -- 28
+top$ -- 0
+type$ -- 4
+warning$ -- 1
+while$ -- 2
+width$ -- 2
+write$ -- 11
+(There was 1 warning)
