@@ -1,54 +1,14 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  25 OCT 2018 19:06
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 19:07
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  25 OCT 2018 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 23:22
 entering extended mode
-**./Verslag.tex
-(Verslag.tex
-LaTeX2e <2017-04-15>
-Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Verslag.tex
+(./Verslag.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 17:45
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  25 OCT 2018 17:38
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 OCT 2018 17:30
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.22)  25 OCT 2018 17:32
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  25 OCT 2018 17:32
->>>>>>> 020e406dc1589711db468022c3f1450872d4ec51
->>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
->>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
->>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
-entering extended mode
-**./Verslag.tex
-(Verslag.tex
-LaTeX2e <2018-04-01> patch level 5
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
-=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -63,59 +23,21 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
-sty"
-Package: geometry 2018/04/16 v5.8 Page Geometry
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.s
-ty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.
-sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.
-sty"
-=======
 (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -130,39 +52,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry.
-cfg"))
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.
-sty"
-=======
-<<<<<<< HEAD
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count91
 \calc@Bcount=\count92
@@ -175,79 +72,27 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.st
-y"
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegsh
-i.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infware
-rr.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds
-.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ))
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color
-.cfg"
-=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdfte
-x.def"
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count93
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -260,46 +105,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.
-sty"
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.
-sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graph
-ics.cfg"
-=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
@@ -310,19 +125,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \AM@pagewidth=\dimen115
 \AM@pageheight=\dimen116
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.
-def"
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
@@ -331,142 +134,24 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count94
 \AM@templatesizebox=\box27
 )
-<<<<<<< HEAD
 (/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
-=======
-(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eurosym\eurosym.st
-y"
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\eurosym\eurosym.sty"
-Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box28
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/eurosym/eurosym.sty
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 \@eurobox=\box28
 )
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 )
-<<<<<<< HEAD
-=======
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.s
-ty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.
-sty"
-=======
-<<<<<<< HEAD
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -474,78 +159,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.st
-y"
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip46
-
-For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01 AMS text
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
-"
-=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen117
 ))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
-"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen118
-)
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
-=======
-<<<<<<< HEAD
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen118
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen118
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count95
@@ -585,18 +216,9 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-<<<<<<< HEAD
-) ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
-=======
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 \col@sep=\dimen126
 \ar@mcellbox=\box31
 \extrarowheight=\dimen127
@@ -605,8 +227,7 @@ Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \backup@length=\skip50
 \ar@cellbox=\box32
 )
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\apacite.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/apacite/apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
 \c@BibCnt=\count107
 \bibleftmargin=\skip51
@@ -614,40 +235,18 @@ Package: apacite 2013/07/21 v6.03 APA citation
 \bibparsep=\skip53
 \bibitemsep=\skip54
 \biblabelsep=\skip55
-) ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\gensymb.sty"
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocbibind\tocbibin
-d.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-<<<<<<< HEAD
-) (./Verslag.aux
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 <
-      <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-=======
-<<<<<<< HEAD
-) (Verslag.aux)
-=======
 ) (./Verslag.aux)
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 \openout1 = `Verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -698,27 +297,7 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box33
-<<<<<<< HEAD
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
-ii"
-=======
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-<<<<<<< HEAD
-Overfull \hbox (45.17401pt too wide) in paragraph at lines 37--13
-[]\OT1/cmr/m/n/10.95 <<<<<<< HEAD         =======   =======        >>>>>>> b284
-15134cf83b53fcf37a5408c2ecf6da260405
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--13
-
- []
-
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen128
@@ -731,72 +310,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--13
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks28
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-)
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
-base.sty"
-=======
-<<<<<<< HEAD
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.st
-y"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefin
-ekeys.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions
-.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetke
-ys.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmd
-s.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluate
-x.sty"
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -805,19 +337,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexc
-mds.sty"
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -830,25 +351,6 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-)
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape
-.sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.st
-y"
-=======
-<<<<<<< HEAD
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -858,19 +360,13 @@ e
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@maskedRefs=\count114
 
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\apacite\english.ap
-c"
+(/usr/local/texlive/2018/texmf-dist/tex/latex/apacite/english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
@@ -905,29 +401,22 @@ File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
 Package pdftex.def Info: frontpage.pdf , page1 used on input line 23.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
+File: frontpage.pdf Graphic file (type pdf)
+<use frontpage.pdf, page 1>
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 23.
+(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 23.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 23.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 23.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-
-<<<<<<< HEAD
-[2 <./frontpage.pdf>]
-<frontpage.pdf, id=56, page=2, 597.50786pt x 845.04686pt>
-=======
  <./frontpage.pdf>]
-<frontpage.pdf, id=51, page=2, 597.50786pt x 845.04686pt>
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
+<frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
 Package pdftex.def Info: frontpage.pdf , page2 used on input line 23.
@@ -940,105 +429,32 @@ File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
 Package pdftex.def Info: frontpage.pdf , page2 used on input line 23.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-<<<<<<< HEAD
- [3 <./frontpage.pdf>] [4] (./Verslag.toc
+ [2 <./frontpage.pdf>] [3{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/up
+dmap/pdftex.map}] (./Verslag.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
-=======
- [2 <./frontpage.pdf>] [3{C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config
-/pdftex.map}] (Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 7.
-
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 7.
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-=======
-<<<<<<< HEAD
-[3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] (Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-=======
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write3
 \openout3 = `Verslag.toc'.
 
-<<<<<<< HEAD
- [5]
+ [4]
 (./Verslag.lot)
 \tf@lot=\write4
 \openout4 = `Verslag.lot'.
 
- [6] (./Verslag.lof)
-\tf@lof=\write5
-\openout5 = `Verslag.lof'.
-
- [7]
-<./verslag_figuren/opdracht.png, id=87, 571.53525pt x 428.19975pt>
-=======
- [4] (Verslag.lot)
-\tf@lot=\write4
-\openout4 = `Verslag.lot'.
-
-<<<<<<< HEAD
- [5] (Verslag.lof)
-=======
-<<<<<<< HEAD
-
-[5] (Verslag.lof)
-=======
  [5] (./Verslag.lof)
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 \tf@lof=\write5
 \openout5 = `Verslag.lof'.
 
  [6]
-<<<<<<< HEAD
-<./verslag_figuren/opdracht.png, id=82, 571.53525pt x 428.19975pt>
-=======
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-[1] <./verslag_figuren/opdracht.png, id=86, 571.53525pt x 428.19975pt>
-File: ./verslag_figuren/opdracht.png Graphic file (type png)
-=======
 <./verslag_figuren/opdracht.png, id=83, 571.53525pt x 428.19975pt>
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
 Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 55.
@@ -1051,753 +467,133 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1] [2 <./verslag_figuren/opdracht.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
 
-<<<<<<< HEAD
-("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-=======
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
-<<<<<<< HEAD
  [3]
-! Use of \@year@ doesn't match its definition.
-\Y@greyscale ->\@year@ 1
-                        
-l.93 ...onverting it to greyscale \cite{greyscale}
-                                                  . An RGB image exists from...
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-<./verslag_figuren/comparison_methods.png, id=105, 860.013pt x 982.872pt>
-=======
-<<<<<<< HEAD
-
-[3]
-<./verslag_figuren/comparison_methods.png, id=101, 860.013pt x 982.872pt>
-=======
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
-=======
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
-<<<<<<< HEAD
- [3]
-=======
-
-[3]
-
-LaTeX Warning: Citation `greyscale' on page 4 undefined on input line 94.
-
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
-<./verslag_figuren/comparison_methods.png, id=99, 860.013pt x 982.872pt>
-=======
->>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
->>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
->>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
- [3]
-
-LaTeX Warning: Citation `greyscale' on page 4 undefined on input line 91.
-
 <./verslag_figuren/comparison_methods.png, id=102, 860.013pt x 982.872pt>
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-<<<<<<< HEAD
 t line 97.
-=======
-t line 96.
-<<<<<<< HEAD
-(pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-! Use of \@year@ doesn't match its definition.
-\Y@gaussian ->\@year@ 2
-                       
-l.105 At first the Gaussian blur \cite{gaussian}
-                                                , this is an easy convolutio...
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-<./verslag_figuren/filter_comparison.png, id=106, 913.61325pt x 513.117pt>
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./verslag_figuren/filter_comparison.png, id=102, 913.61325pt x 513.117pt>
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
+<./verslag_figuren/filter_comparison.png, id=103, 913.61325pt x 513.117pt>
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 <use ./verslag_figuren/filter_comparison.png>
 Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
-<<<<<<< HEAD
  line 110.
-=======
- line 109.
-<<<<<<< HEAD
-=======
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
 (pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
-[4]
-! Use of \@year@ doesn't match its definition.
-\Y@mean ->\@year@ 4
-                   
-l.125 The second blur is a mean blur \cite{mean}
-                                                . This is just the same, jus...
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Use of \@year@ doesn't match its definition.
-\Y@edge_detection ->\@year@ 3
-                             
-l.134 ...detection algorithm \cite{edge_detection}
-                                                  , this basically just a fi...
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-[5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter_com
-parison.png>] [7] [8]
-<./verslag_figuren/Moore_Neighbor.png, id=127, 206.27063pt x 171.13937pt>
-File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
-<use ./verslag_figuren/Moore_Neighbor.png>
-Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 201.
-(pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
- [9 <./verslag_figuren/Moore_Neighbor.png>] (./Verslag.bbl
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-=======
 [4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
-<<<<<<< HEAD
-_comparison.png>] [7]
-<./verslag_figuren/Moore_Neighbor.png, id=119, 206.27063pt x 171.13937pt>
-File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
-
-<use ./verslag_figuren/Moore_Neighbor.png>
-Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png used on input lin
-e 201.
-(pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
-=======
 _comparison.png>] [7] [8]
-<<<<<<< HEAD
-<./verslag_figuren/Moore_Neighbor.png, id=123, 206.27063pt x 171.13937pt>
+<./verslag_figuren/Moore_Neighbor.png, id=124, 206.27063pt x 171.13937pt>
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 207.
+ne 208.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
  [9 <./verslag_figuren/Moore_Neighbor.png>]
-(Verslag.bbl
-=======
-=======
-[4]
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
+(./Verslag.bbl
+Underfull \hbox (badness 1762) in paragraph at lines 37--52
+[]\OT1/cmr/m/n/10.95 Einstein, A.  (1905).  Zur Elek-tro-dy-namik be-wegter K^^
+?orper. (Ger-man) [On the
+ []
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+Underfull \hbox (badness 1178) in paragraph at lines 37--52
+\OT1/cmr/m/n/10.95 elec-tro-dy-nam-ics of mov-ing bod-ies].  \OT1/cmr/m/it/10.9
+5 An-nalen der Physik\OT1/cmr/m/n/10.95 , \OT1/cmr/m/it/10.95 322\OT1/cmr/m/n/1
+0.95 (10), 891--921.  doi:
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.82 ...ipedia.org/wiki/Kernel_(image_processing)}
                                                   
-l.6 \bibitem{greyscale}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \bibitem{greyscale}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \bibitem{greyscale}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-<<<<<<< HEAD
-l.6 \bibitem{greyscale}
-                       
-=======
-l.9 \bibitem{gaussian}
-                      
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \bibitem{gaussian}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 \bibitem{gaussian}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-<<<<<<< HEAD
-l.9 \bibitem{gaussian}
-                      
-=======
-l.12 \bibitem{edge_detection}
-                             
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \bibitem{edge_detection}
-                             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \bibitem{edge_detection}
-                             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-<<<<<<< HEAD
-l.12 \bibitem{edge_detection}
-                             
-=======
-l.15 \bibitem{mean}
-                   
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \bibitem{mean}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \bibitem{mean}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-<<<<<<< HEAD
-l.15 \bibitem{mean}
-                   
-=======
-l.28 greyscale}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 greyscale}
-               
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 greyscale}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<<<<<<< HEAD
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 greyscale}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.28 greyscale}
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 gaussian}
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 gaussian}
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 gaussian}
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-=======
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 gaussian}
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 gaussian}
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 gaussian}
-              
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 mean}
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 mean}
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.68 mean}
-          
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 edge_detection}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 edge_detection}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 edge_detection}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 \bibitem{einstein}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+l.82 ...ipedia.org/wiki/Kernel_(image_processing)}
                                                   
-l.104 \bibitem{einstein}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83   \end{APACrefURL}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.83   \end{APACrefURL}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 \bibitem{einstein}
-                        
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Empty `thebibliography' environment on input line 112.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--112
-\OT1/cmr/m/n/10.95 <<<<<<< HEAD ======= <<<<<<< HEAD-Greyscale. []Kernel (im-ag
-e pro-cess-
+Underfull \hbox (badness 10000) in paragraph at lines 77--85
+[]\OT1/cmr/m/it/10.95 Kernel (im-age pro-cess-ing).  \OT1/cmr/m/n/10.95 (n.d.[]
+).  Re-trieved from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--112
-\OT1/cmr/m/n/10.95 ing). []Laplacian of gaus-sian. []Mean fil-ter. ======= <<<<
-<<< HEAD >>>>>>>
+Underfull \hbox (badness 5133) in paragraph at lines 97--109
+[]\OT1/cmr/m/n/10.95 Knuth, D.  (1981).  \OT1/cmr/m/it/10.95 Knuth: Com-put-ers
+ and type-set-ting.  \OT1/cmr/m/n/10.95 Re-trieved from
  []
 
-
-Underfull \hbox (badness 4096) in paragraph at lines 3--112
-\OT1/cmr/m/n/10.95 (n.d.[][]).   []test.  (n.d.[][]).   <<<<<<< HEAD ======= ==
-===== >>>>>>>
- []
-
-
-Underfull \hbox (badness 4108) in paragraph at lines 3--112
-\OT1/cmr/m/n/10.95 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7 []Albert Ein-stein.
-  Zur Elek-tro-dy-namik
- []
-
-
-Underfull \hbox (badness 7256) in paragraph at lines 3--112
-\OT1/cmr/m/it/10.95 Physik\OT1/cmr/m/n/10.95 , 322(10):891--921, 1905. >>>>>>> 
-7fcb59eaeb20892b0f925ddcc9a9669c0e327273
- []
-
-<<<<<<< HEAD
-) [10] (./Verslag.aux) ) 
+[10]) [11] (./Verslag.aux) ) 
 Here is how much of TeX's memory you used:
- 4982 strings out of 492649
- 68923 string characters out of 6129621
- 154786 words of memory out of 5000000
- 8743 multiletter control sequences out of 15000+600000
- 10269 words of font info for 39 fonts, out of 8000000 for 9000
+ 4987 strings out of 492649
+ 68968 string characters out of 6129622
+ 154462 words of memory out of 5000000
+ 8747 multiletter control sequences out of 15000+600000
+ 10437 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,18n,46p,1541b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
-bm10.pfb>
-Output written on Verslag.pdf (17 pages, 1244950 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/eurosym/feym
+r10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb>
+Output written on Verslag.pdf (17 pages, 1263829 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
-=======
-) [10] (Verslag.aux) ) 
-Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4983 strings out of 492970
- 71153 string characters out of 3126593
- 154969 words of memory out of 3000000
- 8734 multiletter control sequences out of 15000+200000
- 10269 words of font info for 39 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,18n,46p,1543b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/simon/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/simon/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
-sers/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/simon/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/simon/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/s
-imon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><
-C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
-mbols/msbm10.pfb>
-Output written on Verslag.pdf (16 pages, 1259569 bytes).
-=======
-<<<<<<< HEAD
- 4724 strings out of 493320
- 63092 string characters out of 3138953
- 141538 words of memory out of 3000000
- 8145 multiletter control sequences out of 15000+200000
- 10269 words of font info for 39 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,18n,46p,2274b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (16 pages, 1255591 bytes).
-=======
-<<<<<<< HEAD
- 4977 strings out of 492649
- 68867 string characters out of 6129622
- 154930 words of memory out of 5000000
- 8738 multiletter control sequences out of 15000+600000
- 10269 words of font info for 39 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,18n,46p,1541b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 4451 strings out of 492649
- 62043 string characters out of 6129621
- 144581 words of memory out of 5000000
- 8224 multiletter control sequences out of 15000+600000
- 10269 words of font info for 39 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,18n,46p,1541b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-<<<<<<< HEAD
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (16 pages, 1244403 bytes).
-=======
->>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
-</usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/e
-urosym/feymr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msbm10.pfb>
-<<<<<<< HEAD
-Output written on Verslag.pdf (16 pages, 1242352 bytes).
-=======
-Output written on Verslag.pdf (16 pages, 1243989 bytes).
->>>>>>> 020e406dc1589711db468022c3f1450872d4ec51
->>>>>>> 7fcb59eaeb20892b0f925ddcc9a9669c0e327273
->>>>>>> 2d5bf65061bd6d63d5cc5a93abfe80707edc71b7
->>>>>>> b28415134cf83b53fcf37a5408c2ecf6da260405
->>>>>>> dcc46ddde7134687af32ea1bab21a28985d135ad
->>>>>>> 272cb4c826889d205250a8ec35cf514decb476ff
-PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
->>>>>>> 146dac773db1ce348b261242663c2e496c6d3006
+ 179 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
