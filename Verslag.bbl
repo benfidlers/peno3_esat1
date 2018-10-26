@@ -1,7 +1,5 @@
 \begin{thebibliography}{}
 
-<<<<<<< HEAD
-=======
 \bibitem [\protect \citeauthoryear {%
 Dirac%
 }{%
@@ -68,7 +66,7 @@ Jiao, J.%
   and kinect v2 fields of view compared.}
 \newblock
 \begin{APACrefURL}
-  \url{https://www.researchgate.net/figure/Kinect-v2-sensor-working-on-a-photographic-tripod_fig1_321048476}
+  \url{https://www.researchgate.net/figure/Kinect-v2-sensor-working\\-on-a-photographic-tripod_fig1_321048476/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -218,5 +216,4 @@ stackoverflow}%
 \begin{APACrefURL} \url{https://stackoverflow.com} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
->>>>>>> 21c63c26a9c29d0e91c0a8d7a66c9c3672b8bfd4
 \end{thebibliography}
