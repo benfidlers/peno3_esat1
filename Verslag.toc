@@ -21,12 +21,5 @@
 \contentsline {section}{\numberline {6}Budget management}{10}
 \contentsline {section}{\numberline {7}Course Integration}{10}
 \contentsline {section}{\numberline {8}Conclusion}{11}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {9}List of references}{11}
-\contentsline {section}{\numberline {10}References}{11}
-\contentsline {section}{\numberline {11}References}{11}
-\contentsline {section}{\numberline {12}Appendix}{11}
-=======
 \contentsline {section}{\numberline {9}References}{12}
 \contentsline {section}{\numberline {10}Appendix}{13}
->>>>>>> 21c63c26a9c29d0e91c0a8d7a66c9c3672b8bfd4
