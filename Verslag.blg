@@ -1,5 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Verslag.aux
 The style file: apacite.bst
+<<<<<<< HEAD
 I couldn't open database file references.bib.bib
 ---line 43 of file Verslag.aux
  : \bibdata{references.bib
@@ -14,3 +15,75 @@ Warning--I didn't find a database entry for "edge_detection"
 Warning--I didn't find a database entry for "Sobel_operator"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 (There were 2 error messages)
+=======
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--entry type for "greyscale" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "gaussian" isn't style-file defined
+--line 7 of file references.bib
+Warning--entry type for "mean" isn't style-file defined
+--line 12 of file references.bib
+Warning--entry type for "edge_detection" isn't style-file defined
+--line 19 of file references.bib
+Warning--entry type for "kinect_specifications" isn't style-file defined
+--line 45 of file references.bib
+Warning--entry type for "kinect_v2" isn't style-file defined
+--line 54 of file references.bib
+Warning--entry type for "stackoverflow" isn't style-file defined
+--line 63 of file references.bib
+Warning--entry type for "Mathworks" isn't style-file defined
+--line 71 of file references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in Sobel_operator
+You've used 10 entries,
+            6951 wiz_defined-function locations,
+            1310 strings with 11666 characters,
+and the built_in function-call counts, 15344 in all, are:
+= -- 2290
+> -- 82
+< -- 421
++ -- 417
+- -- 13
+* -- 717
+:= -- 1999
+add.period$ -- 36
+call.type$ -- 10
+change.case$ -- 116
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 329
+empty$ -- 753
+format.name$ -- 131
+if$ -- 3435
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 0
+newline$ -- 207
+num.names$ -- 48
+pop$ -- 231
+preamble$ -- 1
+purify$ -- 34
+quote$ -- 0
+skip$ -- 1593
+stack$ -- 0
+substring$ -- 468
+swap$ -- 166
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1472
+warning$ -- 1
+while$ -- 49
+width$ -- 0
+write$ -- 251
+(There were 9 warnings)
+>>>>>>> 21c63c26a9c29d0e91c0a8d7a66c9c3672b8bfd4
