@@ -75,20 +75,20 @@ To conclude this section a brief word on the necessary transfer cable. Since a d
 
 
 \subsection{Software}
-There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram on FIG…XX… shows a couple of different methods. There is no ‘right way’ to count objects in an image.
-\subsubsection{Analysis RGB Sensor}
-In the domain of the RGB sensor, no exception will be found.Different approaches have their own advantages and disadvantages. The only general ideas that are common throughout most algorithms are:
+There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram on attachment C shows a couple of different methods. There is no ‘right way’ to count objects in an image.
+\subsubsection{Analysis RGB image}
+Analysing RGB images is a creative process. Different approaches have their own advantages and disadvantages. The only general ideas that are common throughout most algorithms are:
 \begin{itemize}
 \item Converting the RGB image to greyscale
 \item Run filters over the image to remove noise
 \end{itemize}
-These elements are also visible in the diagram(VERWIJZING NR DIAGRAM). In the next scope, three general methods are featured and briefly discussed. Each was investigated in prospect of this paper. 
+In the next scope, three general methods are featured and briefly discussed. Each was investigated in prospect of this paper. 
 \paragraph{Method 1}\mbox{}\\
 This method is the most simple and straightforward to implement. As input it requires a filtered greyscale image. This is passed trough a thresholding algorithm with a pre-defined threshold value. The output is a binary matrix. Thus, this array only has 0's and 1's as elements, respectively representing the colours black and white. The key to solving the problem in this specific scheme is writing code that finds the threshold value based on environmental parameters. When in possession of a truly black and white image, a simple edge detection program is run which makes the edges visible.
 \\Advantages: It’s an easy and fast algorithm.
 \\Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. A dynamic value is required.
 \paragraph{Method 2}\mbox{}\\
-The second method tackles the colour analysis in the opposite order than the first method, as it commences with an edge detection algorithm. Since the input image is still very complex, it is first converted to a filtered greyscale image. Still, this edge detection is more comprehensive than that one from method one. The output still is a greyscale image, contrary to the binary array the reader might expect. This is followed by some thresholding code with a pre-defined threshold value. The current image is now represented by a matrix where the edges are outlined using binary elements. Based on the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code.
+The second method tackles the colour analysis in the opposite order than the first method, as it commences with an edge detection algorithm. Since the input image is still very complex, it is first converted to a filtered greyscale image. Still, this edge detection is more comprehensive than that one from method one. The output still is a greyscale image, contrary to the binary array the reader might expect. This is followed by some thresholding code with a pre-defined threshold value. The current image is now represented by a matrix where the edges are outlined using binary elements.
 \\Advantages: It detects all kinds of objects, not based on colour or shape.
 \\Disadvantages: The boundary between different objects needs to be clear for this to work.
 \paragraph{Method 3}\mbox{}\\
@@ -112,7 +112,7 @@ greyscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 The used coefficients count up to $1$, so the values in the greyscale image can vary from $0$ to $255$. All these values $greyscale\_image(row, col)$ form the new image.
 
 \noindent Before running the image through an edge detection algorithm, two filters are applied. Both blur the image to an extent such that noise after edge detection is considerably reduced. This effect is visualised in Fig. \ref{fig:filter_comparison}
-Firstly a Gaussian blur is applied. Most filters are a convolution of a kernel with the image. For a Gaussian blur the G kernel found below is used. This is just a weighted average. This has as consequence that the elements centered around the main pixel have bigger weights than those at the edges.
+Firstly a Gaussian blur\cite{gaussian} is applied. Most filters are a convolution of a kernel with the image. For a Gaussian blur the G kernel found below is used. This is just a weighted average. This has as consequence that the elements centered around the main pixel have bigger weights than those at the edges.
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.7\linewidth]{filter_comparison.png}
