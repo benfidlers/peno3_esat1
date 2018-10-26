@@ -1,41 +1,26 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Dirac%
+Ghuneim%
 }{%
-Dirac%
+Ghuneim%
 }{%
-{\protect \APACyear {1981}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
-dirac}
+Moore_Neighborhood}
 \APACinsertmetastar {%
-dirac}%
+Moore_Neighborhood}%
 \begin{APACrefauthors}%
-Dirac, P\BPBI A\BPBI M.%
+Ghuneim, A\BPBI G.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{1981}.
-\newblock
-\APACrefbtitle {The Principles of Quantum Mechanics} {The principles of quantum
-  mechanics}.
-\newblock
-\APACaddressPublisher{}{Clarendon Press}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Greyscale}}{%
-\APACcitebtitle {Greyscale}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-greyscale}
-\APACinsertmetastar {%
-greyscale}%
-\APACrefbtitle {Greyscale.} {Greyscale.}
-\newblock
 \APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
-\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Grayscale}
+\APACrefbtitle {Moore-Neighbor Tracing.} {Moore-neighbor tracing.}
+\newblock
+\begin{APACrefURL}
+  [{(2018-10-26)}]\url{http://www.imageprocessingplace.com/downloads_V3/root_downloads/tutorials/contour_tracing_Abeer_George_Ghuneim/moore.html}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -67,23 +52,6 @@ Jiao, J.%
 \newblock
 \begin{APACrefURL}
   \url{https://www.researchgate.net/figure/Kinect-v2-sensor-working\\-on-a-photographic-tripod_fig1_321048476/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Kernel (image processing)}}{%
-\APACcitebtitle {Kernel (image processing)}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-gaussian}
-\APACinsertmetastar {%
-gaussian}%
-\APACrefbtitle {Kernel (image processing).} {Kernel (image processing).}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL}
-  \url{https://en.wikipedia.org/wiki/Kernel_(image_processing)}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -214,6 +182,53 @@ stackoverflow}%
 \APACrefYearMonthDay{2018}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://stackoverflow.com} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Unknown%
+}{%
+Unknown%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {1}}}}}]{%
+greyscale}
+\APACinsertmetastar {%
+greyscale}%
+\begin{APACrefauthors}%
+Unknown.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {1}}}{}{}.
+\newblock
+\APACrefbtitle {Greyscale.} {Greyscale.}
+\newblock
+\begin{APACrefURL} \url{https://en.wikipedia.org/wiki/Grayscale}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Unknown%
+}{%
+Unknown%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {2}}}}}]{%
+gaussian}
+\APACinsertmetastar {%
+gaussian}%
+\begin{APACrefauthors}%
+Unknown.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {2}}}{}{}.
+\newblock
+\APACrefbtitle {Kernel (image processing).} {Kernel (image processing).}
+\newblock
+\begin{APACrefURL}
+  [{(2018-10-1)}]\url{https://en.wikipedia.org/wiki/Kernel_(image_processing)}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
