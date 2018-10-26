@@ -88,7 +88,7 @@ This method is the most simple and straightforward to implement. As input it req
 \\Advantages: It’s an easy and fast algorithm.
 \\Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. A dynamic value is required.
 \paragraph{Method 2}\mbox{}\\
-The second method tackles the colour analysis in the opposite order than the first method, as it starts with an edge detection algorithm. Since the input image is still very complex, this edge detection is way more comprehensive. The output is a greyscale image, contrary to the binary array the reader might expect. This is followed by some thresholding code with a pre-defined threshold value. The current image is now represented by a matrix where the edges are outlined using binary elements. Based on the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code.
+The second method tackles the colour analysis in the opposite order than the first method, as it commences with an edge detection algorithm. Since the input image is still very complex, it is first converted to a filtered greyscale image. Still, this edge detection is more comprehensive than that one from method one. The output still is a greyscale image, contrary to the binary array the reader might expect. This is followed by some thresholding code with a pre-defined threshold value. The current image is now represented by a matrix where the edges are outlined using binary elements. Based on the fact that there is a lot of noise using this sequence of steps, it's recommended to include noise reduction code.
 \\Advantages: It detects all kinds of objects, not based on colour or shape.
 \\Disadvantages: The boundary between different objects needs to be clear for this to work.
 \paragraph{Method 3}\mbox{}\\
@@ -140,7 +140,7 @@ M = (1/9) *
 \end{bmatrix}
 \end{equation}
 Note that both G and M have a norm of 1. If this wasn't the case, pixel values of the filtered image could exceed the boundary values of 0 to 255 for uint8 numbers. \\
-After both filters are applied, the image is ready to be run through an edge detection algorithm\cite{edge_detection}. This algorithm is itself also a filter with kernel given by the matrix L below.
+After both filters are applied, the image is ready to be run through an edge detection algorithm\cite{edge_detection}. This algorithm is on itself also a filter with kernel done by the matrix L given below.
 It calculates the \textit{spatial  derivative} or in simpler words, it highlights regions of rapid intensity change.
 \begin{equation}
 L =\begin{bmatrix}
@@ -151,12 +151,12 @@ L =\begin{bmatrix}
 \end{equation}
 
 
-\noindent Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filter before convolution with L, more 'edges' would have been drawn.\\
-Note also how this convolution returns a new image which can have negative values for its pixels. The more negative the value, the darker the image.\\
-The threshold algorithm, used in the following step, is based on this feature. This algorithm runs through to whole matrix and assigns each value with either a 0 or a 1. It decides this by assessing if the current value is either smaller than or bigger than a threshold value, respectively. After conducting multiple experiments and testing, a threshold value of 2 seems to do the trick. After applying the algorithm, the matrix becomes a binary image with only the edges in white. Based on these edges it is possible to outline the objects and count them, but further research and programming has to be done to complete the whole program.
+\noindent Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filtered before convolution with L, more 'edges' would have been drawn because more unregular areas exist.\\
+Note also how this convolution returns a new image which can have negative values for its pixels. The more negative the value, the darker the image. A different number type is used.\\
+The threshold algorithm, used in the following step, is based on this feature. This algorithm runs through to whole matrix and assigns each value with either a 0 or a 1. It decides this by assessing if the current value is either smaller than or bigger than a threshold value, respectively. After conducting multiple experiments and testing, a threshold value of 2 seems to do the trick. A more dynamic way of determining this value may be developed in the next weeks. After applying this edge detection, the matrix becomes a binary image with only the edges in white. Based on these edges it is possible to outline the objects and count them, but further research and programming has to be done to complete the whole program.
 
 \subsubsection{Analysis Depth Sensor}
-Using only the RGB image does have some shortcomings. Iit is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects and a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. Like featured in the section about the hardware, each element of the input data represents a distance in millimeters.\\
+Using only the RGB image does have some shortcomings. It is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects and a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. Like featured in the section about the hardware, each element of the input data represents a distance in millimeters.\\
 Firstly the code should be able to provide a clear difference in height between the objects and the background using the depth data. This is followed with a filter to get rid of the existing noise reduction. At last, the filtered matrix will be used to detect the edges of the objects and thus detect the items themselves. \textbf{The code that accompanies this description, can be found at page...}
  
 \paragraph{Detection of the difference in height}\mbox{}\\
