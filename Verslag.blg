@@ -1,71 +1,16 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: Verslag.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Verslag.aux
 The style file: apacite.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: references.bib
-Warning--entry type for "greyscale" isn't style-file defined
---line 13 of file references.bib
-Warning--entry type for "gaussian" isn't style-file defined
---line 19 of file references.bib
-Warning--entry type for "mean" isn't style-file defined
---line 24 of file references.bib
-Warning--entry type for "edge_detection" isn't style-file defined
---line 31 of file references.bib
-Warning--entry type for "knuthwebsite" isn't style-file defined
---line 50 of file references.bib
-Warning--entry type for "kinect_specifications" isn't style-file defined
---line 69 of file references.bib
-Warning--entry type for "kinect_v2" isn't style-file defined
---line 78 of file references.bib
+I couldn't open database file references.bib.bib
+---line 43 of file Verslag.aux
+ : \bibdata{references.bib
+ :                        }
+I'm skipping whatever remains of this command
+I found no database files---while reading file Verslag.aux
+Warning--I didn't find a database entry for "kinect_specifications"
+Warning--I didn't find a database entry for "kinect_v2"
+Warning--I didn't find a database entry for "greyscale"
+Warning--I didn't find a database entry for "mean"
+Warning--I didn't find a database entry for "edge_detection"
+Warning--I didn't find a database entry for "Sobel_operator"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 10 entries,
-            6951 wiz_defined-function locations,
-            1314 strings with 11801 characters,
-and the built_in function-call counts, 16731 in all, are:
-= -- 2421
-> -- 105
-< -- 521
-+ -- 547
-- -- 17
-* -- 827
-:= -- 2364
-add.period$ -- 40
-call.type$ -- 10
-change.case$ -- 116
-chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 399
-empty$ -- 757
-format.name$ -- 167
-if$ -- 3606
-int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 0
-newline$ -- 225
-num.names$ -- 64
-pop$ -- 270
-preamble$ -- 1
-purify$ -- 34
-quote$ -- 0
-skip$ -- 1586
-stack$ -- 0
-substring$ -- 628
-swap$ -- 208
-text.length$ -- 20
-text.prefix$ -- 0
-top$ -- 1
-type$ -- 1416
-warning$ -- 0
-while$ -- 62
-width$ -- 0
-write$ -- 265
-(There were 7 warnings)
+(There were 2 error messages)
