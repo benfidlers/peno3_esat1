@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -271,28 +271,21 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(./Verslag.aux
-
-LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
-
-
-LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
-
-)
+(./Verslag.aux)
 \openout1 = `Verslag.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -313,12 +306,12 @@ LaTeX Font Info:    ... okay on input line 30.
 * \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -403,15 +396,15 @@ File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-LaTeX Info: Redefining \celsius on input line 30.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 30.
+LaTeX Info: Redefining \celsius on input line 29.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 30.
-Package gensymb Info: Using \Omega for \ohm on input line 30.
+LaTeX Info: Redefining \ohm on input line 29.
+Package gensymb Info: Using \Omega for \ohm on input line 29.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -419,32 +412,32 @@ Package gensymb Warning: Not defining \micro.
 <frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 32.
+Package pdftex.def Info: frontpage.pdf  used on input line 31.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 32.
+Package pdftex.def Info: frontpage.pdf  used on input line 31.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 <frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 [1
 
@@ -452,27 +445,17 @@ Package pdftex.def Info: frontpage.pdf , page1 used on input line 32.
 <frontpage.pdf, id=52, page=2, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 32.
+Package pdftex.def Info: frontpage.pdf , page2 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] (./Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+ [2 <./frontpage.pdf>] (./Verslag.toc)
 \tf@toc=\write3
 \openout3 = `Verslag.toc'.
 
@@ -481,84 +464,91 @@ erslag.lof)
 \tf@lof=\write4
 \openout4 = `Verslag.lof'.
 
+ [4]
 
-[4]
-<./verslag_figuren/opdracht.png, id=77, 571.53525pt x 428.19975pt>
+LaTeX Warning: Citation `dirac' undefined on input line 50.
+
+<./verslag_figuren/opdracht.png, id=75, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 61.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 58.
 
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[1] [2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1] [2 <./verslag_figuren/opdracht.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 78.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
  [3]
-<./verslag_figuren/comparison_methods.png, id=96, 860.013pt x 982.872pt>
+<./verslag_figuren/comparison_methods.png, id=97, 860.013pt x 982.872pt>
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
 t line 100.
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<./verslag_figuren/filter_comparison.png, id=97, 913.61325pt x 513.117pt>
+<./verslag_figuren/filter_comparison.png, id=98, 913.61325pt x 513.117pt>
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 <use ./verslag_figuren/filter_comparison.png>
 Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
  line 112.
 (pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
+ [4 <./verslag_figuren/comparison_methods.png>]
+Overfull \hbox (2.31122pt too wide) in paragraph at lines 134--138
+\OT1/cmr/m/n/10 After both fil-ters are ap-plied, the im-age is ready to be run
+ through an edge de-tec-tion algorithm[]R. Fisher
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
-_comparison.png>]
-<./verslag_figuren/original_and_sobel.png, id=110, 769.4346pt x 206.2104pt>
+[5 <./verslag_figuren/filter_comparison.png>]
+<./verslag_figuren/original_and_sobel.png, id=107, 769.4346pt x 206.2104pt>
 File: ./verslag_figuren/original_and_sobel.png Graphic file (type png)
 <use ./verslag_figuren/original_and_sobel.png>
 Package pdftex.def Info: ./verslag_figuren/original_and_sobel.png  used on inpu
 t line 177.
 (pdftex.def)             Requested size: 443.57848pt x 118.88155pt.
- [7 <./verslag_figuren/original_and_sobel.png>]
-<./verslag_figuren/sobel_and_threshold.png, id=116, 407.27156pt x 228.855pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./verslag_figuren/sobel_and_threshold.png, id=108, 407.27156pt x 228.855pt>
 File: ./verslag_figuren/sobel_and_threshold.png Graphic file (type png)
 <use ./verslag_figuren/sobel_and_threshold.png>
 Package pdftex.def Info: ./verslag_figuren/sobel_and_threshold.png  used on inp
 ut line 187.
 (pdftex.def)             Requested size: 266.14978pt x 149.56064pt.
- [8 <./verslag_figuren/sobel_and_threshold.png>] [9]
-<./verslag_figuren/Moore_Neighbor.png, id=125, 206.27063pt x 171.13937pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] [7 <./verslag_figuren/original_and_sobel.png> <./verslag_figuren/sobel_and_
+threshold.png>]
+<./verslag_figuren/Moore_Neighbor.png, id=118, 206.27063pt x 171.13937pt>
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 225.
+ne 224.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
- [10 <./verslag_figuren/Moore_Neighbor.png>]
-! Misplaced alignment tab character &.
-l.244 ...rt is the main objective of the course P&
-                                                  O 3 (B-KUL-H01D4B). This c...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-[11] (./Verslag.bbl
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8] [9 <./verslag_figuren/Moore_Neighbor.png>] [10] (./Verslag.bbl
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.69 ...-on-a-photographic-tripod_fig1_321048476/}
+l.23 ...r_tracing_Abeer_George_Ghuneim/moore.html}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -566,7 +556,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.69 ...-on-a-photographic-tripod_fig1_321048476/}
+l.23 ...r_tracing_Abeer_George_Ghuneim/moore.html}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -577,7 +567,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.70   \end{APACrefURL}
+l.24   \end{APACrefURL}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -588,7 +578,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.70   \end{APACrefURL}
+l.24   \end{APACrefURL}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -597,21 +587,27 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--72
-[]\OT1/cmr/m/n/10.95 Jiao, J., Yuan, L., Tang, W., & Wu, Q.  (Nov 2017).  \OT1/
-cmr/m/it/10.95 Kinect
+Underfull \hbox (badness 6910) in paragraph at lines 14--26
+[]\OT1/cmr/m/n/10 Ghuneim, A. G.  (n.d.[]).  \OT1/cmr/m/it/10 Moore-neighbor tr
+ac-ing.  \OT1/cmr/m/n/10 Re-trieved (2018-10-26), from
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--72
-\OT1/cmr/m/it/10.95 v1 and kinect v2 fields of view com-pared.  \OT1/cmr/m/n/10
-.95 Re-trieved from
+Overfull \hbox (147.61137pt too wide) in paragraph at lines 14--26
+\OT1/cmtt/m/n/10 http://www.imageprocessingplace.com/downloads$[]\OT1/cmr/m/n/1
+0 3\OML/cmm/m/it/10 =root[]ownloads=tutorials=contour[]racing[]beer[]eorge[]hun
+eim=moore:html$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--26
+
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.86 ...ipedia.org/wiki/Kernel_(image_processing)}
+l.54 ...-on-a-photographic-tripod_fig1_321048476/}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -619,7 +615,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.86 ...ipedia.org/wiki/Kernel_(image_processing)}
+l.54 ...-on-a-photographic-tripod_fig1_321048476/}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -630,7 +626,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.87   \end{APACrefURL}
+l.55   \end{APACrefURL}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -641,7 +637,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.87   \end{APACrefURL}
+l.55   \end{APACrefURL}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -650,136 +646,83 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--89
-[]\OT1/cmr/m/it/10.95 Kernel (im-age pro-cess-ing).  \OT1/cmr/m/n/10.95 (n.d.[]
-).  Re-trieved from
+Underfull \hbox (badness 1655) in paragraph at lines 112--124
+[]\OT1/cmr/m/n/10 R. Fisher, A. W., S. Perkins, & Wol-fart, E.  (n.d.[][]).  \O
+T1/cmr/m/it/10 Mean fil-ter.  \OT1/cmr/m/n/10 Re-trieved from
  []
 
-) [12] (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+! Missing $ inserted.
+<inserted text> 
+                $
+l.230 ...pedia.org/wiki/Kernel_(image_processing)}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.230 ...pedia.org/wiki/Kernel_(image_processing)}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.231   \end{APACrefURL}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.231   \end{APACrefURL}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--233
+[]\OT1/cmr/m/n/10 Unknown.  (n.d.[][]).  \OT1/cmr/m/it/10 Ker-nel (im-age pro-c
+ess-ing).  \OT1/cmr/m/n/10 Re-trieved (2018-10-1), from
+ []
+
+) [11] (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./image_processing_week4.m [13]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 51.
+(./threshold.m [12]) [13]
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
- [14] [15]
-[16] [17] [18] [19]) [20] (./testDepth.m [21]) [22]
-<workplan_def.pdf, id=170, 597.23125pt x 845.1575pt>
-File: workplan_def.pdf Graphic file (type pdf)
-<use workplan_def.pdf>
-Package pdftex.def Info: workplan_def.pdf  used on input line 290.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: workplan_def.pdf Graphic file (type pdf)
-<use workplan_def.pdf>
-Package pdftex.def Info: workplan_def.pdf  used on input line 290.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<workplan_def.pdf, id=173, page=1, 597.23125pt x 845.1575pt>
-File: workplan_def.pdf Graphic file (type pdf)
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 290.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: workplan_def.pdf Graphic file (type pdf)
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
-File: workplan_def.pdf Graphic file (type pdf)
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
-File: workplan_def.pdf Graphic file (type pdf)
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
-File: workplan_def.pdf Graphic file (type pdf)
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
- [23 <./workplan_def.pdf
+! Package Listings Error: File `histogram(.m)' not found.
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./workplan_def.pdf): PDF inc
-lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
- ignored.
->]
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: m)
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion: 
-found PDF version <1.7>, but at most version <1.5> allowed
-<Auto.pdf, id=203, 614.295pt x 794.97pt>
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf>
-Package pdftex.def Info: Auto.pdf  used on input line 294.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.284 \lstinputlisting{histogram.m}
+                                   ^^M
+*** (cannot \read from terminal in nonstop modes)
 
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion: 
-found PDF version <1.7>, but at most version <1.5> allowed
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf>
-Package pdftex.def Info: Auto.pdf  used on input line 294.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion: 
-found PDF version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion: 
-found PDF version <1.7>, but at most version <1.5> allowed
-<Auto.pdf, id=206, page=1, 614.295pt x 794.97pt>
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 294.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-[24 <./Auto.pdf>] (./Verslag.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 7433 strings out of 492649
- 100715 string characters out of 6129622
- 342019 words of memory out of 5000000
- 11164 multiletter control sequences out of 15000+600000
- 10437 words of font info for 40 fonts, out of 8000000 for 9000
+ 7238 strings out of 492649
+ 97861 string characters out of 6129622
+ 293917 words of memory out of 5000000
+ 10985 multiletter control sequences out of 15000+600000
+ 7488 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,19n,46p,1548b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (28 pages, 2570302 bytes).
-PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 41i,18n,46p,1592b,2107s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
