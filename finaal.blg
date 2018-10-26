@@ -1,0 +1,98 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: finaal.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--entry type for "greyscale" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "gaussian" isn't style-file defined
+--line 6 of file references.bib
+Warning--entry type for "mean" isn't style-file defined
+--line 11 of file references.bib
+Warning--entry type for "edge_detection" isn't style-file defined
+--line 17 of file references.bib
+Warning--entry type for "kinect_specifications" isn't style-file defined
+--line 32 of file references.bib
+I was expecting a `,' or a `}'---line 37 of file references.bib
+ :  
+ :  year= "2014 Mar 11",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "kinect_v2" isn't style-file defined
+--line 41 of file references.bib
+I was expecting a `,' or a `}'---line 46 of file references.bib
+ :  
+ :  year= "2017 Nov",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "stackoverflow" isn't style-file defined
+--line 50 of file references.bib
+I was expecting a `,' or a `}'---line 54 of file references.bib
+ :  
+ :  keywords = "Stackoverflow"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "Mathworks" isn't style-file defined
+--line 57 of file references.bib
+I was expecting a `,' or a `}'---line 61 of file references.bib
+ :  
+ :  keywords = "Mathworks"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "Moore_Neighborhood" isn't style-file defined
+--line 63 of file references.bib
+Warning--entry type for "threshold" isn't style-file defined
+--line 71 of file references.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in Sobel_operator
+You've used 12 entries,
+            6951 wiz_defined-function locations,
+            1319 strings with 11995 characters,
+and the built_in function-call counts, 18069 in all, are:
+= -- 2688
+> -- 102
+< -- 491
++ -- 477
+- -- 17
+* -- 857
+:= -- 2323
+add.period$ -- 44
+call.type$ -- 12
+change.case$ -- 96
+chr.to.int$ -- 0
+cite$ -- 25
+duplicate$ -- 400
+empty$ -- 887
+format.name$ -- 159
+if$ -- 4061
+int.to.chr$ -- 0
+int.to.str$ -- 40
+missing$ -- 0
+newline$ -- 251
+num.names$ -- 64
+pop$ -- 273
+preamble$ -- 1
+purify$ -- 36
+quote$ -- 0
+skip$ -- 1883
+stack$ -- 0
+substring$ -- 540
+swap$ -- 196
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1776
+warning$ -- 1
+while$ -- 53
+width$ -- 0
+write$ -- 299
+(There were 4 error messages)
