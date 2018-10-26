@@ -48,43 +48,40 @@
 \newpage
 \section{Introduction}
 \pagenumbering{arabic}
-Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this image processing, nowadays other image related problems are being solved by artificial intelligence. Most were considered to be an important part of digital image processing. Among these, the problem of this paper can be found: feature extraction. The ability to count objects in an image to be more exact. So why use 'traditional' methods to solve this problem? While being a great way for unravelling many problems, artificial intelligence mostly provides general solutions. However, certain cases are solved more efficiently by specific schemes. Such is the case with object counting: while deep learning algorithms need a big data set as training material, standard image processing only requires the image itself.\\
+Digital image processing has been a crucial part of the current digitalisation movement. From industrial machinery to customer amusement, the vision of computer-aided systems has become a given for most users. While image alteration and manipulation remain a core part of this field of study, nowadays other image related problems are being solved by artificial intelligence. Most were considered to be an important part of digital image processing. Among these, the problem of this paper can be found: feature extraction. The ability to count objects in an image, to be more exact. So why use 'traditional' methods to solve this problem? While being a great way for unravelling many problems, artificial intelligence mostly provides general solutions. However, certain cases are solved more efficiently by specific schemes. Such is the case with object counting: while deep learning algorithms need a big data set as training material, standard image processing only requires the image itself.\\
 Regardless which way a method processes images, it needs a visual source. In this paper the focus is on live object counting, which is only possible with a camera. Evidently, the choice of hardware greatly impacts the methods that can be used. This choice will be covered in section 3.1: Hardware.\\
-By far the most important part of this task is the algorithm by which the items in the picture will be numbered. Classically, object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These segments don't have a fixed order and can occur multiple times in the final method. Most of these steps can also be approached in different ways. A wide range of possible filters, kernels, edge detection methods, etc. exist, which all have their benefits and drawbacks\cite{dirac}. These choices will be discussed in section 3.2: Software.\\
-These methods, while being the core of the solution, are fairly simple to implement with the use of libraries or built-in functions. In this paper is opted to give a full implementation of these functions, limiting the usage of libraries to the minimum, in !TITEL IMPLEMENTATION HERE!. If the functions are deemed to be basic, only a simple explanation will be given.
+By far the most important part of this task is the algorithm by which the items in the picture will be numbered. Classically, object counting algorithms have a standard group of steps: filtering, converting to an intensity matrix, edge detection, converting to a binary matrix, boundary boxing and the counting itself. These segments don't have a fixed order and can occur multiple times in the final method. Most of these steps can also be approached in different ways. A wide range of possible filters, kernels, edge detection methods, etc. exist, which all have their benefits and drawbacks \cite{dirac}. These choices will be discussed in section 3.2: Software.\\
+These methods, while being the core of the solution, are fairly simple to implement with the use of libraries or built-in functions. In this paper is opted to give a full implementation of these functions, limiting the usage of libraries to the minimum. If the functions are deemed to be basic, only a simple explanation will be given.
 
 \section{Problem Description}
-
 The object counting system described in this report is capable of counting non-moving objects in a basket. These objects can vary in shape, size and colour. Thus, the colour of both the basket and its contents are free from restrictions.\\
-In the primary stage of this paper, not all these variables are taken into account. The simplest objects, which the system is required to count, are rectangles, cylinders and circles, all with a uniform colour. If possible, the circumference of these objects can be outlined and measured as shown in Fig.~\ref{fig:example}.\\ All of this is done in real-time and with a budget of \euro 250.
-
+In the primary stage of this paper, not all these variables are taken into account, with the simplest objects, which the system is required to count, being rectangles, cylinders and circles, all with a uniform colour. If possible, the circumference of these objects can be outlined and measured as shown in Fig.~\ref{fig:example}.\\ All of this is done in real-time and with a budget of \euro 250.
 \begin{figure}[h]
 \centering
-  \includegraphics[width=0.7\linewidth]{opdracht.png}
-  \caption{The example included in the assignment.}
-  \label{fig:example}
+\includegraphics[width=0.7\linewidth]{opdracht.png}
+\caption{Example of a possible result.}
+\label{fig:example}
 \end{figure}
 
 \section{Design}
 \subsection{Hardware}
-The hardware to create a system as described above, is not complicated. In essence, it consists of a computer, a camera and a cable to transfer the data between the prior named necessities. Each of these hardware components is discussed in the following section.\\
-Choosing the camera is a vital element in this project. If chosen poorly, it can fiercely limit the outcome of the final algorithm. There are three main options for visual input: an ordinary webcam, an industrial camera or a camera with built-in depth sensors. Each with its pros and cons. A webcam is cheap and readily available but does not assure good image quality and easy access to its data. A camera for industrial usage is rather expensive, especially with a budget of \euro 250. Industrial grade options which are cheap enough exist, but these models deliver their images in greyscale. This greatly limits the possible methods which can be used. Thirdly, the depth sensing cameras are available in a reasonable price range and deliver, overall, good quality data. Moreover these models have the added benefit of depth sensor which, in contrast to the previous option, adds more possible ways to solve the problem.\\
-Having considered all of the above, the best option is the latter one. More specifically, the system described in this report is based on a Kinect V2 from Microsoft. This camera has a color lens with a resolution of $1920$ by $1080$ pixels and a corresponding field of view of $84.1\degree$ by $53.8\degree$\cite{kinect_specifications}. The high resolution ensures an accurate matrix representation of the real image. Each color frame pulled from the Kinect V2 is represented by an array structure of $1080$x$1920$x$3$. Every element corresponds with a pixel of the image and varies between $0$ and $255$. Obviously it can be separated into three different matrices each belonging to $\mathbb{R}^{2}$ and based on a different colour: red, green or blue.\\ Next to the colour camera, the Kinect also possesses a depth sensor. An infrared projector and camera make this possible\cite{kinect_v2}. It provides a $424$x$512$ array making the depth image one of roughly $200 000$ pixels. The field of view of this function is $70.6\degree$ by $60\degree$. Note that the depth camera provides data about parts of the environment that the color camera does not see, and vice versa. When the computer reads the depth data, every number in the matrix represents a distance in millimetres. Obviously there are some restrictions. This technology only provides correct information if the object is at a distance located in between half a meter and 4 meters. This has to be taken into account for further implementation of this paper.\\
-As second element of hardware the computer has a less important role. Preferably, OSX isn't used as operating system for this application because the Kinect drivers do not exist for Macintosh computers. If the reader has a Mac, problems can be avoided by running either Windows or Ubuntu via a virtual machine. The algorithm should run in an acceptable time frame on every machine.\\
+The hardware to create a system as described above, is not complicated. In essence, it consists of a computer, a camera and a cable to transfer the data between the latter two. Each of these hardware components is discussed in the following section.\\
+Choosing the camera is a vital element in this project. If chosen poorly, it can fiercely limit the outcome of the final algorithm. There are three main options for visual input: an ordinary webcam, an industrial camera or a camera with built-in depth sensors. Each with its pros and cons. A webcam is cheap and readily available but does not assure good image quality and easy access to its data. A camera for industrial usage is rather expensive, especially with a budget of \euro 250. Industrial grade options which are cheap enough do exist, but these models deliver their images in greyscale. This greatly limits the possible methods which can be used. Thirdly, the depth sensing cameras are available in a reasonable price range and deliver, overall, good quality data. Moreover these models have the added benefit of depth sensor which, in contrast to the previous option, adds more possible ways to solve the problem.\\
+Having considered all of the above, the best option is the latter one. More specifically, the system described in this report is based on a Kinect V2 from Microsoft. This camera has a color lens with a resolution of $1920$ by $1080$ pixels and a corresponding field of view of $84.1\degree$ by $53.8\degree$\cite{kinect_specifications}. The high resolution ensures an accurate matrix representation of the real image. Each color frame pulled from the Kinect V2 is represented by an array structure of $1080$x$1920$x$3$. Every element corresponds with a pixel of the image and varies between $0$ and $255$. Obviously it can be separated into three different matrices each belonging to $\mathbb{R}^{2}$ and based on a different colour: red, green or blue.\\ Next to the colour camera, the Kinect also possesses a depth sensor. An infrared projector and camera make this possible\cite{kinect_v2}. It provides a $424$x$512$ array making the depth image one of roughly $200 000$ pixels. The field of view of this function is $70.6\degree$ by $60\degree$. Note that the depth camera provides data about parts of the environment that the color camera does not see, and vice versa. When the computer reads the depth data, every number in the matrix represents a distance in millimetres. Obviously there are some restrictions. This technology only provides correct information if the object is at a distance located in between 0.5m to 4m. This has to be taken into account for further implementation of this paper.\\
+As second element of hardware the computer has a less important role. Preferably, OSX isn't used as operating system for this application, because the Kinect drivers do not exist for Macintosh computers. If the reader has a Mac, problems can be avoided by running either Windows or Ubuntu on a virtual machine. The algorithm should run in an acceptable time frame on every machine.\\
 To conclude this section a brief word on the necessary transfer cable. Since a depth sensing camera is used, two types of data (depth and color) need to be transferred. The Microsoft OEM Kinect Adapter makes this possible. The special adapter is the only available option and consists of two general parts. One part for delivering current to the camera and the other to transfer both types of data to the connected computer.
-
-
 \subsection{Software}
-There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram on attachment C shows a couple of different methods. There is no ‘right way’ to count objects in an image.
+There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram in appendix C shows a couple of different methods. But keep in mind there is no ‘right way’ to count objects in an image.
 \subsubsection{Analysis RGB image}
 Analysing RGB images is a creative process. Different approaches have their own advantages and disadvantages. The only general ideas that are common throughout most algorithms are:
 \begin{itemize}
 \item Converting the RGB image to greyscale
 \item Run filters over the image to remove noise
 \end{itemize}
-In the next scope, three general methods are featured and briefly discussed. Each was investigated in prospect of this paper. 
+In the next scope, three general methods are featured and briefly discussed. Each was investigated in prospect of this paper.
 \paragraph{Method 1}\mbox{}\\
-This method is the most simple and straightforward to implement. As input it requires a filtered greyscale image. This is passed trough a thresholding algorithm with a pre-defined threshold value. The output is a binary matrix. Thus, this array only has 0's and 1's as elements, respectively representing the colours black and white. The key to solving the problem in this specific scheme is writing code that finds the threshold value based on environmental parameters. When in possession of a truly black and white image, a simple edge detection program is run which makes the edges visible.
+This method is the most simple and straightforward to implement. Firstly the image is converted to a greyscale one, after which it is passed trough a thresholding algorithm with a pre-defined threshold value. The output is a binary matrix. Thus, this array only has 0's and 1's as elements, representing the colours black and white, respectively. When in possession of a truly black and white image, a simple edge detection program is run which makes the edges visible.\\
+The key to solving the problem in this specific scheme is writing code that finds the threshold value based on environmental parameters. 
 \\Advantages: It’s an easy and fast algorithm.
 \\Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. A dynamic value is required.
 \paragraph{Method 2}\mbox{}\\
@@ -95,64 +92,58 @@ The second method tackles the colour analysis in the opposite order than the fir
 The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
 \\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected in between taking the needed pictures for this algorithm.
-
-
 \paragraph{Choice of method}\mbox{}\\
 After comparing these different schemes, the second method comes out as the better of the three. See Fig.\ref{fig:comparison_methods} for the comparison.\\
-The first step, as discussed above, is to convert the image to greyscale \cite{greyscale}. This is easily done by calculating a weighted average of the values of all three red, green and blue matrices as shown in the following equation. A linear combination is made.
+The first step, as discussed above, is to convert the image to greyscale \cite{greyscale}. This is easily done by calculating a weighted average of the values of all three red, green and blue matrices as shown in the following equation.
 \begin{figure}[h]
-	\center
-  \includegraphics[width=0.7\linewidth]{comparison_methods.png}
-  \caption{A comparison between the 3 different methods.}
-  \label{fig:comparison_methods}
+\center
+\includegraphics[width=0.7\linewidth]{comparison_methods.png}
+\caption{A comparison between the 3 different methods.}
+\label{fig:comparison_methods}
 \end{figure}
 \begin{equation}
 greyscale\_image(row, col) = 0.2989 * RED + 0.5870 * GREEN + 0.1140 * BLUE
 \end{equation}
-The used coefficients count up to $1$, so the values in the greyscale image can vary from $0$ to $255$. All these values $greyscale\_image(row, col)$ form the new image.
-
+The used coefficients add up to $1$. This has to be the case, if else some values could exceed the $0$ to $255$ range. All these values $greyscale\_image(row, col)$ form the new image.
 \noindent Before running the image through an edge detection algorithm, two filters are applied. Both blur the image to an extent such that noise after edge detection is considerably reduced. This effect is visualised in Fig. \ref{fig:filter_comparison}
-Firstly a Gaussian blur\cite{gaussian} is applied. Most filters are a convolution of a kernel with the image. For a Gaussian blur the G kernel found below is used. This is just a weighted average. This has as consequence that the elements centered around the main pixel have bigger weights than those at the edges.
+Firstly a Gaussian blur\cite{gaussian} is applied. Most filters are a convolution of a kernel with the image. For a Gaussian blur the kernel G, found below, is used. This is just a weighted average. This has as consequence that the elements centred around the main pixel have bigger weights than those at the edges.
 \begin{figure}[h]
-	\center
-  \includegraphics[width=0.7\linewidth]{filter_comparison.png}
-  \caption{A comparison with the use of filters.}
-  \label{fig:filter_comparison}
+\center
+\includegraphics[width=0.7\linewidth]{filter_comparison.png}
+\caption{A comparison with the use of filters.}
+\label{fig:filter_comparison}
 \end{figure}
-
 \begin{equation}
-  G = (1/159) * 
-  \begin{bmatrix}
-   2 & 4 & 5 & 4 & 2\\
-   4 & 9 & 12 & 9 & 4\\
-   5 & 12 & 15 & 12 & 5\\
-   4 & 9 & 12 & 9& 4\\
-   2 & 4 & 5 & 4 & 2
-  \end{bmatrix}
+G = (1/159) * 
+\begin{bmatrix}
+2 & 4 & 5 & 4 & 2\\
+4 & 9 & 12 & 9 & 4\\
+5 & 12 & 15 & 12 & 5\\
+4 & 9 & 12 & 9& 4\\
+2 & 4 & 5 & 4 & 2
+\end{bmatrix}
 \end{equation}
 The second blur is a mean blur \cite{mean}. This is almost the same, the actions are just done with a different kernel kernel. This kernel calculates the average of the values around the pixel.
 \begin{equation}
 M = (1/9) * 
 \begin{bmatrix}
-	1&1&1\\
-	1&1&1\\
-	1&1&1
+1&1&1\\
+1&1&1\\
+1&1&1
 \end{bmatrix}
 \end{equation}
 Note that both G and M have a norm of 1. If this wasn't the case, pixel values of the filtered image could exceed the boundary values of 0 to 255 for uint8 numbers. \\
-After both filters are applied, the image is ready to be run through an edge detection algorithm\cite{edge_detection}. This algorithm is on itself also a filter with kernel done by the matrix L given below.
-It calculates the \textit{spatial  derivative} or in simpler words, it highlights regions of rapid intensity change.
+After both filters are applied, the image is ready to be run through an edge detection algorithm\cite{edge_detection}. This algorithm is on itself also a filter with kernel given by the matrix L shown below.
+It calculates the \textit{spatial derivative} or in simpler words, it highlights regions of rapid intensity change.
 \begin{equation}
 L =\begin{bmatrix}
-	0&-1&0\\
-	-1&4&-1\\
-	0&-1&0
+0&-1&0\\
+-1&4&-1\\
+0&-1&0
 \end{bmatrix}
 \end{equation}
-
-
-\noindent Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filtered before convolution with L, more 'edges' would have been drawn because more unregular areas exist.\\
-Note also how this convolution returns a new image which can have negative values for its pixels. The more negative the value, the darker the image. A different number type is used.\\
+\noindent Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filtered before convolution with L, more 'edges' would have been drawn because more irregular areas exist.\\
+Note also how this convolution returns a new image which can have negative values for its pixels. The more negative the value, the darker the image. To make this possible a different number type is used.\\
 The threshold algorithm, used in the following step, is based on this feature. This algorithm runs through to whole matrix and assigns each value with either a 0 or a 1. It decides this by assessing if the current value is either smaller than or bigger than a threshold value, respectively. After conducting multiple experiments and testing, a threshold value of 2 seems to do the trick. A more dynamic way of determining this value may be developed in the next weeks. After applying this edge detection, the matrix becomes a binary image with only the edges in white. Based on these edges it is possible to outline the objects and count them, but further research and programming has to be done to complete the whole program.
 
 \subsubsection{Analysis Depth Sensor}
