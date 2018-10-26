@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  26 OCT 2018 01:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 02:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -754,23 +754,16 @@ File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
 Package pdftex.def Info: Auto.pdf , page1 used on input line 305.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-[24 <./Auto.pdf>]
-! Too many }'s.
-l.305 ...bel{pdf:Auto}},linktodoc=true]{Auto.pdf}}
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-(./Verslag.aux)
+[24 <./Auto.pdf>] (./Verslag.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7433 strings out of 492649
- 100693 string characters out of 6129621
- 342005 words of memory out of 5000000
- 11164 multiletter control sequences out of 15000+600000
+ 7432 strings out of 492649
+ 100678 string characters out of 6129622
+ 341995 words of memory out of 5000000
+ 11163 multiletter control sequences out of 15000+600000
  10437 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,46p,1563b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
