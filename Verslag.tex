@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass{article}
 
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage{pdfpages}
@@ -13,7 +13,6 @@
 \usepackage{apacite}
 \usepackage{gensymb}
 
-\graphicspath{ {figures/} }
 \graphicspath{ {./verslag_figuren/} }
 
 \usepackage[numbib]{tocbibind}
@@ -30,8 +29,6 @@
 \begin{document}
 
 \includepdf[pages=-]{frontpage.pdf}
-
-
 
 \newpage
 \tableofcontents
@@ -70,28 +67,31 @@ Choosing the camera is a vital element in this project. If chosen poorly, it can
 Having considered all of the above, the best option is the latter one. More specifically, the system described in this report is based on a Kinect V2 from Microsoft. This camera has a color lens with a resolution of $1920$ by $1080$ pixels and a corresponding field of view of $84.1\degree$ by $53.8\degree$\cite{kinect_specifications}. The high resolution ensures an accurate matrix representation of the real image. Each color frame pulled from the Kinect V2 is represented by an array structure of $1080$x$1920$x$3$. Every element corresponds with a pixel of the image and varies between $0$ and $255$. Obviously it can be separated into three different matrices each belonging to $\mathbb{R}^{2}$ and based on a different colour: red, green or blue.\\ Next to the colour camera, the Kinect also possesses a depth sensor. An infrared projector and camera make this possible\cite{kinect_v2}. It provides a $424$x$512$ array making the depth image one of roughly $200 000$ pixels. The field of view of this function is $70.6\degree$ by $60\degree$. Note that the depth camera provides data about parts of the environment that the color camera does not see, and vice versa. When the computer reads the depth data, every number in the matrix represents a distance in millimetres. Obviously there are some restrictions. This technology only provides correct information if the object is at a distance located in between 0.5m to 4m. This has to be taken into account for further implementation of this paper.\\
 As second element of hardware the computer has a less important role. Preferably, OSX isn't used as operating system for this application, because the Kinect drivers do not exist for Macintosh computers. If the reader has a Mac, problems can be avoided by running either Windows or Ubuntu on a virtual machine. The algorithm should run in an acceptable time frame on every machine.\\
 To conclude this section a brief word on the necessary transfer cable. Since a depth sensing camera is used, two types of data (depth and color) need to be transferred. The Microsoft OEM Kinect Adapter makes this possible. The special adapter is the only available option and consists of two general parts. One part for delivering current to the camera and the other to transfer both types of data to the connected computer.
+
 \subsection{Software}
-There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram in appendix C shows a couple of different methods. But keep in mind there is no ‘right way’ to count objects in an image.
+There are a lot of options when it comes to software and a wide range of different algorithms for image processing exist. The diagram in appendix C shows a couple of different methods. But keep in mind there is no 'right way’ to count objects in an image.
+
 \subsubsection{Analysis RGB image}
 Analysing RGB images is a creative process. Different approaches have their own advantages and disadvantages. The only general ideas that are common throughout most algorithms are:
 \begin{itemize}
 \item Converting the RGB image to greyscale
 \item Run filters over the image to remove noise
+\item Transforming the image to a binary image
 \end{itemize}
 In the next scope, three general methods are featured and briefly discussed. Each was investigated in prospect of this paper.
 \paragraph{Method 1}\mbox{}\\
-This method is the most simple and straightforward to implement. Firstly the image is converted to a greyscale one, after which it is passed trough a thresholding algorithm with a pre-defined threshold value. The output is a binary matrix. Thus, this array only has 0's and 1's as elements, representing the colours black and white, respectively. When in possession of a truly black and white image, a simple edge detection program is run which makes the edges visible.\\
-The key to solving the problem in this specific scheme is writing code that finds the threshold value based on environmental parameters. 
+This method is the most simple and straightforward to implement. There are two ways to approach this. The image can be converted to a greyscale one which is analysed or the image can be analysed in its three different spectra (red, green and blue) which are combined afterwards. In the next step it is passed trough a thresholding algorithm with a pre-defined threshold value. The output is a binary matrix. Thus, this array only has 0's and 1's as elements, representing the colours black and white, respectively. When in possession of a truly black and white image, a simple edge detection program is run which makes the edges visible.\\
+The key to solving the problem in this specific scheme is writing code that finds the threshold value based on environmental parameters. An example of such an algorithm is the imbinarize function from the Processing Toolbox \cite{Mathworks}. This function is based on the Otsu's method. An example of a program that uses this function can be found in Appendix A.
 \\Advantages: It’s an easy and fast algorithm.
 \\Disadvantages: With a pre-defined threshold value it just classifies pixels based on colour. A dynamic value is required.
 \paragraph{Method 2}\mbox{}\\
-The second method tackles the colour analysis in the opposite order than the first method, as it commences with an edge detection algorithm. Since the input image is still very complex, it is first converted to a filtered greyscale image. Still, this edge detection is more comprehensive than that one from method one. The output still is a greyscale image, contrary to the binary array the reader might expect. This is followed by some thresholding code with a pre-defined threshold value. The current image is now represented by a matrix where the edges are outlined using binary elements.
+The second method tackles the colour analysis in the opposite order than the first method, as it commences with an edge detection algorithm. Since the input image is still very complex, it is first converted to a filtered greyscale image. Still, this edge detection is more comprehensive than that one from method one. The output is still a greyscale image, contrary to the binary array the reader might expect. This is followed by some thresholding code with a pre-defined threshold value. The current image is now represented by a matrix where the edges are outlined using binary elements.
 \\Advantages: It detects all kinds of objects, not based on colour or shape.
 \\Disadvantages: The boundary between different objects needs to be clear for this to work.
 \paragraph{Method 3}\mbox{}\\
-The third way takes a different approach to solving the analysis of the colour image. When using this, a compromise in functionality is made. Since it needs a picture of the empty background without any objects, the user experience is worsened. After getting a background image, the picture of the situation with objects gets filtered and the algorithm converts it into a greyscale image. Using this less complex matrix, the code loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel on the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects.
+The third way takes a different approach to solving the analysis of the colour image. Instead of looking at the objects the algorithm looks for the background. This is possible in two different ways and both ways make a compromise in functionality. The first way needs a picture of the empty background without any objects. The second way looks for the most common pixels. The compromise here is the fact that there can't be too much objects in the image. After applying filters the program loops through the image pixel by pixel. This necessary but time consuming loop checks if the pixel on the image is more or less the same as the corresponding pixel of the background image. If located within a pre-determined range, that element of the array gets classified as background. The consequence is that the output is a binary image with clear-cut objects. An example of this implementation can be found in Appendix B. 
 \\Advantages: It is very good in detecting objects, not being based on colour or shape.
-\\Disadvantages: There needs to be an image of the empty background. Note that the lighting conditions have to be unaffected in between taking the needed pictures for this algorithm.
+\\Disadvantages: There needs to be an image of the empty background or the image need to be a big part of your image and has to be consistent. On top of that the lighting conditions and shadow play a big part. 
 \paragraph{Choice of method}\mbox{}\\
 After comparing these different schemes, the second method comes out as the better of the three. See Fig.\ref{fig:comparison_methods} for the comparison.\\
 The first step, as discussed above, is to convert the image to greyscale \cite{greyscale}. This is easily done by calculating a weighted average of the values of all three red, green and blue matrices as shown in the following equation.
@@ -144,7 +144,7 @@ L =\begin{bmatrix}
 \end{equation}
 \noindent Note now how the kernel uses the pixels next to the evaluated pixel to see how much intensity changes. If the image wouldn't have been filtered before convolution with L, more 'edges' would have been drawn because more irregular areas exist.\\
 Note also how this convolution returns a new image which can have negative values for its pixels. The more negative the value, the darker the image. To make this possible a different number type is used.\\
-The threshold algorithm, used in the following step, is based on this feature. This algorithm runs through to whole matrix and assigns each value with either a 0 or a 1. It decides this by assessing if the current value is either smaller than or bigger than a threshold value, respectively. After conducting multiple experiments and testing, a threshold value of 2 seems to do the trick. A more dynamic way of determining this value may be developed in the next weeks. After applying this edge detection, the matrix becomes a binary image with only the edges in white. Based on these edges it is possible to outline the objects and count them, but further research and programming has to be done to complete the whole program.
+The threshold algorithm, used in the following step, is based on this feature. This algorithm runs through to whole matrix and assigns each value with either a 0 or a 1. It decides this by assessing if the current value is either smaller than or bigger than a threshold value, respectively. After conducting multiple experiments and testing, a threshold value of 2 seems to do the trick. A more dynamic way of determining this value may be developed in the next weeks. After applying this edge detection, the matrix becomes a binary image with only the edges in white. Based on these edges it is possible to outline the objects and count them. More on these functionalities can be found  in section 4: Research. 
 
 \subsubsection{Analysis Depth Sensor}
 Using only the RGB image does have some shortcomings. It is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects and a lot of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. Like featured in the section about the hardware, each element of the input data represents a distance in millimeters.\\
@@ -171,30 +171,29 @@ G_{y} &=&
 G &=& \sqrt{G_{x}^2+G_{y}^2}
 \end{eqnarray*}
 In the last equation, G is the magnitude of the total gradient as well as the value inserted in the new matrix.
-The result can be seen in fig. 4.
+The result can be seen in fig. ~\ref{fig:original_and_sobel}.
 \begin{figure}[h]
 	\center
   \includegraphics[width=1\linewidth]{original_and_sobel.png}
   \caption{The original RGB image (left) and the image after the Sobel-Feldman operator (right)}
-  \label{fig:Moore_Neighbor}
+  \label{fig:original_and_sobel}
 \end{figure}
 
 \paragraph{Filtering of the noise}\mbox{}\\
-After adding al the different magnitudes of the gradients to an array, some anomalies still exist. There can be some impossible elements, like points that seem to be further away than the basket, or fluctuations in areas that are supposed to be flat (noise). The simplest way to solve this problem would be to use a maximum and minimum treshold: The maximum treshold can be a value that is further away than the basket. These values are impossible and the corresponding values in the matrix can be set to zero. The minimum treshold can be decided by empirical research. Values lower than this value can be seen as noise and thus can be set to zero. The final result can be seen in fig. 5.
+After adding al the different magnitudes of the gradients to an array, some anomalies still exist. There can be some impossible elements, like points that seem to be further away than the basket, or fluctuations in areas that are supposed to be flat (noise). The simplest way to solve this problem would be to use a maximum and minimum threshold: The maximum threshold can be a value that is further away than the basket. These values are impossible and the corresponding values in the matrix can be set to zero. The minimum threshold can be decided by empirical research. Values lower than this value can be seen as noise and thus can be set to zero. The final result can be seen in fig. ~\ref{fig:sobel_and_threshold}.
 
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.6\linewidth]{sobel_and_threshold.png}
   \caption{The original image after using a Sobel-Feldman operator and a threshold filter}
-  \label{fig:Moore_Neighbor}
+  \label{fig:sobel_and_threshold}
 \end{figure}
 
 \section{Research}
-
 An important part of a project is research. Without reading through previous experiences or discoveries within the domain of the project, it will be very hard to figure out a solution. Let alone being comfortable enough in the domain to try something drastically new and (hopefully) develop new ideas in the specific branch of the subject. Although image processing is a recent research domain. It is quite popular and already has a lot of foundations to built from. Even Matlab has some predefined functions and libraries to assist the development of image processing software.
 However, the goal of this project is to get insight in the programming and working of image processing. To achieve this goal as good as possible, in the end result, there should be almost no use of predefined functions or libraries. They will only be used if they are completely comprehensible or if they make the code more elegant by doing ordinary operations. The next section goes through the methodology of solving the problem if the use of functions was preferred. It starts by using functions to detect and count the objects, and ends with surrounding the objects with a rectangle, as well as highlighting the edges. 
 
-\noindent Throughout the project a lot of different approaches were tested and discarded. But in essence, they all do the same thing. En plus, there are functions, delivered in the Image Proccesing Toolbox which can replace the already finished algorithms. A brief overview of each element is given in the following section.
+\noindent Throughout the project a lot of different approaches were tested and discarded. But in essence, they all do the same thing. En plus, there are functions, delivered in the Image Processing Toolbox which can replace the already finished algorithms. A brief overview of each element is given in the following section.
 
 %They convert the original image to a binary image. Afterwards, this binary array is analysed and a simple algorithm suffices to count the objects. In this %fase of the program the same code is applicable. This code consists of a few important parts: the actual counting and the drawing of the boundary boxes. 
 
@@ -206,19 +205,19 @@ The central objective of this paper is counting the amount of objects in a speci
 where BW represents the binary (or black and white) image; num represents the number of objects in the BW image and where L represents a matrix were the first group of pixels are numbered 1, the second group 2 etc. that way it's easier to get a count for how many objects there are.
 
 \paragraph{Boundary boxes}\mbox{}\\
-The image processing toolbox really simplifies the drawing of boundary boxes. Once a binary image is obtained the function regionprops can extract properties about image regions. Where image regions are defined as 8-connected components in an binary image. This means that each image region contains at least 8 interconnected white pixels, since the black pixels are registered as background. The property that's interesting for this part of the project is called 'boundingbox'. This property returns for every image region the smallest rectangle containing this region. In two dimensions this is a vector with 4 values, the x-coordinate of the upper left corner, the y-coordinate of that corner, the width and the height. The function 
+The image processing toolbox really simplifies the drawing of boundary boxes. Once a binary image is obtained the function regionprops \cite{Mathworks} can extract properties about image regions. Where image regions are defined as 8-connected components in an binary image. This means that each image region contains at least 8 interconnected white pixels, since the black pixels are registered as background. The property that's interesting for this part of the project is called 'boundingbox'. This property returns for every image region the smallest rectangle containing this region. In two dimensions this is a vector with 4 values, the x-coordinate of the upper left corner, the y-coordinate of that corner, the width and the height. The function 
 \begin{equation}
 rectangle('Position', pos)
 \end{equation}
 where 'Position' declares the input and where pos is the input obtained from regionprops, can easily display this boundingbox. 
 
 \paragraph{Edge detection}\mbox{}\\
-There are a lot of ways to implement edge detection. Edge detection algorithms as described in PARAGRAPH exist for greyscale image. But if a binary image is available, this becomes much easier. For starters there exists a function in the image processing toolbox called bwboundaries. The syntax of that function goes as follows: 
+There are a lot of ways to implement edge detection. Edge detection algorithms as described in PARAGRAPH exist for greyscale image. But if a binary image is available, this becomes much easier. For starters there exists a function in the image processing toolbox called bwboundaries \cite{Mathworks}. The syntax of that function goes as follows: 
 \begin{equation}
 B = bwboundaries (BW)
 \end{equation}
 where BW represents the input, this is a binary image which only consists out of black and white pixels; and B represents the output, which consist out of a cell array with N elements (number of image regions in the binary image), all these elements contain a list of the boundary pixels. Which in turn are fairly easy to draw. They can be inserted in the matrix of the image by replacing values, this is done by looping through the cell arrays. The advantage of this method is that the image can actually be printed. When they are drawn on top of the image with a function like visboundaries the actual values of the pixels stay unchanged, but it become different figures. One with the image and another on top of it with the edges. 
-The function bwboundaries implements the Moore-Neighbor tracing algorithm. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start. The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited (See fig. 3).
+The function bwboundaries implements the Moore-Neighbor tracing algorithm \cite{Moore_Neighborhood}. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start. The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited. This is illustrated in Fig.~\ref{fig:Moore_Neighbor}).
 
 \begin{figure}[h]
 	\center
@@ -241,7 +240,7 @@ As seen above, the system explained in this paper primarily consists of software
 With a budget of \euro 250, this is feasible. Both the Kinect and the adapter have been ordered but as of writing, a fixed price isn't known. At the current market prices, the estimated cost is \euro 200. The remaining \euro 50 are a safe backup for other small costs.
 
 \section{Course Integration}
-Solving the problem explained in this report is the main objective of the course P&O 3 (B-KUL-H01D4B). This course is part of the bachelor in engineering science curriculum of the KU Leuven. It is a course which uses concepts seen in others to solve problems. By now it should be apparent that, indeed, many courses were used to tackle the given problem.\\
+Solving the problem explained in this report is the main objective of the course P\&O 3 (B-KUL-H01D4B). This course is part of the bachelor in engineering science curriculum of the KU Leuven. It is a course which uses concepts seen in others to solve problems. By now it should be apparent that, indeed, many courses were used to tackle the given problem.\\
 Knowledge of linear algebra is applied extensively. Simple concepts like matrix multiplication to more advanced ones like matrix convolution form the core of the algorithms written. Numerical Mathematics is useful to get an idea what influence measurement errors have on calculations with large matrices. And this course, together with Applied Informatics, give the tools to investigate the time complexity of the algorithm. The latter course has also helped with grasping the Matlab programming language and environment since general programming concepts are a big part of this project.
 
 \section{Conclusion}
@@ -276,21 +275,32 @@ Next, the goal is to, after merging the processed data from the RGB and depth se
     %emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
 
+\subsection*{A: Matlab Threshold Functions }
+\lstinputlisting{threshold.m}
 
-\subsection*{A: Matlab Code RGB sensor}
+\newpage
 
+\subsection*{B: Matlab Erasing Background}
+\lstinputlisting{histogram.m}
+
+\newpage
+
+\subsection*{C: Matlab Code RGB Sensor}
 \lstinputlisting{image_processing_week4.m}
 
 \newpage
-\subsection*{B: Matlab Code depth sensor}
-
+\subsection*{D: Matlab Code Septh Sensor}
 \lstinputlisting{testDepth.m}
 
 \newpage
-\includepdf[pages=1,scale=.8,pagecommand={\subsection*{C: Diagram}\label{pdf:workplan_def}},linktodoc=true]{workplan_def.pdf}
+\subsection*{E: Matlab Library Functions}
+\lstinputlisting{extra_functionalities.m}
+
+\newpage
+\includepdf[pages=1,scale=.8,pagecommand={\subsection*{F: Diagram}\label{pdf:workplan_def}},linktodoc=true]{workplan_def.pdf}
 
 \newpage
 
-\includepdf[scale=.8,pagecommand={\subsection*{D: Gantt chart}\label{pdf:Auto}},linktodoc=true]{Auto.pdf}
+\includepdf[scale=.8,pagecommand={\subsection*{G: Gantt chart}\label{pdf:Auto}},linktodoc=true]{Auto.pdf}
 
 \end{document}
