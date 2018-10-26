@@ -180,7 +180,7 @@ G_{y} &=&
 G &=& \sqrt{G_{x}^2+G_{y}^2}
 \end{eqnarray*}
 In the last equation, G is the magnitude of the total gradient as well as the value inserted in the new matrix.
-
+The result can be seen in fig. 4.
 \begin{figure}[h]
 	\center
   \includegraphics[width=1\linewidth]{original_and_sobel.png}
@@ -189,7 +189,7 @@ In the last equation, G is the magnitude of the total gradient as well as the va
 \end{figure}
 
 \paragraph{Filtering of the noise}\mbox{}\\
-After adding al the different magnitudes of the gradients to an array, some anomalies still exist. There can be some impossible elements, like points that seem to be further away than the basket, or fluctuations in areas that are supposed to be flat (noise). The simplest way to solve this problem would be to use a maximum and minimum treshold: The maximum treshold can be a value that is further away than the basket. These values are impossible and the corresponding values in the matrix can be set to zero. The minimum treshold can be decided by empirical research. Values lower than this value can be seen as noise and thus can be set to zero.
+After adding al the different magnitudes of the gradients to an array, some anomalies still exist. There can be some impossible elements, like points that seem to be further away than the basket, or fluctuations in areas that are supposed to be flat (noise). The simplest way to solve this problem would be to use a maximum and minimum treshold: The maximum treshold can be a value that is further away than the basket. These values are impossible and the corresponding values in the matrix can be set to zero. The minimum treshold can be decided by empirical research. Values lower than this value can be seen as noise and thus can be set to zero. The final result can be seen in fig. 5.
 
 \begin{figure}[h]
 	\center
