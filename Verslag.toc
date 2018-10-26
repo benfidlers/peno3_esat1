@@ -9,7 +9,7 @@
 \contentsline {paragraph}{Method 1}{3}
 \contentsline {paragraph}{Method 2}{4}
 \contentsline {paragraph}{Method 3}{4}
-\contentsline {paragraph}{Implementation}{4}
+\contentsline {paragraph}{Choice of method}{4}
 \contentsline {subsubsection}{\numberline {3.2.2}Analysis Depth Sensor}{6}
 \contentsline {paragraph}{Detection of the difference in height}{7}
 \contentsline {paragraph}{Filtering of the noise}{7}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  26 OCT 2018 08:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  26 OCT 2018 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,21 +527,21 @@ _comparison.png>]
 File: ./verslag_figuren/original_and_sobel.png Graphic file (type png)
 <use ./verslag_figuren/original_and_sobel.png>
 Package pdftex.def Info: ./verslag_figuren/original_and_sobel.png  used on inpu
-t line 187.
+t line 186.
 (pdftex.def)             Requested size: 443.57848pt x 118.88155pt.
  [7 <./verslag_figuren/original_and_sobel.png>]
 <./verslag_figuren/sobel_and_threshold.png, id=116, 407.27156pt x 228.855pt>
 File: ./verslag_figuren/sobel_and_threshold.png Graphic file (type png)
 <use ./verslag_figuren/sobel_and_threshold.png>
 Package pdftex.def Info: ./verslag_figuren/sobel_and_threshold.png  used on inp
-ut line 197.
+ut line 196.
 (pdftex.def)             Requested size: 266.14978pt x 149.56064pt.
  [8 <./verslag_figuren/sobel_and_threshold.png>]
 <./verslag_figuren/Moore_Neighbor.png, id=121, 206.27063pt x 171.13937pt>
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 229.
+ne 228.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
 
 
@@ -676,32 +676,32 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 <work_plan.pdf, id=170, 597.23125pt x 845.1575pt>
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf>
-Package pdftex.def Info: work_plan.pdf  used on input line 298.
+Package pdftex.def Info: work_plan.pdf  used on input line 297.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf>
-Package pdftex.def Info: work_plan.pdf  used on input line 298.
+Package pdftex.def Info: work_plan.pdf  used on input line 297.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 <work_plan.pdf, id=173, page=1, 597.23125pt x 845.1575pt>
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: work_plan.pdf Graphic file (type pdf)
 <use work_plan.pdf, page 1>
-Package pdftex.def Info: work_plan.pdf , page1 used on input line 298.
+Package pdftex.def Info: work_plan.pdf , page1 used on input line 297.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
  [23 <./work_plan.pdf
 
@@ -715,7 +715,7 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <Auto.pdf, id=203, 614.295pt x 794.97pt>
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf>
-Package pdftex.def Info: Auto.pdf  used on input line 302.
+Package pdftex.def Info: Auto.pdf  used on input line 301.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -723,7 +723,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion:
 found PDF version <1.7>, but at most version <1.5> allowed
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf>
-Package pdftex.def Info: Auto.pdf  used on input line 302.
+Package pdftex.def Info: Auto.pdf  used on input line 301.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -736,23 +736,23 @@ found PDF version <1.7>, but at most version <1.5> allowed
 <Auto.pdf, id=206, page=1, 614.295pt x 794.97pt>
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 302.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 301.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 302.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 301.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 302.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 301.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 302.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 301.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 302.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 301.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 [24 <./Auto.pdf>] (./Verslag.aux)
 
@@ -781,7 +781,7 @@ live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2
 018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (28 pages, 2568972 bytes).
+Output written on Verslag.pdf (28 pages, 2569071 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  172 compressed objects within 2 object streams
