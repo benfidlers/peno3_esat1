@@ -17,7 +17,7 @@ subplot(2,2,4), imshow(I);
 title('Original image');
 
 %% Histogram
-nb_bins = 4;
+nb_bins = 2;
 width_bins = 256/nb_bins;
 
 image_size = size(rmat);
@@ -130,3 +130,29 @@ imshow(Ifilled);
 se = strel('disk',1);
 Iopenned = imopen(Ifilled, se);
 imshow(Iopenned);
+
+%% Extract features
+[labeled, numObjects] = bwlabel(Iopenned);
+stats = regionprops(labeled,'Eccentricity', 'Area', 'BoundingBox');
+eccentricities = [stats.Eccentricity];
+
+%% Use feature analysis to count objects
+idxOfObjects = find(eccentricities);
+
+figure, imshow(I);
+hold on;
+for idx = 1 : length(idxOfObjects)
+    h = rectangle ('Position', stats(idx).BoundingBox);
+    set(h,'EdgeColor',[.75 0 0]);
+    set(h,'LineWidth',2);
+end
+
+title(['There are ', num2str(numObjects), ' objects in the picture']);
+hold off;
+
+%% Draw boundaries
+B = bwboundaries(Iopenned);
+imshow(I);
+hold on;
+visboundaries(B);
+hold off;
