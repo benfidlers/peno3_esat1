@@ -1,5 +1,5 @@
-\contentsline {section}{Contents}{3}{section*.1}
-\contentsline {section}{List of Figures}{4}{section*.2}
+\contentsline {section}{Contents}{i}{section*.1}
+\contentsline {section}{List of Figures}{ii}{section*.2}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
 \contentsline {section}{\numberline {2}Problem Description}{1}{section.2}
 \contentsline {section}{\numberline {3}Design}{1}{section.3}
