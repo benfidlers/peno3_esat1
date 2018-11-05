@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  26 OCT 2018 19:17
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  26 OCT 2018 17:27
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  26 OCT 2018 20:59
 entering extended mode
 **./Verslag.tex
 (Verslag.tex
@@ -10,13 +6,8 @@ LaTeX2e <2017-04-15>
 Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-<<<<<<< HEAD
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
-=======
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
 )
 \c@part=\count79
 \c@section=\count80
@@ -590,19 +581,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-<<<<<<< HEAD
-
-(./Verslag.aux)
-=======
- (Verslag.aux
-
-LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
-
-
-LaTeX Warning: Label `fig:Moore_Neighbor' multiply defined.
-
-)
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+ (Verslag.aux)
 \openout1 = `Verslag.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -738,66 +717,37 @@ Package gensymb Warning: Not defining \micro.
 \c@lstlisting=\count123
 <frontpage.pdf, id=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
-<<<<<<< HEAD
-<use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf  used on input line 31.
-=======
  <use frontpage.pdf>
-Package pdftex.def Info: frontpage.pdf used on input line 32.
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+Package pdftex.def Info: frontpage.pdf used on input line 31.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
 
 <use frontpage.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf  used on input line 31.
-=======
-Package pdftex.def Info: frontpage.pdf used on input line 32.
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+Package pdftex.def Info: frontpage.pdf used on input line 31.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
  <frontpage.pdf, id=4, page=1, 597.50786pt x 845.04686pt>
 File: frontpage.pdf Graphic file (type pdf)
 
 <use frontpage.pdf, page 1>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
-(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
-=======
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 31.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 File: frontpage.pdf Graphic file (type pdf)
  <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 32.
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 
 <use frontpage.pdf, page 1>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
-=======
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 32.
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
  <use frontpage.pdf, page 1>
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 32.
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 
 <use frontpage.pdf, page 1>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page1 used on input line 31.
-=======
-Package pdftex.def Info: frontpage.pdf, page1 used on input line 32.
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+Package pdftex.def Info: frontpage.pdf, page1 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
  [1
 
@@ -806,42 +756,18 @@ Package pdftex.def Info: frontpage.pdf, page1 used on input line 32.
 File: frontpage.pdf Graphic file (type pdf)
 
 <use frontpage.pdf, page 2>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 31.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
-File: frontpage.pdf Graphic file (type pdf)
-<use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 31.
-=======
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 32.
+Package pdftex.def Info: frontpage.pdf, page2 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
  <use frontpage.pdf, page 2>
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 32.
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+Package pdftex.def Info: frontpage.pdf, page2 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
 File: frontpage.pdf Graphic file (type pdf)
 
 <use frontpage.pdf, page 2>
-<<<<<<< HEAD
-Package pdftex.def Info: frontpage.pdf , page2 used on input line 31.
+Package pdftex.def Info: frontpage.pdf, page2 used on input line 31.
 (pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] (./Verslag.toc)
-=======
-Package pdftex.def Info: frontpage.pdf, page2 used on input line 32.
-(pdftex.def)             Requested size: 562.12244pt x 795.00179pt.
- [2 <./frontpage.pdf>] (Verslag.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 6.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 6.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+ [2 <./frontpage.pdf>] (Verslag.toc)
 \tf@toc=\write3
 \openout3 = `Verslag.toc'.
 
@@ -850,34 +776,38 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `Verslag.lof'.
 
  [4]
-<<<<<<< HEAD
 
 LaTeX Warning: Citation `dirac' undefined on input line 50.
 
-<./verslag_figuren/opdracht.png, id=75, 571.53525pt x 428.19975pt>
+
+LaTeX Warning: Reference `fig:example' on page 1 undefined on input line 55.
+
+<./verslag_figuren/opdracht.png, id=74, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
-<use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 58.
-=======
-<./verslag_figuren/opdracht.png, id=76, 571.53525pt x 428.19975pt>
-File: ./verslag_figuren/opdracht.png Graphic file (type png)
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
 
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png used on input line 61.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png used on input line 58.
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 67.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1] [2 <./verslag_figuren/opdracht.png>]
+)
+
+LaTeX Warning: Citation `kinect_specifications' undefined on input line 67.
+
+
+LaTeX Warning: Citation `kinect_v2' undefined on input line 67.
+
+[1] [2 <./verslag_figuren/opdracht.png>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -885,27 +815,34 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
- [3]
-<<<<<<< HEAD
-<./verslag_figuren/comparison_methods.png, id=97, 860.013pt x 982.872pt>
-=======
+
+
+LaTeX Warning: Citation `Mathworks' undefined on input line 84.
+
+[3]
+
+LaTeX Warning: Reference `fig:comparison_methods' on page 4 undefined on input 
+line 96.
+
+
+LaTeX Warning: Citation `greyscale' undefined on input line 97.
+
 <./verslag_figuren/comparison_methods.png, id=95, 860.013pt x 982.872pt>
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png used on input
  line 100.
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
-<<<<<<< HEAD
-<./verslag_figuren/filter_comparison.png, id=98, 913.61325pt x 513.117pt>
-=======
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:filter_comparison' on page 4 undefined on input l
+ine 108.
+
+
+LaTeX Warning: Citation `gaussian' undefined on input line 109.
 
 <./verslag_figuren/filter_comparison.png, id=96, 913.61325pt x 513.117pt>
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 
 <use ./verslag_figuren/filter_comparison.png>
@@ -913,84 +850,67 @@ Package pdftex.def Info: ./verslag_figuren/filter_comparison.png used on input
 line 112.
 (pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
  [4 <./verslag_figuren/comparison_methods.png>]
-Overfull \hbox (2.31122pt too wide) in paragraph at lines 134--138
-\OT1/cmr/m/n/10 After both fil-ters are ap-plied, the im-age is ready to be run
- through an edge de-tec-tion algorithm[]R. Fisher
- []
 
-<<<<<<< HEAD
+LaTeX Warning: Citation `mean' undefined on input line 126.
+
+
+LaTeX Warning: Citation `edge_detection' undefined on input line 136.
+
 [5 <./verslag_figuren/filter_comparison.png>]
-<./verslag_figuren/original_and_sobel.png, id=107, 769.4346pt x 206.2104pt>
-=======
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Citation `Sobel_operator' undefined on input line 154.
 
-[4] [5 <./verslag_figuren/comparison_methods.png>] [6 <./verslag_figuren/filter
-_comparison.png>]
-<./verslag_figuren/original_and_sobel.png, id=109, 769.4346pt x 206.2104pt>
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+
+LaTeX Warning: Reference `fig:original_and_sobel' on page 6 undefined on input 
+line 174.
+
+<./verslag_figuren/original_and_sobel.png, id=106, 769.4346pt x 206.2104pt>
 File: ./verslag_figuren/original_and_sobel.png Graphic file (type png)
 
 <use ./verslag_figuren/original_and_sobel.png>
 Package pdftex.def Info: ./verslag_figuren/original_and_sobel.png used on input
  line 177.
 (pdftex.def)             Requested size: 443.57848pt x 118.88155pt.
-<<<<<<< HEAD
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./verslag_figuren/sobel_and_threshold.png, id=108, 407.27156pt x 228.855pt>
-=======
- [7 <./verslag_figuren/original_and_sobel.png>]
-<./verslag_figuren/sobel_and_threshold.png, id=115, 407.27156pt x 228.855pt>
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+
+LaTeX Warning: Reference `fig:sobel_and_threshold' on page 6 undefined on input
+ line 183.
+
+<./verslag_figuren/sobel_and_threshold.png, id=107, 407.27156pt x 228.855pt>
 File: ./verslag_figuren/sobel_and_threshold.png Graphic file (type png)
 
 <use ./verslag_figuren/sobel_and_threshold.png>
 Package pdftex.def Info: ./verslag_figuren/sobel_and_threshold.png used on inpu
 t line 187.
 (pdftex.def)             Requested size: 266.14978pt x 149.56064pt.
-<<<<<<< HEAD
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7 <./verslag_figuren/original_and_sobel.png> <./verslag_figuren/sobel_and_
 threshold.png>]
-<./verslag_figuren/Moore_Neighbor.png, id=118, 206.27063pt x 171.13937pt>
-=======
- [8 <./verslag_figuren/sobel_and_threshold.png>] [9]
-<./verslag_figuren/Moore_Neighbor.png, id=124, 206.27063pt x 171.13937pt>
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+
+LaTeX Warning: Citation `Moore_Neighborhood' undefined on input line 220.
+
+
+LaTeX Warning: Reference `fig:Moore_Neighbor' on page 8 undefined on input line
+ 220.
+
+<./verslag_figuren/Moore_Neighbor.png, id=117, 206.27063pt x 171.13937pt>
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 
 <use ./verslag_figuren/Moore_Neighbor.png>
-<<<<<<< HEAD
-Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 224.
+Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png used on input lin
+e 224.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8] [9 <./verslag_figuren/Moore_Neighbor.png>] [10] (./Verslag.bbl
-=======
-Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png used on input lin
-e 225.
-(pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
- [10 <./verslag_figuren/Moore_Neighbor.png>]
-! Misplaced alignment tab character &.
-l.244 ...rt is the main objective of the course P&
-                                                  O 3 (B-KUL-H01D4B). This c...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[11] (Verslag.bbl
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
+[8] [9 <./verslag_figuren/Moore_Neighbor.png>] [10] (Verslag.bbl
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1144,11 +1064,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 221--233
 ess-ing).  \OT1/cmr/m/n/10 Re-trieved (2018-10-1), from
  []
 
-<<<<<<< HEAD
-) [11] (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+) [11] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./threshold.m [12]) [13]
+(threshold.m [12]) [13]
 
 ! Package Listings Error: File `histogram(.m)' not found.
 
@@ -1160,150 +1079,16 @@ Enter file name:
 <read *> 
          
 l.284 \lstinputlisting{histogram.m}
-                                   ^^M
+                                   
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 7238 strings out of 492649
- 97861 string characters out of 6129622
- 293917 words of memory out of 5000000
- 10985 multiletter control sequences out of 15000+600000
- 7488 words of font info for 30 fonts, out of 8000000 for 9000
+ 7591 strings out of 493320
+ 99898 string characters out of 3138953
+ 292454 words of memory out of 3000000
+ 10982 multiletter control sequences out of 15000+200000
+ 7488 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,18n,46p,1592b,2107s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 40i,18n,46p,1595b,2106s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
-=======
-) [12] ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(image_processing_week4.m [13]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 51.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
- [14] [15] [16]
-[17] [18] [19]) [20] (testDepth.m [21]) [22]
-<workplan_def.pdf, id=169, 597.23125pt x 845.1575pt>
-File: workplan_def.pdf Graphic file (type pdf)
- <use workplan_def.pdf>
-Package pdftex.def Info: workplan_def.pdf used on input line 290.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: workplan_def.pdf Graphic file (type pdf)
-
-<use workplan_def.pdf>
-Package pdftex.def Info: workplan_def.pdf used on input line 290.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-<workplan_def.pdf, id=172, page=1, 597.23125pt x 845.1575pt>
-File: workplan_def.pdf Graphic file (type pdf)
-
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf, page1 used on input line 290.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: workplan_def.pdf Graphic file (type pdf)
- <use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf, page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
-File: workplan_def.pdf Graphic file (type pdf)
-
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf, page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
-File: workplan_def.pdf Graphic file (type pdf)
- <use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf, page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
-File: workplan_def.pdf Graphic file (type pdf)
-
-<use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf, page1 used on input line 290.
-(pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
- [23 <./workplan_def.pdf
-
-pdfTeX warning: pdflatex (file ./workplan_def.pdf): PDF inclusion: invalid othe
-r resource which is no dict (key 'ProcSets', type <array>); ignored.
->]
-
-pdfTeX warning: pdflatex (file ./Auto.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<Auto.pdf, id=201, 614.295pt x 794.97pt>
-File: Auto.pdf Graphic file (type pdf)
- <use Auto.pdf>
-Package pdftex.def Info: Auto.pdf used on input line 294.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex (file ./Auto.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-File: Auto.pdf Graphic file (type pdf)
-<use Auto.pdf>
-Package pdftex.def Info: Auto.pdf used on input line 294.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex (file ./Auto.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./Auto.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<Auto.pdf, id=204, page=1, 614.295pt x 794.97pt>
-File: Auto.pdf Graphic file (type pdf)
- <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf, page1 used on input line 294.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: Auto.pdf Graphic file (type pdf)
-
-<use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf, page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: Auto.pdf Graphic file (type pdf)
- <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf, page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: Auto.pdf Graphic file (type pdf)
- <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf, page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
-File: Auto.pdf Graphic file (type pdf)
-
-<use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf, page1 used on input line 294.
-(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
- [24 <./Auto.pdf>] (Verslag.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 7799 strings out of 493320
- 102819 string characters out of 3138953
- 341614 words of memory out of 3000000
- 11174 multiletter control sequences out of 15000+200000
- 10437 words of font info for 40 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 40i,19n,46p,1550b,2108s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/eurosym/feymr10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Verslag.pdf (28 pages, 2596500 bytes).
-PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
-
->>>>>>> 8a6cf040df53be1e4df52f754bdb57acc91692f4
