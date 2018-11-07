@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 clearvars
 img = imread('kinect/foto RGB 4.png');
 %% Method 3: First greyscale, then trheshold ivm background, than edge detection
