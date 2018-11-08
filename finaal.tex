@@ -178,7 +178,7 @@ The threshold algorithm, used in the following step, is based on this feature. T
 Using only the RGB image does have some shortcomings. For example, it is rather difficult to distinguish an object from its shadow, a multicoloured object could be seen as multiple different objects and a decent amount of reflection could make an object undetectable. These are some of the reasons why enrichening the object counting algorithm with the usage of a depth sensor is advised. Like featured in the section about the hardware, each element of the input data represents a distance in millimetres.\\
 Firstly the code should be able to provide a clear difference in height between the objects and the background using the depth data. This is followed by a filter to get rid of the existing noise. Lastly, the filtered matrix will be used to detect the edges of the objects and thus detect the items themselves. The code that accompanies this description, can be found in appendix E.
  
-\subsubsection{Step 1: Detection of the difference in height}\mbox{}
+\subsubsection{Step 1: Detection of the difference in height}
 The goal is to see a clear difference between the objects and the background. This can be achieved in different ways: it is possible to use a threshold and label everything closer than this predetermined distance as an object. A disadvantage of this method is that the value will be different for various vertical positions of the Kinect v2. In addition, the image of the sensor contains some noise. For example: a picture of a large flat table will not be viewed as an equidistant surface. The elements of the matrix will be different. Another, and more preferred, method would be to use a Sobel-Feldman operator \cite{Sobel_operator}. This operation approximates the gradient in each of the points of the matrix and gives an idea where there is a sudden difference in height (thus where there might be an object). It works by convolving 2 kernels with the image matrix A to become $G_{x}$ and $G_{y}$: respectively one for the horizontal and one for the vertical change in height: 
 
 \begin{eqnarray*}
@@ -207,7 +207,7 @@ The result can be seen in Fig. ~\ref{fig:original_and_sobel}.
   \label{fig:original_and_sobel}
 \end{figure}
 
-\subsubsection{Step 2: Filtering of the noise}\mbox{}
+\subsubsection{Step 2: Filtering of the noise}
 After adding al the different magnitudes of the gradients to an array, some anomalies still exist. There can be some impossible elements, including points that seem to be further away than the basket or fluctuations in areas that are supposed to be flat (noise). The simplest way to solve this problem would be to use a maximum and minimum threshold: The maximum threshold can be a value that is further away than the basket. These values are impossible and the corresponding values in the matrix can be set to zero. The minimum threshold can be decided by empirical research. Values lower than this value can be seen as noise and thus can be set to zero. The final result can be seen in Fig. ~\ref{fig:sobel_and_threshold}.
 
 \begin{figure}[h]
@@ -219,39 +219,39 @@ After adding al the different magnitudes of the gradients to an array, some anom
 
 \section{Research}
 An important part of a project is research. Without reading through previous experiences or discoveries within the domain of the project, it will be very hard to figure out a solution. Let alone being comfortable enough in the domain to try something drastically new and (hopefully) develop new ideas in the specific branch of the subject. Although image processing is a recent research domain, it is quite popular and already has a lot of foundations to built from. Even Matlab has some predefined functions and libraries to assist the development of image processing software.
-However, the goal of this project is to get insight in the programming and working of image processing. To achieve this goal as good as possible, in the end result, there should be little use of predefined functions or libraries. They will only be used if they are completely comprehensible or if they make the code more elegant by doing ordinary operations. 
-The next section goes over a few functions which could be used to build on the already existing program described above. All these functions are explained so they can be implemented manually at a later time. It starts by using functions to detect and count the objects, and ends with surrounding the objects with a rectangle, as well as highlighting the edges. An example of these functions can be found in Appendix F.
+However, the goal of this project is to get insight in the programming and working of image processing. To achieve this goal as good as possible, in the end result, there should be little use of predefined functions or libraries. They will only be used if they are completely comprehensible or if they make the code more elegant by doing ordinary operations. \\
+The next section goes over a few functions which could be used to build on the already existing program described above. All these functions are explained so they can be implemented manually at a later time. It starts by using functions to detect and count the objects and ends with surrounding the objects with a rectangle, as well as highlighting the edges. An example of these functions can be found in Appendix F.\\
 
-\paragraph{Counting of the objects}\mbox{}\\
-The central objective of this paper is counting the amount of objects in a specific rectangular field of view. The general approach to this problem is converting the image to a binary image where black pixels represent the background and white pixels represent the objects. By counting the groups of pixels, it is possible to know how many objects the original image contains. In the image processing toolbox for matlab\cite{Mathworks}, a few functions exist that are very useful for this kind of tasks. One of these functions called bwlabel actually counts group of pixels of at least 8 that are connected. The syntax of this function goes as follows: 
+\paragraph*{Counting of the objects}
+The central objective of this paper is counting the amount of objects in a specific rectangular field of view. The general approach to this problem is converting the image to a binary image where black pixels represent the background and white pixels represent the objects. By counting the groups of pixels, it is possible to know how many objects the original image contains. In the image processing toolbox for matlab\cite{Mathworks}, a few functions exist that are very useful for this kind of tasks. One of these functions called bwlabel counts groups of pixels of at least 8 that are connected. The syntax of this function goes as follows: 
 \begin{equation}
 [L, num] = bwlabel(BW)
 \end{equation}
-where BW represents the binary (or black and white) image; num represents the number of objects in the BW image and where L represents a matrix were the first group of pixels are numbered 1, the second group 2 etc. That way it’s easier to get an overview of how many objects there are.
+where BW represents the binary (or black and white) image; num represents the number of objects in the BW image and where L represents a matrix were the first group of pixels are numbered 1, the second group 2 and so on. That way it’s easier to get an overview of how many objects there are.
 
-\paragraph{Boundary boxes}\mbox{}\\
-The image processing toolbox really simplifies the drawing of boundary boxes. Once a binary image is obtained, the function regionprops \cite{Mathworks} can extract properties about image regions. Where image regions are defined as 8-connected components in an binary image. This means that each image region contains at least 8 interconnected white pixels, since the black pixels are registered as background. The property that's interesting for this part of the project is called 'boundingbox'. This property returns for every image region the smallest rectangle that contains this region. In two dimensions this is a vector with 4 values, the x-coordinate of the upper left corner, the y-coordinate of that corner, the width and the height. The function 
+\paragraph*{Boundary boxes}
+The image processing toolbox really simplifies the drawing of boundary boxes. Once a binary image is obtained, the function regionprops \cite{Mathworks} can extract properties about image regions. Where image regions are defined as 8-connected components in a binary image. This means that each image region contains at least 8 interconnected white pixels, since the black pixels are registered as background. The property that's interesting for this part of the project is called 'boundingbox'. This property returns for every image region the smallest rectangle that contains this region. In two dimensions this is a vector with 4 values, the x-coordinate of the upper left corner, the y-coordinate of that corner, the width and the height. The function 
 \begin{equation}
 rectangle('Position', pos)
 \end{equation}
 where 'Position' declares the input and where pos is the input obtained from regionprops, can easily display this boundingbox. 
 
-\paragraph{Edge detection}\mbox{}\\
+\paragraph*{Edge detection}
 There are a lot of ways to implement edge detection. Edge detection algorithms as described in section 3.2.1 paragraph 4, exist for greyscale images. But if a binary image is available, this becomes much easier. To start, a function called bwboundaries exists in the image processing toolbox \cite{Mathworks}. The syntax of that function goes as follows: 
 \begin{equation}
 B = bwboundaries (BW)
 \end{equation}
-where BW represents the input. This is a binary image which only consists out of black and white pixels; and B represents the output, which consist out of a cell array with N elements (number of image regions in the binary image), all these elements contain a list of the boundary pixels. Which in turn are fairly easy to draw. They can be inserted in the matrix of the image by replacing values, this is done by looping through the cell arrays. The advantage of this method is that the image can actually be printed. When they are drawn on top of the image with a function like visboundaries, the actual values of the pixels stay unchanged, but it different figures arise. One with the image and another on top of it with the edges. 
+where BW represents the input. This is a binary image which only consists out of black and white pixels; and B represents the output, which consist out of a cell array with N elements (number of image regions in the binary image), all these elements contain a list of the boundary pixels. Which in turn are fairly easy to draw. They can be inserted in the matrix of the image by replacing values, this is done by looping through the cell arrays. The advantage of this method is that the image with the boundary boxes on top of it can be exported. When they are drawn on top of the image with a function like visboundaries, the values of the pixels in the original image stay unchanged. Two images are displayed: one with the image and another on top of it with the edges, which makes it more difficult to export the result. \\
 The function bwboundaries implements the Moore-Neighbor tracing algorithm \cite{Moore_Neighborhood}. The algorithm loops through the entire matrix until it finds a white pixel (a pixel that belongs to an image region). This pixel is defined as the start pixel. Once it finds a start pixel it searches for the next connected white pixel. This means another white pixel in one of the eight regions around the start. The algorithm does this by examining the pixels in a clockwise direction. Once it finds a new white pixel, this pixel is added to the sequence B and becomes our new start pixel. This process keeps on running until the algorithm visits the first start pixel for a second time. The only problem with this algorithm is that sometimes the first start pixel is visited for a second time before all of the outline is visited. This is illustrated in Fig.~\ref{fig:Moore_Neighbor}).
 
 \begin{figure}[h]
 	\center
   \includegraphics[width=0.3\linewidth]{Moore_Neighbor.png}
-  \caption{Problem with stopping criteria Moore-Neighbor tracing algorithm}
+  \caption{Problem with stopping criteria Moore-Neighbor tracing algorithm.}
   \label{fig:Moore_Neighbor}
 \end{figure}
 
-\noindent This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited from the same direction as it initially was entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
+This problem is resolved with the Jacob's stopping criterion. Which states that the algorithm can stop once the first start pixel is visited from the same direction as it initially was entered. This leaves four possibilities that need to be checked, from below, from the left, from above or from the right. With this additional criteria, every pixel at the edge of a connected region is visited. 
 To find the edges of all the interconnected image regions this process is repeated until every pixel of the image matrix has been checked. 
 
 \section{Further planning}
@@ -272,8 +272,6 @@ Knowledge of linear algebra is applied extensively. Simple concepts like matrix 
 After four weeks of group gatherings, a decent amount of of research has been done and a decent amount of progress was made. The project will be executed by using a Microsoft Kinect version 2. The combination of a depth and RGB sensor at a reasonable cost are some of the decisive arguments over a standard webcam or an industrial camera. \\
 When obtaining the image from the RGB sensor, the three dimensional matrix is turned into a one dimensional matrix and thus into a greyscale image. A Gaussian blur and an edge detection algorithm are used to further reduce this matrix to a binary array where only the edges are highlighted. Meanwhile, using a Sobel-Feldman operator and a threshold filter, the image obtained from the depth sensor will become clean with a clearly visible outline around the differences in height. \\
 Next, the goal is to, after merging the processed data from the RGB and depth sensor, perfect the positioning of the edges and fill in possible blank spots. Subsequently, a step towards counting the objects will be made. If the amount of progress made per day will stay consistent, all the deadlines should be  accomplished in the given timeframe.However, perseverance and a critical point of view are needed to successfully finish this assignment. 
-
-
 
 \newpage
 

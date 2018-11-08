@@ -19,11 +19,8 @@
 \contentsline {subsubsection}{\numberline {4.3.1}Step 1: Detection of the difference in height}{7}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Step 2: Filtering of the noise}{8}{subsubsection.4.3.2}
 \contentsline {section}{\numberline {5}Research}{8}{section.5}
-\contentsline {paragraph}{\numberline {5.0.0.1}Counting of the objects}{9}{paragraph.5.0.0.1}
-\contentsline {paragraph}{\numberline {5.0.0.2}Boundary boxes}{9}{paragraph.5.0.0.2}
-\contentsline {paragraph}{\numberline {5.0.0.3}Edge detection}{9}{paragraph.5.0.0.3}
 \contentsline {section}{\numberline {6}Further planning}{10}{section.6}
-\contentsline {section}{\numberline {7}Budget management}{10}{section.7}
+\contentsline {section}{\numberline {7}Budget management}{11}{section.7}
 \contentsline {section}{\numberline {8}Course Integration}{11}{section.8}
 \contentsline {section}{\numberline {9}Conclusion}{11}{section.9}
 \contentsline {section}{\numberline {10}References}{12}{section.10}
