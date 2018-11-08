@@ -1,6 +1,6 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces Example of a possible result.}}{2}{figure.1}
 \contentsline {figure}{\numberline {2}{\ignorespaces A comparison between the 3 different methods.}}{5}{figure.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces A comparison with the use of filters.}}{6}{figure.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces The original RGB image (left) and the image after the Sobel-Feldman operator (right)}}{7}{figure.4}
+\contentsline {figure}{\numberline {4}{\ignorespaces The original RGB image (left) and the image after the Sobel-Feldman operator (right)}}{8}{figure.4}
 \contentsline {figure}{\numberline {5}{\ignorespaces The original image after using a Sobel-Feldman operator and a threshold filter}}{8}{figure.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Problem with stopping criteria Moore-Neighbor tracing algorithm.\def \BCA {####}{1}2####3{\BCA {####1}{####2}}\def \BCA {####}{1}2####3{\BCA {####1}{####2}}\def ({(}\def ){)}\let \reserved@d =<\def {\@@par }}}{9}{figure.6}
+\contentsline {figure}{\numberline {6}{\ignorespaces Problem with stopping criteria Moore-Neighbor tracing algorithm.\def \BCA {####}{1}2####3{\BCA {####1}{####2}}\def \BCA {####}{1}2####3{\BCA {####1}{####2}}\def ({(}\def ){)}\let \reserved@d =<\def {\@@par }}}{10}{figure.6}

@@ -15,84 +15,63 @@ Database file #1: references.bib
 Warning--entry type for "greyscale" isn't style-file defined
 --line 1 of file references.bib
 Warning--entry type for "gaussian" isn't style-file defined
---line 6 of file references.bib
+--line 8 of file references.bib
 Warning--entry type for "mean" isn't style-file defined
---line 11 of file references.bib
+--line 14 of file references.bib
 Warning--entry type for "edge_detection" isn't style-file defined
---line 17 of file references.bib
+--line 21 of file references.bib
 Warning--entry type for "kinect_specifications" isn't style-file defined
---line 32 of file references.bib
-I was expecting a `,' or a `}'---line 37 of file references.bib
- :  
- :  year= "2014 Mar 11",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+--line 38 of file references.bib
 Warning--entry type for "kinect_v2" isn't style-file defined
---line 41 of file references.bib
-I was expecting a `,' or a `}'---line 46 of file references.bib
- :  
- :  year= "2017 Nov",
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+--line 47 of file references.bib
 Warning--entry type for "stackoverflow" isn't style-file defined
---line 50 of file references.bib
-I was expecting a `,' or a `}'---line 54 of file references.bib
- :  
- :  keywords = "Stackoverflow"
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+--line 56 of file references.bib
 Warning--entry type for "Mathworks" isn't style-file defined
---line 57 of file references.bib
-I was expecting a `,' or a `}'---line 61 of file references.bib
- :  
- :  keywords = "Mathworks"
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+--line 64 of file references.bib
 Warning--entry type for "Moore_Neighborhood" isn't style-file defined
---line 63 of file references.bib
-Warning--entry type for "threshold" isn't style-file defined
 --line 71 of file references.bib
+Warning--I didn't find a database entry for "threshold"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Sobel_operator
-You've used 12 entries,
+You've used 11 entries,
             6951 wiz_defined-function locations,
-            1319 strings with 11995 characters,
-and the built_in function-call counts, 18069 in all, are:
-= -- 2688
-> -- 102
-< -- 491
-+ -- 477
-- -- 17
-* -- 857
-:= -- 2323
-add.period$ -- 44
-call.type$ -- 12
-change.case$ -- 96
+            1317 strings with 11844 characters,
+and the built_in function-call counts, 17050 in all, are:
+= -- 2501
+> -- 117
+< -- 472
++ -- 448
+- -- 24
+* -- 820
+:= -- 2257
+add.period$ -- 42
+call.type$ -- 11
+change.case$ -- 122
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 400
-empty$ -- 887
-format.name$ -- 159
-if$ -- 4061
+cite$ -- 23
+duplicate$ -- 390
+empty$ -- 807
+format.name$ -- 183
+if$ -- 3784
 int.to.chr$ -- 0
-int.to.str$ -- 40
+int.to.str$ -- 41
 missing$ -- 0
-newline$ -- 251
-num.names$ -- 64
-pop$ -- 273
+newline$ -- 246
+num.names$ -- 72
+pop$ -- 243
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 39
 quote$ -- 0
-skip$ -- 1883
+skip$ -- 1743
 stack$ -- 0
-substring$ -- 540
-swap$ -- 196
-text.length$ -- 16
+substring$ -- 510
+swap$ -- 202
+text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1776
+type$ -- 1576
 warning$ -- 1
-while$ -- 53
+while$ -- 61
 width$ -- 0
-write$ -- 299
-(There were 4 error messages)
+write$ -- 292
+(There were 11 warnings)
