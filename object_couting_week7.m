@@ -208,21 +208,6 @@ function result = find_corner_points(img, nb_groups)
     
 end
 
-
-function cropped_img = symImgCrop(img,cutted_edge_size)
-    original_img_size = size(img);
-    original_max_row = original_img_size(1);
-    original_max_column = original_img_size(2);
-    
-    cropped_img = zeros(original_max_row - 2*cutted_edge_size,original_max_column - 2*cutted_edge_size,1);
-    
-    for row=cutted_edge_size:original_max_row - cutted_edge_size
-        for col=cutted_edge_size:original_max_column - cutted_edge_size
-            cropped_img(row - cutted_edge_size + 1,col - cutted_edge_size + 1) = img(row,col);
-        end
-    end
-end
-
 function result = remove_boundary(img, remove_size)
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
@@ -317,4 +302,56 @@ function grey = greyscale(img)
     end
 end
 
+%% Cropping and image rotation functions
+
+function cropped_img = symImgCrop(img,cutted_edge_size)
+    original_img_size = size(img);
+    original_max_row = original_img_size(1);
+    original_max_column = original_img_size(2);
+    
+    cropped_img = zeros(original_max_row - 2*cutted_edge_size,original_max_column - 2*cutted_edge_size,1);
+    
+    for row=cutted_edge_size:original_max_row - cutted_edge_size
+        for col=cutted_edge_size:original_max_column - cutted_edge_size
+            cropped_img(row - cutted_edge_size + 1,col - cutted_edge_size + 1) = img(row,col);
+        end
+    end
+end
+
+function img_rot = four_point_img_rotation_crop(img, fourp)
+    % A function which crops and rotates the given image so that the only
+    % thing shown will be the pixels inside the four points, in horizontal
+    % or vertical position.
+     fourp_base = [0 fourp(1,2)-fourp(1,1) fourp(1,3)-fourp(1,1) fourp(1,4)-fourp(1,1); 0 fourp(2,2)-fourp(2,1) fourp(2,3)-fourp(2,1) fourp(2,4)-fourp(2,1)];
+     if (fourp_base(4,1)-fourp_base(1,1)) > 4
+         sigma = atan((fourp_base(2,4)-fourp_base(2,1))/(fourp_base(1,4)-fourp_base(1,1)));
+     else
+         sigma = pi/2;
+     end
+     if sigma <= pi/4
+         rot_mat = [cos(-sigma) -sin(-sigma); sin(-sigma) cos(-sigma)];
+     else
+         rot_mat = [cos(pi/2 - sigma) -sin(pi/2 - sigma); sin(pi/2 - sigma) cos(pi/2 - sigma)];
+     end
+     
+     
+end
+
+function img_crop = generic_crop(img, fourp)
+    % A function which crops the given image so that the edges are
+    % definened by the four point given in fourp.
+    X_ARRAY = [fourp(1,1) fourp(1,2) fourp(1,3) fourp(1,4)];
+    Y_ARRAY = [fourp(2,1) fourp(2,2) fourp(2,3) fourp(2,4)];
+    MIN_X = min(X_ARRAY);
+    MAX_X = max(X_ARRAY);
+    MIN_Y = min(Y_ARRAY);
+    MAX_Y = max(Y_ARRAY);
+    img_crop = zeros(MAX_X-MIN_X,MAX_Y-MIN_Y);
+    
+    for row = MIN_X:MAX_X
+        for col = MIN_Y:MAX_Y
+            img_crop(row - MIN_X + 1,col - MIN_Y + 1) = img(row,col);
+        end
+    end
+end
 
