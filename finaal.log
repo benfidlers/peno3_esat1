@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  8 NOV 2018 14:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.10.11)  8 NOV 2018 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -924,23 +924,21 @@ careful; see exercise 27.2 in The TeXbook.
 \openout5 = `finaal.lof'.
 
  [2]
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
+
+ []
+
 <./verslag_figuren/opdracht.png, id=230, 571.53525pt x 428.19975pt>
 File: ./verslag_figuren/opdracht.png Graphic file (type png)
 <use ./verslag_figuren/opdracht.png>
-Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 69.
+Package pdftex.def Info: ./verslag_figuren/opdracht.png  used on input line 73.
 
 (pdftex.def)             Requested size: 310.50357pt x 232.62918pt.
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
@@ -948,14 +946,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 
+l.81 
       [1]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
@@ -963,69 +961,72 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84 
+l.86 
       [2 <./verslag_figuren/opdracht.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
- [3]
-<./verslag_figuren/comparison_methods.png, id=264, 860.013pt x 982.872pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
+
+
+LaTeX Warning: Citation `threshold' undefined on input line 107.
+
+[3] [4]
+<./verslag_figuren/comparison_methods.png, id=271, 860.013pt x 982.872pt>
 File: ./verslag_figuren/comparison_methods.png Graphic file (type png)
 <use ./verslag_figuren/comparison_methods.png>
 Package pdftex.def Info: ./verslag_figuren/comparison_methods.png  used on inpu
-t line 122.
+t line 126.
 (pdftex.def)             Requested size: 310.50357pt x 354.85347pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4]
-<./verslag_figuren/filter_comparison.png, id=276, 913.61325pt x 513.117pt>
+<./verslag_figuren/filter_comparison.png, id=275, 913.61325pt x 513.117pt>
 File: ./verslag_figuren/filter_comparison.png Graphic file (type png)
 <use ./verslag_figuren/filter_comparison.png>
 Package pdftex.def Info: ./verslag_figuren/filter_comparison.png  used on input
- line 135.
+ line 139.
 (pdftex.def)             Requested size: 310.50357pt x 174.38701pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./verslag_figuren/comparison_methods.png>]
-Overfull \hbox (2.31122pt too wide) in paragraph at lines 160--162
+ [5 <./verslag_figuren/comparison_methods.png>]
+Overfull \hbox (2.31122pt too wide) in paragraph at lines 164--166
 \OT1/cmr/m/n/10 After both fil-ters are ap-plied, the im-age is ready to be run
  through an edge de-tec-tion algorithm[][]R. Fisher
  []
 
 [6 <./verslag_figuren/filter_comparison.png>]
-<./verslag_figuren/original_and_sobel.png, id=301, 769.4346pt x 206.2104pt>
+<./verslag_figuren/original_and_sobel.png, id=302, 769.4346pt x 206.2104pt>
 File: ./verslag_figuren/original_and_sobel.png Graphic file (type png)
 <use ./verslag_figuren/original_and_sobel.png>
 Package pdftex.def Info: ./verslag_figuren/original_and_sobel.png  used on inpu
-t line 202.
+t line 206.
 (pdftex.def)             Requested size: 443.57848pt x 118.88155pt.
- [7 <./verslag_figuren/original_and_sobel.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]
 <./verslag_figuren/sobel_and_threshold.png, id=311, 407.27156pt x 228.855pt>
 File: ./verslag_figuren/sobel_and_threshold.png Graphic file (type png)
 <use ./verslag_figuren/sobel_and_threshold.png>
 Package pdftex.def Info: ./verslag_figuren/sobel_and_threshold.png  used on inp
-ut line 212.
+ut line 216.
 (pdftex.def)             Requested size: 266.14978pt x 149.56064pt.
- [8 <./verslag_figuren/sobel_and_threshold.png>]
-<./verslag_figuren/Moore_Neighbor.png, id=327, 206.27063pt x 171.13937pt>
+ [8 <./verslag_figuren/original_and_sobel.png> <./verslag_figuren/sobel_and_thr
+eshold.png>] [9]
+<./verslag_figuren/Moore_Neighbor.png, id=338, 206.27063pt x 171.13937pt>
 File: ./verslag_figuren/Moore_Neighbor.png Graphic file (type png)
 <use ./verslag_figuren/Moore_Neighbor.png>
 Package pdftex.def Info: ./verslag_figuren/Moore_Neighbor.png  used on input li
-ne 246.
+ne 250.
 (pdftex.def)             Requested size: 133.07489pt x 110.41145pt.
 
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    }
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1034,7 +1035,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    3
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1043,7 +1044,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1052,7 +1053,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1061,7 +1062,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    }
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1070,7 +1071,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    3
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1079,7 +1080,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    1
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1088,7 +1089,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \reserved@a.
 <to be read again> 
                    2
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1097,7 +1098,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Argument of \Hy@tempa has an extra }.
 <inserted text> 
                 \par 
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1111,51 +1112,55 @@ Runaway argument?
 ! Paragraph ended before \Hy@tempa was complete.
 <to be read again> 
                    \par 
-l.247 ...cing algorithm.\cite{Moore_Neighborhood}}
+l.251 ...cing algorithm.\cite{Moore_Neighborhood}}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
+[10 <./verslag_figuren/Moore_Neighbor.png>] [11] (./finaal.bbl
+Underfull \hbox (badness 1168) in paragraph at lines 40--52
+[]\OT1/cmr/m/n/10 Ghuneim, A. G.  (n.d.[]).  \OT1/cmr/m/it/10 Moore-neighbor tr
+ac-ing.  \OT1/cmr/m/n/10 Re-trieved (2018-10-26), from []$\OT1/cmtt/m/n/10 http
+ ://
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10 <./verslag_figuren/Moore_Neighbor.png>] [11] (./finaal.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 37--49
+Underfull \hbox (badness 10000) in paragraph at lines 40--52
 \OT1/cmtt/m/n/10 www [] .imageprocessingplace [] .com / downloads [] []V3 / roo
 t [] []downloads / tutorials / contour [] []tracing []
  []
 
 ) [12]
-<workplan_def.pdf, id=372, 597.23125pt x 845.1575pt>
+<workplan_def.pdf, id=375, 597.23125pt x 845.1575pt>
 File: workplan_def.pdf Graphic file (type pdf)
 <use workplan_def.pdf>
-Package pdftex.def Info: workplan_def.pdf  used on input line 280.
+Package pdftex.def Info: workplan_def.pdf  used on input line 286.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: workplan_def.pdf Graphic file (type pdf)
 <use workplan_def.pdf>
-Package pdftex.def Info: workplan_def.pdf  used on input line 280.
+Package pdftex.def Info: workplan_def.pdf  used on input line 286.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<workplan_def.pdf, id=375, page=1, 597.23125pt x 845.1575pt>
+<workplan_def.pdf, id=378, page=1, 597.23125pt x 845.1575pt>
 File: workplan_def.pdf Graphic file (type pdf)
 <use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 280.
+Package pdftex.def Info: workplan_def.pdf , page1 used on input line 286.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 File: workplan_def.pdf Graphic file (type pdf)
 <use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 280.
+Package pdftex.def Info: workplan_def.pdf , page1 used on input line 286.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: workplan_def.pdf Graphic file (type pdf)
 <use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 280.
+Package pdftex.def Info: workplan_def.pdf , page1 used on input line 286.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: workplan_def.pdf Graphic file (type pdf)
 <use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 280.
+Package pdftex.def Info: workplan_def.pdf , page1 used on input line 286.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
 File: workplan_def.pdf Graphic file (type pdf)
 <use workplan_def.pdf, page 1>
-Package pdftex.def Info: workplan_def.pdf , page1 used on input line 280.
+Package pdftex.def Info: workplan_def.pdf , page1 used on input line 286.
 (pdftex.def)             Requested size: 477.78564pt x 676.12692pt.
  [13 <./workplan_def.pdf
 
@@ -1166,7 +1171,7 @@ lusion: invalid other resource which is no dict (key 'ProcSets', type <array>);
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 303.
+nput line 309.
 
 (./threshold.m [14]) [15] (./histogram.m
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 40.
@@ -1182,10 +1187,10 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Auto.pdf, id=1121, 614.295pt x 794.97pt>
+<Auto.pdf, id=1124, 614.295pt x 794.97pt>
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf>
-Package pdftex.def Info: Auto.pdf  used on input line 323.
+Package pdftex.def Info: Auto.pdf  used on input line 329.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1193,7 +1198,7 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion:
 found PDF version <1.7>, but at most version <1.5> allowed
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf>
-Package pdftex.def Info: Auto.pdf  used on input line 323.
+Package pdftex.def Info: Auto.pdf  used on input line 329.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -1203,63 +1208,70 @@ found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Auto.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Auto.pdf, id=1124, page=1, 614.295pt x 794.97pt>
+<Auto.pdf, id=1127, page=1, 614.295pt x 794.97pt>
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 323.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 329.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 323.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 329.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 323.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 329.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 323.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 329.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 File: Auto.pdf Graphic file (type pdf)
 <use Auto.pdf, page 1>
-Package pdftex.def Info: Auto.pdf , page1 used on input line 323.
+Package pdftex.def Info: Auto.pdf , page1 used on input line 329.
 (pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
 [30 <./Auto.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 331.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 331.
  (./finaal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 331.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 331.
 Package rerunfilecheck Info: File `finaal.out' has not changed.
 (rerunfilecheck)             Checksum: 8A57809637AC34757D1838751E6F0D6F;1750.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 331.
  ) 
 Here is how much of TeX's memory you used:
- 12177 strings out of 492649
- 171899 string characters out of 6129621
- 463054 words of memory out of 5000000
- 15136 multiletter control sequences out of 15000+600000
+ 12175 strings out of 492649
+ 171874 string characters out of 6129621
+ 463030 words of memory out of 5000000
+ 15134 multiletter control sequences out of 15000+600000
  7824 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,19n,72p,1557b,2326s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on finaal.pdf (34 pages, 2617860 bytes).
+pdfTeX warning (dest): name{cite.threshold} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive
+/2018/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on finaal.pdf (34 pages, 2618039 bytes).
 PDF statistics:
- 1348 PDF objects out of 1440 (max. 8388607)
- 1227 compressed objects within 13 object streams
+ 1351 PDF objects out of 1440 (max. 8388607)
+ 1230 compressed objects within 13 object streams
  727 named destinations out of 1000 (max. 500000)
  312 words of extra memory for PDF output out of 10000 (max. 10000000)
 
