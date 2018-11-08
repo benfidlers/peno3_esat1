@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: finaal.aux
+The top-level auxiliary file: Ben_new.aux
 The style file: apacite.bst
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -30,48 +30,49 @@ Warning--entry type for "Mathworks" isn't style-file defined
 --line 64 of file references.bib
 Warning--entry type for "Moore_Neighborhood" isn't style-file defined
 --line 71 of file references.bib
-Warning--I didn't find a database entry for "threshold"
+Warning--entry type for "test" isn't style-file defined
+--line 79 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Sobel_operator
 You've used 11 entries,
             6951 wiz_defined-function locations,
-            1317 strings with 11844 characters,
-and the built_in function-call counts, 17050 in all, are:
-= -- 2501
-> -- 117
-< -- 472
-+ -- 448
-- -- 24
-* -- 820
-:= -- 2257
+            1313 strings with 11775 characters,
+and the built_in function-call counts, 16937 in all, are:
+= -- 2516
+> -- 113
+< -- 461
++ -- 421
+- -- 26
+* -- 795
+:= -- 2197
 add.period$ -- 42
 call.type$ -- 11
-change.case$ -- 122
+change.case$ -- 109
 chr.to.int$ -- 0
 cite$ -- 23
-duplicate$ -- 390
-empty$ -- 807
-format.name$ -- 183
-if$ -- 3784
+duplicate$ -- 367
+empty$ -- 797
+format.name$ -- 173
+if$ -- 3785
 int.to.chr$ -- 0
 int.to.str$ -- 41
 missing$ -- 0
-newline$ -- 246
+newline$ -- 243
 num.names$ -- 72
-pop$ -- 243
+pop$ -- 224
 preamble$ -- 1
-purify$ -- 39
+purify$ -- 38
 quote$ -- 0
-skip$ -- 1743
+skip$ -- 1803
 stack$ -- 0
-substring$ -- 510
-swap$ -- 202
+substring$ -- 479
+swap$ -- 186
 text.length$ -- 21
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1576
+type$ -- 1648
 warning$ -- 1
-while$ -- 61
+while$ -- 58
 width$ -- 0
-write$ -- 292
+write$ -- 285
 (There were 11 warnings)

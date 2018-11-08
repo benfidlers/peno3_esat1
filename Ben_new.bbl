@@ -1,32 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Burge%
-\ \BBA {} Burger%
-}{%
-Burge%
-\ \BBA {} Burger%
-}{%
-{\protect \APACyear {2008}}%
-}]{%
-book}
-\APACinsertmetastar {%
-book}%
-\begin{APACrefauthors}%
-Burge, M\BPBI J.%
-\BCBT {}\ \BBA {} Burger, W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2008}.
-\newblock
-\APACrefbtitle {Digital image processing} {Digital image processing}\
-  (\PrintOrdinal{1}\ \BEd).
-\newblock
-\APACaddressPublisher{}{Springer}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ghuneim%
 }{%
 Ghuneim%
@@ -208,6 +182,30 @@ stackoverflow}%
 \APACrefYearMonthDay{2018}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://stackoverflow.com} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+tester%
+}{%
+tester%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+test}
+\APACinsertmetastar {%
+test}%
+\begin{APACrefauthors}%
+tester.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Moore-Neighbor Tracing.} {Moore-neighbor tracing.}
+\newblock
+\begin{APACrefURL}
+  [{(2018-10-26)}]\url{http://www.imageprocessingplace.com/downloads_V3/root_downloads/tutorials/contour_tracing_Abeer_George_Ghuneim/moore.html}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
