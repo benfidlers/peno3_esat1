@@ -1,5 +1,5 @@
 clearvars
-img = imread('kinect/foto RGB 2.png'); % Load picture
+img = imread('C:\Users\Wouter\Documents\MATLAB\PENO3/foto RGB 2.png'); % Load picture
 A = greyscale(img); % Convert image to grayscale
 A = symImgCrop(A, 50); % Crop image so it's the same size.
 A = gaussian_blur(mean_blur(A)); % Filters

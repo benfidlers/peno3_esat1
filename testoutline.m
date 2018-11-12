@@ -1,14 +1,6 @@
 img = [0 0 0 0 0 0 0 0; 0 1 1 1 1 1 1 0; 0 1 0 0 0 0 1 0; 0 1 0 1 1 0 1 0; 
       0 1 0 1 1 0 1 0; 0 1 0 0 0 0 1 0; 0 1 1 1 1 1 1 0; 0 0 0 0 0 0 0 0];
-
-% matrix_size = size(img);
-% 
-% MAX_ROW = matrix_size(1);
-% 
-% MAX_COLUMN = matrix_size(2);
-% 
-% 
-% position = [2, 2];   
+   
 img = outline(img);
 disp(img);
 final_img = only_outline_visible(img);
