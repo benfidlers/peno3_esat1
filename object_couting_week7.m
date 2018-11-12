@@ -1,5 +1,13 @@
 clearvars
-img = imread('kinect/foto RGB 4.png'); % Load picture (1080 rows * 1920 col)
+
+MIN_ROW_LINES_BETWEEN_GROUPS = 25;
+% Once the groups are found, the algorithm searches for groups too close
+% near each other
+% This is defined as the min distance between two groups (only searched
+% vertical)
+CONNECTING_PIXELS_SEARCH_GRID_SIZE = 25;
+% 
+img = imread('kinect/color_test.png'); % Load picture (1080 rows * 1920 col)
 hoekpnt = [980 100 100 980;100 100 1820 1820;];
 %scaled_img = simon_crop(img, 100, 100, 980, 1820, 3);
 disp("Starting calculations..");
@@ -12,7 +20,7 @@ first_edge_detect = edge_detect(A); % Laplacian edge detection
 without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15)); % Remove boundary around image & threshold the edges.
 with_noise_removal = noise_deletion(without_noise_removal,5); % Noise removal
 [grouped, nb_of_groups] = group(~with_noise_removal);
-[regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups);
+[regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS);
 corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use nb_of_groups and not groups 2 because some groups don't exist anymore!
 boundary_box = draw_boundary_box(A, corner_points);
 disp("Done!!!");
@@ -119,19 +127,19 @@ function nes = noise_deletion(img,window)
     end
 end
 
-function result = connected_pixels(img, row, col)
-    SEARCH_GRID_SIZE = 25;
+function result = same_pixels_in_range(img, row, col, SEARCH_GRID_SIZE);
     
     required_color = img(row, col);
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
-    result = 0;
+    
+    result = 0; % = # pixels of the same value in a grid size of -SEARCH_GRID_SIZE to SEARCH_GRID_SIZE
     
     for row_i = -SEARCH_GRID_SIZE:SEARCH_GRID_SIZE
         for col_i = -SEARCH_GRID_SIZE:SEARCH_GRID_SIZE
             if is_valid_position(MAX_ROW, MAX_COLUMN, row + row_i, col + col_i) == 1 && img(row + row_i, col + col_i) == required_color
-            result = result + 1;
+                result = result + 1; % Found pixel with same value in range
             end
         end
     end
@@ -139,21 +147,25 @@ function result = connected_pixels(img, row, col)
     
 end
 
-function result = find_connecting_group(img, row, col)
-    SEARCH_GRID_SIZE = 25;
+function result = find_group_in_range(img, row, col, SEARCH_GRID_SIZE)
     
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
-    result = 0; 
     
-    for row_i=-SEARCH_GRID_SIZE:SEARCH_GRID_SIZE
-        for col_i=-SEARCH_GRID_SIZE:SEARCH_GRID_SIZE
+    result = 0; 
+    % Because the algorithm works from top-left to bottom-right, we now
+    % that after (row, col), every pixel is useless.
+    for row_i=-SEARCH_GRID_SIZE:0 % So we only need to go to the row that the pixel is on
+        for col_i=-SEARCH_GRID_SIZE:SEARCH_GRID_SIZE % Here we make the mistake that we search in (MAX_COL - col) pixels too much
             % Search in a grid around the pixel
             % This searches too much pixels, need to change that
             if is_valid_position(MAX_ROW, MAX_COLUMN, row +row_i, col +col_i) == 1 && img(row + row_i, col + col_i, 2) ~= 0
-                result = img(row+row_i, col + col_i, 2);
-                break;
+                result = img(row+row_i, col + col_i, 2); 
+                break; % Stop algorithm if a group is found.
+                
+                % We dont work from row, row-1, row-2,... (further from
+                % pixel) because it is slower.
             end
             
         end
@@ -167,7 +179,7 @@ function [result, nb_of_groups] = group(img)
     % Number connected pixels in the second dimension
     WHITE = 1;
     BLACK = 0;
-    
+    SEARCH_GRID_SIZE =  25;
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
@@ -181,11 +193,11 @@ function [result, nb_of_groups] = group(img)
           result(row, col,1) = pixel_value; % Transfer picture to result variable (in dim 1)
           if pixel_value == BLACK
               % This is an edge
-              connecting_pixels = connected_pixels(img, row, col);
+              connecting_pixels = same_pixels_in_range(img, row, col, SEARCH_GRID_SIZE);
               
               if connecting_pixels > 175
                   % This is defined as an object outline.
-                  group_number = find_connecting_group(result, row, col);
+                  group_number = find_group_in_range(result, row, col, SEARCH_GRID_SIZE);
                   
                   if group_number == 0
                       % assign new group
@@ -218,7 +230,7 @@ function result = group_replace(grouped_img, to_replace, replace_with)
     end
 end
 
-function [result, nb_groups] = regroup(grouped_img, nb_of_groups)
+function [result, nb_groups] = regroup(grouped_img, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS)
     % Loop from (right)top to (left)bottom
     % Check if there are connecting groups.
     
@@ -232,7 +244,7 @@ function [result, nb_groups] = regroup(grouped_img, nb_of_groups)
             col = MAX_COLUMN - col_i+1;
             group_nb = grouped_img(row, col, 2);
             if group_nb ~= 0
-                for row_i=1:25
+                for row_i=1:MIN_ROW_LINES_BETWEEN_GROUPS
                     if is_valid_position(MAX_ROW, MAX_COLUMN, row + row_i, col) == 1 && grouped_img(row + row_i, col, 2) ~= 0 && grouped_img(row+row_i, col,2) ~= group_nb
                         % Found a different group in the next 5 pixels
                         % below this one
@@ -494,56 +506,4 @@ function grey = greyscale(img)
     end
 end
 
-%% Cropping and image rotation functions
-
-function cropped_img = symImgCrop(img,cutted_edge_size)
-    original_img_size = size(img);
-    original_max_row = original_img_size(1);
-    original_max_column = original_img_size(2);
-    
-    cropped_img = zeros(original_max_row - 2*cutted_edge_size,original_max_column - 2*cutted_edge_size,1);
-    
-    for row=cutted_edge_size:original_max_row - cutted_edge_size
-        for col=cutted_edge_size:original_max_column - cutted_edge_size
-            cropped_img(row - cutted_edge_size + 1,col - cutted_edge_size + 1) = img(row,col);
-        end
-    end
-end
-
-function img_rot = four_point_img_rotation_crop(img, fourp)
-    % A function which crops and rotates the given image so that the only
-    % thing shown will be the pixels inside the four points, in horizontal
-    % or vertical position.
-     fourp_base = [0 fourp(1,2)-fourp(1,1) fourp(1,3)-fourp(1,1) fourp(1,4)-fourp(1,1); 0 fourp(2,2)-fourp(2,1) fourp(2,3)-fourp(2,1) fourp(2,4)-fourp(2,1)];
-     if (fourp_base(4,1)-fourp_base(1,1)) > 4
-         sigma = atan((fourp_base(2,4)-fourp_base(2,1))/(fourp_base(1,4)-fourp_base(1,1)));
-     else
-         sigma = pi/2;
-     end
-     if sigma <= pi/4
-         rot_mat = [cos(-sigma) -sin(-sigma); sin(-sigma) cos(-sigma)];
-     else
-         rot_mat = [cos(pi/2 - sigma) -sin(pi/2 - sigma); sin(pi/2 - sigma) cos(pi/2 - sigma)];
-     end
-     
-     
-end
-
-function img_crop = generic_crop(img, fourp)
-    % A function which crops the given image so that the edges are
-    % definened by the four point given in fourp.
-    X_ARRAY = [fourp(1,1) fourp(1,2) fourp(1,3) fourp(1,4)];
-    Y_ARRAY = [fourp(2,1) fourp(2,2) fourp(2,3) fourp(2,4)];
-    MIN_X = min(X_ARRAY);
-    MAX_X = max(X_ARRAY);
-    MIN_Y = min(Y_ARRAY);
-    MAX_Y = max(Y_ARRAY);
-    img_crop = zeros(MAX_X-MIN_X,MAX_Y-MIN_Y);
-    
-    for row = MIN_X:MAX_X
-        for col = MIN_Y:MAX_Y
-            img_crop(row - MIN_X + 1,col - MIN_Y + 1) = img(row,col);
-        end
-    end
-end
 
