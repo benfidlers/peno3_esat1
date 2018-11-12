@@ -2,7 +2,7 @@ clearvars
 tic
 disp("Step 1: loading the image...");
 
-img = imread('kinect/doos/doos_1.png'); % Load picture (1080 rows * 1920 col)
+img = imread('test_figuren/cropped_doos_1.png'); % Load picture (1080 rows * 1920 col)
 
 THRESHOLD_VALUE = 2;
 
@@ -128,33 +128,29 @@ function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, 
     end
 end
 
-function img_crop = generic_crop(img, fourp,v)
+function img_crop = generic_crop(img, fourp)
     % A function which crops the given image so that the edges are
     % definened by the four point given in fourp.
-    X_ARRAY = [fourp(1,1) fourp(1,2) fourp(1,3) fourp(1,4)];
-    Y_ARRAY = [fourp(2,1) fourp(2,2) fourp(2,3) fourp(2,4)];
-    MIN_X = min(X_ARRAY);
-    MAX_X = max(X_ARRAY);
-    MIN_Y = min(Y_ARRAY);
-    MAX_Y = max(Y_ARRAY);
-    img_crop = zeros(MAX_X-MIN_X,MAX_Y-MIN_Y,v);
-    
-    if v == 1
-        for row = MIN_X:MAX_X
-            for col = MIN_Y:MAX_Y
-                img_crop(row - MIN_X + 1,col - MIN_Y + 1,1) = img(row,col);
-            end
-        end
-    else
-        for row = MIN_X:MAX_X
-            for col = MIN_Y:MAX_Y
-                for i = 1:v
-                    img_crop(row - MIN_X + 1,col - MIN_Y + 1,i) = img(row,col,i);
-                end
-            end
+    mat_size = size(fourp);
+    groups = mat_size(2);
+
+    for i=1:groups
+        if fourp(1,i)~=0
+        MIN_ROW = fourp(1,i);
+        MIN_COL = fourp(2,i);
+        MAX_ROW = fourp(3,i);
+        MAX_COL = fourp(4,i);
         end
     end
-    
+
+    img_crop = zeros(MAX_ROW-MIN_ROW+1,MAX_COL-MIN_COL+1,1);
+        for row = MIN_ROW:MAX_ROW
+            for col = MIN_COL:MAX_COL
+
+                img_crop(row - MIN_ROW + 1,col - MIN_COL + 1,1) = img(row,col);
+            end
+        end
+
 end
 
 function result = is_valid_position(max_row, max_col, row, col)
