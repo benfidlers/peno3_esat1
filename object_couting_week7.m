@@ -1,19 +1,39 @@
 clearvars
-img = imread('kinect/foto RGB 2.png'); % Load picture
+img = imread('kinect/foto RGB 4.png'); % Load picture (1080 rows * 1920 col)
+hoekpnt = [980 100 100 980;100 100 1820 1820;];
+%scaled_img = simon_crop(img, 100, 100, 980, 1820, 3);
+disp("Starting calculations..");
 A = greyscale(img); % Convert image to grayscale
-A = symImgCrop(A, 50); % Crop image so it's the same size.
+%A = symImgCrop(A, 50); % Crop image so it's the same size.
+A = simon_crop(A, 100,100,980,1820, 1);
 A = gaussian_blur(mean_blur(A)); % Filters
-%% Method 3: First greyscale, then blur, then edge detect then threshold and then noise removal
+% Method 3: First greyscale, then blur, then edge detect then threshold and then noise removal
 first_edge_detect = edge_detect(A); % Laplacian edge detection
 without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15)); % Remove boundary around image & threshold the edges.
-with_noise_removal = without_noise_removal; % Noise removal
+with_noise_removal = noise_deletion(without_noise_removal,5); % Noise removal
 [grouped, nb_of_groups] = group(~with_noise_removal);
-corner_points = find_corner_points(grouped, nb_of_groups);
+[regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups);
+corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use nb_of_groups and not groups 2 because some groups don't exist anymore!
 boundary_box = draw_boundary_box(A, corner_points);
+disp("Done!!!");
+%% Original image
+imshow(img, []);
+title("Original image");
+%% After edge detection
+imshow(first_edge_detect, []);
+title("Edge detection");
+% Grouped image
+%imagesc(grouped(:,:,2));
+%title("Groups, #nb_objects = " + nb_of_groups);
+%% Regrouped image
+imagesc(regrouped(:,:,2));
+title("Regrouped, #objects = " + nb_of_groups2);
+%% Result
+imshow(boundary_box, []);
+title("Number of objects = "+ nb_of_groups2);
 
-subplot(1,2,1), imshow(A, []);
-subplot(1,2,2), imshow(boundary_box, []);
-title("Number of objects = "+ nb_of_groups);
+
+
 %title("Input (after blur)");
 %subplot(2,2,2), imshow(first_edge_detect, []);
 %title("After edge detection");
@@ -25,11 +45,77 @@ title("Number of objects = "+ nb_of_groups);
 %imshow(~with_noise_removal, []);
 %imshow(with_noise_removal);
 disp("done");
+
+function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, bottom_right_col, dimension)
+    
+    result = zeros(bottom_right_row - top_left_row, bottom_right_col - top_left_col, dimension);
+    
+    for row = top_left_row:bottom_right_row
+        for col = top_left_col:bottom_right_col
+            for dim = 1:dimension
+                result(row - top_left_row + 1, col - top_left_col +1 , dim) = img(row, col, dim);
+            end
+        end
+    end
+end
+
+function img_crop = generic_crop(img, fourp,v)
+    % A function which crops the given image so that the edges are
+    % definened by the four point given in fourp.
+    X_ARRAY = [fourp(1,1) fourp(1,2) fourp(1,3) fourp(1,4)];
+    Y_ARRAY = [fourp(2,1) fourp(2,2) fourp(2,3) fourp(2,4)];
+    MIN_X = min(X_ARRAY);
+    MAX_X = max(X_ARRAY);
+    MIN_Y = min(Y_ARRAY);
+    MAX_Y = max(Y_ARRAY);
+    img_crop = zeros(MAX_X-MIN_X,MAX_Y-MIN_Y,v);
+    
+    if v == 1
+        for row = MIN_X:MAX_X
+            for col = MIN_Y:MAX_Y
+                img_crop(row - MIN_X + 1,col - MIN_Y + 1,1) = img(row,col);
+            end
+        end
+    else
+        for row = MIN_X:MAX_X
+            for col = MIN_Y:MAX_Y
+                for i = 1:v
+                    img_crop(row - MIN_X + 1,col - MIN_Y + 1,i) = img(row,col,i);
+                end
+            end
+        end
+    end
+    
+end
+
 function result = is_valid_position(max_row, max_col, row, col)
     if row <= max_row && row >= 1 && col <= max_col && col > 1
         result = 1;
     else
         result = 0;
+    end
+end
+
+function nes = noise_deletion(img,window)
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+    side = floor(window/2);
+    nes = img;
+    
+    for col=side+1:MAX_COLUMN-side
+        for row=side+1:MAX_ROW-side
+            list=zeros(window);
+            q=1;
+            for i=-side:side
+                for j=-side:side
+                    list(q) = img(row+i,col+j);
+                    q = q+1;
+                end
+            end
+            list=sort(list);
+            nes(row,col) = list(floor((window^2)/2)+1);
+        end
     end
 end
 
@@ -72,23 +158,6 @@ function result = find_connecting_group(img, row, col)
             
         end
     end
-    %for i=1:150
-        % Search in a 3x3 grid around pixel.
-        % But only up and left because algorithm is going right down.
-        % Up connecting
-        %if is_valid_position(MAX_ROW, MAX_COLUMN, row -i, col) == 1 &&  img(row -i, col, 2) ~= 0
-           % result = img(row-1, col, 2);
-            %break;
-             %group found
-       % end
-       
-        % Left connectingqw
-        %if is_valid_position(MAX_ROW, MAX_COLUMN, row, col-i) == 1&&  img(row, col -i, 2) ~= 0
-           % result = img(row, col -i, 2);
-           % break;
-            %group found
-        %end
-    %end
 end
 
 function [result, nb_of_groups] = group(img)
@@ -109,23 +178,21 @@ function [result, nb_of_groups] = group(img)
     for row=1:MAX_ROW
         for col=1:MAX_COLUMN
           pixel_value = img(row, col);
-          result(row, col,1) = pixel_value;
-          result(row, col, 2) = 0; % Will be changed if black color.
+          result(row, col,1) = pixel_value; % Transfer picture to result variable (in dim 1)
           if pixel_value == BLACK
               % This is an edge
               connecting_pixels = connected_pixels(img, row, col);
               
-              if connecting_pixels > 10
+              if connecting_pixels > 175
                   % This is defined as an object outline.
                   group_number = find_connecting_group(result, row, col);
                   
                   if group_number == 0
                       % assign new group
-                      disp("----new group----");
                       groups = groups + 1;
                       group_number = groups;
                   end
-                  disp("connecting pixels=" + connecting_pixels + " group number=" + group_number + " pos=" + row + ", " + col);
+                  %disp("connecting pixels=" + connecting_pixels + " group number=" + group_number + " pos=" + row + ", " + col);
                   result(row, col, 2) = group_number;
               end
           end
@@ -136,10 +203,112 @@ function [result, nb_of_groups] = group(img)
     nb_of_groups = groups;
 end
 
-function result = draw_boundary_box(img, corner_points)
-    matrix_size = size(corner_points);
-    groups = matrix_size(2);
+function result = group_replace(grouped_img, to_replace, replace_with)
+    matrix_size = size(grouped_img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+
+    result = grouped_img;
+    for row=1:MAX_ROW
+        for col=1:MAX_COLUMN
+           if grouped_img(row, col,2) == to_replace
+               result(row, col,2) = replace_with;
+           end
+        end
+    end
+end
+
+function [result, nb_groups] = regroup(grouped_img, nb_of_groups)
+    % Loop from (right)top to (left)bottom
+    % Check if there are connecting groups.
+    
+    matrix_size = size(grouped_img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+    
+    nb_groups = nb_of_groups;
+    for col_i=1:MAX_COLUMN
+        for row=1:MAX_ROW
+            col = MAX_COLUMN - col_i+1;
+            group_nb = grouped_img(row, col, 2);
+            if group_nb ~= 0
+                for row_i=1:25
+                    if is_valid_position(MAX_ROW, MAX_COLUMN, row + row_i, col) == 1 && grouped_img(row + row_i, col, 2) ~= 0 && grouped_img(row+row_i, col,2) ~= group_nb
+                        % Found a different group in the next 5 pixels
+                        % below this one
+                        % Replace next group with previous group number
+                        grouped_img = group_replace(grouped_img, grouped_img(row+row_i, col, 2), group_nb);
+                        nb_groups = nb_groups - 1;
+                        break;
+                    end
+                end
+            end
+        end
+    end
+    
+    result = grouped_img;
+end
+
+function img = draw_red_boundary_box(img, corner_points)
+    mat_size = size(corner_points);
+    groups = mat_size(2);
     THICKNESS = 5;
+    
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+    for i=1:groups
+        % Loop through every group
+        % Now draw boundary box
+        min_row = corner_points(1,i);
+        min_col = corner_points(2,i);
+        max_row = corner_points(3,i);
+        max_col = corner_points(4,i);
+        % First draw horizontal lines
+        for col=min_col:max_col
+            for e=0:THICKNESS
+                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
+                    img(min_row+e, col, 1) = 255;
+                    img(min_row+e, col, 2) = 1;
+                    img(min_row+e, col, 3) = 1;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
+                    img(max_row-e, col,1) = 255;
+                    img(max_row-e, col,2) = 1;
+                    img(max_row-e, col,3) = 1;
+                end
+            end
+        end
+        
+        % Vertical lines
+        for row=min_row:max_row
+            for e=0:THICKNESS
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
+                    img(row, min_col+e, 1) = 255;
+                    img(row, min_col+e, 2) = 1;
+                    img(row, min_col+e, 3) = 1;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
+                    img(row, max_col-e, 1) = 255;
+                    img(row, max_col-e, 2) = 1;
+                    img(row, max_col-e, 3) = 1;
+                end
+            end
+            
+        end
+    end
+    result = img;
+end
+
+function result = draw_boundary_box(img, corner_points)
+    mat_size = size(corner_points);
+    groups = mat_size(2);
+    THICKNESS = 5;
+    
+    
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
     for i=1:groups
         % Loop through every group
         % Now draw boundary box
@@ -149,19 +318,28 @@ function result = draw_boundary_box(img, corner_points)
         max_row = corner_points(3,i);
         max_col = corner_points(4,i);
         
+        COLOR = -10;
         % First draw horizontal lines
         for col=min_col:max_col
             for e=0:THICKNESS
-                img(min_row+e, col) = 0;
-                img(max_row-e, col) = 0;
+                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
+                    img(min_row+e, col) = COLOR;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
+                    img(max_row-e, col) = COLOR;
+                end
             end
         end
         
         % Vertical lines
         for row=min_row:max_row
             for e=0:THICKNESS
-                img(row, min_col+e) = 0;
-                img(row, max_col-e) = 0;
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
+                    img(row, min_col+e) = COLOR;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
+                    img(row, max_col-e) = COLOR;
+                end
             end
             
         end
@@ -207,7 +385,6 @@ function result = find_corner_points(img, nb_groups)
     end
     
 end
-
 
 function cropped_img = symImgCrop(img,cutted_edge_size)
     original_img_size = size(img);
