@@ -1,11 +1,12 @@
 clearvars
-<<<<<<< HEAD
-img = imread('C:\Users\Wouter\Documents\MATLAB\PENO3/foto RGB 2.png'); % Load picture
-=======
+tic
+disp("Step 1: loading the image...");
 
 img = imread('kinect/doos/doos_1.png'); % Load picture (1080 rows * 1920 col)
 
-MIN_ROW_LINES_BETWEEN_GROUPS = 25;
+THRESHOLD_VALUE = 2;
+
+MIN_ROW_LINES_BETWEEN_GROUPS = 25; %25
 % Once the groups are found, the algorithm searches for groups too close
 % near each other
 % This is defined as the min distance between two groups (only searched
@@ -13,7 +14,7 @@ MIN_ROW_LINES_BETWEEN_GROUPS = 25;
 SAME_PIXELS_SEARCH_GRID_SIZE = 25;
 % Grid size = this variable *2, it searches for pixels with the same value
 % in this grid.
-GROUP_SEARCH_GRID_SIZE = 25;
+GROUP_SEARCH_GRID_SIZE = 25; %25
 % Grid size = this variable * 2, it searches for pixels with a group number
 % (not 0) in this grid.
 MIN_NB_SURROUNDING_PIXELS = 125;
@@ -21,42 +22,52 @@ MIN_NB_SURROUNDING_PIXELS = 125;
 % size defined by SAME_PIXELS_SEARCH_GRID
 % The pixels that have a less number of surrounding pixels, are not defined
 % as a group but as noise.
+disp("Minimum distance between 2 objects (only straight vertical or straight horizontal = " + max([MIN_ROW_LINES_BETWEEN_GROUPS SAME_PIXELS_SEARCH_GRID_SIZE MIN_NB_SURROUNDING_PIXELS;]) + " pixels");
 
 hoekpnt = [980 100 100 980;100 100 1820 1820;];
-disp("Starting calculations..");
->>>>>>> 60af40ecc444f3bc95a65a318a866f5ac2327864
+disp("Step 2: converting the image to greyscale...");
+
 A = greyscale(img); % Convert image to grayscale
-%A = simon_crop(A, 100,100,980,1820, 1);
+
+%A = simon_crop(A, 100,100,980,1820, 1); % USE FOR foto RGB X
+%top_left_row, top_left_col, bottom_right_row, bottom_right_col
+disp("Step 3: cropping the image...");
+%A = simon_crop(A, 200,850,750, 1850,1); % USE FOR foto XX RGB
+disp("Step 4: blurring the image...");
 A = gaussian_blur(mean_blur(A)); % Filters
-
 % Method 3: First greyscale, then blur, then edge detect then threshold and then noise removal
+disp("Step 5: edge detecting...");
 first_edge_detect = edge_detect(A); % Laplacian edge detection
-
-without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15)); % Remove boundary around image & threshold the edges.
-
+disp("Step 6: thresholding edge");
+without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15), THRESHOLD_VALUE); % Remove boundary around image & threshold the edges.
+disp("Step 7: noise removing...");
 with_noise_removal = noise_deletion(without_noise_removal,5); % Noise removal
-
+disp("Step 8: grouping...");
 [grouped, nb_of_groups] = group(~with_noise_removal, SAME_PIXELS_SEARCH_GRID_SIZE, GROUP_SEARCH_GRID_SIZE, MIN_NB_SURROUNDING_PIXELS); % Group pixels together
-
+disp("Step 9: regrouping...");
 [regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS); % Regroup (nessicary because group function works from top left to bottom right
 
 %Find corner points of object (not really corner points on the boundary,
 %but corner points for the boundary box)
+disp("Step 10: calculating corner points...");
 corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use nb_of_groups and not groups 2 because some groups don't exist anymore!
 
+disp("Step 11: removing objects within objects...");
 [updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(corner_points, nb_of_groups2); % To remove objects within objects
 
+disp("Step 12: drawing boundary boxes...");
 boundary_box = draw_boundary_box(A, updated_corner_points);
-disp("Done!!!");
+disp("Step 13: Done!!!");
+toc
 %% Original image
 imshow(img, []);
 title("Original image");
 %% After edge detection
 imshow(first_edge_detect, []);
 title("Edge detection");
-% Grouped image
-%imagesc(grouped(:,:,2));
-%title("Groups, #nb_objects = " + nb_of_groups);
+%% Grouped image
+imagesc(grouped(:,:,2));
+title("Groups, #nb_objects = " + nb_of_groups);
 %% Regrouped image
 imagesc(regrouped(:,:,2));
 title("Regrouped, Number of objects = " + nb_of_groups2);
@@ -67,19 +78,18 @@ title("Boundary box + removed objects within objects, Number of objects = "+ nb_
 function [updated_corner_points, nb_of_groups] = remove_corner_points_within_corner_points(corner_points, nb_groups)
     mat_size = size(corner_points);
     groups = mat_size(2); % This is the original number_of_groups
-    nb_of_groups = nb_groups; % Number of groups after regrouping
+    nb_of_groups = nb_groups; % This is the number_of_groups after regroup
     updated_corner_points = corner_points;
+    
     for first=1:groups
         % Loop through every group
         % Now draw boundary box
-        
         min_row_first = corner_points(1,first);
         min_col_first = corner_points(2,first);
         max_row_first = corner_points(3,first);
         max_col_first = corner_points(4,first);
-        
         for second = 1:groups
-            if first ~= second && corner_points(:, first) ~= zeros(4,1) && corner_points(:, second) ~= 0 % If the max values would be 0, this won't be a group
+            if first ~= second && max_row_first ~= 0 && corner_points(4, second) ~= 0 % If the max values would be 0, this won't be a group
                 % Same groups, cant lay within eachother
                 min_row_second = corner_points(1,second);
                 min_col_second = corner_points(2,second);
@@ -91,10 +101,8 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
                 if min_row_second >= min_row_first && min_col_second >= min_col_first && max_row_second <= max_row_first && max_col_second <= max_col_first
                     % Second object lays within first object
                     % Remouve this object
-                    updated_corner_points(1, second) = 0;
-                    updated_corner_points(2, second) = 0;
-                    updated_corner_points(3, second) = 0;
-                    updated_corner_points(4, second) = 0;
+                    updated_corner_points(:, second) = zeros(4,1);
+
                     nb_of_groups = nb_of_groups - 1;
                 end
             end
@@ -478,8 +486,8 @@ function result = remove_boundary(img, remove_size)
     end
 end
 
-function thresholded_img = threshold_edge(img)
-    threshold_value = 2;
+function thresholded_img = threshold_edge(img, THRESHOLD_VALUE)
+    THRESHOLD_VALUE = 2;
     %most_occuring =mode(img) +100;
     %threshold_value = most_occuring(1);
    
@@ -491,7 +499,7 @@ function thresholded_img = threshold_edge(img)
     thresholded_img = zeros(MAX_ROW,MAX_COLUMN,1);
     for row=1:MAX_ROW
         for col=1:MAX_COLUMN
-            if img(row, col) > threshold_value
+            if img(row, col) > THRESHOLD_VALUE
                 value = 1;
                 for i=1:THICKNESS
                     % Create thicker edges (edges of THICKNESS pixels thick)
