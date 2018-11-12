@@ -1,18 +1,17 @@
 img = [0 0 0 0 0 0 0 0; 0 1 1 1 1 1 1 0; 0 1 0 0 0 0 1 0; 0 1 0 1 1 0 1 0; 
       0 1 0 1 1 0 1 0; 0 1 0 0 0 0 1 0; 0 1 1 1 1 1 1 0; 0 0 0 0 0 0 0 0];
-
-% matrix_size = size(img);
-% 
-% MAX_ROW = matrix_size(1);
-% 
-% MAX_COLUMN = matrix_size(2);
-% 
-% 
-% position = [2, 2];   
+   
 img = outline(img);
 disp(img);
 final_img = only_outline_visible(img);
 image(final_img)
+  
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%FUNCTIONS FOR OUTLINE BEGINING%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
   
   
   function outlined_matrix = outline(img)
@@ -23,6 +22,7 @@ image(final_img)
 
     MAX_COLUMN = matrix_size(2);
     
+    x = 0;
     
     for row = 1: MAX_ROW
         col = 1;
@@ -31,18 +31,20 @@ image(final_img)
             if position == 0
                 col = col + 1;
             elseif position == -1
-                col = skip(img, row, col);
+                col = skip(img, row, col, MAX_COLUMN);
             elseif position == 1
+                x = x + 1;
                 img = outline_shape(img, row, col-1, MAX_ROW, MAX_COLUMN);
                 col = col - 1;
             end
         end
-    end   
+    end
+    disp(x);
     outlined_matrix = img;
 end
-function new_col = skip(img, row, col)
+function new_col = skip(img, row, col, MAX_COLUMN)
     good_value = 0;
-    while good_value ~= 1
+    while (good_value ~= 1) && (col < MAX_COLUMN)
         col = col+ 1;
         if img(row, col) == -1
             good_value = 1;
@@ -59,7 +61,14 @@ function RGB_matrix = only_outline_visible(img)
 
     MAX_COLUMN = matrix_size(2);
     
-    matrix_complete = zeros(MAX_ROW, MAX_COLUMN, 3); 
+    matrix_a = zeros(MAX_ROW, MAX_COLUMN); 
+    matrix_b = zeros(MAX_ROW, MAX_COLUMN); 
+    matrix_c = zeros(MAX_ROW, MAX_COLUMN); 
+    
+    matrix_complete = matrix_a;
+    matrix_complete(:,:,2) = matrix_b;
+    matrix_complete(:,:,3) = matrix_c;
+    
     for row = 1 : MAX_ROW
         for col = 1: MAX_COLUMN
             if img(row, col) == -1
@@ -249,3 +258,7 @@ function placing = left(position, img, MAX_ROW, MAX_COLUMB)
     end 
 end
 %%%%%%%end positions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%FUNCTIONS FOR OUTLINE END%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

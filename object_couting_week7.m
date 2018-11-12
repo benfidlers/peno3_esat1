@@ -1,4 +1,7 @@
 clearvars
+<<<<<<< HEAD
+img = imread('C:\Users\Wouter\Documents\MATLAB\PENO3/foto RGB 2.png'); % Load picture
+=======
 
 img = imread('kinect/doos/doos_1.png'); % Load picture (1080 rows * 1920 col)
 
@@ -21,6 +24,7 @@ MIN_NB_SURROUNDING_PIXELS = 125;
 
 hoekpnt = [980 100 100 980;100 100 1820 1820;];
 disp("Starting calculations..");
+>>>>>>> 60af40ecc444f3bc95a65a318a866f5ac2327864
 A = greyscale(img); % Convert image to grayscale
 %A = simon_crop(A, 100,100,980,1820, 1);
 A = gaussian_blur(mean_blur(A)); % Filters
