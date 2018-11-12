@@ -1,8 +1,11 @@
+
 clearvars
 tic
 disp("Step 1: loading the image...");
+=======
+>>>>>>> 765bbba5e5a8f5721ebb301037a6ff6fb99afc79
 
-img = imread('kinect/doos/doos_1.png'); % Load picture (1080 rows * 1920 col)
+img = imread('test_figuren/cropped_doos_1.png'); % Load picture (1080 rows * 1920 col)
 
 THRESHOLD_VALUE = 2;
 
@@ -26,6 +29,7 @@ disp("Minimum distance between 2 objects (only straight vertical or straight hor
 
 hoekpnt = [980 100 100 980;100 100 1820 1820;];
 disp("Step 2: converting the image to greyscale...");
+disp("Starting calculations..");
 
 A = greyscale(img); % Convert image to grayscale
 
@@ -59,6 +63,13 @@ disp("Step 12: drawing boundary boxes...");
 boundary_box = draw_boundary_box(A, updated_corner_points);
 disp("Step 13: Done!!!");
 toc
+cropped_img = generic_crop(A, updated_corner_points);
+disp("Done!!!");
+
+
+%% Show cropped image
+imshow(cropped_img, []);
+title("Cropped around crate");
 %% Original image
 imshow(img, []);
 title("Original image");
@@ -75,6 +86,8 @@ title("Regrouped, Number of objects = " + nb_of_groups2);
 imshow(boundary_box, []);
 title("Boundary box + removed objects within objects, Number of objects = "+ nb_of_groups3);
 
+
+
 function [updated_corner_points, nb_of_groups] = remove_corner_points_within_corner_points(corner_points, nb_groups)
     mat_size = size(corner_points);
     groups = mat_size(2); % This is the original number_of_groups
@@ -90,6 +103,7 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
         max_col_first = corner_points(4,first);
         for second = 1:groups
             if first ~= second && max_row_first ~= 0 && corner_points(4, second) ~= 0 % If the max values would be 0, this won't be a group
+            if first ~= second && max_row_first == 0 && corner_points(4, second) ~= 0 % If the max values would be 0, this won't be a group
                 % Same groups, cant lay within eachother
                 min_row_second = corner_points(1,second);
                 min_col_second = corner_points(2,second);
