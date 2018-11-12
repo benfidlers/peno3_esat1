@@ -1,9 +1,7 @@
-clearvars
-<<<<<<< HEAD
-img = imread('C:\Users\Wouter\Documents\MATLAB\PENO3/foto RGB 2.png'); % Load picture
-=======
 
-img = imread('kinect/doos/doos_1.png'); % Load picture (1080 rows * 1920 col)
+clearvars
+
+img = imread('test_figuren/cropped_doos_1.png'); % Load picture (1080 rows * 1920 col)
 
 MIN_ROW_LINES_BETWEEN_GROUPS = 25;
 % Once the groups are found, the algorithm searches for groups too close
@@ -24,7 +22,7 @@ MIN_NB_SURROUNDING_PIXELS = 125;
 
 hoekpnt = [980 100 100 980;100 100 1820 1820;];
 disp("Starting calculations..");
->>>>>>> 60af40ecc444f3bc95a65a318a866f5ac2327864
+
 A = greyscale(img); % Convert image to grayscale
 %A = simon_crop(A, 100,100,980,1820, 1);
 A = gaussian_blur(mean_blur(A)); % Filters
@@ -47,7 +45,13 @@ corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use 
 [updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(corner_points, nb_of_groups2); % To remove objects within objects
 
 boundary_box = draw_boundary_box(A, updated_corner_points);
+cropped_img = generic_crop(A, updated_corner_points);
 disp("Done!!!");
+
+
+%% Show cropped image
+imshow(cropped_img, []);
+title("Cropped around crate");
 %% Original image
 imshow(img, []);
 title("Original image");
@@ -64,6 +68,8 @@ title("Regrouped, Number of objects = " + nb_of_groups2);
 imshow(boundary_box, []);
 title("Boundary box + removed objects within objects, Number of objects = "+ nb_of_groups3);
 
+
+
 function [updated_corner_points, nb_of_groups] = remove_corner_points_within_corner_points(corner_points, nb_groups)
     mat_size = size(corner_points);
     groups = mat_size(2); % This is the original number_of_groups
@@ -79,7 +85,7 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
         max_col_first = corner_points(4,first);
         
         for second = 1:groups
-            if first ~= second && corner_points(:, first) ~= zeros(4,1) && corner_points(:, second) ~= 0 % If the max values would be 0, this won't be a group
+            if first ~= second && max_row_first == 0 && corner_points(4, second) ~= 0 % If the max values would be 0, this won't be a group
                 % Same groups, cant lay within eachother
                 min_row_second = corner_points(1,second);
                 min_col_second = corner_points(2,second);
@@ -115,32 +121,29 @@ function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, 
     end
 end
 
-function img_crop = generic_crop(img, fourp,v)
+function img_crop = generic_crop(img, fourp)
     % A function which crops the given image so that the edges are
     % definened by the four point given in fourp.
-    X_ARRAY = [fourp(1,1) fourp(1,2) fourp(1,3) fourp(1,4)];
-    Y_ARRAY = [fourp(2,1) fourp(2,2) fourp(2,3) fourp(2,4)];
-    MIN_X = min(X_ARRAY);
-    MAX_X = max(X_ARRAY);
-    MIN_Y = min(Y_ARRAY);
-    MAX_Y = max(Y_ARRAY);
-    img_crop = zeros(MAX_X-MIN_X,MAX_Y-MIN_Y,v);
-    
-    if v == 1
-        for row = MIN_X:MAX_X
-            for col = MIN_Y:MAX_Y
-                img_crop(row - MIN_X + 1,col - MIN_Y + 1,1) = img(row,col);
-            end
-        end
-    else
-        for row = MIN_X:MAX_X
-            for col = MIN_Y:MAX_Y
-                for i = 1:v
-                    img_crop(row - MIN_X + 1,col - MIN_Y + 1,i) = img(row,col,i);
-                end
-            end
+    mat_size = size(fourp);
+    groups = mat_size(2);
+
+    for i=1:groups
+        if fourp(1,i)~=0
+        MIN_ROW = fourp(1,i);
+        MIN_COL = fourp(2,i);
+        MAX_ROW = fourp(3,i);
+        MAX_COL = fourp(4,i);
         end
     end
+
+    img_crop = zeros(MAX_ROW-MIN_ROW+1,MAX_COL-MIN_COL+1,1);
+        for row = MIN_ROW:MAX_ROW
+            for col = MIN_COL:MAX_COL
+
+                img_crop(row - MIN_ROW + 1,col - MIN_COL + 1,1) = img(row,col);
+            end
+        end
+
     
 end
 
