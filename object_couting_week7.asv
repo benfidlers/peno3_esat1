@@ -1,4 +1,4 @@
-
+%%
 clearvars
 
 img = imread('test_figuren/cropped_doos_1.png'); % Load picture (1080 rows * 1920 col)
@@ -47,8 +47,6 @@ corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use 
 boundary_box = draw_boundary_box(A, updated_corner_points);
 cropped_img = generic_crop(A, updated_corner_points);
 disp("Done!!!");
-
-
 %% Show cropped image
 imshow(cropped_img, []);
 title("Cropped around crate");
