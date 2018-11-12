@@ -1,28 +1,48 @@
 clearvars
 
+img = imread('kinect/doos/doos_1.png'); % Load picture (1080 rows * 1920 col)
+
 MIN_ROW_LINES_BETWEEN_GROUPS = 25;
 % Once the groups are found, the algorithm searches for groups too close
 % near each other
 % This is defined as the min distance between two groups (only searched
 % vertical)
-CONNECTING_PIXELS_SEARCH_GRID_SIZE = 25;
-% 
-img = imread('kinect/color_test.png'); % Load picture (1080 rows * 1920 col)
+SAME_PIXELS_SEARCH_GRID_SIZE = 25;
+% Grid size = this variable *2, it searches for pixels with the same value
+% in this grid.
+GROUP_SEARCH_GRID_SIZE = 25;
+% Grid size = this variable * 2, it searches for pixels with a group number
+% (not 0) in this grid.
+MIN_NB_SURROUNDING_PIXELS = 125;
+% The minimum number of pixels with the same value that are in the grid
+% size defined by SAME_PIXELS_SEARCH_GRID
+% The pixels that have a less number of surrounding pixels, are not defined
+% as a group but as noise.
+
 hoekpnt = [980 100 100 980;100 100 1820 1820;];
-%scaled_img = simon_crop(img, 100, 100, 980, 1820, 3);
 disp("Starting calculations..");
 A = greyscale(img); % Convert image to grayscale
-%A = symImgCrop(A, 50); % Crop image so it's the same size.
-A = simon_crop(A, 100,100,980,1820, 1);
+%A = simon_crop(A, 100,100,980,1820, 1);
 A = gaussian_blur(mean_blur(A)); % Filters
+
 % Method 3: First greyscale, then blur, then edge detect then threshold and then noise removal
 first_edge_detect = edge_detect(A); % Laplacian edge detection
+
 without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15)); % Remove boundary around image & threshold the edges.
+
 with_noise_removal = noise_deletion(without_noise_removal,5); % Noise removal
-[grouped, nb_of_groups] = group(~with_noise_removal);
-[regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS);
+
+[grouped, nb_of_groups] = group(~with_noise_removal, SAME_PIXELS_SEARCH_GRID_SIZE, GROUP_SEARCH_GRID_SIZE, MIN_NB_SURROUNDING_PIXELS); % Group pixels together
+
+[regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS); % Regroup (nessicary because group function works from top left to bottom right
+
+%Find corner points of object (not really corner points on the boundary,
+%but corner points for the boundary box)
 corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use nb_of_groups and not groups 2 because some groups don't exist anymore!
-boundary_box = draw_boundary_box(A, corner_points);
+
+[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(corner_points, nb_of_groups2); % To remove objects within objects
+
+boundary_box = draw_boundary_box(A, updated_corner_points);
 disp("Done!!!");
 %% Original image
 imshow(img, []);
@@ -35,24 +55,46 @@ title("Edge detection");
 %title("Groups, #nb_objects = " + nb_of_groups);
 %% Regrouped image
 imagesc(regrouped(:,:,2));
-title("Regrouped, #objects = " + nb_of_groups2);
+title("Regrouped, Number of objects = " + nb_of_groups2);
 %% Result
 imshow(boundary_box, []);
-title("Number of objects = "+ nb_of_groups2);
+title("Boundary box + removed objects within objects, Number of objects = "+ nb_of_groups3);
 
-
-
-%title("Input (after blur)");
-%subplot(2,2,2), imshow(first_edge_detect, []);
-%title("After edge detection");
-%subplot(2,2,3), imshow(without_noise_removal, []);
-%title("Threshold without noise removal");
-%subplot(2,2,4), imshow(grouped(:,:,2), []);
-%title("Method 2 with gaussian and mean blur");
-%imagesc(grouped(:,:,2));
-%imshow(~with_noise_removal, []);
-%imshow(with_noise_removal);
-disp("done");
+function [updated_corner_points, nb_of_groups] = remove_corner_points_within_corner_points(corner_points, nb_groups)
+    mat_size = size(corner_points);
+    groups = mat_size(2); % This is the original number_of_groups
+    nb_of_groups = nb_groups;
+    updated_corner_points = corner_points;
+    for first=1:groups
+        % Loop through every group
+        % Now draw boundary box
+        min_row_first = corner_points(1,first);
+        min_col_first = corner_points(2,first);
+        max_row_first = corner_points(3,first);
+        max_col_first = corner_points(4,first);
+        for second = 1:groups
+            if first ~= second && max_row_first ~= 0 && corner_points(4, second) ~= 0 % If the max values would be 0, this won't be a group
+                % Same groups, cant lay within eachother
+                min_row_second = corner_points(1,second);
+                min_col_second = corner_points(2,second);
+                max_row_second = corner_points(3,second);
+                max_col_second = corner_points(4,second);
+                
+                % Check if second lays within first
+                
+                if min_row_second >= min_row_first && min_col_second >= min_col_first && max_row_second <= max_row_first && max_col_second <= max_col_first
+                    % Second object lays within first object
+                    % Remouve this object
+                    updated_corner_points(1, second) = 0;
+                    updated_corner_points(2, second) = 0;
+                    updated_corner_points(3, second) = 0;
+                    updated_corner_points(4, second) = 0;
+                    nb_of_groups = nb_of_groups - 1;
+                end
+            end
+        end
+    end
+end
 
 function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, bottom_right_col, dimension)
     
@@ -172,14 +214,13 @@ function result = find_group_in_range(img, row, col, SEARCH_GRID_SIZE)
     end
 end
 
-function [result, nb_of_groups] = group(img)
+function [result, nb_of_groups] = group(img, SAME_PIXEL_SEARCH_GRID_SIZE, GROUP_SEARCH_GRID_SIZE, MIN_NB_SURROUNDING_PIXELS)
     % Goal, group pixels.
     % First loop from left to right to find an object
     % Check if it's connected
     % Number connected pixels in the second dimension
     WHITE = 1;
     BLACK = 0;
-    SEARCH_GRID_SIZE =  25;
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
@@ -193,11 +234,11 @@ function [result, nb_of_groups] = group(img)
           result(row, col,1) = pixel_value; % Transfer picture to result variable (in dim 1)
           if pixel_value == BLACK
               % This is an edge
-              connecting_pixels = same_pixels_in_range(img, row, col, SEARCH_GRID_SIZE);
+              connecting_pixels = same_pixels_in_range(img, row, col, SAME_PIXEL_SEARCH_GRID_SIZE);
               
-              if connecting_pixels > 175
+              if connecting_pixels > MIN_NB_SURROUNDING_PIXELS
                   % This is defined as an object outline.
-                  group_number = find_group_in_range(result, row, col, SEARCH_GRID_SIZE);
+                  group_number = find_group_in_range(result, row, col, GROUP_SEARCH_GRID_SIZE);
                   
                   if group_number == 0
                       % assign new group
