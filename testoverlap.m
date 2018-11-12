@@ -109,7 +109,7 @@ function [row_start, row_stop, col_start, col_stop]= depth_to_color(pipemm_depth
     end
     
     if row_stop > nb_rows_color
-        row_stop=nb_rows-color;
+        row_stop=nb_rows_color;
     end
     
     if col_start<1
