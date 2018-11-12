@@ -1,26 +1,29 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Dirac%
+Burge%
+\ \BBA {} Burger%
 }{%
-Dirac%
+Burge%
+\ \BBA {} Burger%
 }{%
-{\protect \APACyear {1981}}%
+{\protect \APACyear {2008}}%
 }]{%
-dirac}
+book}
 \APACinsertmetastar {%
-dirac}%
+book}%
 \begin{APACrefauthors}%
-Dirac, P\BPBI A\BPBI M.%
+Burge, M\BPBI J.%
+\BCBT {}\ \BBA {} Burger, W.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{1981}.
+\APACrefYear{2008}.
 \newblock
-\APACrefbtitle {The Principles of Quantum Mechanics} {The principles of quantum
-  mechanics}.
+\APACrefbtitle {Digital image processing} {Digital image processing}\
+  (\PrintOrdinal{1}\ \BEd).
 \newblock
-\APACaddressPublisher{}{Clarendon Press}.
+\APACaddressPublisher{}{Springer}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -28,7 +31,7 @@ Ghuneim%
 }{%
 Ghuneim%
 }{%
-{\protect \APACyear {2000}}%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
 }]{%
 Moore_Neighborhood}
 \APACinsertmetastar {%
@@ -38,29 +41,12 @@ Ghuneim, A\BPBI G.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2000}{}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
 \newblock
 \APACrefbtitle {Moore-Neighbor Tracing.} {Moore-neighbor tracing.}
 \newblock
 \begin{APACrefURL}
   [{(2018-10-26)}]\url{http://www.imageprocessingplace.com/downloads_V3/root_downloads/tutorials/contour_tracing_Abeer_George_Ghuneim/moore.html}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Greyscale}}{%
-\APACcitebtitle {Greyscale}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-greyscale}
-\APACinsertmetastar {%
-greyscale}%
-\APACrefbtitle {Greyscale.} {Greyscale.}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL}
-  [{(2018-10-26)}]\url{https://en.wikipedia.org/wiki/Grayscale}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -72,7 +58,7 @@ Jiao%
 }{%
 Jiao%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {Nov 2017}}%
 }]{%
 kinect_v2}
 \APACinsertmetastar {%
@@ -85,47 +71,29 @@ Jiao, J.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{Nov 2017}{}{}.
 \newblock
 \APACrefbtitle {Kinect V1 and Kinect V2 fields of view compared.} {Kinect v1
   and kinect v2 fields of view compared.}
 \newblock
 \begin{APACrefURL}
-  [{(2018-10-26)}]\url{https://www.researchgate.net/figure/Kinect-v2-sensor-working\\-on-a-photographic-tripod_fig1_321048476/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Kernel (image processing)}}{%
-\APACcitebtitle {Kernel (image processing)}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-gaussian}
-\APACinsertmetastar {%
-gaussian}%
-\APACrefbtitle {Kernel (image processing).} {Kernel (image processing).}
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\begin{APACrefURL}
-  [{(2018-10-1)}]\url{https://en.wikipedia.org/wiki/Kernel_(image_processing)}
+  \url{https://www.researchgate.net/figure/Kinect-v2-sensor-working\\-on-a-photographic-tripod_fig1_321048476/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {Mathworks}}{%
 \APACcitebtitle {Mathworks}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2018}}%
 }]{%
 Mathworks}
 \APACinsertmetastar {%
 Mathworks}%
 \APACrefbtitle {Mathworks.} {Mathworks.}
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2018}{}{}.
 \newblock
-\begin{APACrefURL} [{(2018-10-26)}]\url{https://nl.mathworks.com/help/}
-  \end{APACrefURL}
+\begin{APACrefURL} \url{https://nl.mathworks.com/help/} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -150,8 +118,7 @@ R.~Fisher, A\BPBI W., S.~Perkins%
 \newblock
 \APACrefbtitle {Laplacian of Gaussian.} {Laplacian of gaussian.}
 \newblock
-\begin{APACrefURL}
-  [{(2018-10-26)}]\url{https://homepages.inf.ed.ac.uk/rbf/HIPR2/log.html}
+\begin{APACrefURL} \url{https://homepages.inf.ed.ac.uk/rbf/HIPR2/log.html}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -177,8 +144,7 @@ R.~Fisher, A\BPBI W., S.~Perkins%
 \newblock
 \APACrefbtitle {Mean Filter.} {Mean filter.}
 \newblock
-\begin{APACrefURL}
-  [{(2018-10-26)}]\url{https://homepages.inf.ed.ac.uk/rbf/HIPR2/mean.html}
+\begin{APACrefURL} \url{https://homepages.inf.ed.ac.uk/rbf/HIPR2/mean.html}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -187,7 +153,7 @@ Smeenk%
 }{%
 Smeenk%
 }{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {11 Mar 2014}}%
 }]{%
 kinect_specifications}
 \APACinsertmetastar {%
@@ -197,13 +163,12 @@ Smeenk, R.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{11 Mar 2014}{}{}.
 \newblock
 \APACrefbtitle {Kinect V1 and Kinect V2 fields of view compared.} {Kinect v1
   and kinect v2 fields of view compared.}
 \newblock
-\begin{APACrefURL}
-  [{(2018-10-26)}]\url{http://smeenk.com/kinect-field-of-view-comparison/}
+\begin{APACrefURL} \url{http://smeenk.com/kinect-field-of-view-comparison/}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -212,7 +177,7 @@ Sobel%
 }{%
 Sobel%
 }{%
-{\protect \APACyear {2014 Feb}}%
+{\protect \APACyear {2014}}%
 }]{%
 Sobel_operator}
 \APACinsertmetastar {%
@@ -222,7 +187,7 @@ Sobel, I.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2014 Feb}{}{}.
+\APACrefYearMonthDay{2014}{02}{}.
 \newblock
 {\BBOQ}\APACrefatitle {An Isotropic 3x3 Image Gradient Operator} {An isotropic
   3x3 image gradient operator}.{\BBCQ}
@@ -233,40 +198,62 @@ Sobel, I.%
 \bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {Stackoverflow}}{%
 \APACcitebtitle {Stackoverflow}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2018}}%
 }]{%
 stackoverflow}
 \APACinsertmetastar {%
 stackoverflow}%
 \APACrefbtitle {Stackoverflow.} {Stackoverflow.}
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2018}{}{}.
 \newblock
-\begin{APACrefURL} [{(2018-10-26)}]\url{https://stackoverflow.com}
+\begin{APACrefURL} \url{https://stackoverflow.com} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Unknown%
+}{%
+Unknown%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {1}}}}}]{%
+greyscale}
+\APACinsertmetastar {%
+greyscale}%
+\begin{APACrefauthors}%
+Unknown.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {1}}}{}{}.
+\newblock
+\APACrefbtitle {Greyscale.} {Greyscale.}
+\newblock
+\begin{APACrefURL} [{(2018-10-1)}]\url{https://en.wikipedia.org/wiki/Grayscale}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Thé%
+Unknown%
 }{%
-Thé%
+Unknown%
 }{%
-{\protect \APACyear {2014 Oct 15}}%
-}]{%
-threshold}
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACexlab {{\protect \BCntND {2}}}}}]{%
+gaussian}
 \APACinsertmetastar {%
-threshold}%
+gaussian}%
 \begin{APACrefauthors}%
-Thé, A.%
+Unknown.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2014 Oct 15}{}{}.
+\APACrefYearMonthDay{{\protect \bibnodate {}}{\protect \BCntND {2}}}{}{}.
 \newblock
-\APACrefbtitle {Image Processing Made Easy.} {Image processing made easy.}
+\APACrefbtitle {Kernel (image processing).} {Kernel (image processing).}
 \newblock
 \begin{APACrefURL}
-  [{(2018-10-26)}]\url{https://nl.mathworks.com/videos/image-processing-made-easy-81718.html}
+  [{(2018-10-1)}]\url{https://en.wikipedia.org/wiki/Kernel_(image_processing)}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 

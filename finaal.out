@@ -2,16 +2,26 @@
 \BOOKMARK [1][-]{Doc-Start}{List of Figures}{}% 2
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 3
 \BOOKMARK [1][-]{section.2}{Problem Description}{}% 4
-\BOOKMARK [1][-]{section.3}{Design}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{Hardware}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{Software}{section.3}% 7
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Analysing different methods}{subsection.3.2}% 8
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Choice of method}{subsection.3.2}% 9
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Analysis Depth Sensor}{subsection.3.2}% 10
-\BOOKMARK [1][-]{section.4}{Research}{}% 11
-\BOOKMARK [1][-]{section.5}{Further planning}{}% 12
-\BOOKMARK [1][-]{section.6}{Budget management}{}% 13
-\BOOKMARK [1][-]{section.7}{Course Integration}{}% 14
-\BOOKMARK [1][-]{section.8}{Conclusion}{}% 15
-\BOOKMARK [1][-]{section.9}{References}{}% 16
-\BOOKMARK [1][-]{section.10}{Appendices}{}% 17
+\BOOKMARK [1][-]{section.3}{Hardware}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Hardware components}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Visual setup}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Software}{}% 8
+\BOOKMARK [2][-]{subsection.4.1}{Analysing different methods}{section.4}% 9
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Method 1: Thresholding}{subsection.4.1}% 10
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Method 2: Edge detection}{subsection.4.1}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Method 3: Background filter}{subsection.4.1}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Choice of method}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Step 1: Converting to greyscale}{subsection.4.2}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Step 2: Filtering the image}{subsection.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Step 3: Edge detection}{subsection.4.2}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Step 4: Threshold}{subsection.4.2}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Analysis Depth Sensor}{section.4}% 18
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Step 1: Detection of the difference in height}{subsection.4.3}% 19
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Step 2: Filtering of the noise}{subsection.4.3}% 20
+\BOOKMARK [1][-]{section.5}{Research}{}% 21
+\BOOKMARK [1][-]{section.6}{Further planning}{}% 22
+\BOOKMARK [1][-]{section.7}{Budget management}{}% 23
+\BOOKMARK [1][-]{section.8}{Course Integration}{}% 24
+\BOOKMARK [1][-]{section.9}{Conclusion}{}% 25
+\BOOKMARK [1][-]{section.10}{References}{}% 26
+\BOOKMARK [1][-]{section.11}{Appendices}{}% 27
