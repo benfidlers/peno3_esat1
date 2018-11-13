@@ -1,8 +1,6 @@
-
 clearvars
 tic
 disp("Step 1: loading the image...");
-
 
 img = imread('test_figuren/cropped_doos_1.png'); % Load picture (1080 rows * 1920 col)
 
@@ -28,14 +26,16 @@ disp("Minimum distance between 2 objects (only straight vertical or straight hor
 
 hoekpnt = [980 100 100 980;100 100 1820 1820;];
 disp("Step 2: converting the image to greyscale...");
-disp("Starting calculations..");
 
 A = greyscale(img); % Convert image to grayscale
 
-%A = simon_crop(A, 100,100,980,1820, 1); % USE FOR foto RGB X
+
 %top_left_row, top_left_col, bottom_right_row, bottom_right_col
 disp("Step 3: cropping the image...");
+
+%A = simon_crop(A, 100,100,980,1820, 1); % USE FOR foto RGB X
 %A = simon_crop(A, 200,850,750, 1850,1); % USE FOR foto XX RGB
+
 disp("Step 4: blurring the image...");
 A = gaussian_blur(mean_blur(A)); % Filters
 % Method 3: First greyscale, then blur, then edge detect then threshold and then noise removal
@@ -62,13 +62,6 @@ disp("Step 12: drawing boundary boxes...");
 boundary_box = draw_boundary_box(A, updated_corner_points);
 disp("Step 13: Done!!!");
 toc
-cropped_img = generic_crop(A, updated_corner_points);
-disp("Done!!!");
-
-
-%% Show cropped image
-imshow(cropped_img, []);
-title("Cropped around crate");
 %% Original image
 imshow(img, []);
 title("Original image");
@@ -84,9 +77,9 @@ title("Regrouped, Number of objects = " + nb_of_groups2);
 %% Result
 imshow(boundary_box, []);
 title("Boundary box + removed objects within objects, Number of objects = "+ nb_of_groups3);
-
-
-
+%%
+next = imfuse(A, draw_boundary_box2(A, updated_corner_points));
+imshow(next, []);
 function [updated_corner_points, nb_of_groups] = remove_corner_points_within_corner_points(corner_points, nb_groups)
     mat_size = size(corner_points);
     groups = mat_size(2); % This is the original number_of_groups
@@ -102,7 +95,6 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
         max_col_first = corner_points(4,first);
         for second = 1:groups
             if first ~= second && max_row_first ~= 0 && corner_points(4, second) ~= 0 % If the max values would be 0, this won't be a group
-            if first ~= second && max_row_first == 0 && corner_points(4, second) ~= 0 % If the max values would be 0, this won't be a group
                 % Same groups, cant lay within eachother
                 min_row_second = corner_points(1,second);
                 min_col_second = corner_points(2,second);
@@ -120,7 +112,6 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
                 end
             end
         end
-    end
     end
 end
 
@@ -160,7 +151,6 @@ function img_crop = generic_crop(img, fourp)
             end
         end
 
-    
 end
 
 function result = is_valid_position(max_row, max_col, row, col)
@@ -377,6 +367,58 @@ function img = draw_red_boundary_box(img, corner_points)
     end
     result = img;
 end
+
+function img = draw_red_boundary_box2(img, corner_points)
+    mat_size = size(corner_points);
+    groups = mat_size(2);
+    THICKNESS = 5;
+    
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+    img = zeros(MAX_ROW,MAX_COLUMN,3);
+    for i=1:groups
+        % Loop through every group
+        % Now draw boundary box
+        min_row = corner_points(1,i);
+        min_col = corner_points(2,i);
+        max_row = corner_points(3,i);
+        max_col = corner_points(4,i);
+        % First draw horizontal lines
+        for col=min_col:max_col
+            for e=0:THICKNESS
+                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
+                    img(min_row+e, col, 1) = 255;
+                    img(min_row+e, col, 2) = 1;
+                    img(min_row+e, col, 3) = 1;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
+                    img(max_row-e, col,1) = 255;
+                    img(max_row-e, col,2) = 1;
+                    img(max_row-e, col,3) = 1;
+                end
+            end
+        end
+        
+        % Vertical lines
+        for row=min_row:max_row
+            for e=0:THICKNESS
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
+                    img(row, min_col+e, 1) = 255;
+                    img(row, min_col+e, 2) = 1;
+                    img(row, min_col+e, 3) = 1;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
+                    img(row, max_col-e, 1) = 255;
+                    img(row, max_col-e, 2) = 1;
+                    img(row, max_col-e, 3) = 1;
+                end
+            end
+            
+        end
+    end
+end
+
 
 function result = draw_boundary_box(img, corner_points)
     mat_size = size(corner_points);
