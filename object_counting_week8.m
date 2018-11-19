@@ -146,7 +146,6 @@ function img_crop = generic_crop(img, fourp)
     img_crop = zeros(MAX_ROW-MIN_ROW+1,MAX_COL-MIN_COL+1,1);
         for row = MIN_ROW:MAX_ROW
             for col = MIN_COL:MAX_COL
-
                 img_crop(row - MIN_ROW + 1,col - MIN_COL + 1,1) = img(row,col);
             end
         end
