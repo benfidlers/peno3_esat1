@@ -12,10 +12,10 @@ min_thresh = 30;
 max_thresh = 500;
 
 % Get image from depth sensor
-depth = getsnapshot(depthVid);
-color = getsnapshot(colorVid);
+%depth = getsnapshot(depthVid);
+%color = getsnapshot(colorVid);
 %color = imread('doos_leeg_overlap_RGB.png');
-%load('depth_lege_doos.mat');
+load('depth_lege_doos.mat');
 %Run the sobel operator
 shapes = sobel_operator(depth);
 
@@ -23,19 +23,19 @@ shapes = sobel_operator(depth);
 
 %Run the threshold filter
 shapes = threshold(shapes, min_thresh, max_thresh);
-shapes = print(shapes, min_x, max_x, min_y, max_y);
+%shapes = print(shapes, min_x, max_x, min_y, max_y);
 %Look at the result
 %image(shapes);
 
 % %%%%%outline
 shapes = outline(shapes);
-%final_img = only_outline_visible(shapes);
+final_img = only_outline_visible(shapes);
 % shapes = fill_matrix(shapes);
 % shapes = fill_matrix(shapes);
 
 edged_matrix = only_edge(shapes);
 
-
+image(final_img);
 
 %OVERLAP
 %%%%%%%%%%%%%%%%%%%%%%%%%%
