@@ -1,30 +1,46 @@
 clearvars
-tic
-disp("Step 1: loading the image...");
+disp("Waiting for input...");
+%waitforbuttonpress;
+disp("Taking picture...");
+colorVid = videoinput('kinect',1);
+img = getsnapshot(colorVid);
+imshow(img);
+%%
+img = imread('kinect/img.png');
+%%
 
-img = imread('test_figuren/cropped_doos_1.png'); % Load picture (1080 rows * 1920 col)
 
+
+%img = imread('kinect/foto_x2_RGB_4.png'); % Load picture (1080 rows * 1920 col)
 THRESHOLD_VALUE = 2;
 
-MIN_ROW_LINES_BETWEEN_GROUPS = 25; %25
+MIN_ROW_LINES_BETWEEN_GROUPS = 10; %25 %15
 % Once the groups are found, the algorithm searches for groups too close
 % near each other
 % This is defined as the min distance between two groups (only searched
 % vertical)
-SAME_PIXELS_SEARCH_GRID_SIZE = 25;
+SAME_PIXELS_SEARCH_GRID_SIZE = 10;%25
 % Grid size = this variable *2, it searches for pixels with the same value
 % in this grid.
-GROUP_SEARCH_GRID_SIZE = 25; %25
+GROUP_SEARCH_GRID_SIZE = 10; %25
 % Grid size = this variable * 2, it searches for pixels with a group number
 % (not 0) in this grid.
-MIN_NB_SURROUNDING_PIXELS = 125;
+MIN_NB_SURROUNDING_PIXELS = 25;%125 % 50
 % The minimum number of pixels with the same value that are in the grid
 % size defined by SAME_PIXELS_SEARCH_GRID
 % The pixels that have a less number of surrounding pixels, are not defined
 % as a group but as noise.
+
+% CROPPING: Defining rectangle
+top_row = 290 ; top_col = 760; bottom_row = 690 ; bottom_col = 1440;
+%top_row = 150; top_col = 350; bottom_row = 950; bottom_col = 1900;
+%top_row = 200; top_col = 850; bottom_row = 750; bottom_col = 1850; % For pictues with x2_RGB_... in name
+%top_row = 100, top_col = 100; bottom_row = 980; bottom_col = 1820; % For pictues with RGB in name.
+
+tic
+disp("Step 1: loading the image...");
 disp("Minimum distance between 2 objects (only straight vertical or straight horizontal = " + max([MIN_ROW_LINES_BETWEEN_GROUPS SAME_PIXELS_SEARCH_GRID_SIZE MIN_NB_SURROUNDING_PIXELS;]) + " pixels");
 
-hoekpnt = [980 100 100 980;100 100 1820 1820;];
 disp("Step 2: converting the image to greyscale...");
 
 A = greyscale(img); % Convert image to grayscale
@@ -33,8 +49,11 @@ A = greyscale(img); % Convert image to grayscale
 %top_left_row, top_left_col, bottom_right_row, bottom_right_col
 disp("Step 3: cropping the image...");
 
+A = simon_crop(A, top_row, top_col, bottom_row, bottom_col);
+imshow(A, []);
+%%
 %A = simon_crop(A, 100,100,980,1820, 1); % USE FOR foto RGB X
-%A = simon_crop(A, 200,850,750, 1850,1); % USE FOR foto XX RGB
+%A = simon_crop(A, top_row,top_col,bottom_row, bottom_col,1); % USE FOR foto XX RGB
 
 disp("Step 4: blurring the image...");
 A = gaussian_blur(mean_blur(A)); % Filters
@@ -44,7 +63,8 @@ first_edge_detect = edge_detect(A); % Laplacian edge detection
 disp("Step 6: thresholding edge");
 without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15), THRESHOLD_VALUE); % Remove boundary around image & threshold the edges.
 disp("Step 7: noise removing...");
-with_noise_removal = noise_deletion(without_noise_removal,5); % Noise removal
+%with_noise_removal = noise_deletion(without_noise_removal,5); % Noise removal
+with_noise_removal = without_noise_removal;
 disp("Step 8: grouping...");
 [grouped, nb_of_groups] = group(~with_noise_removal, SAME_PIXELS_SEARCH_GRID_SIZE, GROUP_SEARCH_GRID_SIZE, MIN_NB_SURROUNDING_PIXELS); % Group pixels together
 disp("Step 9: regrouping...");
@@ -56,13 +76,17 @@ disp("Step 10: calculating corner points...");
 corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use nb_of_groups and not groups 2 because some groups don't exist anymore!
 
 disp("Step 11: removing objects within objects...");
-[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(corner_points, nb_of_groups2); % To remove objects within objects
+%[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(corner_points, nb_of_groups2); % To remove objects within objects
+updated_corner_points = corner_points;
+nb_of_groups3 = nb_of_groups2;
 
 disp("Step 12: drawing boundary boxes...");
 boundary_box = draw_boundary_box(A, updated_corner_points);
+disp("Step 13: drawing red boundary boxes on full image...");
+red_boundary_box = draw_red_boundary_box(img, updated_corner_points, top_row,top_col);
 disp("Step 13: Done!!!");
 toc
-%% Original image
+% Original image
 imshow(img, []);
 title("Original image");
 %% After edge detection
@@ -78,8 +102,8 @@ title("Regrouped, Number of objects = " + nb_of_groups2);
 imshow(boundary_box, []);
 title("Boundary box + removed objects within objects, Number of objects = "+ nb_of_groups3);
 %%
-next = imfuse(A, draw_boundary_box2(A, updated_corner_points));
-imshow(next, []);
+imshow(red_boundary_box, []);
+title("Number of objects: "+ nb_of_groups3);
 function [updated_corner_points, nb_of_groups] = remove_corner_points_within_corner_points(corner_points, nb_groups)
     mat_size = size(corner_points);
     groups = mat_size(2); % This is the original number_of_groups
@@ -115,41 +139,9 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
     end
 end
 
-function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, bottom_right_col, dimension)
-    
-    result = zeros(bottom_right_row - top_left_row, bottom_right_col - top_left_col, dimension);
-    
-    for row = top_left_row:bottom_right_row
-        for col = top_left_col:bottom_right_col
-            for dim = 1:dimension
-                result(row - top_left_row + 1, col - top_left_col +1 , dim) = img(row, col, dim);
-            end
-        end
-    end
-end
-
-function img_crop = generic_crop(img, fourp)
-    % A function which crops the given image so that the edges are
-    % definened by the four point given in fourp.
-    mat_size = size(fourp);
-    groups = mat_size(2);
-
-    for i=1:groups
-        if fourp(1,i)~=0
-        MIN_ROW = fourp(1,i);
-        MIN_COL = fourp(2,i);
-        MAX_ROW = fourp(3,i);
-        MAX_COL = fourp(4,i);
-        end
-    end
-
-    img_crop = zeros(MAX_ROW-MIN_ROW+1,MAX_COL-MIN_COL+1,1);
-        for row = MIN_ROW:MAX_ROW
-            for col = MIN_COL:MAX_COL
-                img_crop(row - MIN_ROW + 1,col - MIN_COL + 1,1) = img(row,col);
-            end
-        end
-
+function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, bottom_right_col)
+   
+    result = img(top_left_row:bottom_right_row, top_left_col:bottom_right_col,:);
 end
 
 function result = is_valid_position(max_row, max_col, row, col)
@@ -183,7 +175,7 @@ function nes = noise_deletion(img,window)
     end
 end
 
-function result = same_pixels_in_range(img, row, col, SEARCH_GRID_SIZE);
+function result = same_pixels_in_range(img, row, col, SEARCH_GRID_SIZE)
     
     required_color = img(row, col);
     matrix_size = size(img);
@@ -201,6 +193,46 @@ function result = same_pixels_in_range(img, row, col, SEARCH_GRID_SIZE);
     end
     
     
+end
+
+function result = real_connecting_pixels(img, row, col)
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+    
+    required_color = img(row, col);
+    connecting = 0;
+    new_img = img;
+    for row_i = -1:1
+        for col_i= -1:1
+            new_row = row + row_i;
+            new_col = col + col_i;
+            if is_valid_position(MAX_ROW,MAX_COLUMN, new_row, new_col) == 1
+                new_img(new_row, new_col) = -required_color; % random value that is not equal to the required color.
+            end
+        end
+    end
+    
+    if connecting < 20
+        
+        for row_i=-1:1
+            for col_i=-1:1
+                % This is a grid of 3x3 around the pixel
+                if row_i ~= 0 && col_i ~= 0 % Check if its the pixel that we search the connecting pixels for
+                    new_row = row + row_i;
+                    new_col = col + col_i;
+                    if is_valid_position(MAX_ROW,MAX_COLUMN, new_row, new_col) == 1
+                        if img(new_row, new_col) == required_color
+                            % this is a connecting pixel
+                            connecting = connecting + 1 + real_connecting_pixels(new_img, new_row, new_col); % Recursion
+                        end
+                    end
+                end
+            end
+        end
+    end
+    
+    result = connecting;
 end
 
 function result = find_group_in_range(img, row, col, SEARCH_GRID_SIZE)
@@ -249,6 +281,8 @@ function [result, nb_of_groups] = group(img, SAME_PIXEL_SEARCH_GRID_SIZE, GROUP_
           if pixel_value == BLACK
               % This is an edge
               connecting_pixels = same_pixels_in_range(img, row, col, SAME_PIXEL_SEARCH_GRID_SIZE);
+              %connecting_pixels = real_connecting_pixels(img, row, col);
+              
               
               if connecting_pixels > MIN_NB_SURROUNDING_PIXELS
                   % This is defined as an object outline.
@@ -313,10 +347,11 @@ function [result, nb_groups] = regroup(grouped_img, nb_of_groups, MIN_ROW_LINES_
         end
     end
     
+    
     result = grouped_img;
 end
 
-function img = draw_red_boundary_box(img, corner_points)
+function img = draw_red_boundary_box(img, corner_points, top_row, top_col)
     mat_size = size(corner_points);
     groups = mat_size(2);
     THICKNESS = 5;
@@ -327,62 +362,10 @@ function img = draw_red_boundary_box(img, corner_points)
     for i=1:groups
         % Loop through every group
         % Now draw boundary box
-        min_row = corner_points(1,i);
-        min_col = corner_points(2,i);
-        max_row = corner_points(3,i);
-        max_col = corner_points(4,i);
-        % First draw horizontal lines
-        for col=min_col:max_col
-            for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
-                    img(min_row+e, col, 1) = 255;
-                    img(min_row+e, col, 2) = 1;
-                    img(min_row+e, col, 3) = 1;
-                end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
-                    img(max_row-e, col,1) = 255;
-                    img(max_row-e, col,2) = 1;
-                    img(max_row-e, col,3) = 1;
-                end
-            end
-        end
-        
-        % Vertical lines
-        for row=min_row:max_row
-            for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
-                    img(row, min_col+e, 1) = 255;
-                    img(row, min_col+e, 2) = 1;
-                    img(row, min_col+e, 3) = 1;
-                end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
-                    img(row, max_col-e, 1) = 255;
-                    img(row, max_col-e, 2) = 1;
-                    img(row, max_col-e, 3) = 1;
-                end
-            end
-            
-        end
-    end
-    result = img;
-end
-
-function img = draw_red_boundary_box2(img, corner_points)
-    mat_size = size(corner_points);
-    groups = mat_size(2);
-    THICKNESS = 5;
-    
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
-    img = zeros(MAX_ROW,MAX_COLUMN,3);
-    for i=1:groups
-        % Loop through every group
-        % Now draw boundary box
-        min_row = corner_points(1,i);
-        min_col = corner_points(2,i);
-        max_row = corner_points(3,i);
-        max_col = corner_points(4,i);
+        min_row = corner_points(1,i) + top_row;
+        min_col = corner_points(2,i) + top_col;
+        max_row = corner_points(3,i) + top_row;
+        max_col = corner_points(4,i) + top_col;
         % First draw horizontal lines
         for col=min_col:max_col
             for e=0:THICKNESS
@@ -418,6 +401,56 @@ function img = draw_red_boundary_box2(img, corner_points)
     end
 end
 
+function result = draw_red_boundary_box2(img, corner_points)
+    mat_size = size(corner_points);
+    groups = mat_size(2);
+    THICKNESS = 5;
+    
+    matrix_size = size(img);
+    MAX_ROW = matrix_size(1);
+    MAX_COLUMN = matrix_size(2);
+    result = zeros(MAX_ROW,MAX_COLUMN,3);
+    for i=1:groups
+        % Loop through every group
+        % Now draw boundary box
+        min_row = corner_points(1,i);
+        min_col = corner_points(2,i);
+        max_row = corner_points(3,i);
+        max_col = corner_points(4,i);
+        % First draw horizontal lines
+        for col=min_col:max_col
+            for e=0:THICKNESS
+                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
+                    result(min_row+e, col, 1) = img(min_row+e, col, 1);
+                    result(min_row+e, col, 2) = 255;
+                    result(min_row+e, col, 3) = 255;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
+                    result(max_row-e, col,1) = img(min_row-e, col, 1);
+                    result(max_row-e, col,2) = 255;
+                    result(max_row-e, col,3) = 255;
+                end
+            end
+        end
+        
+        % Vertical lines
+        for row=min_row:max_row
+            for e=0:THICKNESS
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
+                    result(row, min_col+e, 1) = img(row, min_col+e, 1);
+                    result(row, min_col+e, 2) = 255;
+                    result(row, min_col+e, 3) = 255;
+                end
+                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
+                    result(row, max_col-e, 1) = img(row, min_col-e, 1);
+                    result(row, max_col-e, 2) = 255;
+                    result(row, max_col-e, 3) = 255;
+                end
+            end
+            
+        end
+    end
+end
 
 function result = draw_boundary_box(img, corner_points)
     mat_size = size(corner_points);
@@ -433,7 +466,7 @@ function result = draw_boundary_box(img, corner_points)
         % Now draw boundary box
         
         min_row = corner_points(1,i);
-        min_col = corner_points(2,i);
+        min_col = corner_points(2,i) ;
         max_row = corner_points(3,i);
         max_col = corner_points(4,i);
         
@@ -596,21 +629,9 @@ function edge = edge_detect(img)
 end
 
 function grey = greyscale(img)
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
-
-    grey = zeros(MAX_ROW,MAX_COLUMN,1);
-    for row=1:MAX_ROW
-        for col=1:MAX_COLUMN
-            R = img(row, col, 1);
-            G = img(row, col, 2);
-            B = img(row, col, 3);
-            grey(row, col) = 0.2989 * R + 0.5870 * G + 0.1140 * B ;  
-            %These are two methods for grayscaling.
-            %grey(row, col) = (R + G + B)/3;
-        end
-    end
+    
+    grey = img(:,:,1) * 0.2989 + img(:,:,2) * 0.5870 + img(:,:,3) * 0.1140;
+   
 end
 
 
