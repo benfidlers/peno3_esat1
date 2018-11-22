@@ -1,8 +1,8 @@
 function result = find_corner_points(img) % Returns 4 corner points (elke rij is een hoekpunt, met eerst x dan y)
     % row1 col1 TOP 
-    % X2 Y2 MOST LEFT
-    % X3 Y3 
-    % X4 Y4
+    % X2 Y2 LEFT
+    % X3 Y3 RIGHT
+    % X4 Y4 BOTTOM
     % Loop through image
     matrix_size = size(img);
     MAX_ROW = matrix_size(1);
@@ -35,7 +35,7 @@ function result = find_corner_points(img) % Returns 4 corner points (elke rij is
             end
            
         end
-        result = [min_row; min_col; max_row; max_col;];
+        result = [transpose(min_row) transpose(min_col) transpose(max_col) transpose(max_row)];
     end
     
 end
