@@ -1,7 +1,7 @@
 function result = find_corner_points(img) % Returns 4 corner points (elke rij is een hoekpunt, met eerst x dan y)
-    % X1 Y1
-    % X2 Y2
-    % X3 Y3
+    % row1 col1 TOP 
+    % X2 Y2 MOST LEFT
+    % X3 Y3 
     % X4 Y4
     % Loop through image
     matrix_size = size(img);
