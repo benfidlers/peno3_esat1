@@ -3,19 +3,23 @@ h = 900;
 
 % Processing the image using the depthsensor
 
-min_y = 100;
-max_y = 500;
-min_x = 60;
-max_x = 330;
+min_y = 180;
+max_y = 400;
+min_x = 130;
+max_x = 270;
 % Threshold values
 min_thresh = 30;
 max_thresh = 500;
 
 % Get image from depth sensor
-%depth = getsnapshot(depthVid);
-load('depth_lege_doos.mat');
+depth = getsnapshot(depthVid);
+color = getsnapshot(colorVid);
+%color = imread('doos_leeg_overlap_RGB.png');
+%load('depth_lege_doos.mat');
 %Run the sobel operator
 shapes = sobel_operator(depth);
+
+
 
 %Run the threshold filter
 shapes = threshold(shapes, min_thresh, max_thresh);
@@ -26,45 +30,42 @@ shapes = print(shapes, min_x, max_x, min_y, max_y);
 % %%%%%outline
 shapes = outline(shapes);
 %final_img = only_outline_visible(shapes);
-%imwrite(final_img, 'einde_Depth.png');
+% shapes = fill_matrix(shapes);
+% shapes = fill_matrix(shapes);
 
-%image(shapes)
+edged_matrix = only_edge(shapes);
+
 
 
 %OVERLAP
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%color: 1920x1080 met 84.1 x 53.8
-%depth: 512x424  met 70.6 x 60
-depth = shapes; 
-%depth = imread('einde_Depth.png');
-color = imread('doos_leeg_overlap_RGB.png');
-
-%color = getsnapshot(colorVid);
-
-[reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth, color);
-[pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color);
-
-[prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color);
-
-tot_size = size_matching(prop);
-
-% om te testen
-disp([pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W]);
-
-% testen totaal programma
-
-total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,tot_size,nb_rows_color , nb_columns_color);
-
-image(total);
-
-
-%%%%%%%%%%%%%%
-%OVERLAP
-
-
-
-
+% %color: 1920x1080 met 84.1 x 53.8
+% %depth: 512x424  met 70.6 x 60
+% depth = shapes; 
+% %color = imread('doos_leeg_overlap_RGB.png');
+% 
+% %color = getsnapshot(colorVid);
+% 
+% [reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth, color);
+% [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color);
+% 
+% 
+% 
+% 
+% [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color);
+% 
+% tot_size = size_matching(prop);
+% 
+% % om te testen
+% disp([pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W]);
+% 
+% % testen totaal programma
+% 
+% total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,tot_size,nb_rows_color , nb_columns_color);
+% 
+% %image(total);
+% imshow(total);
 %%%%%%%%%%%%%
 
 %%%%% Functions %%%%%
@@ -398,7 +399,7 @@ function [reformed_depth,reformed_color,resulting_height_angle,resulting_width_a
     nb_width_pixels_removed_color = (width_color_angle-width_depth_angle) * nb_pixels_color_per_degree_width ;
         %totaal aantal pixels dat in de breedte weggehaald moeten worden bij color
         
-    reformed_color = color(:,round(nb_width_pixels_removed_color/2,0): round(nb_columns_color-(nb_width_pixels_removed_color/2),0),:);
+    reformed_color = color(:,80 + round(nb_width_pixels_removed_color/2,0): round(nb_columns_color-(nb_width_pixels_removed_color/2),0),:);
         %Dit is een 1080 x (aangepaste breedte) matrix
     
     
@@ -439,7 +440,7 @@ function [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_
 
 end
 function [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color)
-    [nb_rows_color , nb_columns_color]=size(reformed_color);
+    [nb_rows_color , nb_columns_color,~]=size(reformed_color);
     [nb_rows_depth, nb_columns_depth]= size(reformed_depth);
     
     nb_pixels_color=nb_rows_color * nb_columns_color;
@@ -465,6 +466,7 @@ function [row_start, row_stop, col_start, col_stop]= depth_to_color(pipemm_depth
     corr_pixel_row_color = round(mm_height_from_top * pipemm_color_H);
     
     steps = floor(the_size/2);
+    %steps=5;
     
     row_start=corr_pixel_row_color-steps;
     row_stop=corr_pixel_row_color+steps;
@@ -485,7 +487,7 @@ function [row_start, row_stop, col_start, col_stop]= depth_to_color(pipemm_depth
     end
         
     if col_stop > nb_columns_color
-        col_stop = nb_colums_color;
+        col_stop = nb_columns_color;
     end
  
         
@@ -500,14 +502,14 @@ function overlapped_matrix = overlap_depth_to_RGB(reformed_depth, reformed_color
     MAX_ROW_DEPTH = depth_size(1);
 
     MAX_COLUMN_DEPTH = depth_size(2);
-
+    
     for row = 1:MAX_ROW_DEPTH
         for col = 1:MAX_COLUMN_DEPTH
             if(reformed_depth(row, col, 1) == -1)
                 [row_start, row_stop, col_start, col_stop] = depth_to_color(pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,row, col,the_size,nb_rows_color , nb_columns_color);
                 reformed_color(row_start:row_stop, col_start:col_stop, 1) = 255;
                 reformed_color(row_start:row_stop, col_start:col_stop, 2) = 0;
-                reformed_color(row_start:row_stop, col_start:col_stop, 2) = 0;            
+                reformed_color(row_start:row_stop, col_start:col_stop, 3) = 0;            
             end
         end
     end
@@ -519,3 +521,46 @@ end
 %%%%%%%END OVERLAP%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
+function filled_matrix = fill_matrix(img)
+
+    matrix_size = size(img);
+
+    MAX_ROW = matrix_size(1);
+
+    MAX_COLUMN = matrix_size(2);
+
+    new_matrix = zeros(MAX_ROW, MAX_COLUMN);
+    
+    for i = 1 : MAX_ROW
+        for j = 1 : MAX_COLUMN
+            if img(i, j) == -1
+                new_matrix(i-1: i+1, j-1: j+1) = -1;
+                
+            end
+        end 
+    end
+                
+    filled_matrix = new_matrix;            
+            
+end
+
+
+function edged_matrix = only_edge(img)
+
+    matrix_size = size(img);
+
+    MAX_ROW = matrix_size(1);
+
+    MAX_COLUMN = matrix_size(2);
+    
+    to_be_edged_matrix = zeros(MAX_ROW, MAX_COLUMN);
+    
+    for i = 1: MAX_ROW
+        for j = 1 : MAX_COLUMN
+            if img(i, j) == -1
+                to_be_edged_matrix(i, j) = 1;
+            end
+        end
+    end    
+    edged_matrix = to_be_edged_matrix;    
+end
