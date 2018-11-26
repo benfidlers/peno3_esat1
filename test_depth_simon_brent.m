@@ -65,8 +65,7 @@ for i=1:4
     end
 end
 lol = imrotate(lol, -90);
-subplot(1,2,1),imagesc(edged_matrix);
-subplot(1,2,2), imagesc(lol);
+imagesc(edged_matrix);
 %OVERLAP
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -632,4 +631,99 @@ function result = find_corner_points(img) % Returns 4 corner points (elke rij is
         result = [transpose(min_row) transpose(min_col) transpose(max_col) transpose(max_row)];
     end
     
+end
+
+function drawnLine = drawLine(img, fpoint, spoint)
+
+   drawnLine = img;
+   ratioVector = abs(fpoint-spoint);
+   top = max(ratioVector(1), ratioVector(2));
+   bot = min(ratioVector(1), ratioVector(2));
+   
+   ratio = top/bot;
+   
+   base = floor(ratio);
+   error = round((ratio-base)*10);
+   
+   if error == 1
+       base = base+1;
+       error = 0;
+   end
+   
+   
+   
+   
+   
+   cntr = 0;
+   errorCoo = 0;
+   if max(ratioVector(1), ratioVector(2)) == ratioVector(1)
+       %top is y
+       if fpoint(1) > spoint(1)
+           startCoo = fpoint;
+           if fpoint (2) <= spoint(2)
+               errorCorec = 1;
+           else
+               errorCorec = -1;
+           end
+       else
+           startCoo = spoint;
+            if fpoint (2) > spoint(2)
+               errorCorec = 1;
+           else
+               errorCorec = -1;
+           end
+       end
+       
+        for i=1:base
+           if cntr == error
+              cntr = 0; 
+              errorCoo = errorCoo + 1;
+           else
+               cntr = cntr+1;
+           end
+           
+           drawline(startCoo(1) + i, startCoo(2)+ errorCorec*errorCoo);
+           
+        end
+   else
+       %top is x
+       if fpoint(2) > spoint(2)
+           startCoo = fpoint;
+           if fpoint (1) <= spoint(1)
+               errorCorec = 1;
+           else
+               errorCorec = -1;
+           end
+       else
+           startCoo = spoint;
+            if fpoint (1) > spoint(1)
+               errorCorec = 1;
+           else
+               errorCorec = -1;
+           end
+       end
+       
+        for i=1:base
+           if cntr == error
+              cntr = 0; 
+              errorCoo = errorCoo + 1;
+           else
+               cntr = cntr+1;
+           end
+           
+           drawline(startCoo(1) + errorCorec*errorCoo, startCoo(2)+ i);
+           
+        end  
+   end
+end
+
+for result = new_points(img, corner_points)
+    top_corner = corner_points(:,1);
+    left_corner = corner_points(:,2);
+    right_corner = corner_points(:,3);
+    bottom_corner = corner_points(:,4);
+    
+    result = zeros(2,4); % New points
+    left =  - left_corner)/2
+    top = (top_corner - right_corner)/2
 end
