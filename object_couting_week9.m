@@ -5,8 +5,8 @@ disp("Taking picture...");
 colorVid = videoinput('kinect',1);
 img = getsnapshot(colorVid);
 imshow(img);
-%%
-img = imread('kinect/img.png');
+%
+%img = imread('kinect/img.png');
 %%
 
 
@@ -22,18 +22,19 @@ MIN_ROW_LINES_BETWEEN_GROUPS = 10; %25 %15
 SAME_PIXELS_SEARCH_GRID_SIZE = 10;%25
 % Grid size = this variable *2, it searches for pixels with the same value
 % in this grid.
-GROUP_SEARCH_GRID_SIZE = 10; %25
+GROUP_SEARCH_GRID_SIZE = 15; %25
 % Grid size = this variable * 2, it searches for pixels with a group number
 % (not 0) in this grid.
-MIN_NB_SURROUNDING_PIXELS = 25;%125 % 50
+SURROUDING_PERCENTAGE = 10;% %
+MIN_NB_SURROUNDING_PIXELS = floor((SAME_PIXELS_SEARCH_GRID_SIZE * 2)^2 * SURROUDING_PERCENTAGE/100) ;%125 % 50
 % The minimum number of pixels with the same value that are in the grid
 % size defined by SAME_PIXELS_SEARCH_GRID
 % The pixels that have a less number of surrounding pixels, are not defined
 % as a group but as noise.
 
 % CROPPING: Defining rectangle
-top_row = 290 ; top_col = 760; bottom_row = 690 ; bottom_col = 1440;
-%top_row = 150; top_col = 350; bottom_row = 950; bottom_col = 1900;
+%top_row = 290 ; top_col = 760; bottom_row = 690 ; bottom_col = 1440;
+top_row = 150; top_col = 750; bottom_row = 950; bottom_col = 1900;
 %top_row = 200; top_col = 850; bottom_row = 750; bottom_col = 1850; % For pictues with x2_RGB_... in name
 %top_row = 100, top_col = 100; bottom_row = 980; bottom_col = 1820; % For pictues with RGB in name.
 
