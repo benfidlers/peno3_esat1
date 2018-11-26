@@ -14,74 +14,75 @@ max_thresh = 500;
 
 %depth = getsnapshot(depthVid);
 %color = getsnapshot(colorVid);
-%color = imread('doos_leeg_overlap_RGB.png');
+color = imread('doos_leeg_overlap_RGB.png');
 load('depth_lege_doos.mat');
 raw_matrix = depth;
 
 %Run the sobel operator
 
-new_depth = sobel_operator(depth);
-shapes_after_sobel = new_depth;
+depth = sobel_operator(depth);
+shapes_after_sobel = depth;
 %image(shapes);
 %subplot(1,3,2), image(shapes);
 
 
 %Run the threshold filter
-new_depth = threshold(new_depth, min_thresh, max_thresh);
-new_depth = print(new_depth, min_x, max_x, min_y, max_y);
+depth = threshold(depth, min_thresh, max_thresh);
+depth = print(depth, min_x, max_x, min_y, max_y);
 
 
 %%%%%%%outline
-new_depth = outline(new_depth);
+depth = outline(depth);
 % final_img = only_outline_visible(shapes);
 % shapes = fill_matrix(shapes);
 % shapes = fill_matrix(shapes);
-edged_matrix = only_edge(new_depth);
+edged_matrix = only_edge(depth);
 
 new_depth = crop_depth_to_basket(edged_matrix, shapes_after_sobel);
 
-subplot(1,3,1), image(new_depth);
-subplot(1,3,2), image(shapes_after_sobel);
+%subplot(1,3,1), image(new_depth);
+%subplot(1,3,2), image(shapes_after_sobel);
 %image(final_img);
 
-% %OVERLAP
-% %%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% %color: 1920x1080 met 84.1 x 53.8
-% %depth: 512x424  met 70.6 x 60
-% depth = shapes; 
-% %color = imread('doos_leeg_overlap_RGB.png');
-% 
-% %color = getsnapshot(colorVid);
-% 
-% [reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth, color);
-% [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color);
-% 
-% 
-% 
-% 
-% [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color);
-% 
-% tot_size = size_matching(prop);
-% 
-% % om te testen
-% disp([pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W]);
-% 
-% % testen totaal programma
-% 
-% total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,tot_size,nb_rows_color , nb_columns_color);
-% 
-% %image(total);
-% %subplot(1,3,1), image(total);
-% new_RGB = crop_RGB_to_basket(total);
-% %%%%%%%%%%%%
+%OVERLAP
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%color: 1920x1080 met 84.1 x 53.8
+%depth: 512x424  met 70.6 x 60
+%depth = shapes; 
+%color = imread('doos_leeg_overlap_RGB.png');
+
+%color = getsnapshot(colorVid);
+
+[reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth, color);
+[pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color);
+
+
+
+
+[prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color);
+
+tot_size = size_matching(prop);
+
+% om te testen
+disp([pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W]);
+
+% testen totaal programma
+
+total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,tot_size,nb_rows_color , nb_columns_color);
+
+%image(total);
+%subplot(1,3,1), image(total);
+new_RGB = crop_RGB_to_basket(total);
+image(new_RGB);
+%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % after detection of the basket
 
 %new_depth = sobel_operator(new_depth);
 new_depth = threshold(new_depth, min_thresh, max_thresh);
-subplot(1,3,3), imagesc(new_depth);
+%subplot(1,3,3), imagesc(new_depth);
 
 
 
