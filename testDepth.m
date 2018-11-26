@@ -1,82 +1,104 @@
 
 h = 900;
 
-% Processing the image using the depthsensor
-
 min_y = 120;
 max_y = 480;
 min_x = 70;
 max_x = 330;
+
 % Threshold values
 min_thresh = 30;
 max_thresh = 500;
 
 % Get image from depth sensor
+
 %depth = getsnapshot(depthVid);
 %color = getsnapshot(colorVid);
-color = imread('doos_leeg_overlap_RGB.png');
+%color = imread('doos_leeg_overlap_RGB.png');
 load('depth_lege_doos.mat');
-
 raw_matrix = depth;
 
 %Run the sobel operator
-shapes = sobel_operator(depth);
-subplot(1,2,2), image(shapes);
+
+new_depth = sobel_operator(depth);
+shapes_after_sobel = new_depth;
+%image(shapes);
+%subplot(1,3,2), image(shapes);
 
 
 %Run the threshold filter
-shapes = threshold(shapes, min_thresh, max_thresh);
-shapes = print(shapes, min_x, max_x, min_y, max_y);
-%Look at the result
-%image(shapes);
+new_depth = threshold(new_depth, min_thresh, max_thresh);
+new_depth = print(new_depth, min_x, max_x, min_y, max_y);
 
-% %%%%%outline
-shapes = outline(shapes);
-%final_img = only_outline_visible(shapes);
+
+%%%%%%%outline
+new_depth = outline(new_depth);
+% final_img = only_outline_visible(shapes);
 % shapes = fill_matrix(shapes);
 % shapes = fill_matrix(shapes);
+edged_matrix = only_edge(new_depth);
 
-edged_matrix = only_edge(shapes);
+new_depth = crop_depth_to_basket(edged_matrix, shapes_after_sobel);
 
+subplot(1,3,1), image(new_depth);
+subplot(1,3,2), image(shapes_after_sobel);
 %image(final_img);
 
-%OVERLAP
-%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %OVERLAP
+% %%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% %color: 1920x1080 met 84.1 x 53.8
+% %depth: 512x424  met 70.6 x 60
+% depth = shapes; 
+% %color = imread('doos_leeg_overlap_RGB.png');
+% 
+% %color = getsnapshot(colorVid);
+% 
+% [reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth, color);
+% [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color);
+% 
+% 
+% 
+% 
+% [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color);
+% 
+% tot_size = size_matching(prop);
+% 
+% % om te testen
+% disp([pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W]);
+% 
+% % testen totaal programma
+% 
+% total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,tot_size,nb_rows_color , nb_columns_color);
+% 
+% %image(total);
+% %subplot(1,3,1), image(total);
+% new_RGB = crop_RGB_to_basket(total);
+% %%%%%%%%%%%%
 
-%color: 1920x1080 met 84.1 x 53.8
-%depth: 512x424  met 70.6 x 60
-depth = shapes; 
-%color = imread('doos_leeg_overlap_RGB.png');
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% after detection of the basket
 
-%color = getsnapshot(colorVid);
-
-[reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth, color);
-[pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color);
+%new_depth = sobel_operator(new_depth);
+new_depth = threshold(new_depth, min_thresh, max_thresh);
+subplot(1,3,3), imagesc(new_depth);
 
 
 
 
-[prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color);
 
-tot_size = size_matching(prop);
 
-% om te testen
-disp([pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W]);
 
-% testen totaal programma
 
-total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,tot_size,nb_rows_color , nb_columns_color);
-
-%image(total);
-subplot(1,2,1), image(total);
-%cropped_matrix = crop_to_basket(total);
-%imshow(cropped_matrix);
-
-%%%%%%%%%%%%%
+% end after detection of the basket
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% Functions %%%%%
 
 function shapes = sobel_operator(img)
+    % use the sobel-operator on the raw depth image
+    % this function returns a matrix of the same size as the original
+    % matrix with on every position the gradiënt
 
     X = img;
     Gx = [1 +2 +1; 0 0 0; -1 -2 -1]; Gy = Gx';
@@ -86,6 +108,8 @@ function shapes = sobel_operator(img)
 end 
 
 function thresholded = threshold(img, min_thresh, max_thresh)
+    % run the image through a threshold to get rid of impossible values
+    % this function returns a binary matrix with a 1 on the edges
 
     matrix_size = size(img);
 
@@ -106,6 +130,10 @@ function thresholded = threshold(img, min_thresh, max_thresh)
 end
 
 function printed = print(img, min_x, max_x, min_y, max_y)
+    % this function uses a threshold to cut of part of the edges to get rid
+    % of noise that appears in every image and replace them by '0'
+    % it returns a binary image 
+    
     matrix_size = size(img);
 
     MAX_ROW = matrix_size(1);
@@ -133,7 +161,11 @@ end
   
   
   function outlined_matrix = outline(img)
-    
+    % the main outline function, given a binary matrix, this function
+    % outlines every shape defined by '1'
+    % it returns a matrix with '-1' as value for the outlines
+  
+  
     matrix_size = size(img);
 
     MAX_ROW = matrix_size(1);
@@ -161,6 +193,10 @@ end
     outlined_matrix = img;
 end
 function new_col = skip(img, row, col, MAX_COLUMN)
+    % this function skips the part of the row that is defined to be inside
+    % a shape
+    % it returns the first column number outside a shape
+
     good_value = 0;
     while (good_value ~= 1) && (col < MAX_COLUMN)
         col = col+ 1;
@@ -172,6 +208,9 @@ function new_col = skip(img, row, col, MAX_COLUMN)
 end
 
 function RGB_matrix = only_outline_visible(img)
+    % given a matrix mith '-1' as value for the outline of the objects,
+    % this function returns a RGB matrix with 255,0,0 on the edges and
+    % 0,0,0 in all the other positions
     
     matrix_size = size(img);
 
@@ -179,14 +218,8 @@ function RGB_matrix = only_outline_visible(img)
 
     MAX_COLUMN = matrix_size(2);
     
-    matrix_a = zeros(MAX_ROW, MAX_COLUMN); 
-    matrix_b = zeros(MAX_ROW, MAX_COLUMN); 
-    matrix_c = zeros(MAX_ROW, MAX_COLUMN); 
-    
-    matrix_complete = matrix_a;
-    matrix_complete(:,:,2) = matrix_b;
-    matrix_complete(:,:,3) = matrix_c;
-    
+    matrix_complete = zeros(MAX_ROW, MAX_COLUMN, 3); 
+
     for row = 1 : MAX_ROW
         for col = 1: MAX_COLUMN
             if img(row, col) == -1
@@ -202,7 +235,10 @@ end
 %%%%%%%%start outline software
 
 function outlined_objects = outline_shape(img, row, col, MAX_ROW, MAX_COLUMN)
-    
+    %Given a binary matrix and a position that is connected to a '1', this
+    %recursive function outlines the object and returns a matrix with the
+    %value '-1' surrounding the object
+
     img(row, col) = -1;
     matrix = surrounded_matrix(img, row, col, MAX_ROW, MAX_COLUMN);
     for i = 1:3
@@ -216,6 +252,9 @@ function outlined_objects = outline_shape(img, row, col, MAX_ROW, MAX_COLUMN)
 end
 
 function created_matrix = surrounded_matrix(img, row, col, MAX_ROW, MAX_COLUMN)
+    % given a position in a matrix, this matrix returns the value and
+    % position of the 9 surrounding positions
+
     position = [row, col];  
     TL = top_left(position, img, MAX_ROW, MAX_COLUMN);
     T = top(position, img, MAX_ROW, MAX_COLUMN);
@@ -239,6 +278,9 @@ function created_matrix = surrounded_matrix(img, row, col, MAX_ROW, MAX_COLUMN)
 end 
 
 function is_connected_to_one = connected_to_one(img, row, col, MAX_ROW, MAX_COLUMN)
+    % given a position that is equal to '0', this function checks in a
+    % cross shape if a '1' is present
+
     position = [row, col];
     T = top(position, img, MAX_ROW, MAX_COLUMN);
     R = right(position, img, MAX_ROW, MAX_COLUMN);
@@ -265,6 +307,7 @@ end
 
 %%%%%%%%%%%Start positions
 function placing = top_left(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position top left of the given position
     x = position(1) -1;
     y = position(2) -1;
     
@@ -279,6 +322,7 @@ function placing = top_left(position, img, MAX_ROW, MAX_COLUMB)
     end 
 end
 function placing = top(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position above the given position
     x = position(1) -1;
     y = position(2) ;
     
@@ -292,6 +336,7 @@ function placing = top(position, img, MAX_ROW, MAX_COLUMB)
     end
 end
 function placing = top_right(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position top right of the given position
     x = position(1) - 1;
     y = position(2) + 1;
     
@@ -306,6 +351,7 @@ function placing = top_right(position, img, MAX_ROW, MAX_COLUMB)
     end 
 end
 function placing = right(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position to the right of the given position
     x = position(1) ;
     y = position(2) +1;
     
@@ -320,6 +366,7 @@ function placing = right(position, img, MAX_ROW, MAX_COLUMB)
     end 
 end
 function placing = bottom_right(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position bottom right of the given position
     x = position(1) +1;
     y = position(2) +1;
     
@@ -334,6 +381,7 @@ function placing = bottom_right(position, img, MAX_ROW, MAX_COLUMB)
     end 
 end
 function placing = bottom(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position below the given position
     x = position(1) +1;
     y = position(2) ;
     
@@ -348,6 +396,7 @@ function placing = bottom(position, img, MAX_ROW, MAX_COLUMB)
     end 
 end
 function placing = bottom_left(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position bottom left of the given position
     x = position(1) +1;
     y = position(2) -1;
     
@@ -362,6 +411,7 @@ function placing = bottom_left(position, img, MAX_ROW, MAX_COLUMB)
     end 
 end
 function placing = left(position, img, MAX_ROW, MAX_COLUMB)
+    % returns the position to the left of the given position
     x = position(1);
     y = position(2) -1;
     
@@ -387,6 +437,8 @@ end
 
 
 function [reformed_depth,reformed_color,resulting_height_angle,resulting_width_angle] = reform(depth, color) %met h= height camera
+    % this function modifies the incomming color and depth matrices to give
+    % them the same aspect ratio
 
     %breedte van color naar 70.6 brengen
     width_color_angle = 84.1;
@@ -419,7 +471,9 @@ function [reformed_depth,reformed_color,resulting_height_angle,resulting_width_a
 end   
 
 function [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color)
-
+    % this function returns the pixels per millimeter for the given depth
+    % and color matrices
+    
     depth_size = size(reformed_depth);
 
     MAX_ROW_DEPTH = depth_size(1);
@@ -446,6 +500,9 @@ function [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_
 
 end
 function [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color)
+    % this function returns the size of the given color and depth matrices,
+    % and the proportion between the depth and color pixels 
+
     [nb_rows_color , nb_columns_color,~]=size(reformed_color);
     [nb_rows_depth, nb_columns_depth]= size(reformed_depth);
     
@@ -571,7 +628,7 @@ function edged_matrix = only_edge(img)
     edged_matrix = to_be_edged_matrix;    
 end
 
-function usefull_matrix = crop_to_basket(img)
+function usefull_matrix = crop_RGB_to_basket(img)
 
     z = 30;
 
@@ -581,51 +638,51 @@ function usefull_matrix = crop_to_basket(img)
 
     MAX_COLUMN = matrix_size(2);
     
+    row = 1;
+    col = 1;
+    
     for i = 1: MAX_ROW
         for j = 1 : MAX_COLUMN
             if (img(i, j, 1) == 255) && (img(i, j, 2) == 0) && (img(i, j, 3) == 0)
-                %nog rekening houden met randen matrix
-                img(i-z:i+z, j-z:j+z, 1) = 0;
-                img(i-z:i+z, j-z:j+z, 2) = 0;
-                img(i-z:i+z, j-z:j+z, 3) = 0;
+                img(i-z:i+z, j-z:j+z, 1) = 255;
+                img(i-z:i+z, j-z:j+z, 2) = 255;
+                img(i-z:i+z, j-z:j+z, 3) = 255;
             end
         end
     end
-    
-    row = 1;
-    col = 1;
-    while ((col ~= MAX_COLUMN) && (row ~= MAX_ROW))
+
+    while (row ~= MAX_ROW)
         if col == MAX_COLUMN
             col = 1;
             row = row + 1;
         
-        elseif (img(row, col, 1) == 0) && (img(row, col, 2) == 0) && (img(row, col, 3) == 0)
+        elseif (img(row, col, 1) == 255) && (img(row, col, 2) == 255) && (img(row, col, 3) == 255)
             col = 1;
             row = row + 1;
         
         else
-            img(row, col, 1) = 0;
-            img(row, col, 2) = 0;
-            img(row, col, 3) = 0;
+            img(row, col, 1) = 255;
+            img(row, col, 2) = 255;
+            img(row, col, 3) = 255;
             col = col + 1;
         end
     end
  
     row = MAX_ROW;
     col = MAX_COLUMN;
-    while ((col ~= 1) && (row ~= 1))
+    while (row ~= 1)
         if col == 1
             col = MAX_COLUMN;
             row = row - 1;
         
-        elseif (img(row, col, 1) == 0) && (img(row, col, 2) == 0) && (img(row, col, 3) == 0)
+        elseif (img(row, col, 1) == 255) && (img(row, col, 2) == 255) && (img(row, col, 3) == 255)
             col = MAX_COLUMN;
             row = row - 1;
         
         else
-            img(row, col, 1) = 0;
-            img(row, col, 2) = 0;
-            img(row, col, 3) = 0;
+            img(row, col, 1) = 255;
+            img(row, col, 2) = 255;
+            img(row, col, 3) = 255;
             col = col - 1;
         end
     end
@@ -634,3 +691,64 @@ function usefull_matrix = crop_to_basket(img)
    usefull_matrix = img;
 
 end
+
+function usefull_matrix = crop_depth_to_basket(depth_img, original_img)
+
+    z = 15;
+
+    matrix_size = size(depth_img);
+
+    MAX_ROW = matrix_size(1);
+
+    MAX_COLUMN = matrix_size(2);
+    
+    for i = (1 + z): (MAX_ROW - z)
+        for j = (1 + z) : (MAX_COLUMN - z)
+            if (depth_img(i, j) == 1)
+                original_img(i-z:i+z, j-z:j+z)=-3;
+            end
+        end
+    end
+
+    row = 1;
+    col = 1;
+    while (row <= MAX_ROW)
+        if col == (MAX_COLUMN + 1)
+            col = 1;
+            row = row + 1;
+        
+        elseif (original_img(row, col) == -3) 
+            col = 1;
+            row = row + 1;
+        
+        else
+            original_img(row, col) = -3;
+            col = col + 1;
+        end
+    end
+ 
+    row = MAX_ROW;
+    col = MAX_COLUMN;
+    while (row ~= 1)
+        if col == 1
+            col = MAX_COLUMN;
+            row = row - 1;
+        
+        elseif (original_img(row, col) == -3) 
+            col = MAX_COLUMN;
+            row = row - 1;
+        
+        else
+            original_img(row, col) = -3;
+            col = col - 1;
+        end
+    end
+
+   usefull_matrix = original_img;
+
+end
+
+
+
+
+
