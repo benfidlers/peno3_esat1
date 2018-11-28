@@ -11,14 +11,16 @@ min_thresh = 30;
 max_thresh = 500;
 
 % Get image from depth sensor
-colorVid = videoinput('kinect',1);
-depthVid = videoinput('kinect',2);
-depth = getsnapshot(depthVid);
-color = getsnapshot(colorVid);
-%color = imread('doos_leeg_overlap_RGB.png');
-%load('depth_lege_doos.mat');
+%colorVid = videoinput('kinect',1);
+%depthVid = videoinput('kinect',2);
+%depth = getsnapshot(depthVid);
+%color = getsnapshot(colorVid);
+%imwrite(color, 'color.png');
+%save('depth.mat', 'depth');
+color = imread('color.png');
+load('depth.mat');
 raw_matrix = depth;
-
+%%
 %Run the sobel operator
 
 depth = sobel_operator(depth);
@@ -92,7 +94,7 @@ img = new_RGB;
 %img = imread('kinect/foto_x2_RGB_4.png'); % Load picture (1080 rows * 1920 col)
 THRESHOLD_VALUE = 2;
 
-MIN_ROW_LINES_BETWEEN_GROUPS = 10; %25 %15
+MIN_ROW_LINES_BETWEEN_GROUPS = 15; %25 %15
 % Once the groups are found, the algorithm searches for groups too close
 % near each other
 % This is defined as the min distance between two groups (only searched
@@ -156,8 +158,10 @@ corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use 
 
 disp("Step 11: removing objects within objects...");
 %[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(corner_points, nb_of_groups2); % To remove objects within objects
-updated_corner_points = corner_points;
-nb_of_groups3 = nb_of_groups2;
+[updated_corner_points, nb_of_groups3] = remove_box_edge(corner_points, nb_of_groups2);
+[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(updated_corner_points, nb_of_groups3);
+%updated_corner_points = corner_points;
+%nb_of_groups3 = nb_of_groups2;
 
 disp("Step 12: drawing boundary boxes...");
 boundary_box = draw_boundary_box(A, updated_corner_points);
@@ -181,11 +185,7 @@ title("Regrouped, Number of objects = " + nb_of_groups2);
 imshow(boundary_box, []);
 title("Boundary box + removed objects within objects, Number of objects = "+ nb_of_groups3);
 %%
-%subplot(1,3,1), image(new_depth);
-%subplot(1,3,2), image(shapes_after_sobel);
-%subplot(1,3,3), imagesc(new_depth);
-%imshow(red_boundary_box, []);
-%title("Number of objects: "+ nb_of_groups3);
+
 function [updated_corner_points, nb_of_groups] = remove_corner_points_within_corner_points(corner_points, nb_groups)
     mat_size = size(corner_points);
     groups = mat_size(2); % This is the original number_of_groups
@@ -219,6 +219,32 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
             end
         end
     end
+end
+
+function [result, new_nb_of_groups] = remove_box_edge(corner_points, nb_of_groups)
+    mat_size = size(corner_points);
+    groups = mat_size(2);
+    surfaces = zeros(groups); % Every column is a group, the value is the distance
+    
+    for i=1:groups
+        
+        min_row = corner_points(1,i);
+        min_col = corner_points(2,i) ;
+        max_row = corner_points(3,i);
+        max_col = corner_points(4,i);
+        
+        surfaces(i) = (max_row - min_row) * (max_col - min_col);
+    end
+    
+    %Now find biggest surface
+    [max_value, max_col] = max(surfaces);
+    for i=1:4
+        % Set the coordinates of the outer points to 0
+        corner_points(i, max_col) = 0;
+    end
+    
+    result = corner_points;
+    new_nb_of_groups = nb_of_groups-1;
 end
 
 function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, bottom_right_col)
@@ -1250,7 +1276,7 @@ end
 
 function usefull_matrix = crop_RGB_to_basket(img)
 
-    z = 60;
+    z = 50;
 
     matrix_size = size(img);
 
