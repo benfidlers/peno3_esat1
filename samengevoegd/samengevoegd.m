@@ -221,7 +221,6 @@ function [updated_corner_points, nb_of_groups] = remove_corner_points_within_cor
                 max_col_second = corner_points(4,second);
                 
                 % Check if second lays within first
-                
                 if min_row_second >= min_row_first && min_col_second >= min_col_first && max_row_second <= max_row_first && max_col_second <= max_col_first
                     % Second object lays within first object
                     % Remouve this object
@@ -240,7 +239,6 @@ function [result, new_nb_of_groups] = remove_box_edge(corner_points, nb_of_group
     surfaces = zeros(groups); % Every column is a group, the value is the distance
     
     for i=1:groups
-        
         min_row = corner_points(1,i);
         min_col = corner_points(2,i) ;
         max_row = corner_points(3,i);
@@ -248,20 +246,17 @@ function [result, new_nb_of_groups] = remove_box_edge(corner_points, nb_of_group
         
         surfaces(i) = (max_row - min_row) * (max_col - min_col);
     end
-    
     %Now find biggest surface
     [max_value, max_col] = max(surfaces);
     for i=1:4
         % Set the coordinates of the outer points to 0
         corner_points(i, max_col) = 0;
     end
-    
     result = corner_points;
     new_nb_of_groups = nb_of_groups-1;
 end
 
 function result = simon_crop(img, top_left_row, top_left_col, bottom_right_row, bottom_right_col)
-   
     result = img(top_left_row:bottom_right_row, top_left_col:bottom_right_col,:);
 end
 
@@ -274,13 +269,11 @@ function result = is_valid_position(max_row, max_col, row, col)
 end
 
 function nes = noise_deletion(img,window)
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     side = floor(window/2);
     nes = img;
     
-    for col=side+1:MAX_COLUMN-side
+    for col=side+1:MAX_COL-side
         for row=side+1:MAX_ROW-side
             list=zeros(window);
             q=1;
@@ -299,27 +292,21 @@ end
 function result = same_pixels_in_range(img, row, col, SEARCH_GRID_SIZE)
     
     required_color = img(row, col);
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
     result = 0; % = # pixels of the same value in a grid size of -SEARCH_GRID_SIZE to SEARCH_GRID_SIZE
     
     for row_i = -SEARCH_GRID_SIZE:SEARCH_GRID_SIZE
         for col_i = -SEARCH_GRID_SIZE:SEARCH_GRID_SIZE
-            if is_valid_position(MAX_ROW, MAX_COLUMN, row + row_i, col + col_i) == 1 && img(row + row_i, col + col_i) == required_color
+            if is_valid_position(MAX_ROW, MAX_COL, row + row_i, col + col_i) == 1 && img(row + row_i, col + col_i) == required_color
                 result = result + 1; % Found pixel with same value in range
             end
         end
     end
-    
-    
 end
 
 function result = real_connecting_pixels(img, row, col)
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
     required_color = img(row, col);
     connecting = 0;
@@ -328,21 +315,20 @@ function result = real_connecting_pixels(img, row, col)
         for col_i= -1:1
             new_row = row + row_i;
             new_col = col + col_i;
-            if is_valid_position(MAX_ROW,MAX_COLUMN, new_row, new_col) == 1
+            if is_valid_position(MAX_ROW, MAX_COL, new_row, new_col) == 1
                 new_img(new_row, new_col) = -required_color; % random value that is not equal to the required color.
             end
         end
     end
     
     if connecting < 20
-        
         for row_i=-1:1
             for col_i=-1:1
                 % This is a grid of 3x3 around the pixel
                 if row_i ~= 0 && col_i ~= 0 % Check if its the pixel that we search the connecting pixels for
                     new_row = row + row_i;
                     new_col = col + col_i;
-                    if is_valid_position(MAX_ROW,MAX_COLUMN, new_row, new_col) == 1
+                    if is_valid_position(MAX_ROW,MAX_COL, new_row, new_col) == 1
                         if img(new_row, new_col) == required_color
                             % this is a connecting pixel
                             connecting = connecting + 1 + real_connecting_pixels(new_img, new_row, new_col); % Recursion
@@ -352,15 +338,12 @@ function result = real_connecting_pixels(img, row, col)
             end
         end
     end
-    
     result = connecting;
 end
 
 function result = find_group_in_range(img, row, col, SEARCH_GRID_SIZE)
     
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
     result = 0; 
     % Because the algorithm works from top-left to bottom-right, we now
@@ -369,14 +352,12 @@ function result = find_group_in_range(img, row, col, SEARCH_GRID_SIZE)
         for col_i=-SEARCH_GRID_SIZE:SEARCH_GRID_SIZE % Here we make the mistake that we search in (MAX_COL - col) pixels too much
             % Search in a grid around the pixel
             % This searches too much pixels, need to change that
-            if is_valid_position(MAX_ROW, MAX_COLUMN, row +row_i, col +col_i) == 1 && img(row + row_i, col + col_i, 2) ~= 0
+            if is_valid_position(MAX_ROW, MAX_COL, row +row_i, col +col_i) == 1 && img(row + row_i, col + col_i, 2) ~= 0
                 result = img(row+row_i, col + col_i, 2); 
                 break; % Stop algorithm if a group is found.
-                
                 % We dont work from row, row-1, row-2,... (further from
                 % pixel) because it is slower.
             end
-            
         end
     end
 end
@@ -388,27 +369,22 @@ function [result, nb_of_groups] = group(img, SAME_PIXEL_SEARCH_GRID_SIZE, GROUP_
     % Number connected pixels in the second dimension
     WHITE = 1;
     BLACK = 0;
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
     groups = 0;
     
-    result = zeros(MAX_ROW,MAX_COLUMN,2); % Dimension 2 is for the group number.
+    result = zeros(MAX_ROW,MAX_COL,2); % Dimension 2 is for the group number.
     for row=1:MAX_ROW
-        for col=1:MAX_COLUMN
+        for col=1:MAX_COL
           pixel_value = img(row, col);
           result(row, col,1) = pixel_value; % Transfer picture to result variable (in dim 1)
           if pixel_value == BLACK
               % This is an edge
               connecting_pixels = same_pixels_in_range(img, row, col, SAME_PIXEL_SEARCH_GRID_SIZE);
               %connecting_pixels = real_connecting_pixels(img, row, col);
-              
-              
               if connecting_pixels > MIN_NB_SURROUNDING_PIXELS
                   % This is defined as an object outline.
                   group_number = find_group_in_range(result, row, col, GROUP_SEARCH_GRID_SIZE);
-                  
                   if group_number == 0
                       % assign new group
                       groups = groups + 1;
@@ -418,21 +394,18 @@ function [result, nb_of_groups] = group(img, SAME_PIXEL_SEARCH_GRID_SIZE, GROUP_
                   result(row, col, 2) = group_number;
               end
           end
-          %imagesc(result(:,:,2));
-          
+          %imagesc(result(:,:,2));   
         end
     end    
     nb_of_groups = groups;
 end
 
 function result = group_replace(grouped_img, to_replace, replace_with)
-    matrix_size = size(grouped_img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(grouped_img);
 
     result = grouped_img;
     for row=1:MAX_ROW
-        for col=1:MAX_COLUMN
+        for col=1:MAX_COL
            if grouped_img(row, col,2) == to_replace
                result(row, col,2) = replace_with;
            end
@@ -444,18 +417,16 @@ function [result, nb_groups] = regroup(grouped_img, nb_of_groups, MIN_ROW_LINES_
     % Loop from (right)top to (left)bottom
     % Check if there are connecting groups.
     
-    matrix_size = size(grouped_img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(grouped_img);
     
     nb_groups = nb_of_groups;
-    for col_i=1:MAX_COLUMN
+    for col_i=1:MAX_COL
         for row=1:MAX_ROW
-            col = MAX_COLUMN - col_i+1;
+            col = MAX_COL - col_i+1;
             group_nb = grouped_img(row, col, 2);
             if group_nb ~= 0
                 for row_i=1:MIN_ROW_LINES_BETWEEN_GROUPS
-                    if is_valid_position(MAX_ROW, MAX_COLUMN, row + row_i, col) == 1 && grouped_img(row + row_i, col, 2) ~= 0 && grouped_img(row+row_i, col,2) ~= group_nb
+                    if is_valid_position(MAX_ROW, MAX_COL, row + row_i, col) == 1 && grouped_img(row + row_i, col, 2) ~= 0 && grouped_img(row+row_i, col,2) ~= group_nb
                         % Found a different group in the next 5 pixels
                         % below this one
                         % Replace next group with previous group number
@@ -467,8 +438,6 @@ function [result, nb_groups] = regroup(grouped_img, nb_of_groups, MIN_ROW_LINES_
             end
         end
     end
-    
-    
     result = grouped_img;
 end
 
@@ -477,9 +446,8 @@ function img = draw_red_boundary_box(img, corner_points, top_row, top_col)
     groups = mat_size(2);
     THICKNESS = 5;
     
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
+    
     for i=1:groups
         % Loop through every group
         % Now draw boundary box
@@ -490,12 +458,12 @@ function img = draw_red_boundary_box(img, corner_points, top_row, top_col)
         % First draw horizontal lines
         for col=min_col:max_col
             for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, min_row+e, col) == 1
                     img(min_row+e, col, 1) = 255;
                     img(min_row+e, col, 2) = 1;
                     img(min_row+e, col, 3) = 1;
                 end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, max_row-e, col) == 1
                     img(max_row-e, col,1) = 255;
                     img(max_row-e, col,2) = 1;
                     img(max_row-e, col,3) = 1;
@@ -506,12 +474,12 @@ function img = draw_red_boundary_box(img, corner_points, top_row, top_col)
         % Vertical lines
         for row=min_row:max_row
             for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, row, min_col + e) == 1
                     img(row, min_col+e, 1) = 255;
                     img(row, min_col+e, 2) = 1;
                     img(row, min_col+e, 3) = 1;
                 end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, row, max_col - e) == 1
                     img(row, max_col-e, 1) = 255;
                     img(row, max_col-e, 2) = 1;
                     img(row, max_col-e, 3) = 1;
@@ -527,10 +495,8 @@ function result = draw_red_boundary_box2(img, corner_points)
     groups = mat_size(2);
     THICKNESS = 5;
     
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
-    result = zeros(MAX_ROW,MAX_COLUMN,3);
+    [MAX_ROW, MAX_COL] = size(img);
+    result = zeros(MAX_ROW,MAX_COL,3);
     for i=1:groups
         % Loop through every group
         % Now draw boundary box
@@ -541,12 +507,12 @@ function result = draw_red_boundary_box2(img, corner_points)
         % First draw horizontal lines
         for col=min_col:max_col
             for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, min_row+e, col) == 1
                     result(min_row+e, col, 1) = img(min_row+e, col, 1);
                     result(min_row+e, col, 2) = 255;
                     result(min_row+e, col, 3) = 255;
                 end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, max_row-e, col) == 1
                     result(max_row-e, col,1) = img(min_row-e, col, 1);
                     result(max_row-e, col,2) = 255;
                     result(max_row-e, col,3) = 255;
@@ -557,18 +523,17 @@ function result = draw_red_boundary_box2(img, corner_points)
         % Vertical lines
         for row=min_row:max_row
             for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, row, min_col + e) == 1
                     result(row, min_col+e, 1) = img(row, min_col+e, 1);
                     result(row, min_col+e, 2) = 255;
                     result(row, min_col+e, 3) = 255;
                 end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, row, max_col - e) == 1
                     result(row, max_col-e, 1) = img(row, min_col-e, 1);
                     result(row, max_col-e, 2) = 255;
                     result(row, max_col-e, 3) = 255;
                 end
-            end
-            
+            end   
         end
     end
 end
@@ -578,10 +543,8 @@ function result = draw_boundary_box(img, corner_points)
     groups = mat_size(2);
     THICKNESS = 5;
     
-    
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
+
     for i=1:groups
         % Loop through every group
         % Now draw boundary box
@@ -595,10 +558,10 @@ function result = draw_boundary_box(img, corner_points)
         % First draw horizontal lines
         for col=min_col:max_col
             for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, min_row+e, col) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, min_row+e, col) == 1
                     img(min_row+e, col) = COLOR;
                 end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, max_row-e, col) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, max_row-e, col) == 1
                     img(max_row-e, col) = COLOR;
                 end
             end
@@ -607,14 +570,13 @@ function result = draw_boundary_box(img, corner_points)
         % Vertical lines
         for row=min_row:max_row
             for e=0:THICKNESS
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, min_col + e) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, row, min_col + e) == 1
                     img(row, min_col+e) = COLOR;
                 end
-                if is_valid_position(MAX_ROW, MAX_COLUMN, row, max_col - e) == 1
+                if is_valid_position(MAX_ROW, MAX_COL, row, max_col - e) == 1
                     img(row, max_col-e) = COLOR;
                 end
             end
-            
         end
     end
     result = img;
@@ -623,9 +585,7 @@ end
 function result = find_corner_points(img, nb_groups)
     % Loop through grouped image
     % find MIN_ROW & MIN_COL and MAX_ROW & MAX_COL
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
 
     GROUP_MAX_ROW = zeros(1,nb_groups);
     GROUP_MAX_COL = zeros(1,nb_groups);
@@ -633,36 +593,30 @@ function result = find_corner_points(img, nb_groups)
     GROUP_MIN_COL = zeros(1,nb_groups);
            
     for row=1:MAX_ROW
-        for col=1:MAX_COLUMN
+        for col=1:MAX_COL
             group_nb = img(row, col, 2);
             if group_nb ~= 0 
                 % Group found (==0 means nothing is set)
                 if GROUP_MAX_ROW(1,group_nb) == 0 || GROUP_MAX_ROW(1,group_nb) < row
                     GROUP_MAX_ROW(1,group_nb) = row;
                 end
-                
                 if GROUP_MAX_COL(1,group_nb) == 0 || GROUP_MAX_COL(1,group_nb) < col
                     GROUP_MAX_COL(1,group_nb) = col;
                 end
-                
                 if GROUP_MIN_ROW(1,group_nb) == 0 || GROUP_MIN_ROW(1,group_nb) > row
                     GROUP_MIN_ROW(1,group_nb) = row;
                 end
                 if GROUP_MIN_COL(1,group_nb) == 0 || GROUP_MIN_COL(1,group_nb) > col
                     GROUP_MIN_COL(1,group_nb) = col;
                 end                
-            end
-           
+            end       
         end
         result = [GROUP_MIN_ROW; GROUP_MIN_COL; GROUP_MAX_ROW; GROUP_MAX_COL];
     end
-    
 end
 
 function cropped_img = symImgCrop(img,cutted_edge_size)
-    original_img_size = size(img);
-    original_max_row = original_img_size(1);
-    original_max_column = original_img_size(2);
+    [original_max_row, original_max_column] = size(img);
     
     cropped_img = zeros(original_max_row - 2*cutted_edge_size,original_max_column - 2*cutted_edge_size,1);
     
@@ -674,34 +628,28 @@ function cropped_img = symImgCrop(img,cutted_edge_size)
 end
 
 function result = remove_boundary(img, remove_size)
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
 
-    result = zeros(MAX_ROW,MAX_COLUMN,1);
+    result = zeros(MAX_ROW,MAX_COL,1);
     for row=1:MAX_ROW
-        for col=1:MAX_COLUMN
-           if row < remove_size || col < remove_size || row > (MAX_ROW - remove_size) || col > (MAX_COLUMN - remove_size)
+        for col=1:MAX_COL
+           if row < remove_size || col < remove_size || row > (MAX_ROW - remove_size) || col > (MAX_COL - remove_size)
                % Inside boundary ==> needs to be white (= 1)
                result(row, col) = 1;
            else
                result(row, col) = img(row, col);
-           end
-           
+           end         
         end
     end
 end
 
 function thresholded_img = threshold_edge(img, THRESHOLD_VALUE)
-    THRESHOLD_VALUE = 2;   
-    matrix_size = size(img);
-    MAX_ROW = matrix_size(1);
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     THICKNESS = 1; % 3 
     
-    thresholded_img = zeros(MAX_ROW,MAX_COLUMN,1);
+    thresholded_img = zeros(MAX_ROW,MAX_COL,1);
     for row=1:MAX_ROW
-        for col=1:MAX_COLUMN
+        for col=1:MAX_COL
             if img(row, col) > THRESHOLD_VALUE
                 value = 1;
                 for i=1:THICKNESS
@@ -709,19 +657,15 @@ function thresholded_img = threshold_edge(img, THRESHOLD_VALUE)
                     if (col - i) > 0
                         thresholded_img(row, col-i) = 1;
                     end
-                    
-                    if (col + i) <= MAX_COLUMN
+                    if (col + i) <= MAX_COL
                         thresholded_img(row, col+i) = 1;
                     end
-                    
                     if (row - i) > 0
                         thresholded_img(row -i, col) = 1;
                     end
-                    
                     if (row + i) <+ MAX_ROW
                         thresholded_img(row +i, col) = 1;
                     end
-                   
                 end
             else
                 value = 0;
@@ -752,8 +696,6 @@ function grey = greyscale(img)
    
 end
 
-
-
 function shapes = sobel_operator(img)
     % use the sobel-operator on the raw depth image
     % this function returns a matrix of the same size as the original
@@ -770,14 +712,10 @@ function thresholded = threshold(img, min_thresh, max_thresh)
     % run the image through a threshold to get rid of impossible values
     % this function returns a binary matrix with a 1 on the edges
 
-    matrix_size = size(img);
-
-    MAX_ROW = matrix_size(1);
-
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
     for row = 1 : MAX_ROW        
-        for col = 1: MAX_COLUMN
+        for col = 1: MAX_COL
            if (img(row, col) > min_thresh) && (img(row, col)< max_thresh)
                img(row, col) = 1;
            else
@@ -793,17 +731,12 @@ function printed = print(img, min_x, max_x, min_y, max_y)
     % of noise that appears in every image and replace them by '0'
     % it returns a binary image 
     
-    matrix_size = size(img);
-
-    MAX_ROW = matrix_size(1);
-
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
-    mat = zeros(MAX_ROW,MAX_COLUMN,1);
+    mat = zeros(MAX_ROW,MAX_COL,1);
     
     for row = 1:MAX_ROW
-        
-        for col = 1: MAX_COLUMN
+        for col = 1: MAX_COL
             if (row>min_x) && (row<max_x) && (col> min_y) && (col<max_y)
                 mat(row, col) = img(row, col);
             end
@@ -812,52 +745,46 @@ function printed = print(img, min_x, max_x, min_y, max_y)
     printed = mat;
 end
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%FUNCTIONS FOR OUTLINE BEGINING%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%FUNCTIONS FOR OUTLINE BEGINNING%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
   function outlined_matrix = outline(img)
     % the main outline function, given a binary matrix, this function
     % outlines every shape defined by '1'
     % it returns a matrix with '-1' as value for the outlines
   
-  
-    matrix_size = size(img);
-
-    MAX_ROW = matrix_size(1);
-
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
     x = 0;
     
     for row = 1: MAX_ROW
         col = 1;
-        while col <= MAX_COLUMN
+        while col <= MAX_COL
              position = img(row, col);
             if position == 0
                 col = col + 1;
             elseif position == -1
-                col = skip(img, row, col, MAX_COLUMN);
+                col = skip(img, row, col, MAX_COL);
             elseif position == 1
                 x = x + 1;
-                img = outline_shape(img, row, col-1, MAX_ROW, MAX_COLUMN);
+                img = outline_shape(img, row, col-1, MAX_ROW, MAX_COL);
                 col = col - 1;
             end
         end
     end
     disp(x);
     outlined_matrix = img;
-end
-function new_col = skip(img, row, col, MAX_COLUMN)
+  end
+
+function new_col = skip(img, row, col, MAX_COL)
     % this function skips the part of the row that is defined to be inside
     % a shape
     % it returns the first column number outside a shape
 
     good_value = 0;
-    while (good_value ~= 1) && (col < MAX_COLUMN)
+    while (good_value ~= 1) && (col < MAX_COL)
         col = col+ 1;
         if img(row, col) == -1
             good_value = 1;
@@ -871,22 +798,17 @@ function RGB_matrix = only_outline_visible(img)
     % this function returns a RGB matrix with 255,0,0 on the edges and
     % 0,0,0 in all the other positions
     
-    matrix_size = size(img);
-
-    MAX_ROW = matrix_size(1);
-
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(img);
     
-    matrix_complete = zeros(MAX_ROW, MAX_COLUMN, 3); 
+    matrix_complete = zeros(MAX_ROW, MAX_COL, 3); 
 
     for row = 1 : MAX_ROW
-        for col = 1: MAX_COLUMN
+        for col = 1: MAX_COL
             if img(row, col) == -1
                 matrix_complete(row, col, 1) = 255;
             end
         end
     end
-
     RGB_matrix = matrix_complete;
 end
 
@@ -933,7 +855,6 @@ function created_matrix = surrounded_matrix(img, row, col, MAX_ROW, MAX_COLUMN)
     matrix_total(:,:,3) = matrix_3;
 
     created_matrix = matrix_total;
-
 end 
 
 function is_connected_to_one = connected_to_one(img, row, col, MAX_ROW, MAX_COLUMN)
@@ -956,11 +877,7 @@ function is_connected_to_one = connected_to_one(img, row, col, MAX_ROW, MAX_COLU
         end
     end
     is_connected_to_one = is_connected;
-
-
 end 
-
-
 %%%%%%%%end outline software
 
 
@@ -971,15 +888,14 @@ function placing = top_left(position, img, MAX_ROW, MAX_COLUMB)
     y = position(2) -1;
     
     if (0 < x) && (x <= MAX_ROW) && (0 < y) && (y <= MAX_COLUMB) 
-        
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end 
 end
+
 function placing = top(position, img, MAX_ROW, MAX_COLUMB)
     % returns the position above the given position
     x = position(1) -1;
@@ -989,97 +905,90 @@ function placing = top(position, img, MAX_ROW, MAX_COLUMB)
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end
 end
+
 function placing = top_right(position, img, MAX_ROW, MAX_COLUMB)
     % returns the position top right of the given position
     x = position(1) - 1;
     y = position(2) + 1;
     
     if (0 < x) && (x <= MAX_ROW) && (0 < y) && (y <= MAX_COLUMB) 
-        
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end 
 end
+
 function placing = right(position, img, MAX_ROW, MAX_COLUMB)
     % returns the position to the right of the given position
     x = position(1) ;
     y = position(2) +1;
     
     if (0 < x) && (x <= MAX_ROW) && (0 < y) && (y <= MAX_COLUMB) 
-        
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end 
 end
+
 function placing = bottom_right(position, img, MAX_ROW, MAX_COLUMB)
     % returns the position bottom right of the given position
     x = position(1) +1;
     y = position(2) +1;
     
     if (0 < x) && (x <= MAX_ROW) && (0 < y) && (y <= MAX_COLUMB) 
-        
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end 
 end
+
 function placing = bottom(position, img, MAX_ROW, MAX_COLUMB)
     % returns the position below the given position
     x = position(1) +1;
     y = position(2) ;
     
     if (0 < x) && (x <= MAX_ROW) && (0 < y) && (y <= MAX_COLUMB) 
-        
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end 
 end
+
 function placing = bottom_left(position, img, MAX_ROW, MAX_COLUMB)
     % returns the position bottom left of the given position
     x = position(1) +1;
     y = position(2) -1;
     
     if (0 < x) && (x <= MAX_ROW) && (0 < y) && (y <= MAX_COLUMB) 
-        
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end 
 end
+
 function placing = left(position, img, MAX_ROW, MAX_COLUMB)
     % returns the position to the left of the given position
     x = position(1);
     y = position(2) -1;
     
     if (0 < x) && (x <= MAX_ROW) && (0 < y) && (y <= MAX_COLUMB) 
-        
         value = img(x, y);
         placing = [value, x, y];
     else
-        
         value = -2;
         placing = [value, x, y];
     end 
@@ -1119,7 +1028,6 @@ function [reformed_depth,reformed_color,resulting_height_angle,resulting_width_a
     reformed_color = color(:,80 + round(nb_width_pixels_removed_color/2,0): round(nb_columns_color-(nb_width_pixels_removed_color/2),0),:);
         %Dit is een 1080 x (aangepaste breedte) matrix
     
-    
     % hoogte van depth naar 53.8 brenge
     [nb_rows_depth,~]=size(depth);
     
@@ -1133,31 +1041,19 @@ function [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_
     % this function returns the pixels per millimeter for the given depth
     % and color matrices
     
-    depth_size = size(reformed_depth);
-
-    MAX_ROW_DEPTH = depth_size(1);
-
-    MAX_COLUMN_DEPTH = depth_size(2);
-
-    color_size = size(reformed_color);
-
-    MAX_ROW_COLOR = color_size(1);
-
-    MAX_COLUMN_COLOR = color_size(2);
+    [MAX_ROW_DEPTH, MAX_COLUMN_DEPTH] = size(reformed_depth);
+    [MAX_ROW_COLOR, MAX_COLUMN_COLOR] = size(reformed_color);
     
-    tot_width = 2*h*tan(((res_width_angle)/2)*(pi/180));
-    
+    tot_width = 2*h*tan(((res_width_angle)/2)*(pi/180)); 
     tot_height = 2*h*tan(((res_height_angle)/2)*(pi/180));
     
     pipemm_depth_H = MAX_ROW_DEPTH/tot_height;
-    
     pipemm_depth_W = MAX_COLUMN_DEPTH/tot_width;
-    
     pipemm_color_H = MAX_ROW_COLOR/tot_height;
-    
     pipemm_color_W = MAX_COLUMN_COLOR/tot_width;
 
 end
+
 function [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color)
     % this function returns the size of the given color and depth matrices,
     % and the proportion between the depth and color pixels 
@@ -1171,8 +1067,7 @@ function [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth]
     x= max(nb_pixels_color,nb_pixels_depth);
     y= min(nb_pixels_color,nb_pixels_depth);
     
-    prop = x/y;
-    
+    prop = x/y;  
 end
 
 function the_size=size_matching(prop)
@@ -1211,10 +1106,6 @@ function [row_start, row_stop, col_start, col_stop]= depth_to_color(pipemm_depth
     if col_stop > nb_columns_color
         col_stop = nb_columns_color;
     end
- 
-        
-    
-
 end
     
 function overlapped_matrix = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,the_size,nb_rows_color , nb_columns_color)
@@ -1265,7 +1156,6 @@ function filled_matrix = fill_matrix(img)
     filled_matrix = new_matrix;            
             
 end
-
 
 function edged_matrix = only_edge(img)
 
@@ -1355,14 +1245,10 @@ function usefull_matrix = crop_depth_to_basket(depth_img, original_img)
 
     z = 15;
 
-    matrix_size = size(depth_img);
-
-    MAX_ROW = matrix_size(1);
-
-    MAX_COLUMN = matrix_size(2);
+    [MAX_ROW, MAX_COL] = size(depth_img);
     
     for i = (1 + z): (MAX_ROW - z)
-        for j = (1 + z) : (MAX_COLUMN - z)
+        for j = (1 + z) : (MAX_COL - z)
             if (depth_img(i, j) == 1)
                 original_img(i-z:i+z, j-z:j+z)=-3;
             end
@@ -1372,7 +1258,7 @@ function usefull_matrix = crop_depth_to_basket(depth_img, original_img)
     row = 1;
     col = 1;
     while (row <= MAX_ROW)
-        if col == (MAX_COLUMN + 1)
+        if col == (MAX_COL + 1)
             col = 1;
             row = row + 1;
         
@@ -1387,14 +1273,14 @@ function usefull_matrix = crop_depth_to_basket(depth_img, original_img)
     end
  
     row = MAX_ROW;
-    col = MAX_COLUMN;
+    col = MAX_COL;
     while (row ~= 1)
         if col == 1
             col = MAX_COLUMN;
             row = row - 1;
         
         elseif (original_img(row, col) == -3) 
-            col = MAX_COLUMN;
+            col = MAX_COL;
             row = row - 1;
         
         else
