@@ -16,6 +16,8 @@ max_thresh = 500;
 % Get image from depth sensor
 load('w.depth_1.mat');
 color = imread('w_foto_1.png');
+load('w.depth_7.mat');
+color = imread('w_foto_7.png');
 %colorVid = videoinput('kinect',1);
 %depthVid = videoinput('kinect',2);
 % depth = getsnapshot(depthVid);
@@ -28,6 +30,7 @@ color = imread('w_foto_1.png');
 %color = imread('color.png');
 %load('depth.mat');
 raw_matrix = double(depth);
+%raw_matrix = gaussian_blur(mean_blur(raw_matrix));
 %%
 %Run the sobel operator
 
@@ -51,10 +54,12 @@ edged_matrix = only_edge(depth);
 
 new_depth = crop_depth_to_basket(edged_matrix, raw_matrix);
 new_threshold_depth = crop_depth_to_basket(edged_matrix, depth_after_threshold);
+new_threshold_depth = noise_deletion(new_threshold_depth,5);
 new_depth = revalue_raw_matrix(new_depth, h);
 depth_tester = new_depth;
 
 new_matrix = combine_matrices(new_depth, new_threshold_depth);
+
 
 subplot(1,3,1), image(new_depth);
 subplot(1,3,2), image(shapes_after_sobel);
@@ -161,6 +166,7 @@ with_noise_removal = without_noise_removal;
 disp("Step 8: grouping...");
 [grouped, nb_of_groups] = group(~with_noise_removal, SAME_PIXELS_SEARCH_GRID_SIZE, GROUP_SEARCH_GRID_SIZE, MIN_NB_SURROUNDING_PIXELS); % Group pixels together
 tester = grouped;
+total = grouped;
 %%%%%%%%%%%%%%%%%%%%
 %%%%START NEW WITH DEPTH
 
@@ -173,6 +179,7 @@ grouped = total;
 
 disp("Step 9: regrouping...");
 [regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS); % Regroup (nessicary because group function works from top left to bottom right
+[regrouped, nb_of_groups2] = regroup(total, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS); % Regroup (nessicary because group function works from top left to bottom right
 
 %Find corner points of object (not really corner points on the boundary,
 %but corner points for the boundary box)
@@ -1558,6 +1565,8 @@ function new_raw_matrix = revalue_raw_matrix(raw_img, h)
 end
 
 function combined_matrix = combine_matrices(matrix_1, matrix_2)
+    
+    z = 15;
 
     matrix_size = size(matrix_1);
 
@@ -1569,11 +1578,14 @@ function combined_matrix = combine_matrices(matrix_1, matrix_2)
             value = matrix_1(i,j) + matrix_2(i,j);
             if value >= 1
                 combined_matrix(i,j) = 1;
+                combined_matrix(i-1:i+1,j-1:j+1) = 1;
             else
                 combined_matrix(i,j) = 0;
             end
         end
     end
+    
+    
 end
 
 function thresholded = threshold_2(img, min_thresh)
@@ -1602,6 +1614,7 @@ end
 function new_grouped = overlap_depth_to_grouped(reformed_depth, grouped, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,the_size,nb_rows_color , nb_columns_color)
     
     var = 100;
+    var = 10;
     
     depth_size = size(reformed_depth);
 
@@ -1629,6 +1642,7 @@ function new_grouped = overlap_depth_to_grouped(reformed_depth, grouped, pipemm_
     for row = 1:MAX_ROW_GROUPED
         for col = 1:MAX_COLUMN_GROUPED
             if(grouped(row, col,2) == 1)
+            if(grouped(row, col,2) > 0)
                 comparing_matrix = depth_to_RGB(row-var:row+var, col-var:col+var);
                 comparing_size = size(comparing_matrix);
 
@@ -1648,6 +1662,8 @@ function new_grouped = overlap_depth_to_grouped(reformed_depth, grouped, pipemm_
                     grouped(row-var:row+var, col-var:col+var, 2) = 0;
                     grouped(row-var:row+var, col-var:col+var, 1) = 0;
                     
+                if found_one <= 5
+                    grouped(row-var:row+var, col-var:col+var, 2) = 0;                   
                 end
                 
                 
@@ -1662,6 +1678,8 @@ function new_grouped = overlap_depth_to_grouped(reformed_depth, grouped, pipemm_
 
 
 end
+
+
 
 
 % end depth for object detection
