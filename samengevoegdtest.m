@@ -1,98 +1,56 @@
-k = 17;
-%%
-k = round(k);
+% Static variables
 h = 900;
-
 min_y = 120;
-max_y = 460;
-min_x = 75;
-max_x = 310;
+max_y = 480;
+min_x = 50;
+max_x = 340;
 
 % Threshold values
 min_thresh = 30;
 max_thresh = 500;
 
 % Get image from depth sensor
-%load('w.depth_1.mat');
-%color = imread('w_foto_1.png');
-colorVid = videoinput('kinect',1);
-depthVid = videoinput('kinect',2);
- depth = getsnapshot(depthVid);
- color = getsnapshot(colorVid);
-% name_color = sprintf('color %f .png', k);
-% name_depth = sprintf('depth %f .mat', k);
-% imwrite(color, name_color);
-% save(name_depth, 'depth');
-% k = k+1;
-%color = imread('color.png');
-%load('depth.mat');
-raw_matrix = depth;
-%%
+% colorVid = videoinput('kinect',1);
+% depthVid = videoinput('kinect',2);
+% depth = getsnapshot(depthVid);
+% color = getsnapshot(colorVid);
+
+% Get data from file
+color = imread('color 15.000000 .png');
+load('depth 15.000000 .mat');
+
 %Run the sobel operator
-
-depth = sobel_operator(depth);
-shapes_after_sobel = depth;
-%image(shapes);
-%subplot(1,3,2), image(shapes);
-
+depth_after_sobel = sobel_operator(depth);
 
 %Run the threshold filter
-depth = threshold(depth, min_thresh, max_thresh);
-depth = print(depth, min_x, max_x, min_y, max_y);
-depth_after_threshold = depth;
+depth_after_threshold = threshold(depth_after_sobel, min_thresh, max_thresh);
 
-%%%%%%%outline
-depth = outline(depth);
-final_img = only_outline_visible(depth);
-% shapes = fill_matrix(shapes);
-% shapes = fill_matrix(shapes);
-edged_matrix = only_edge(depth);
+% Cropping image (not reducing size but removing data outside these values)
+depth_cropped = crop(depth_after_threshold, min_x, max_x, min_y, max_y);
 
-new_depth = crop_depth_to_basket(edged_matrix, depth_after_threshold);
-depth_tester = new_depth;
 
-subplot(1,3,1), image(new_depth);
-subplot(1,3,2), image(shapes_after_sobel);
-%image(final_img);
+depth_after_outline = outline(depth_cropped);
 
-%OVERLAP
-%%%%%%%%%%%%%%%%%%%%%%%%%%
+final_img = only_outline_visible(depth_after_outline);
+
+edged_matrix = only_edge(depth_after_outline);
+
+new_depth = crop_depth_to_basket(edged_matrix, depth_after_sobel);
 
 %color: 1920x1080 met 84.1 x 53.8
 %depth: 512x424  met 70.6 x 60
-%depth = shapes; 
-%color = imread('doos_leeg_overlap_RGB.png');
 
-%color = getsnapshot(colorVid);
-
-[reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth, color);
+[reformed_depth,reformed_color, res_height_angle, res_width_angle] = reform(depth_after_outline, color);
 [pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W] = get_pipemm(res_height_angle, res_width_angle, h, reformed_depth,reformed_color);
-
 
 [prop,nb_rows_color , nb_columns_color,nb_rows_depth, nb_columns_depth] = proportion(reformed_depth , reformed_color);
 
 tot_size = size_matching(prop);
 
-% om te testen
-disp([pipemm_depth_H, pipemm_depth_W, pipemm_color_H, pipemm_color_W]);
-
-% testen totaal programma
-
 total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,tot_size,nb_rows_color , nb_columns_color);
 
-%image(total);
-%subplot(1,3,1), image(total);
 new_RGB = crop_RGB_to_basket(total);
 image(new_RGB);
-%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% after detection of the basket
-
-%new_depth = sobel_operator(new_depth);
-%new_depth = threshold(new_depth, min_thresh, max_thresh);
-subplot(1,3,3), imagesc(new_depth);
-
 %% simon
 
 img = new_RGB;
@@ -229,7 +187,7 @@ title("# objects: "+ nb_of_groups3);
 %%
 image(final_img);
 %%
-image(shapes_after_sobel);
+image(depth_after_sobel);
 %%
 imagesc(depth_tester);
 %%
@@ -822,7 +780,7 @@ function thresholded = threshold(img, min_thresh, max_thresh)
     thresholded = img;
 end
 
-function printed = print(img, min_x, max_x, min_y, max_y)
+function printed = crop(img, min_x, max_x, min_y, max_y)
     % this function uses a threshold to cut of part of the edges to get rid
     % of noise that appears in every image and replace them by '0'
     % it returns a binary image 
@@ -835,14 +793,7 @@ function printed = print(img, min_x, max_x, min_y, max_y)
     
     mat = zeros(MAX_ROW,MAX_COLUMN,1);
     
-    for row = 1:MAX_ROW
-        
-        for col = 1: MAX_COLUMN
-            if (row>min_x) && (row<max_x) && (col> min_y) && (col<max_y)
-                mat(row, col) = img(row, col);
-            end
-        end
-    end
+    mat(min_x:max_x, min_y:max_y, :) = img(min_x:max_x, min_y:max_y);
     printed = mat;
 end
 
