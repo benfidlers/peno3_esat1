@@ -51,7 +51,7 @@ total = overlap_depth_to_RGB(reformed_depth, reformed_color, pipemm_depth_H , pi
 
 new_RGB = crop_RGB_to_basket(total);
 image(new_RGB);
-%% simon
+%% Color
 
 img = new_RGB;
 
