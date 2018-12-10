@@ -4,21 +4,21 @@ k = round(k);
 h = 900;
 
 min_y = 120;
-max_y = 440;
-min_x = 50;
-max_x = 340;
+max_y = 460;
+min_x = 75;
+max_x = 310;
 
 % Threshold values
 min_thresh = 30;
 max_thresh = 500;
 
 % Get image from depth sensor
-load('w.depth_1.mat');
-color = imread('w_foto_1.png');
-%colorVid = videoinput('kinect',1);
-%depthVid = videoinput('kinect',2);
-% depth = getsnapshot(depthVid);
-% color = getsnapshot(colorVid);
+%load('w.depth_1.mat');
+%color = imread('w_foto_1.png');
+colorVid = videoinput('kinect',1);
+depthVid = videoinput('kinect',2);
+ depth = getsnapshot(depthVid);
+ color = getsnapshot(colorVid);
 % name_color = sprintf('color %f .png', k);
 % name_depth = sprintf('depth %f .mat', k);
 % imwrite(color, name_color);
@@ -101,7 +101,7 @@ img = new_RGB;
 %img = imread('kinect/foto_x2_RGB_4.png'); % Load picture (1080 rows * 1920 col)
 THRESHOLD_VALUE = 2;
 
-MIN_ROW_LINES_BETWEEN_GROUPS = 15; %25 %15
+MIN_ROW_LINES_BETWEEN_GROUPS = 10; %25 %15
 % Once the groups are found, the algorithm searches for groups too close
 % near each other
 % This is defined as the min distance between two groups (only searched
@@ -1323,7 +1323,7 @@ end
 
 function usefull_matrix = crop_RGB_to_basket(img)
 
-    z = 30;
+    z = 20;
 
     matrix_size = size(img);
 
