@@ -14,8 +14,6 @@ min_thresh_2 = 20;
 max_thresh = 500;
 
 % Get image from depth sensor
-load('w.depth_1.mat');
-color = imread('w_foto_1.png');
 load('w.depth_7.mat');
 color = imread('w_foto_7.png');
 %colorVid = videoinput('kinect',1);
@@ -165,7 +163,6 @@ disp("Step 7: noise removing...");
 with_noise_removal = without_noise_removal;
 disp("Step 8: grouping...");
 [grouped, nb_of_groups] = group(~with_noise_removal, SAME_PIXELS_SEARCH_GRID_SIZE, GROUP_SEARCH_GRID_SIZE, MIN_NB_SURROUNDING_PIXELS); % Group pixels together
-tester = grouped;
 total = grouped;
 %%%%%%%%%%%%%%%%%%%%
 %%%%START NEW WITH DEPTH
@@ -175,10 +172,8 @@ total = overlap_depth_to_grouped(reformed_new_matrix, grouped, pipemm_depth_H , 
 
 
 %%%%%END NEW WITH DEPTH
-grouped = total;
 
 disp("Step 9: regrouping...");
-[regrouped, nb_of_groups2] = regroup(grouped, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS); % Regroup (nessicary because group function works from top left to bottom right
 [regrouped, nb_of_groups2] = regroup(total, nb_of_groups, MIN_ROW_LINES_BETWEEN_GROUPS); % Regroup (nessicary because group function works from top left to bottom right
 
 %Find corner points of object (not really corner points on the boundary,
@@ -1569,7 +1564,6 @@ function combined_matrix = combine_matrices(matrix_1, matrix_2)
     z = 15;
 
     matrix_size = size(matrix_1);
-
     MAX_ROW = matrix_size(1);
     MAX_COLUMN = matrix_size(2);
     combined_matrix = zeros(MAX_ROW, MAX_COLUMN);
@@ -1577,7 +1571,6 @@ function combined_matrix = combine_matrices(matrix_1, matrix_2)
         for j = 1: MAX_COLUMN
             value = matrix_1(i,j) + matrix_2(i,j);
             if value >= 1
-                combined_matrix(i,j) = 1;
                 combined_matrix(i-1:i+1,j-1:j+1) = 1;
             else
                 combined_matrix(i,j) = 0;
@@ -1613,7 +1606,6 @@ end
 
 function new_grouped = overlap_depth_to_grouped(reformed_depth, grouped, pipemm_depth_H , pipemm_depth_W , pipemm_color_H , pipemm_color_W,the_size,nb_rows_color , nb_columns_color)
     
-    var = 100;
     var = 10;
     
     depth_size = size(reformed_depth);
@@ -1641,7 +1633,6 @@ function new_grouped = overlap_depth_to_grouped(reformed_depth, grouped, pipemm_
     
     for row = 1:MAX_ROW_GROUPED
         for col = 1:MAX_COLUMN_GROUPED
-            if(grouped(row, col,2) == 1)
             if(grouped(row, col,2) > 0)
                 comparing_matrix = depth_to_RGB(row-var:row+var, col-var:col+var);
                 comparing_size = size(comparing_matrix);
@@ -1657,16 +1648,9 @@ function new_grouped = overlap_depth_to_grouped(reformed_depth, grouped, pipemm_
                         end
                     end
                 end
-                if found_one <=1
-                    disp('beep')
-                    grouped(row-var:row+var, col-var:col+var, 2) = 0;
-                    grouped(row-var:row+var, col-var:col+var, 1) = 0;
-                    
                 if found_one <= 5
                     grouped(row-var:row+var, col-var:col+var, 2) = 0;                   
                 end
-                
-                
             end
         end
     end
