@@ -1,0 +1,98 @@
+\documentclass[10pt]{article}
+
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\begin{document}
+
+\lstset{language=Matlab,%
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+
+\tableofcontents
+\newpage
+
+\section{Initialising functions}
+\lstinputlisting{initialising_code.m}
+
+\section{Functions for depth}
+\subsection{Sobel operator}
+\lstinputlisting{sobel_operator.m}
+\subsection{Threshold for depth}
+\subsubsection{threshold in values}
+\lstinputlisting{threshold_values_depth.m}
+\subsubsection{threshold in edges}
+\lstinputlisting{threshold_edges_depth.m}
+\subsection{Outline objects}
+\subsubsection{Main outline}
+\lstinputlisting{main_outline_function.m}
+\subsubsection{Skip column}
+\lstinputlisting{skip_column.m}
+\subsubsection{Outline the shape}
+\lstinputlisting{outline_shape.m}
+\subsubsection{Check if a one is connected}
+\lstinputlisting{connected_to_one.m}
+\subsubsection{Create surrounding matrix}
+\lstinputlisting{surrounded_matrix.m}
+\subsubsection{all surrounding positions}
+\lstinputlisting{all_surrounding_positions.m}
+
+\section{Functions for overlap}
+\subsection{Get the needed values}
+\subsubsection{Crop depth and RGB to the same aspect ratio}
+\lstinputlisting{reform_depth_and_RGB.m}
+\subsubsection{Get the pixels per mm}
+\lstinputlisting{get_pipemm.m}
+\subsubsection{Get the proportion between depth and RGB pixels}
+\lstinputlisting{proportion.m}
+\subsubsection{Get the exact positions from depth to RGB}
+\lstinputlisting{overlap_depth_to_color.m}
+\subsection{Overlap from depth to RGB}
+\lstinputlisting{overlap_depth_to_RGB.m}
+\subsection{Crop RGB to basket}
+\lstinputlisting{crop_RGB_to_basket.m}
+
+\section{Functions for colour}
+\subsection{Greyscale}
+\lstinputlisting{greyscale.m}
+\subsection{Blurring the image}
+\subsubsection{Mean blur}
+\lstinputlisting{mean_blur.m}
+\subsubsection{Gaussian blur}
+\lstinputlisting{gaussian_blur.m}
+
+\subsection{Laplacian edge detect}
+\lstinputlisting{edge_detect.m}
+\subsection{Threshold for the edge}
+\lstinputlisting{threshold_edge.m}
+\subsection{Group the edges}
+\lstinputlisting{group.m}
+\subsection{Regroup the edges}
+\lstinputlisting{regroup.m}
+\subsection{Find the corner points}
+\lstinputlisting{find_corner_points.m}
+\subsection{Remove objects within objects}
+\subsubsection{Remove box edge}
+\lstinputlisting{remove_box_edge.m}
+\subsubsection{Remove corner points within corner points}
+\lstinputlisting{remove_corner_points_within_corner_points.m}
+\subsection{Draw the boundary box}
+\lstinputlisting{draw_red_boundary_box.m}
+
+\end{document}
