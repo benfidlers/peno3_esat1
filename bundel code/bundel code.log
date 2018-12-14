@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  13 DEC 2018 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.16)  14 DEC 2018 14:31
 entering extended mode
 **"./bundel code.tex"
 ("bundel code.tex"
@@ -365,19 +365,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 3.
-)
+ [3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \tf@toc=\write3
 \openout3 = `"bundel code.toc"'.
 
- [3{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(initialising_code.m [4]
+
+[4] (initialising_code.m [5]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
- [5] [6]) (sobel_operator.m
+ [6] [7])
+(sobel_operator.m
 Missing character: There is no ë in font cmr10!
 ) (threshold_values_depth.m
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 13.
@@ -387,39 +389,43 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 13.
- [7])
-(threshold_edges_depth.m) (main_outline_function.m [8]) (skip_column.m)
-(outline_shape.m [9]) (connected_to_one.m) (surrounded_matrix.m [10])
-(all_surrounding_positions.m [11] [12]) (reform_depth_and_RGB.m [13])
-(get_pipemm.m) (proportion.m [14]) (overlap_depth_to_color.m)
-(overlap_depth_to_RGB.m [15]) (crop_RGB_to_basket.m [16] [17]) (greyscale.m)
-(mean_blur.m) (gaussian_blur.m [18]) (edge_detect.m) (threshold_edge.m)
-[19] (group.m) (regroup.m [20]) (find_corner_points.m [21]) (remove_box_edge.m)
-(remove_corner_points_within_corner_points.m [22]) (draw_red_boundary_box.m
-[23]) (get_objects.m [24]) (object_highlighter.m [25]) (imgs_InsertionSort.m
-[26]) (single_object.m) (boundaryBoxedImgRotator.m [27]) (packaged_objec.m
-[28]) (rotator.m) (generic_crop.m [29]) (smallest_package.m [30]
+ [8])
+(threshold_edges_depth.m) (main_outline_function.m [9]) (skip_column.m)
+(outline_shape.m [10]) (connected_to_one.m) (surrounded_matrix.m [11])
+(all_surrounding_positions.m [12] [13]) (reform_depth_and_RGB.m [14])
+(get_pipemm.m) (proportion.m [15]) (overlap_depth_to_color.m)
+(overlap_depth_to_RGB.m [16]) (crop_RGB_to_basket.m [17] [18]) (greyscale.m)
+(mean_blur.m) (gaussian_blur.m [19]) (edge_detect.m) (threshold_edge.m)
+[20] (group.m) (regroup.m [21]) (find_corner_points.m [22]) (remove_box_edge.m)
+(remove_corner_points_within_corner_points.m [23]) (draw_red_boundary_box.m
+[24]) (get_objects.m [25]) (object_highlighter.m [26]) (imgs_InsertionSort.m
+[27]) (single_object.m) (boundaryBoxedImgRotator.m [28]) (packaged_objec.m
+[29]) (rotator.m) (generic_crop.m [30]) (smallest_package.m [31]
 Missing character: There is no ° in font cmr10!
- [31])
-(black_edger.m [32]) (position_tester.m) (package_appender.m [33] [34])
-[35] ("bundel code.aux") ) 
+ [32])
+(black_edger.m [33]) (position_tester.m) (package_appender.m [34] [35])
+(initialisation_gui.m [36]) (opening_function.m) (output_function.m [37])
+(startbutton.m [38] [39]) (original.m) (sobel_callback.m) (redbox_callback.m)
+(crop_callback.m) [40] (edge_callback.m) (grouped_callback.m)
+(regrouped_callback.m) (result_callback.m) [41] ("bundel code.aux") ) 
 Here is how much of TeX's memory you used:
- 5956 strings out of 493320
- 85433 string characters out of 3138953
+ 6106 strings out of 493320
+ 87739 string characters out of 3138953
  339590 words of memory out of 3000000
- 9322 multiletter control sequences out of 15000+200000
+ 9436 multiletter control sequences out of 15000+200000
  5158 words of font info for 19 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,18n,46p,293b,1979s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "bundel code.pdf" (35 pages, 275904 bytes).
+<C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb>
+Output written on "bundel code.pdf" (41 pages, 297622 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 197 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
