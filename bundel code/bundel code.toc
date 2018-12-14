@@ -1,51 +1,51 @@
-\contentsline {section}{\numberline {1}Initialising functions}{2}
-\contentsline {section}{\numberline {2}Functions for depth}{5}
-\contentsline {subsection}{\numberline {2.1}Sobel operator}{5}
-\contentsline {subsection}{\numberline {2.2}Threshold for depth}{5}
-\contentsline {subsubsection}{\numberline {2.2.1}threshold in values}{5}
-\contentsline {subsubsection}{\numberline {2.2.2}threshold in edges}{6}
-\contentsline {subsection}{\numberline {2.3}Outline objects}{6}
-\contentsline {subsubsection}{\numberline {2.3.1}Main outline}{6}
-\contentsline {subsubsection}{\numberline {2.3.2}Skip column}{7}
-\contentsline {subsubsection}{\numberline {2.3.3}Outline the shape}{7}
-\contentsline {subsubsection}{\numberline {2.3.4}Check if a one is connected}{8}
-\contentsline {subsubsection}{\numberline {2.3.5}Create surrounding matrix}{8}
-\contentsline {subsubsection}{\numberline {2.3.6}all surrounding positions}{9}
-\contentsline {section}{\numberline {3}Functions for overlap}{11}
-\contentsline {subsection}{\numberline {3.1}Get the needed values}{11}
-\contentsline {subsubsection}{\numberline {3.1.1}Crop depth and RGB to the same aspect ratio}{11}
-\contentsline {subsubsection}{\numberline {3.1.2}Get the pixels per mm}{12}
-\contentsline {subsubsection}{\numberline {3.1.3}Get the proportion between depth and RGB pixels}{12}
-\contentsline {subsubsection}{\numberline {3.1.4}Get the exact positions from depth to RGB}{13}
-\contentsline {subsection}{\numberline {3.2}Overlap from depth to RGB}{13}
-\contentsline {subsection}{\numberline {3.3}Crop RGB to basket}{14}
-\contentsline {section}{\numberline {4}Functions for colour}{16}
-\contentsline {subsection}{\numberline {4.1}Greyscale}{16}
-\contentsline {subsection}{\numberline {4.2}Blurring the image}{16}
-\contentsline {subsubsection}{\numberline {4.2.1}Mean blur}{16}
-\contentsline {subsubsection}{\numberline {4.2.2}Gaussian blur}{16}
-\contentsline {subsection}{\numberline {4.3}Laplacian edge detect}{17}
-\contentsline {subsection}{\numberline {4.4}Threshold for the edge}{17}
-\contentsline {subsection}{\numberline {4.5}Group the edges}{18}
-\contentsline {subsection}{\numberline {4.6}Regroup the edges}{18}
-\contentsline {subsection}{\numberline {4.7}Find the corner points}{19}
-\contentsline {subsection}{\numberline {4.8}Remove objects within objects}{20}
-\contentsline {subsubsection}{\numberline {4.8.1}Remove box edge}{20}
-\contentsline {subsubsection}{\numberline {4.8.2}Remove corner points within corner points}{20}
-\contentsline {subsection}{\numberline {4.9}Draw the boundary box}{21}
-\contentsline {section}{\numberline {5}Implementation: packaging code}{22}
-\contentsline {subsection}{\numberline {5.1}Gathering objects}{22}
-\contentsline {subsubsection}{\numberline {5.1.1}Get objects}{22}
-\contentsline {subsubsection}{\numberline {5.1.2}Object highlighter}{23}
-\contentsline {subsubsection}{\numberline {5.1.3}Insertion sort}{24}
-\contentsline {subsubsection}{\numberline {5.1.4}Single object}{25}
-\contentsline {subsection}{\numberline {5.2}fitting the objects}{25}
-\contentsline {subsubsection}{\numberline {5.2.1}Boundary boxed image rotator}{25}
-\contentsline {subsubsection}{\numberline {5.2.2}Packaged object}{26}
-\contentsline {subsubsection}{\numberline {5.2.3}Rotator}{27}
-\contentsline {subsubsection}{\numberline {5.2.4}Generic crop}{27}
-\contentsline {subsection}{\numberline {5.3}total packaging}{28}
-\contentsline {subsubsection}{\numberline {5.3.1}Smallest Package}{28}
-\contentsline {subsubsection}{\numberline {5.3.2}Black Edged}{30}
-\contentsline {subsubsection}{\numberline {5.3.3}Position tester}{31}
-\contentsline {subsubsection}{\numberline {5.3.4}Package appender}{31}
+\contentsline {section}{\numberline {1}Initialising functions}{4}
+\contentsline {section}{\numberline {2}Functions for depth}{7}
+\contentsline {subsection}{\numberline {2.1}Sobel operator}{7}
+\contentsline {subsection}{\numberline {2.2}Threshold for depth}{7}
+\contentsline {subsubsection}{\numberline {2.2.1}threshold in values}{7}
+\contentsline {subsubsection}{\numberline {2.2.2}threshold in edges}{8}
+\contentsline {subsection}{\numberline {2.3}Outline objects}{8}
+\contentsline {subsubsection}{\numberline {2.3.1}Main outline}{8}
+\contentsline {subsubsection}{\numberline {2.3.2}Skip column}{9}
+\contentsline {subsubsection}{\numberline {2.3.3}Outline the shape}{9}
+\contentsline {subsubsection}{\numberline {2.3.4}Check if a one is connected}{10}
+\contentsline {subsubsection}{\numberline {2.3.5}Create surrounding matrix}{10}
+\contentsline {subsubsection}{\numberline {2.3.6}all surrounding positions}{11}
+\contentsline {section}{\numberline {3}Functions for overlap}{13}
+\contentsline {subsection}{\numberline {3.1}Get the needed values}{13}
+\contentsline {subsubsection}{\numberline {3.1.1}Crop depth and RGB to the same aspect ratio}{13}
+\contentsline {subsubsection}{\numberline {3.1.2}Get the pixels per mm}{14}
+\contentsline {subsubsection}{\numberline {3.1.3}Get the proportion between depth and RGB pixels}{14}
+\contentsline {subsubsection}{\numberline {3.1.4}Get the exact positions from depth to RGB}{15}
+\contentsline {subsection}{\numberline {3.2}Overlap from depth to RGB}{15}
+\contentsline {subsection}{\numberline {3.3}Crop RGB to basket}{16}
+\contentsline {section}{\numberline {4}Functions for colour}{18}
+\contentsline {subsection}{\numberline {4.1}Greyscale}{18}
+\contentsline {subsection}{\numberline {4.2}Blurring the image}{18}
+\contentsline {subsubsection}{\numberline {4.2.1}Mean blur}{18}
+\contentsline {subsubsection}{\numberline {4.2.2}Gaussian blur}{18}
+\contentsline {subsection}{\numberline {4.3}Laplacian edge detect}{19}
+\contentsline {subsection}{\numberline {4.4}Threshold for the edge}{19}
+\contentsline {subsection}{\numberline {4.5}Group the edges}{20}
+\contentsline {subsection}{\numberline {4.6}Regroup the edges}{20}
+\contentsline {subsection}{\numberline {4.7}Find the corner points}{21}
+\contentsline {subsection}{\numberline {4.8}Remove objects within objects}{22}
+\contentsline {subsubsection}{\numberline {4.8.1}Remove box edge}{22}
+\contentsline {subsubsection}{\numberline {4.8.2}Remove corner points within corner points}{22}
+\contentsline {subsection}{\numberline {4.9}Draw the boundary box}{23}
+\contentsline {section}{\numberline {5}Implementation: packaging code}{24}
+\contentsline {subsection}{\numberline {5.1}Gathering objects}{24}
+\contentsline {subsubsection}{\numberline {5.1.1}Get objects}{24}
+\contentsline {subsubsection}{\numberline {5.1.2}Object highlighter}{25}
+\contentsline {subsubsection}{\numberline {5.1.3}Insertion sort}{26}
+\contentsline {subsubsection}{\numberline {5.1.4}Single object}{27}
+\contentsline {subsection}{\numberline {5.2}fitting the objects}{27}
+\contentsline {subsubsection}{\numberline {5.2.1}Boundary boxed image rotator}{27}
+\contentsline {subsubsection}{\numberline {5.2.2}Packaged object}{28}
+\contentsline {subsubsection}{\numberline {5.2.3}Rotator}{29}
+\contentsline {subsubsection}{\numberline {5.2.4}Generic crop}{29}
+\contentsline {subsection}{\numberline {5.3}total packaging}{30}
+\contentsline {subsubsection}{\numberline {5.3.1}Smallest Package}{30}
+\contentsline {subsubsection}{\numberline {5.3.2}Black Edged}{32}
+\contentsline {subsubsection}{\numberline {5.3.3}Position tester}{33}
+\contentsline {subsubsection}{\numberline {5.3.4}Package appender}{33}
