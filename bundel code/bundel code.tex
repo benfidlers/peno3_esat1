@@ -1,11 +1,16 @@
 \documentclass[10pt]{article}
 
+\usepackage[left=3cm, right=3cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{pdfpages}
 \usepackage{listings}
 \usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241}
 
 \begin{document}
+\includepdf[pages=-]{frontpage_matlab_code.pdf}
+
+
 
 \lstset{language=Matlab,%
     %basicstyle=\color{red},
@@ -94,5 +99,37 @@
 \lstinputlisting{remove_corner_points_within_corner_points.m}
 \subsection{Draw the boundary box}
 \lstinputlisting{draw_red_boundary_box.m}
+
+\section{Implementation: packaging code}
+\subsection{Gathering objects}
+\subsubsection{Get objects}
+\lstinputlisting{get_objects.m}
+\subsubsection{Object highlighter}
+\lstinputlisting{object_highlighter.m}
+\subsubsection{Insertion sort}
+\lstinputlisting{imgs_InsertionSort.m}
+\subsubsection{Single object}
+\lstinputlisting{single_object.m}
+\subsection{fitting the objects}
+\subsubsection{Boundary boxed image rotator}
+\lstinputlisting{boundaryBoxedImgRotator.m}
+\subsubsection{Packaged object}
+\lstinputlisting{packaged_objec.m}
+\subsubsection{Rotator}
+\lstinputlisting{rotator.m}
+\subsubsection{Generic crop}
+\lstinputlisting{generic_crop.m}
+
+\subsection{total packaging}
+\subsubsection{Smallest Package}
+\lstinputlisting{smallest_package.m}
+\subsubsection{Black Edged}
+\lstinputlisting{black_edger.m}
+\subsubsection{Position tester}
+\lstinputlisting{position_tester.m}
+\subsubsection{Package appender}
+\lstinputlisting{package_appender.m}
+
+
 
 \end{document}

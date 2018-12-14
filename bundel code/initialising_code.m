@@ -130,26 +130,18 @@ boundary_box = draw_boundary_box(A, updated_corner_points);
 disp("Step 13: drawing red boundary boxes on full image...");
 red_boundary_box = draw_red_boundary_box(reformed_color, updated_corner_points, 1,1);
 disp("Step 13: Done!!!");
-toc
-%%
-% Original image
-imshow(img, []);
-imwrite(img, 'img_brent_2.png');
-title("Original image");
-%% After edge detection
-imshow(first_edge_detect, []);
-title("Edge detection");
-%% Grouped image
-imagesc(grouped(:,:,2));
-title("Groups, #nb_objects = " + nb_of_groups);
-%% Regrouped image
-imagesc(regrouped(:,:,2));
-title("Regrouped, Number of objects = " + nb_of_groups2);
-%%
-%imshow(recolor(regrouped(:,:,2), nb_of_groups2), []);
-%% Result
-imshow(boundary_box, []);
-title("Boundary box + removed objects within objects, Number of objects = "+ nb_of_groups3);
-%%
 imshow(red_boundary_box, []);
 title("# objects: "+ nb_of_groups3);
+
+%%
+% Starting the packaging pocess
+
+% Gathering every object from the original image
+objects = get_objects(updated_corner_points, gray_image, regrouped);
+% Creating the total package
+total_package = smallest_package(objects);
+
+% Showing the end package
+imshow(total_package,[]);
+
+
