@@ -101,7 +101,7 @@ without_noise_removal = threshold_edge(remove_boundary(first_edge_detect, 15), T
 corner_points = find_corner_points(regrouped, nb_of_groups); % Make sure to use nb_of_groups and not groups 2 because some groups don't exist anymore!
 %[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(corner_points, nb_of_groups2); % To remove objects within objects
 [updated_corner_points, nb_of_groups3] = remove_box_edge(corner_points, nb_of_groups2);
-[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(updated_corner_points, nb_of_groups3);
+%[updated_corner_points, nb_of_groups3] = remove_corner_points_within_corner_points(updated_corner_points, nb_of_groups3);
 red_boundary_box = draw_red_boundary_box(reformed_color, updated_corner_points, 1,1);
 toc
 
